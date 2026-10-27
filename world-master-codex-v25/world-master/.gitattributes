@@ -1,0 +1,3 @@
+# Preserve original SVG bytes used by offline and historical hashes.
+/public/assets/XNC.svg -text whitespace=cr-at-eol
+/public/assets/flags-native/XNC.svg -text whitespace=cr-at-eol

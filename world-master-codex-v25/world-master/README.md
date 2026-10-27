@@ -1,5 +1,7 @@
 # 世界マスター — WORLD MASTER（Codex引き継ぎ用）
 
+> 2026-10-28追記：Cloudflare Workers向けの変更案を追加しました。以下の第25版識別情報は取得時点の基準で、現在の変更後リリースとは異なります。[Cloudflare用の手順](CLOUDFLARE.md)を参照してください。既存Sitesと本番DBの変更・公開は行っていません。
+
 現在公開中の第25版を、GitHub/Codexで開発できる形にしたソース一式です。新しいゲームではありません。
 
 - 対象URL：https://world-master-atlas.prime-otter-8314.chatgpt.site

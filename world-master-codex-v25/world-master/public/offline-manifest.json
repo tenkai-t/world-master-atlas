@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "3963e28059f55f7ef740",
+  "version": "1c9dadfc98404d4d1d1c",
   "packs": {
     "core": [
       {
@@ -10,8 +10,8 @@
       },
       {
         "url": "/app-version.js",
-        "bytes": 587,
-        "sha256": "40ad41fd49ff9dc3739d32674bc8d7cd18d0a071450845004b86cdab4c4c7852"
+        "bytes": 506,
+        "sha256": "9d6fbc42e84a2521a23f76e4eb1605cae512192263edca8a08ba8f7a8a60afb0"
       },
       {
         "url": "/app.js",
@@ -1220,8 +1220,8 @@
       },
       {
         "url": "/rankings.js",
-        "bytes": 12000,
-        "sha256": "1b65373e2e354dd61ce872551eb362443287288a5d608404468340fbb655301b"
+        "bytes": 12732,
+        "sha256": "7e548975c2b8afaf3006fe9bad9eb4d4c4332fd3311c8cf5151ee0242c220926"
       },
       {
         "url": "/style.css",
