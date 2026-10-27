@@ -1,0 +1,48 @@
+{
+  "id": "CN",
+  "checked": "2026-10-23",
+  "nameModes": [
+    "flag",
+    "name"
+  ],
+  "hints": [
+    {
+      "text": "黄河（こうが）や長江（ちょうこう）という、大きな川が流れています。",
+      "onlyModes": [
+        "flag",
+        "name"
+      ]
+    },
+    {
+      "text": "長い城壁『万里の長城（ばんりのちょうじょう）』で知られています。",
+      "onlyModes": [
+        "flag",
+        "name"
+      ]
+    },
+    {
+      "text": "首都は北京（ペキン）です。",
+      "onlyModes": [
+        "flag",
+        "name"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "UNESCO · The Great Wall",
+      "url": "https://whc.unesco.org/en/list/438/",
+      "checked": "2026-10-23"
+    },
+    {
+      "title": "外務省 · 中国基礎データ（首都）",
+      "url": "https://www.mofa.go.jp/mofaj/area/china/data.html",
+      "checked": "2026-10-23"
+    },
+    {
+      "title": "中国生態環境部 · Sanjiangyuan（長江・黄河の源流）",
+      "url": "https://english.mee.gov.cn/News_service/media_news/202109/t20210902_893632.shtml",
+      "checked": "2026-10-23"
+    }
+  ]
+}

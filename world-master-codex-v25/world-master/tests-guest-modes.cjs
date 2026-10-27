@@ -1,0 +1,29 @@
+const fs=require('fs'),assert=require('node:assert/strict'),{harness}=require('./scripts/hint-audit.cjs');
+(async()=>{const h=await harness(),{e,w}=h;
+ const snapshot=()=>Object.fromEntries(Array.from({length:w.localStorage.length},(_,i)=>{const k=w.localStorage.key(i);return[k,w.localStorage.getItem(k)]}));
+ await e('save()');const before=snapshot(),legacy=e('JSON.stringify(db)');
+ await e('startGuest()');const guestStorage=snapshot();assert(e('isGuest()'));assert.equal(e('testTotals().n'),0);assert(w.document.querySelector('#app').textContent.includes('ゲスト'));
+ e("beginExpanded({content:'country',mode:'flag',level:'c1',practice:'test',count:1})");e('submitAnswer(false,session.queue[0].id)');await e('save()');assert.equal(e('testTotals().n'),1);assert.deepEqual(snapshot(),guestStorage);assert.equal(JSON.parse(snapshot()['world-master:player:v1:legacy']).data.testStats.n,0);
+ e('home()');assert.equal(e('typeof retainGuest'),'undefined');assert(!w.document.querySelector('[onclick="retainGuest()"]'));assert.equal(e('playerIndex.players.length'),1);await e('finishPlayerSwitch()');await e("selectPlayer('legacy')");w.document.querySelector('#loginPin').value='1234';await w.document.querySelector('#securityLogin').onsubmit({preventDefault(){}});assert.equal(e('JSON.stringify(db)'),legacy);
+ // A storage failure prevents registered -> guest switching; registered records remain intact.
+
+ e("db.nickname='未保存'");e("window.savedSet=Object.getPrototypeOf(localStorage).setItem;Object.getPrototypeOf(localStorage).setItem=function(){throw Error('quota')}");await e('startGuest()');assert.equal(e('activePlayer.id'),'legacy');assert(!e('isGuest()'));assert.equal(e('db.nickname'),'未保存');e('Object.getPrototypeOf(localStorage).setItem=window.savedSet;playerError=null');await e('save()');w.document.querySelector('#modal').close();
+ // Exact China authoring order is retained through hint append, grading, and exhaustion.
+ const expected=JSON.parse(fs.readFileSync('content/hints/china-override.json')).hints.map(h=>h.text);
+ for(const mode of ['flag','name']){e(`beginExpanded({content:'country',mode:'${mode}',ids:['CN'],level:'c1',practice:'practice',count:1})`);for(let i=0;i<3;i++){e('hint()');assert.equal(e(`session.hintHistory.items[${i}]`),expected[i])}e('hint()');assert.equal(e('session.hint'),3);e('submitAnswer(true)');assert(w.document.querySelector('#hint').textContent.includes(expected[0]));}
+ e("expandedSetup('country','flag')");assert.deepEqual([...w.document.querySelector('#mode').options].map(x=>x.value),['flag','name','location','chooseFlag','flagLocation']);
+ for(const mode of ['silhouette','rotated','countryClue']){e(`db.records['JP:${mode}']={right:2,wrong:0,last:1,streak:0,dates:[]}`);assert.equal(e(`questionPool({content:'country',mode:'${mode}',level:'countryMaster'}).length`),0);e(`beginExpanded({content:'country',mode:'${mode}',level:'c1',ids:['JP'],count:1})`);assert.equal(e('session.cfg.mode'),'flag');assert(w.document.querySelector('#app').textContent.includes('旧モード'));assert.equal(e(`db.records['JP:${mode}'].right`),2);assert(e('validBackup(db)'));}
+ e("beginExpanded({content:'country',mode:'chooseFlag',ids:['JP'],practice:'practice',count:1})");assert(!w.document.querySelector('button[onclick="hint()"]'));assert(!w.document.querySelector('#readingHint'));e('hint()');e('readingHint()');assert.equal(e('session.hint'),0);assert.equal(w.document.querySelector('#hint').textContent,'');
+ for(let repeat=0;repeat<4;repeat++){e("mixedStart({groups:['country'],countryLevel:'countryMaster',count:30,practice:'practice'})");assert(e("session.queue.every(q=>['flag','name','location','chooseFlag','flagLocation'].includes(q.task.mode))"));}
+ // Offline photo availability is enforced in the pool, UI, and mixed generator.
+ e('navigator.onLine=false;offlineStatus={available:{core:true,photos:false,handwriting:false},files:[]}');assert.equal(e("questionPool({content:'heritage',mode:'heritagePhoto',level:'advanced',region:'世界全体'}).length"),0);
+ e("mixedStart({groups:['heritage'],level:'advanced',count:30})");assert(e("session.queue.every(q=>q.task.mode!=='heritagePhoto')"));
+ e('offlineStatus.files=heritage.filter(q=>q.photo).map(q=>"/"+q.photo.path.replace(/^\\//,""))');assert.equal(e("questionPool({content:'heritage',mode:'heritagePhoto',level:'advanced',region:'世界全体'}).length"),108);
+ e('navigator.onLine=true');
+ // Every map-name target renders finite focused bounds, preserves controls, and avoids answer labels.
+ for(const id of e('data.map(q=>q.id)')){e(`beginExpanded({content:'country',mode:'name',ids:['${id}'],level:'countryMaster',practice:'practice',count:1})`);const svg=w.document.querySelector('#questionMap svg'),box=svg.getAttribute('viewBox').split(' ').map(Number);assert(box.every(Number.isFinite)&&box[2]>0&&box[3]>0,id);assert(w.document.querySelector('#questionMap .target'),id);assert(w.document.querySelector('#questionMap .mapCaption').textContent.includes('太い枠'));assert.equal(w.document.querySelectorAll('#questionMap .mapTools button').length,4);assert(!svg.querySelector('title'));}
+ e("beginExpanded({content:'country',mode:'location',ids:['JP'],level:'c1',practice:'practice',count:1})");assert.equal(w.document.querySelectorAll('#questionMap .target').length,0);
+ await e('startGuest()');e('home()');assert.equal(e('testTotals().n'),0);assert.equal(e('playerIndex.players.length'),1);await e('finishPlayerSwitch()');assert.equal(e('view'),'players');assert.equal(e('session'),null);assert(w.document.querySelector('button[onclick="startGuest()"]'));
+ console.log('PASS guest/modes/map: guest has no storage writes, no guest retention route, registered save-failure prevents switching, CN exact ordered clues, retired mode guards/legacy backup preservation, no chooseFlag hints, mixed mode guards, all 205 focused name maps without leaks, location mode remains unhighlighted');
+ h.close();
+})().catch(err=>{console.error(err);process.exit(1)});

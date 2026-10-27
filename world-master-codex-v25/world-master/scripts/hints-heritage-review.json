@@ -1,0 +1,33 @@
+{
+  "checked": "2026-10-20",
+  "sourceMethod": "UNESCOの各登録ページ108件を個別に取得。冒頭の登録説明を確認し、短い日本語に編集。日光・独立記念館・製鉄所はOUVも追加確認。",
+  "targets": 108,
+  "candidates": 439,
+  "modes": {
+    "heritagePhoto": {
+      "targets": 108,
+      "twoOrMore": 108
+    },
+    "heritageMap": {
+      "targets": 108,
+      "twoOrMore": 108
+    },
+    "heritageLocation": {
+      "targets": 108,
+      "twoOrMore": 108
+    },
+    "heritageCountry": {
+      "targets": 108,
+      "twoOrMore": 108
+    },
+    "heritageType": {
+      "targets": 108,
+      "twoOrMore": 108
+    },
+    "heritageClue": {
+      "targets": 108,
+      "twoOrMore": 108
+    }
+  },
+  "missing": []
+}

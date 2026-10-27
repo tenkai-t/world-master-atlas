@@ -1,0 +1,710 @@
+{
+  "VU": {
+    "hints": [
+      "ビスラマ語・英語・フランス語が公用語です。",
+      "かつてイギリスとフランスが共同統治し、1980年に独立しました。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/vanuatu/data.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "FM": {
+    "hints": [
+      "ヤップ・チューク・ポンペイ・コスラエの4州で構成されています。",
+      "西太平洋に点在する島々からなり、ヤップ州が西、コスラエ州が東にあります。"
+    ],
+    "sources": [
+      {
+        "url": "https://gov.fm/state/",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://visit-micronesia.fm/about-fsm/",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://visitchuuk.com/explore-chuuk/federated-states-micronesia-fsm",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "MH": {
+    "hints": [
+      "ラタック列島とラリック列島という、二列に並ぶ島々からなります。",
+      "サンゴ礁が輪のように海を囲む、環礁（かんしょう）が多い国です。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.visitmarshallislands.mh/about",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "TT": {
+    "hints": [
+      "金属のドラム缶から生まれた楽器、スティールパンの発祥の国です。"
+    ],
+    "sources": [
+      {
+        "url": "https://tourismtrinidad.tt/media-releases/tourism-trinidad-celebrates-world-steelpan-month-and-world-steelpan-day/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "TO": {
+    "hints": [
+      "南太平洋に約170の島々が広がる王国です。",
+      "首都がある主な島は、トンガタプ島です。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/press/release/press7_000326.html",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.jica.go.jp/overseas/tonga/office/about/greeting.html",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/tonga/data.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "WS": {
+    "hints": [
+      "主な二つの島は、ウポル島とサバイイ島です。",
+      "ウポル島とサバイイ島の間には、アポリマ海峡があります。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.samoa.travel/discover/the-islands-of-samoa/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "FJ": {
+    "hints": [
+      "大きな島にビチレブ島とバヌアレブ島があります。",
+      "タベウニ島は、ソモソモ海峡をはさんでバヌアレブ島の近くにあります。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.fiji.travel/things-to-know/getting-around/water?gtm_latency=1",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.fiji.travel/places-to-go/taveuni-island/locations/ultimate-guide-to-taveuni",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "TV": {
+    "hints": [
+      "かつてエリス諸島と呼ばれ、1975年にギルバート諸島と分かれました。",
+      "インターネットの国別ドメイン「.tv」で知られる国です。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/tuvalu/data.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "NR": {
+    "hints": [
+      "肥料の原料となるリン鉱石の採掘で知られる島国です。",
+      "1968年に、国連の信託統治から独立しました。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nauru.gov.nr/about-naoero/economy.aspx",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/nauru/data.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "PW": {
+    "hints": [
+      "ロックアイランド群の、キノコのような形の石灰岩の島々で知られます。",
+      "ロックアイランド群には、海水が陸地で隔てられた海洋湖があります。"
+    ],
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1386/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "SG": {
+    "hints": [
+      "ライオンの頭と魚の体を組み合わせた、マーライオンで知られる都市国家です。",
+      "熱帯植物やゴムの研究を進めた植物園が、世界遺産に登録されています。"
+    ],
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1483",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.nac.gov.sg/singapore-arts-scene/art-forms/visual-arts/public-art-trust/public-artworks/the-merlion/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "ST": {
+    "hints": [
+      "ポルトガル語が使われ、1975年にポルトガルから独立しました。",
+      "カカオ豆の栽培が、主要な農業の一つです。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/stp/data.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "SM": {
+    "hints": [
+      "ティターノ山の上に、中世から続く歴史地区があります。",
+      "山上の歴史地区には、城壁や防御のための塔が残ります。"
+    ],
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1245/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "MC": {
+    "hints": [
+      "地中海に面し、陸側をフランスに接する小さな国です。",
+      "公用語はフランス語です。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.france.fr/en/article/mediterranean-coast-1/",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.diplomatie.gouv.fr/en/information-by-country/monaco/france-and-monaco",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "MU": {
+    "hints": [
+      "インド洋に突き出すル・モーン山には、奴隷制から逃れた人々の歴史が残ります。",
+      "ル・モーンの文化的景観が世界遺産に登録されています。"
+    ],
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1259",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "MV": {
+    "hints": [
+      "インド洋に26の自然の環礁（かんしょう）が連なる島国です。",
+      "サンゴ礁が、海を囲む輪のような地形をつくっています。"
+    ],
+    "sources": [
+      {
+        "url": "https://mdvmission.gov.mv/un/articles/geography-19",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://old.visitmaldives.com/geography-location/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "MG": {
+    "hints": [
+      "アフリカ東岸の沖合、インド洋にある大きな島の国です。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/af/af2/mg/pageit_000001_00565.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "LU": {
+    "hints": [
+      "フランス語とドイツ語も、公的な場で使われます。",
+      "欧州司法裁判所や欧州投資銀行など、EUの機関が置かれています。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/luxembourg/data.html",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.anzen.mofa.go.jp/m/mbmannerhealth_176.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "KI": {
+    "hints": [
+      "フェニックス諸島保護地域が、世界遺産に登録されています。",
+      "フェニックス諸島の海には、サンゴ礁や海面下にそびえる海山が広がります。"
+    ],
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1325/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "IS": {
+    "hints": [
+      "北米側とヨーロッパ側のプレートが離れていく、大西洋中央海嶺の上にあります。",
+      "レイキャネス半島には、発電にも利用される高温の地熱地帯があります。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.visiticeland.com/article/south-icelands-dynamic-geosites-geysers-glaciers/",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.visiticeland.com/the-regions/reykjanes-peninsula/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "GD": {
+    "hints": [
+      "香辛料のナツメグで知られ、「スパイスの島」とも呼ばれます。",
+      "カリアク島とプティ・マルティニーク島も国を構成しています。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.puregrenada.com/experiences/culinary/?v=0b3b97fa6688",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.puregrenada.com/?v=0b3b97fa6688",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "DM": {
+    "hints": [
+      "モーン・トロワ・ピトン国立公園がある、小アンティル諸島の火山島です。",
+      "国立公園には温泉や噴気孔、熱い水のたまる「沸騰する湖」があります。"
+    ],
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/814",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "LC": {
+    "hints": [
+      "スフリエールの近くに、海から並んでそびえる二つの火山の峰があります。",
+      "グロ・ピトンとプティ・ピトンの峰が、この島の代表的な景観です。"
+    ],
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1161",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "VC": {
+    "hints": [
+      "ベキア島やムスティク島がある、カリブ海の島国です。",
+      "ベキア島では、漁村や船の模型づくりの伝統が見られます。"
+    ],
+    "sources": [
+      {
+        "url": "https://discoversvg.com/island/mustique/",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://discoversvg.com/island/bequia/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "KN": {
+    "hints": [
+      "丘の上のブリムストーン・ヒル要塞国立公園が、世界遺産に登録されています。"
+    ],
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/910",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "KM": {
+    "hints": [
+      "アンジュアン島とモヘリ島が、国を構成する島に含まれます。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/comoros/data.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "CV": {
+    "hints": [
+      "サンティアゴ島の南部に、歴史の町シダーデ・ヴェーリャがあります。",
+      "シダーデ・ヴェーリャには、ポルトガルの大西洋航路と結び付く歴史が残ります。"
+    ],
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1310/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "BB": {
+    "hints": [
+      "ブリッジタウンの歴史地区と要塞が、世界遺産に登録されています。",
+      "歴史地区には、17〜19世紀のイギリス植民地時代の建物が残ります。"
+    ],
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1376",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "BS": {
+    "hints": [
+      "約700の島々や小さなサンゴ礁の島が連なる国です。",
+      "首都があるのは、ニュー・プロビデンス島です。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bahamas.com/home?version=accessible",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.bahamas.com/nassau-paradise-island/about-nassauparadise-island",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "AG": {
+    "hints": [
+      "英語が公用語で、1981年にイギリスから独立しました。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/antigua/data.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "AD": {
+    "hints": [
+      "ピレネー山脈の中にある、小さな国です。",
+      "南東部に、世界遺産のマドリウ＝ペラフィタ＝クラロ渓谷があります。"
+    ],
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1160/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "CY": {
+    "hints": [
+      "東地中海にあり、ヨーロッパ・アジア・アフリカに近い島国です。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/cyprus/data.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "BH": {
+    "hints": [
+      "ペルシャ湾に浮かぶ、小さな島国です。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/gaiko/bluebook/2023/html/chapter2_07_02.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "DJ": {
+    "hints": [
+      "アデン湾に面し、ヨーロッパとアジアを結ぶ船の航路に位置しています。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/files/100826205.pdf",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "IL": {
+    "hints": [
+      "地中海の東岸にある国です。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/toko/medi/nm_east/israel.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "PS": {
+    "hints": [
+      "主な地域は、地中海沿岸のガザ地区とヨルダン川西岸地区です。",
+      "ベツレヘムの聖誕教会と巡礼路が、世界遺産に登録されています。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/plo/data.html",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/1433/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "VA": {
+    "hints": [
+      "サン・ピエトロ大聖堂や、システィーナ礼拝堂がある小さな国です。",
+      "カトリック教会の教皇が住む、宗教と芸術の中心地です。"
+    ],
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/286/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "TW": {
+    "hints": [
+      "台北・台中・高雄などの都市があります。",
+      "島の中央部には、標高3,952メートルの玉山があります。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/taiwan/data.html",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.ysnp.gov.tw/Jp/StaticPage/GeologyJp",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "XK": {
+    "hints": [
+      "バルカン半島にある、海に面しない内陸の国・地域です。",
+      "中心となる都市は、プリシュティナです。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/toko/medi/europe/kosovo.html",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/kosovo/data.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "XNC": {
+    "hints": [
+      "東地中海の島で、北部に位置する地域です。",
+      "ニコシアの北側を含み、南側との間に国連が管理する緩衝地帯があります。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/cyprus/data.html",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://unficyp.unmissions.org/en/about-buffer-zone",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "HK": {
+    "hints": [
+      "ビクトリア・ハーバーをはさんで、九龍側と島側が向かい合っています。",
+      "スターフェリーが、九龍側と島側を結んでいます。",
+      "大澳には、高床式の家が並ぶ漁村があります。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.discoverhongkong.com/jp/place-to-go/travel.guide-victoria-harbour.html",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.discoverhongkong.com/eng/attractions/your-guide-to-experiencing-hong-kong.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "MO": {
+    "hints": [
+      "タイパ島やコロアネ島がある地域です。",
+      "タイパ・ビレッジでは、ポルトガル風の街並みが見られます。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.macaotourism.gov.mo/en/step-out-macao/coloane/coloane-pier",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.macaotourism.gov.mo/en/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "GL": {
+    "hints": [
+      "西海岸に、氷河が海へ流れ出すイルリサット・アイスフィヨルドがあります。",
+      "イルリサット・アイスフィヨルドは、北極圏の内側にある世界遺産です。",
+      "カナダのバフィン島との間に、デービス海峡があります。"
+    ],
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1149/",
+        "checked": "2026-10-20"
+      },
+      {
+        "title": "Natural Earth — ne_10m_geography_marine_polys",
+        "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+        "checked": "2026-10-16"
+      },
+      {
+        "title": "Natural Earth — Physical Labels (scale and approximate extents)",
+        "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+        "checked": "2026-10-16"
+      },
+      {
+        "title": "Natural Earth — 1:10m Ocean coastline clipping",
+        "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  "PR": {
+    "hints": [
+      "中心となる都市は、サンフアンです。",
+      "サンフアンの旧市街には、エル・モロやサン・クリストバルの要塞が残ります。"
+    ],
+    "sources": [
+      {
+        "url": "https://thegreenpath.discoverpuertorico.com/regions/metro/san-juan",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://thegreenpath.discoverpuertorico.com/es/articulo/que-hacer-en-san-juan",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "GU": {
+    "hints": [
+      "マリアナ諸島の南端に位置する島です。",
+      "行政・立法・司法の中心となる都市は、ハガニアです。",
+      "チャモロ文化の伝統が見られる、西太平洋の島です。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.visitguam.com/about-guam/",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.visitguam.com/about-guam/villages/hagatna/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "CK": {
+    "hints": [
+      "南太平洋に広がる、15の島々からなります。",
+      "ラロトンガ島に、中心となる町アバルアがあります。",
+      "アイツタキ島には、三角形のサンゴ礁が囲むラグーンがあります。"
+    ],
+    "sources": [
+      {
+        "url": "https://cookislands.travel/home",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/cook/data.html",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://cookislands.travel/islands",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "NU": {
+    "hints": [
+      "サンゴ礁が隆起してできた、南太平洋の島です。",
+      "中心となる町は、アロフィです。",
+      "トンガの東、サモアの南東に位置しています。"
+    ],
+    "sources": [
+      {
+        "url": "https://collections.tepapa.govt.nz/topic/2351",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.mofa.go.jp/mofaj/area/niue/data.html",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "SC": {
+    "hints": [
+      "マヘ島・プララン島・ラ・ディーグ島などからなる、インド洋の島国です。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.jica.go.jp/oda/project/1000650/",
+        "checked": "2026-10-20"
+      }
+    ]
+  },
+  "NZ": {
+    "hints": [
+      "北島と南島の間を、クック海峡が隔てています。"
+    ],
+    "sources": [
+      {
+        "title": "Natural Earth — ne_10m_geography_marine_polys",
+        "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+        "checked": "2026-10-16"
+      },
+      {
+        "title": "Natural Earth — Physical Labels (scale and approximate extents)",
+        "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+        "checked": "2026-10-16"
+      },
+      {
+        "title": "Natural Earth — 1:10m Ocean coastline clipping",
+        "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+        "checked": "2026-10-16"
+      }
+    ]
+  }
+}

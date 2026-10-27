@@ -1,0 +1,13 @@
+{
+  "source": "Existing public/assets/map.json; Natural Earth public-domain geographic data",
+  "sourceUrl": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "processing": "Country polygons unioned; coastline simplified 0.22 degrees; tiny islands under 1.3 square degrees omitted; Mollweide projection. Decorative world overview, not a quiz map.",
+  "palette": [
+    "#103f39",
+    "#f4efdf",
+    "#b89a60"
+  ],
+  "maskableCriticalRadius": 199,
+  "safeRadius": 204.8,
+  "reference": "Japan Geography Master atlas-v7 local current icon; palette and fine outer ring matched"
+}

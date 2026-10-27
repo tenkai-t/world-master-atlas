@@ -1,0 +1,1782 @@
+{
+  "schema": 1,
+  "version": "ecaf522a6e44ba75daad",
+  "packs": {
+    "core": [
+      {
+        "url": "/app.js",
+        "bytes": 105756,
+        "sha256": "8adfbc75b62806af36b55fd88067f2f7a7ab1a72762ab053acc1051707e32a54"
+      },
+      {
+        "url": "/assets/capitals.json",
+        "bytes": 154215,
+        "sha256": "a49e9ceb01701f33abe14cf16e25acfd9b505105ab39f10ab23f4f9f33c847b8"
+      },
+      {
+        "url": "/assets/data.json",
+        "bytes": 87581,
+        "sha256": "4e119d5afe76d22796fef4024e9085533487ae3cb8c7ef11eee30d32640c165a"
+      },
+      {
+        "url": "/assets/flag-ratios.json",
+        "bytes": 185320,
+        "sha256": "137434a3d6bb0d7d67ce5bd040c618016346beeaaeb3aa669a6d29c98698471b"
+      },
+      {
+        "url": "/assets/flags-native/AD.svg",
+        "bytes": 48080,
+        "sha256": "4bd80209ab5bf4e474c789e9fc21635f51a18275151d9f948bea92c05c7e8964"
+      },
+      {
+        "url": "/assets/flags-native/AE.svg",
+        "bytes": 200,
+        "sha256": "4cbd843ba82e44f98b9497dfd1492f92855eb53d7dd0d5c92b77c7fe7df04ca5"
+      },
+      {
+        "url": "/assets/flags-native/AF.svg",
+        "bytes": 190225,
+        "sha256": "df9e4177d2cab1874a2e3323ca5aea20274ca5ed698a3452a3c797d97f9eeb71"
+      },
+      {
+        "url": "/assets/flags-native/AG.svg",
+        "bytes": 553,
+        "sha256": "e795bcd1c80149246e1db35d2d00e2afc2731dadceadf91efe1d91faa12ac4ea"
+      },
+      {
+        "url": "/assets/flags-native/AL.svg",
+        "bytes": 8625,
+        "sha256": "9e00bfa393c4bd5f04b118b981692d998f3c5c4b817f309e03a35b9b4bb4b9ad"
+      },
+      {
+        "url": "/assets/flags-native/AM.svg",
+        "bytes": 178,
+        "sha256": "b52bf90a8165cecd27e6cacfab8a52934566e090aa33d17b0c418bf385d3d1b8"
+      },
+      {
+        "url": "/assets/flags-native/AO.svg",
+        "bytes": 2215,
+        "sha256": "4c303bdcb88aaafcbe5fa5f5cee4e72d6f6f5ba338763f528d74efb8c8e8318c"
+      },
+      {
+        "url": "/assets/flags-native/AR.svg",
+        "bytes": 3966,
+        "sha256": "ecdd45e5a779592f59b4f833b20bc2c5979d480edf70ff3ed4d941b36866a7f9"
+      },
+      {
+        "url": "/assets/flags-native/AT.svg",
+        "bytes": 137,
+        "sha256": "28306a3d65e26dd0720063b4825ffdf3d86c306360a77351b78caacc09401d96"
+      },
+      {
+        "url": "/assets/flags-native/AU.svg",
+        "bytes": 1309,
+        "sha256": "bd6f1a9373e02ac0f0ae46622e60e752b408a2183d7ea40dd575f901e869aed5"
+      },
+      {
+        "url": "/assets/flags-native/AZ.svg",
+        "bytes": 524,
+        "sha256": "1a04b7f55b879b568a82b419dad78b7943d60788370f85731a82bbe772e5f3f2"
+      },
+      {
+        "url": "/assets/flags-native/BA.svg",
+        "bytes": 504,
+        "sha256": "1c097dff94ee5da3f2ec073c2a6700bfe7d85699fd6eef6f2a690f5268e7d605"
+      },
+      {
+        "url": "/assets/flags-native/BB.svg",
+        "bytes": 804,
+        "sha256": "d1ff17c3a155f96bbeddf162a2c4410a9d6b637e0297435d62981329365c7e84"
+      },
+      {
+        "url": "/assets/flags-native/BD.svg",
+        "bytes": 150,
+        "sha256": "490517f9cb3673d4d47cbc6fd296f89b906a4fa27e1f0fc37ca6d7d1dfc108e0"
+      },
+      {
+        "url": "/assets/flags-native/BE.svg",
+        "bytes": 171,
+        "sha256": "cedd0a665a0ab17ba183e8e41694e097db4c9c1c06040ed62924ca9292f24e4e"
+      },
+      {
+        "url": "/assets/flags-native/BF.svg",
+        "bytes": 551,
+        "sha256": "c5b9f9c72c41222cb70bb850e6a23c9a477c8f5aad07715fe97cdc0e6adab06d"
+      },
+      {
+        "url": "/assets/flags-native/BG.svg",
+        "bytes": 175,
+        "sha256": "345bc76ab317872c76a1192949d8ca9e4f562e9fe22c808785b770fe4d4fa105"
+      },
+      {
+        "url": "/assets/flags-native/BH.svg",
+        "bytes": 221,
+        "sha256": "747e9450a3bee045ce7666a17832c425c5c68b21797070214cedac2f62ee2d12"
+      },
+      {
+        "url": "/assets/flags-native/BI.svg",
+        "bytes": 1003,
+        "sha256": "0424fb4c0ea6c39519836a39d6f70d411121c37a149be76bd0ebb8a368613832"
+      },
+      {
+        "url": "/assets/flags-native/BJ.svg",
+        "bytes": 180,
+        "sha256": "2ba39307b70cc91c2be6b378a6b558293d2efae14a367533bf46308a912a9092"
+      },
+      {
+        "url": "/assets/flags-native/BN.svg",
+        "bytes": 24205,
+        "sha256": "dee8a70779d349117403546dc51ef29de21b15639810848d80a2c83dda9e5018"
+      },
+      {
+        "url": "/assets/flags-native/BO.svg",
+        "bytes": 234767,
+        "sha256": "a6ccf5cc2195fcd401f4cc72221b9a73775e03c4c28306900bc41dec2597e818"
+      },
+      {
+        "url": "/assets/flags-native/BR.svg",
+        "bytes": 4125,
+        "sha256": "f3ec9e5b04044212720816960b6d269be2bc1cd127ccadf4cefb131036c78e6e"
+      },
+      {
+        "url": "/assets/flags-native/BS.svg",
+        "bytes": 171,
+        "sha256": "5c01acd2e7c40e2d6c986027b3e8f160b84c5c5506d85574192a6785fe2a9587"
+      },
+      {
+        "url": "/assets/flags-native/BT.svg",
+        "bytes": 48226,
+        "sha256": "a5be43aa874d0540d4e58d21ff7eb8f3f8d0d9e12bc69f8df1dfa156e8e2d79f"
+      },
+      {
+        "url": "/assets/flags-native/BW.svg",
+        "bytes": 167,
+        "sha256": "e24dca30a7fce22312aff8f5f7728fbda101e2658d8f7758f9f767b0fe629cca"
+      },
+      {
+        "url": "/assets/flags-native/BY.svg",
+        "bytes": 1374,
+        "sha256": "e23393e407d5ab20cece67b85595707da0644f4f63cb57efc9ce54734cc60de3"
+      },
+      {
+        "url": "/assets/flags-native/BZ.svg",
+        "bytes": 86140,
+        "sha256": "f2d8f9960059723cb9380f0c417d7263d1e28c2742f20a936b4dae812d93b038"
+      },
+      {
+        "url": "/assets/flags-native/CA.svg",
+        "bytes": 621,
+        "sha256": "5e20d135da10da02888954ba621c0ae58135776ab17b67c8c69d83c9dcc5b2e1"
+      },
+      {
+        "url": "/assets/flags-native/CD.svg",
+        "bytes": 286,
+        "sha256": "bb659cd27a4bb065b2262ce406e9a0e5f1bf8c4e4c2e6e62b11a001d66efdf55"
+      },
+      {
+        "url": "/assets/flags-native/CF.svg",
+        "bytes": 302,
+        "sha256": "6a681c59df0e164bddf22bda52e1fd1243f9f2f5ce9e19034ba0f05673b3e196"
+      },
+      {
+        "url": "/assets/flags-native/CG.svg",
+        "bytes": 250,
+        "sha256": "ace407160e763c92355d82605f006d4eda3fa07427fa55f6f8a3e3319a7a6686"
+      },
+      {
+        "url": "/assets/flags-native/CH.svg",
+        "bytes": 162,
+        "sha256": "4c6adad3941f5a3188b3bcf3a64f9ab6b351c504f5b7c4d01548c74e72fa5149"
+      },
+      {
+        "url": "/assets/flags-native/CI.svg",
+        "bytes": 175,
+        "sha256": "d7f52c57bf9da6a6e63268a410bd597062374d1582280e37b4c46a4c523a3bfa"
+      },
+      {
+        "url": "/assets/flags-native/CK.svg",
+        "bytes": 1030,
+        "sha256": "165ccadcb9f3be2801d5d1ace5facf192cf14b219e90eb5e3ee8d6306d3806d5"
+      },
+      {
+        "url": "/assets/flags-native/CL.svg",
+        "bytes": 526,
+        "sha256": "bac827bc619f621335f34ebdd4ecb5c9d6fddae8a980eb108aa9e22a446c9be3"
+      },
+      {
+        "url": "/assets/flags-native/CM.svg",
+        "bytes": 630,
+        "sha256": "7dededfb0347d1ca4f5b2e45673313d33066a7cdd806cf4671967b4b900481e2"
+      },
+      {
+        "url": "/assets/flags-native/CN.svg",
+        "bytes": 531,
+        "sha256": "6bc6696ff46f1a326f162c12d4064d679076b81b206afc5e8e64a1126032e33b"
+      },
+      {
+        "url": "/assets/flags-native/CO.svg",
+        "bytes": 198,
+        "sha256": "6de08e626dc2dfe251b8e2a149b6c4dea90e283f9a08edc9509fc33a4347fc73"
+      },
+      {
+        "url": "/assets/flags-native/CR.svg",
+        "bytes": 70389,
+        "sha256": "271e538f8cee5b2a605ef121e5a7067136d96c96e78266466b8bf9e66ddbdfd9"
+      },
+      {
+        "url": "/assets/flags-native/CU.svg",
+        "bytes": 324,
+        "sha256": "515d1d55fb5dce0633ca76a6a9ff33b973a76c5c45fcc65727bbb8f6ab43f14a"
+      },
+      {
+        "url": "/assets/flags-native/CV.svg",
+        "bytes": 923,
+        "sha256": "3297bdc9b5d5a39408a95ec47320647100c85486feeebbff70c12431dafd7e33"
+      },
+      {
+        "url": "/assets/flags-native/CY.svg",
+        "bytes": 10058,
+        "sha256": "2dde527a4b52eaa8fa61d9cee6207e15aa6f105e2798b3441735a49eb7fb7dd5"
+      },
+      {
+        "url": "/assets/flags-native/CZ.svg",
+        "bytes": 212,
+        "sha256": "a71bcb7e97223bdca2ff6105c4e261e96eaed1009d6326c404abe20011ed7dad"
+      },
+      {
+        "url": "/assets/flags-native/DE.svg",
+        "bytes": 160,
+        "sha256": "2a4fa7f09552fdb73936549ee0e77c22f16594dd1a370245ce34132e6bb483d5"
+      },
+      {
+        "url": "/assets/flags-native/DJ.svg",
+        "bytes": 322,
+        "sha256": "3833f14a3e4461126b4d17d50b2442673da8826b43b3b23487e3f888a35a7931"
+      },
+      {
+        "url": "/assets/flags-native/DK.svg",
+        "bytes": 222,
+        "sha256": "dc4827058fb343b6fa6383fb5e3471f4ab744a82d0f6ec9d895e8ce5d2a969ff"
+      },
+      {
+        "url": "/assets/flags-native/DM.svg",
+        "bytes": 10550,
+        "sha256": "cdcbb6cff78165c7810f5e2f38e62ee8f345e53cd9d11559fc8e9287f0a63358"
+      },
+      {
+        "url": "/assets/flags-native/DO.svg",
+        "bytes": 147435,
+        "sha256": "a23babc0d52bfbe677da8c910d1b72ce0425d0015e9f36c171bc9ca8dabd5f28"
+      },
+      {
+        "url": "/assets/flags-native/DZ.svg",
+        "bytes": 272,
+        "sha256": "de1442010432e1da1a1d3b08ca33a2057052aedcb66a88541d05bc44467a5c06"
+      },
+      {
+        "url": "/assets/flags-native/EC.svg",
+        "bytes": 176992,
+        "sha256": "f6f0389ea432698999e82ad40917c06369c569d8abec100292d5c2142271fc53"
+      },
+      {
+        "url": "/assets/flags-native/EE.svg",
+        "bytes": 167,
+        "sha256": "e084ea92ab4ce39bb662d479ac651be00678baaab3259863e3b82bfbab695af5"
+      },
+      {
+        "url": "/assets/flags-native/EG.svg",
+        "bytes": 23406,
+        "sha256": "f157fdd22af1847ce1751c94bcb952ceb48e85ff459c922300ca28a6e633ce79"
+      },
+      {
+        "url": "/assets/flags-native/ER.svg",
+        "bytes": 3223,
+        "sha256": "b66fe99843453f997f3613ffb5338bd7284d3b6b91375354bde5aeb4f361ae34"
+      },
+      {
+        "url": "/assets/flags-native/ES.svg",
+        "bytes": 50149,
+        "sha256": "e6ce1922eba61c4ac26f70845b8c54ff8f29e33ef64aa35a150c719c07f76ef3"
+      },
+      {
+        "url": "/assets/flags-native/ET.svg",
+        "bytes": 677,
+        "sha256": "a542ea1e176de218fcd002f0f6492c5d5a80319f07991a1a63b09592d2a1aa65"
+      },
+      {
+        "url": "/assets/flags-native/FI.svg",
+        "bytes": 233,
+        "sha256": "2f57f5b4ec3968d3127d25c1ba8973b593df0bfa8171a12d7c9f399a038ca071"
+      },
+      {
+        "url": "/assets/flags-native/FJ.svg",
+        "bytes": 41772,
+        "sha256": "e56beb72207ff4f729ad3c48cbaa667b029a40b8a4ee93fdeced94080ba6972a"
+      },
+      {
+        "url": "/assets/flags-native/FM.svg",
+        "bytes": 697,
+        "sha256": "d084ae191a766ce465a628fafe325ed1661aa56dc4fc1ebda2fa637783644091"
+      },
+      {
+        "url": "/assets/flags-native/FR.svg",
+        "bytes": 175,
+        "sha256": "7504bdf1bc9b381f89b44828e048e3d2aaa3c89e68aafbac13fe30998ad121f2"
+      },
+      {
+        "url": "/assets/flags-native/GA.svg",
+        "bytes": 214,
+        "sha256": "3d8b5561eb66aadeaa712fa14c804375250b646406f99903ed406087cf73d34a"
+      },
+      {
+        "url": "/assets/flags-native/GB.svg",
+        "bytes": 527,
+        "sha256": "910e4fa63fb7a23d30d59dee2feb08da51a405eb06b38a7e12d18d9b504d13b5"
+      },
+      {
+        "url": "/assets/flags-native/GD.svg",
+        "bytes": 960,
+        "sha256": "562a5d03434482410215beb4a517b84446d81fa512a9bd12dac8a006a1179c48"
+      },
+      {
+        "url": "/assets/flags-native/GE.svg",
+        "bytes": 741,
+        "sha256": "f8d487ea68fb839dff8d7836d4ecbdcaa4ed7dd7ca4c6eb2bbfe6e8bb95eebf7"
+      },
+      {
+        "url": "/assets/flags-native/GH.svg",
+        "bytes": 296,
+        "sha256": "a5bd06898354acf1bce84ba5ae602181520d07bcac8e0e107f1688af7f185ab5"
+      },
+      {
+        "url": "/assets/flags-native/GL.svg",
+        "bytes": 183,
+        "sha256": "ca3e5bea5f4d0bae5015d40d4085bef1cbe363d4dc00b5f2631b3e140e4cd980"
+      },
+      {
+        "url": "/assets/flags-native/GM.svg",
+        "bytes": 263,
+        "sha256": "786b8fa58a016ccc36b648e15388c666ab0dbcb1bbf479cc6b6c2b14095a392d"
+      },
+      {
+        "url": "/assets/flags-native/GN.svg",
+        "bytes": 210,
+        "sha256": "4a83ca2aed02bb35e22eeb594c47c0215f170162e0c7754becf308a9fdbd9172"
+      },
+      {
+        "url": "/assets/flags-native/GQ.svg",
+        "bytes": 8135,
+        "sha256": "f7daaac491b0831ecb8bf23aa24b6773d6b668da9c6541d96986506b6054b19a"
+      },
+      {
+        "url": "/assets/flags-native/GR.svg",
+        "bytes": 206,
+        "sha256": "86cce2a11b19e83087b4ea15be2c293563f8dc90df958488174c2194e2adac07"
+      },
+      {
+        "url": "/assets/flags-native/GT.svg",
+        "bytes": 47783,
+        "sha256": "7a143a29f70827fe5e19910902893c5edfeda2f586ab04378d1cb1cf021bddef"
+      },
+      {
+        "url": "/assets/flags-native/GU.svg",
+        "bytes": 15492,
+        "sha256": "c4c1bc901aeaff132c59126b18e2a929027254fd75c1b4d2156a993f6a05dd43"
+      },
+      {
+        "url": "/assets/flags-native/GW.svg",
+        "bytes": 602,
+        "sha256": "6cba42f1249197e706555685f55b52daa722b7cd36d1e814a93b2a0fa0d9e3ac"
+      },
+      {
+        "url": "/assets/flags-native/GY.svg",
+        "bytes": 339,
+        "sha256": "900f15b29ee630f298e71472768c65a752ad5deedb46b41434795216c67f12cb"
+      },
+      {
+        "url": "/assets/flags-native/HK.svg",
+        "bytes": 927,
+        "sha256": "8a11689aeb2fd7c7f6a4e776ec2961b40dcc5bbc26c51fc2aa195771b93e7ea8"
+      },
+      {
+        "url": "/assets/flags-native/HN.svg",
+        "bytes": 474,
+        "sha256": "f5d9c7b02452b1c37188ea0f5b4cbb04ace77caf7d21d08fc37479e071b21bee"
+      },
+      {
+        "url": "/assets/flags-native/HR.svg",
+        "bytes": 68044,
+        "sha256": "ecd619e1013f1de98ab10d4693d8d17ff1924494c099aaef02b0700636b51339"
+      },
+      {
+        "url": "/assets/flags-native/HT.svg",
+        "bytes": 94016,
+        "sha256": "3a120d1b8ae1b5b1684aa0afefca27377ce5d8f4ab4b9c35bc26c78e40371ee9"
+      },
+      {
+        "url": "/assets/flags-native/HU.svg",
+        "bytes": 175,
+        "sha256": "1c231bfcc2251da4ef6cd785ee4f67f602ce64a2a46c0b54539f0b8a16f3e5ab"
+      },
+      {
+        "url": "/assets/flags-native/ID.svg",
+        "bytes": 133,
+        "sha256": "83bd1b9215c403d205eb3548fc8498e3175e56c81494ebe5b2eab442291a7420"
+      },
+      {
+        "url": "/assets/flags-native/IE.svg",
+        "bytes": 175,
+        "sha256": "82847f565fd12516c8f53fb6a46e9e0e85b477f8a9a307d49fc72e441995327f"
+      },
+      {
+        "url": "/assets/flags-native/IL.svg",
+        "bytes": 306,
+        "sha256": "14a4df274e784e760d44219b813e1b2849b16d373b5d945fb169d27cccc47dc7"
+      },
+      {
+        "url": "/assets/flags-native/IN.svg",
+        "bytes": 762,
+        "sha256": "ef3efcee216612ae7520cf5eb09013901d21de4a20a63aa3c9c62c1ba0f6bd90"
+      },
+      {
+        "url": "/assets/flags-native/IQ.svg",
+        "bytes": 2348,
+        "sha256": "4d41f43f997d2ee824a5583fc2fe54dfc4c3304accb16b4dc70f3468cb6d0185"
+      },
+      {
+        "url": "/assets/flags-native/IR.svg",
+        "bytes": 1367,
+        "sha256": "0f20ddf15daaccc9aa70d4d636dfcab7d0215175b7eb009e18474ac3fe6765bb"
+      },
+      {
+        "url": "/assets/flags-native/IS.svg",
+        "bytes": 223,
+        "sha256": "2f4de4153dd44e63cc532733fe16c36410302f00faf2a5edda2dca6c19d42107"
+      },
+      {
+        "url": "/assets/flags-native/IT.svg",
+        "bytes": 175,
+        "sha256": "15777a0dc5a5dd8af5d75deacec27d2d6dab190aa7295d61db601a28a71b5c6f"
+      },
+      {
+        "url": "/assets/flags-native/JM.svg",
+        "bytes": 248,
+        "sha256": "cc81c5e39f3acbb40c3c4ff4c9e26bfb09813d313b9ded160e6fafcda039feb0"
+      },
+      {
+        "url": "/assets/flags-native/JO.svg",
+        "bytes": 584,
+        "sha256": "5fa2461d053598fecbeed1de5e793eac44922179b12e427470aad66e741d925e"
+      },
+      {
+        "url": "/assets/flags-native/JP.svg",
+        "bytes": 166,
+        "sha256": "3ecfe5fb326152e5a1270206b34825cb6ecb71f02f5ffdbb0a905474a1c2ed0d"
+      },
+      {
+        "url": "/assets/flags-native/KE.svg",
+        "bytes": 1284,
+        "sha256": "fa900bbceccac751433239fdc3ab3cd2d177b02b7a4dc10e601764cd8519eacf"
+      },
+      {
+        "url": "/assets/flags-native/KG.svg",
+        "bytes": 13025,
+        "sha256": "ea1f1e13a990e4cc97ba47a49d75fdc7c8ee952f9ead6aa16fb285e161f3e914"
+      },
+      {
+        "url": "/assets/flags-native/KH.svg",
+        "bytes": 13139,
+        "sha256": "245858b7345eb8a9e9e3ff3ed1354ee53e7c46a71350e962ee9a3918df95bac5"
+      },
+      {
+        "url": "/assets/flags-native/KI.svg",
+        "bytes": 3894,
+        "sha256": "264b8dcc3bc462c0ba497e95f60238a61d4c81f0c87f7d1017c37849917b985d"
+      },
+      {
+        "url": "/assets/flags-native/KM.svg",
+        "bytes": 690,
+        "sha256": "7242420248f1b5c7ee266883182cc8d967691a8b39be5fb70744a3d33f80c080"
+      },
+      {
+        "url": "/assets/flags-native/KN.svg",
+        "bytes": 838,
+        "sha256": "03af4c3390aaa5f2af044ab88d96a102aba4ae9bc76aed6f2654ab87deb07472"
+      },
+      {
+        "url": "/assets/flags-native/KP.svg",
+        "bytes": 791,
+        "sha256": "e691f1bd5630092174084b727d30497da300c699085d10b21134f1acb1cf5d3a"
+      },
+      {
+        "url": "/assets/flags-native/KR.svg",
+        "bytes": 551,
+        "sha256": "cc39b7490a894db19113b999831ebf252e1043516c31b4af0fcf4d95e11b15cd"
+      },
+      {
+        "url": "/assets/flags-native/KW.svg",
+        "bytes": 247,
+        "sha256": "0e2c8ac36988d400a9ab816ed6bf9ea9d73308f7da2cbe43f980d1813c0c7efc"
+      },
+      {
+        "url": "/assets/flags-native/KZ.svg",
+        "bytes": 10959,
+        "sha256": "2091001401171cb135b0683e1295a9748c9fb6658b54b716b4a7c7072258e0dd"
+      },
+      {
+        "url": "/assets/flags-native/LA.svg",
+        "bytes": 182,
+        "sha256": "6c5ae3648ab1ab7750b913f5705cdff9f72423fbfc31fdd4d709228f55d097e4"
+      },
+      {
+        "url": "/assets/flags-native/LB.svg",
+        "bytes": 10382,
+        "sha256": "2068513eca86222ad8ad63231cdaf8831f6b6b04d57f7095bd0919d21a58aa9e"
+      },
+      {
+        "url": "/assets/flags-native/LC.svg",
+        "bytes": 292,
+        "sha256": "a5a4cc02cd45921586e04dd3fbd236f4c32fd244cb27519e9d0ca733bb987644"
+      },
+      {
+        "url": "/assets/flags-native/LI.svg",
+        "bytes": 23487,
+        "sha256": "88f34e0aa148bb98d2ff7e47eec4d1a65557f699be53215a6ce69d7cf48508d4"
+      },
+      {
+        "url": "/assets/flags-native/LK.svg",
+        "bytes": 19206,
+        "sha256": "099fd7a4517b9ea45a9fc847d903672ae9c0bfd7f74a085679661f04a76cb473"
+      },
+      {
+        "url": "/assets/flags-native/LR.svg",
+        "bytes": 691,
+        "sha256": "69db91bd9390b9fa690c6ac9e2fb3a8fbf60e82ae00ebd3d2be2c43e8ffe7ab4"
+      },
+      {
+        "url": "/assets/flags-native/LS.svg",
+        "bytes": 2008,
+        "sha256": "cc5763382f8418db0af12dbfc41b61ee5b65d5a2eaef734a5b6e2ed9cdbfa385"
+      },
+      {
+        "url": "/assets/flags-native/LT.svg",
+        "bytes": 178,
+        "sha256": "429d40e370103a47cb2fa03e143136308ce0ad387fc05acfff349d40406440a2"
+      },
+      {
+        "url": "/assets/flags-native/LU.svg",
+        "bytes": 179,
+        "sha256": "3ad3137b8b0d6218d0a9b3a4d7b572b5b9f594f5a60b52b5139b313db085640a"
+      },
+      {
+        "url": "/assets/flags-native/LV.svg",
+        "bytes": 138,
+        "sha256": "442240b6d0d4290a8a5bf289beae6d52665dc71f7cb529034682c8fdcf313bb1"
+      },
+      {
+        "url": "/assets/flags-native/LY.svg",
+        "bytes": 430,
+        "sha256": "0096c87d6d96929e2e7a6e2624643b0cc577774f32e0ac40824e9fc8f3f328fb"
+      },
+      {
+        "url": "/assets/flags-native/MA.svg",
+        "bytes": 213,
+        "sha256": "bde8b96d19af8ffbe3d5e861f019385b728233cb0e43a7880cf55d72416e29b6"
+      },
+      {
+        "url": "/assets/flags-native/MC.svg",
+        "bytes": 137,
+        "sha256": "8ffb26766aa814ec4b2fecca03b8d60756fd4f737c9d2fc0054986c921a3bdd9"
+      },
+      {
+        "url": "/assets/flags-native/MD.svg",
+        "bytes": 27030,
+        "sha256": "cbcc70ada50e7406f1a3ee36c424b57f3ce090489e85101af7293f8b44876657"
+      },
+      {
+        "url": "/assets/flags-native/ME.svg",
+        "bytes": 59599,
+        "sha256": "699a6eeb24d29d413543c6f9d5b86d5858a43ba0202e9840ce73e2b5c810f864"
+      },
+      {
+        "url": "/assets/flags-native/MG.svg",
+        "bytes": 175,
+        "sha256": "4d1570ba389319522de30e333e94bd04609f10b7768fb132a98fe0ef1a39e96e"
+      },
+      {
+        "url": "/assets/flags-native/MH.svg",
+        "bytes": 740,
+        "sha256": "12ca33cef77cc51ab300d9dcbf6dfea50a51834fde9733ee1111e22298f83836"
+      },
+      {
+        "url": "/assets/flags-native/MK.svg",
+        "bytes": 340,
+        "sha256": "7d69a93b4da13040879b5b387fc8b4ede87d20f0dd8647353849b7e6e5747629"
+      },
+      {
+        "url": "/assets/flags-native/ML.svg",
+        "bytes": 214,
+        "sha256": "8aae6052300f6e46423bb5a256801e51151d48d81068dde61f0129da5f45fb59"
+      },
+      {
+        "url": "/assets/flags-native/MM.svg",
+        "bytes": 590,
+        "sha256": "8315285390cf8e8d85b44da64a274dc8a04feaa73ffbf607b8e817e4ac911251"
+      },
+      {
+        "url": "/assets/flags-native/MN.svg",
+        "bytes": 2116,
+        "sha256": "c9a6196e563c60601b2a60c4e090565abc9ae7f549ca440681f160083c7d3609"
+      },
+      {
+        "url": "/assets/flags-native/MO.svg",
+        "bytes": 2286,
+        "sha256": "a20a5e002eead128bd18f2846ef6ca01a52b4ea50304a801f4bc4cad54f62cdb"
+      },
+      {
+        "url": "/assets/flags-native/MR.svg",
+        "bytes": 304,
+        "sha256": "7a0f5ab104f86a946ae84645f0247943bd5697abfdc114ecff5078b8ddc2d505"
+      },
+      {
+        "url": "/assets/flags-native/MT.svg",
+        "bytes": 14916,
+        "sha256": "7c7f9a96502c24023aa88c09de71cf639acc760a02b188ea69a06a637e6efdf0"
+      },
+      {
+        "url": "/assets/flags-native/MU.svg",
+        "bytes": 216,
+        "sha256": "90a665aec32d7890ce363fd4b833d921957329e44d14f0883b146b092b879b36"
+      },
+      {
+        "url": "/assets/flags-native/MV.svg",
+        "bytes": 245,
+        "sha256": "8b2f4dfc800df036e3eef1de56ad74107cf187cd4a751c61120686a50206cb4c"
+      },
+      {
+        "url": "/assets/flags-native/MW.svg",
+        "bytes": 816,
+        "sha256": "95b9a2a516de5d93e7c8be9f9e0bb1c407d55c0222fb17cd30bc2606a486ebe7"
+      },
+      {
+        "url": "/assets/flags-native/MX.svg",
+        "bytes": 159738,
+        "sha256": "0c57c70b48c496060fdf81230870a860011901720c0788f1e838b320c8f13f47"
+      },
+      {
+        "url": "/assets/flags-native/MY.svg",
+        "bytes": 578,
+        "sha256": "9fa2004394439d9537440b5962f19116523f787bbb9814e242cb5f2b6d176535"
+      },
+      {
+        "url": "/assets/flags-native/MZ.svg",
+        "bytes": 4759,
+        "sha256": "f0e896e4c587b4ce6b76b4d75d5fe2df2b32d865e84f0cc6d52a719ed1a41262"
+      },
+      {
+        "url": "/assets/flags-native/NA.svg",
+        "bytes": 653,
+        "sha256": "6a26bce548822e92ceca2cafe3cb3c617f464f2d2939f67f0067b433636d58a4"
+      },
+      {
+        "url": "/assets/flags-native/NE.svg",
+        "bytes": 261,
+        "sha256": "b01f27fd487bb6036b1fe361cd3efb88cc6428d615adeb7f7014c2dcdb69e679"
+      },
+      {
+        "url": "/assets/flags-native/NG.svg",
+        "bytes": 157,
+        "sha256": "e57d72a09cc42bfe39a62df27be30e1455701fc84955e36be5166ff1e8ced0f1"
+      },
+      {
+        "url": "/assets/flags-native/NI.svg",
+        "bytes": 40301,
+        "sha256": "45740c163a6f2a2d71caf103adb25813eb4ee5558c7a048c6e197d613a50ebc5"
+      },
+      {
+        "url": "/assets/flags-native/NL.svg",
+        "bytes": 175,
+        "sha256": "0d04d9eadc49c5514881c1c3f7c465a10a37ead378bc5e61cf96fdfcb3599e54"
+      },
+      {
+        "url": "/assets/flags-native/NO.svg",
+        "bytes": 243,
+        "sha256": "24aea913a6dee250a7d34a85ecc449169ebb51b7bca3e93e8c7d0484ee5dedb8"
+      },
+      {
+        "url": "/assets/flags-native/NP.svg",
+        "bytes": 1545,
+        "sha256": "b3b01a6806439e01f19cffdb31b1ebff916c674c7fbbce9e4be1b5559fb33bb3"
+      },
+      {
+        "url": "/assets/flags-native/NR.svg",
+        "bytes": 481,
+        "sha256": "7575fd4dfb8b7ea4c2700f62139abf9e01e490de0fbd33ba05badd3424329149"
+      },
+      {
+        "url": "/assets/flags-native/NU.svg",
+        "bytes": 976,
+        "sha256": "530265b69a87c33104165d95bf64d3fcb652b042c469921829c185e801eaa61f"
+      },
+      {
+        "url": "/assets/flags-native/NZ.svg",
+        "bytes": 1743,
+        "sha256": "521f4614597aa9e5a292cf62aa1174645bc09ed383879169c53008ab9deb73cc"
+      },
+      {
+        "url": "/assets/flags-native/OM.svg",
+        "bytes": 16453,
+        "sha256": "a80f8ec8b7d01c9a1728f371fd6ec97905f46809571657a076eba48c7ac16e74"
+      },
+      {
+        "url": "/assets/flags-native/PA.svg",
+        "bytes": 538,
+        "sha256": "04a35515722e7b53cff4840eedfa1b1ad564b82c0b5bc225a9ebb79dca49c2f4"
+      },
+      {
+        "url": "/assets/flags-native/PE.svg",
+        "bytes": 116827,
+        "sha256": "03ea831319ec33cf48d9ef1bcd2d659a983cb7a54e4d407fa8fa027a92261dc1"
+      },
+      {
+        "url": "/assets/flags-native/PG.svg",
+        "bytes": 4605,
+        "sha256": "fc734101dfdac482e356a1824ec094f78790d4fa5cf923c2907a707a92e19dc4"
+      },
+      {
+        "url": "/assets/flags-native/PH.svg",
+        "bytes": 951,
+        "sha256": "2c3e7818142561a4fd8a1e80fb2bf741aae9540b2c5494922ac838dcf90ef55b"
+      },
+      {
+        "url": "/assets/flags-native/PK.svg",
+        "bytes": 331,
+        "sha256": "c7cd484b294cc4ef265cfc50fcfb75d73c8d9b10818c2cfdec84959f105c62bd"
+      },
+      {
+        "url": "/assets/flags-native/PL.svg",
+        "bytes": 142,
+        "sha256": "608e5ed6a0820b02ac00e5ee7457a9822b5e5c1be9cba69d17c5a3e9ca4a4377"
+      },
+      {
+        "url": "/assets/flags-native/PR.svg",
+        "bytes": 262,
+        "sha256": "e2f0da6566aad10630fbc6d43d33d246ed9014c5c61d6cb25f705e7d1c9cf7eb"
+      },
+      {
+        "url": "/assets/flags-native/PS.svg",
+        "bytes": 202,
+        "sha256": "5be22b2bf94b293c9757c97d727992c5da2ced98cf44cda7a789d1609c7fc381"
+      },
+      {
+        "url": "/assets/flags-native/PT.svg",
+        "bytes": 11565,
+        "sha256": "0cee5f059ba5f2c6fbdbfdd682d955f7695239a40fa9300ba99ccbe3f144565a"
+      },
+      {
+        "url": "/assets/flags-native/PW.svg",
+        "bytes": 144,
+        "sha256": "193a9b4f69f07c88ee58275ec00a39354c9991a5fb09059aa925aff12874ecca"
+      },
+      {
+        "url": "/assets/flags-native/PY.svg",
+        "bytes": 22483,
+        "sha256": "e632a93f6e3e0288f8c2fd695b258d2afcea581c84f57cd8a3830ba32fe78ed5"
+      },
+      {
+        "url": "/assets/flags-native/QA.svg",
+        "bytes": 337,
+        "sha256": "64aa892eda2ab88830fb5feb195be1a6c8d57218cb0dca91b4c84a923673483a"
+      },
+      {
+        "url": "/assets/flags-native/RO.svg",
+        "bytes": 178,
+        "sha256": "ea3e3c17cfd414a403313ddc73a62a264cbc205d962214e272321566e0d78ce8"
+      },
+      {
+        "url": "/assets/flags-native/RS.svg",
+        "bytes": 74421,
+        "sha256": "a985cc8f262e923dc1d83eeff6c495281bdb4f8ce6df38ccaa1e0f94e2cdb3c1"
+      },
+      {
+        "url": "/assets/flags-native/RU.svg",
+        "bytes": 175,
+        "sha256": "d3186a06e97966a28552e0134f08ffd6e30fb7325bd2d8b27c235193ed24fdf1"
+      },
+      {
+        "url": "/assets/flags-native/RW.svg",
+        "bytes": 767,
+        "sha256": "35bee586963c2b7e0295400a90294b579679ae1404ffd6246af219a071e47b4a"
+      },
+      {
+        "url": "/assets/flags-native/SA.svg",
+        "bytes": 20671,
+        "sha256": "e07786f2d467b66cae6e9bc096ebd887fa35daa4bc5a8dced89f0f6d7a2efaf3"
+      },
+      {
+        "url": "/assets/flags-native/SB.svg",
+        "bytes": 865,
+        "sha256": "13a37abe4d7f8fba3e44f3717da19d4d21bf78701a59f8570004b7492c9be955"
+      },
+      {
+        "url": "/assets/flags-native/SC.svg",
+        "bytes": 278,
+        "sha256": "3ddf34d076f859e888061197415baba9f386be68a74de2cea553ee41e0442875"
+      },
+      {
+        "url": "/assets/flags-native/SD.svg",
+        "bytes": 231,
+        "sha256": "8b93452003c143c46f6c40756f2a1f4f2dd314d16a413dbf246e0e4b62662679"
+      },
+      {
+        "url": "/assets/flags-native/SE.svg",
+        "bytes": 216,
+        "sha256": "1d7c3fc0594c8fb856d9fd0a13a752dfaf8643c8b073582909c88be24e7e416f"
+      },
+      {
+        "url": "/assets/flags-native/SG.svg",
+        "bytes": 997,
+        "sha256": "3b8ae566d38d00d13b19aaaa5c739eb2023d4e65822d79425124b80513c717e0"
+      },
+      {
+        "url": "/assets/flags-native/SI.svg",
+        "bytes": 2369,
+        "sha256": "cb5fec5ac8527646e5e4afe2896b2bf6b978555ade411edc50d512ad296d6936"
+      },
+      {
+        "url": "/assets/flags-native/SK.svg",
+        "bytes": 1670,
+        "sha256": "7061dea3193d89e0d9b10f7fe07076af43c4a901249c7c2d8f71b1eebfc52996"
+      },
+      {
+        "url": "/assets/flags-native/SL.svg",
+        "bytes": 175,
+        "sha256": "022f91e79e13a30ae6dec0dc9257488b9193373f6c41748f787a05e050dab8b6"
+      },
+      {
+        "url": "/assets/flags-native/SM.svg",
+        "bytes": 78556,
+        "sha256": "3da871598b42b8c20867896215608615b47694cc98fe6e9b4e7ba5e7fc9f4744"
+      },
+      {
+        "url": "/assets/flags-native/SN.svg",
+        "bytes": 602,
+        "sha256": "703cc723bb89d12763271eaf19d3b927d12ebded09ee9408bf4b5704ab946117"
+      },
+      {
+        "url": "/assets/flags-native/SO.svg",
+        "bytes": 512,
+        "sha256": "c3984120680ef8a88d7ba9bfbcf488c7e0e0c5a419f256995127c5faed1d3aeb"
+      },
+      {
+        "url": "/assets/flags-native/SR.svg",
+        "bytes": 290,
+        "sha256": "dc01781121dcb300dc8e2ad10877a96363f0fda9a155032d4710c38bb0f3af88"
+      },
+      {
+        "url": "/assets/flags-native/SS.svg",
+        "bytes": 323,
+        "sha256": "b38f305e68187c6b436ec835820044fd9a2b45f00c85fb7b08c5c77eb3e26074"
+      },
+      {
+        "url": "/assets/flags-native/ST.svg",
+        "bytes": 638,
+        "sha256": "016bd6c122b0728fec6c9ef608a8938690d3ee11d25dbab2350ff95b206ca2d8"
+      },
+      {
+        "url": "/assets/flags-native/SV.svg",
+        "bytes": 241664,
+        "sha256": "fb6edde7d035a40153580c37675afcd261376a14e11f11b0ea0b85731cd4d3bd"
+      },
+      {
+        "url": "/assets/flags-native/SY.svg",
+        "bytes": 367,
+        "sha256": "ca2804577f06100f17e9df10cdc38dbaf37c91e78557a7c64a35f0f953b31d47"
+      },
+      {
+        "url": "/assets/flags-native/SZ.svg",
+        "bytes": 6469,
+        "sha256": "2f1564cd218afd1053333baca445392bb260e14cb8a8027208ae6b6c17b12fbd"
+      },
+      {
+        "url": "/assets/flags-native/TD.svg",
+        "bytes": 178,
+        "sha256": "37a4a7eb7882674751f3f48f203285b8c56a74293a12a0240cd340ead7cb5050"
+      },
+      {
+        "url": "/assets/flags-native/TG.svg",
+        "bytes": 607,
+        "sha256": "3c1fe68986d0e0965d8112b8a4072a6c67d0111fe9af98f8dd76d502196305da"
+      },
+      {
+        "url": "/assets/flags-native/TH.svg",
+        "bytes": 178,
+        "sha256": "a8df94da01c0b439521a1615c413abd8adf7b6b666cb5571f6bf71d5dedcd6f9"
+      },
+      {
+        "url": "/assets/flags-native/TJ.svg",
+        "bytes": 1489,
+        "sha256": "1483e84402e5a809335b018f87c3d8c22a008f95a2aa3f79d088cf8435c7a080"
+      },
+      {
+        "url": "/assets/flags-native/TL.svg",
+        "bytes": 298,
+        "sha256": "7da64a9ca06f04e89204fadf3ab7b546784a0da26790017ff8f8a771bb2e66b2"
+      },
+      {
+        "url": "/assets/flags-native/TM.svg",
+        "bytes": 42244,
+        "sha256": "a2a90a7f637161539b281ed75ebf80d68a999d75d7b494d8ceb0cff917199143"
+      },
+      {
+        "url": "/assets/flags-native/TN.svg",
+        "bytes": 362,
+        "sha256": "4dba7cc5500d3333d9ac08c1b4e01a9af241f50b53004f3931f4b30cd2ec521e"
+      },
+      {
+        "url": "/assets/flags-native/TO.svg",
+        "bytes": 202,
+        "sha256": "0d2711fbf225046ca0d597bfc6b6e36ffb62c808f8132e2d354cf7f486df6b99"
+      },
+      {
+        "url": "/assets/flags-native/TR.svg",
+        "bytes": 287,
+        "sha256": "03054d924491c213d26b12f6663d33481b1b4018caaa0c86e07d72846ce980d2"
+      },
+      {
+        "url": "/assets/flags-native/TT.svg",
+        "bytes": 247,
+        "sha256": "3899dfac3d4383b59a7e2817fcc99ad6fde428b6990a339aea6be4d1ceb7ac23"
+      },
+      {
+        "url": "/assets/flags-native/TV.svg",
+        "bytes": 1213,
+        "sha256": "7eb4dc3f01876c4610c6de2306d4f2b2d2edc75612a11ed261c3c29ea4561377"
+      },
+      {
+        "url": "/assets/flags-native/TW.svg",
+        "bytes": 482,
+        "sha256": "3756ee64b1a7902efe845ba2ded314f5e635bac2f67dfa650e03880bddd3cb18"
+      },
+      {
+        "url": "/assets/flags-native/TZ.svg",
+        "bytes": 358,
+        "sha256": "6535e0dc71b3ff75649a489c9d04256934a2476e5dbc8e0111d5c698d3987fdc"
+      },
+      {
+        "url": "/assets/flags-native/UA.svg",
+        "bytes": 137,
+        "sha256": "8b72b27e5bb712f269e28182fd85175175b65ebf8fd31fbff8e255a0058c54b9"
+      },
+      {
+        "url": "/assets/flags-native/UG.svg",
+        "bytes": 3667,
+        "sha256": "f4512cc9fe389b8349a4e4ca04cd656f61c65aee562850384af17177f40a7856"
+      },
+      {
+        "url": "/assets/flags-native/US.svg",
+        "bytes": 741,
+        "sha256": "6b234bd17b00d498ac8d1c645a00025817e624641289fe4faec164c52eb43f20"
+      },
+      {
+        "url": "/assets/flags-native/UY.svg",
+        "bytes": 8697,
+        "sha256": "70a7ec0a17d0d950de791f23e550175d1265fb120dcc66ec691ad40410508717"
+      },
+      {
+        "url": "/assets/flags-native/UZ.svg",
+        "bytes": 926,
+        "sha256": "3a28b64713f7df950e570c5f9bffe257345d8c5ddffb7a4bedd8a900fef0ada4"
+      },
+      {
+        "url": "/assets/flags-native/VA.svg",
+        "bytes": 38008,
+        "sha256": "c9752de8d48075be6253e2e0a933e40819ae7f2b623c3d3a06dd7f29630104c9"
+      },
+      {
+        "url": "/assets/flags-native/VC.svg",
+        "bytes": 370,
+        "sha256": "920f884361e7aac720606f117665aa205598ff07a1be11ca957e60c53ef0da8c"
+      },
+      {
+        "url": "/assets/flags-native/VE.svg",
+        "bytes": 812,
+        "sha256": "ec24f2dce147ca51112c7825ffa1ca6c00845ad95d0447f5c0a945cedf8cc358"
+      },
+      {
+        "url": "/assets/flags-native/VN.svg",
+        "bytes": 458,
+        "sha256": "893b24ea38e9187b0caf4bbb787b525487931bb7401020f70ab36018f1e64bae"
+      },
+      {
+        "url": "/assets/flags-native/VU.svg",
+        "bytes": 2576,
+        "sha256": "dfb2fbe51ad8efe6b643fef6d8d2c0c8ceb32bfdf82f86942cb43827cc2f92e6"
+      },
+      {
+        "url": "/assets/flags-native/WS.svg",
+        "bytes": 602,
+        "sha256": "bae8976231b0238a6d60a38b667611c7c9cee6f09690b90853f20c2ce10a0fb7"
+      },
+      {
+        "url": "/assets/flags-native/XK.svg",
+        "bytes": 4419,
+        "sha256": "b99d21fab5c2e9d106a9d48ec7e300dd068b116f71126a48b116c2cc539c7bba"
+      },
+      {
+        "url": "/assets/flags-native/XNC.svg",
+        "bytes": 348,
+        "sha256": "414ee6b521d39f3679ffd1321bbfde1ca4288f8dac8cb951fae38667687beafc"
+      },
+      {
+        "url": "/assets/flags-native/YE.svg",
+        "bytes": 160,
+        "sha256": "fe132d9cc0f86823c08730800a18ee90f136e599b23808cd4cb2e0eb97ecf362"
+      },
+      {
+        "url": "/assets/flags-native/ZA.svg",
+        "bytes": 530,
+        "sha256": "4d0b6e3bec69cd3387c0c7518c06074768797650581614c59f084104d96a204e"
+      },
+      {
+        "url": "/assets/flags-native/ZM.svg",
+        "bytes": 7624,
+        "sha256": "cb23a0181c34027067d233803384555a950ed282a9fdc6c49a807a8b82134926"
+      },
+      {
+        "url": "/assets/flags-native/ZW.svg",
+        "bytes": 13233,
+        "sha256": "2fe17954bd5503637d36c65aaac312969004af08116589f830916a0c1ff1874a"
+      },
+      {
+        "url": "/assets/handwriting.json",
+        "bytes": 78069,
+        "sha256": "8b419e864fd078e4e486165d8e36d9eedb05ff3cf3f12d9fe016b586e73999b8"
+      },
+      {
+        "url": "/assets/heritage.json",
+        "bytes": 213987,
+        "sha256": "a2325472f1842b29507fcae64d27648fdf3af1851659c6225577d8451fae7e43"
+      },
+      {
+        "url": "/assets/hint-coverage.json",
+        "bytes": 4359,
+        "sha256": "64bd83c23523ac887a45dc864bf0ed3deaee3b7885b8d8905660c63df2cb7a25"
+      },
+      {
+        "url": "/assets/hintbook.json",
+        "bytes": 1068630,
+        "sha256": "255d7c68a10d6155970ce4dc605dc12cd8fe5a03eba33d3d990ea39a6413041c"
+      },
+      {
+        "url": "/assets/learning-schema.json",
+        "bytes": 34954,
+        "sha256": "c44ff065e598144082b5694bb041160950ffee16aea8edc3b29584fb9354cdd7"
+      },
+      {
+        "url": "/assets/map.json",
+        "bytes": 2279236,
+        "sha256": "5b44cb4a802aed10de664bca3e9be53a6cfcb9ec43832815a3c959b291ca7e7a"
+      },
+      {
+        "url": "/assets/terrain.json",
+        "bytes": 961386,
+        "sha256": "a5bc07d20dd074332f3260c5cd55a0a381bd9fb238fa3af2d97cd531f12a7231"
+      },
+      {
+        "url": "/expansion.js",
+        "bytes": 51696,
+        "sha256": "b1d49536697bf0ac49d1615c042ee60290a0f6b683f1cde8b81fd894aa3a5469"
+      },
+      {
+        "url": "/handwriting.js",
+        "bytes": 2274,
+        "sha256": "acfdca8f9d9d1b0b34457a61e85a31edaa86b648b41300dc1c9d25c204a1cb27"
+      },
+      {
+        "url": "/icons/atlas-v1/apple-touch-icon.png",
+        "bytes": 19192,
+        "sha256": "962a9ef8c80cfa33a19e23583559aea55677ff2e55d867e83892a9641d942bdb"
+      },
+      {
+        "url": "/icons/atlas-v1/favicon-16.png",
+        "bytes": 546,
+        "sha256": "13e57ce25f0fa7d0f23589441a149cdbab773c5fbfed31fb336613839e62f964"
+      },
+      {
+        "url": "/icons/atlas-v1/favicon-32.png",
+        "bytes": 1239,
+        "sha256": "2bf1e62c5cca4fdb64948f4ea6750663a9537240721d827d14c096172b7b8f40"
+      },
+      {
+        "url": "/icons/atlas-v1/favicon.ico",
+        "bytes": 7421,
+        "sha256": "08dd6ead0279ab077f304a803f990399ee486d5eb80c95f05e34b0de4414b94d"
+      },
+      {
+        "url": "/icons/atlas-v1/icon-192.png",
+        "bytes": 20683,
+        "sha256": "1244a9c5fb2fd7b3e1a6ad9748e4ed1995c03facea2fbf32907c8feb07b150d6"
+      },
+      {
+        "url": "/icons/atlas-v1/icon-512.png",
+        "bytes": 72376,
+        "sha256": "d8ff623552230fe40b858d10f5b1230b3cfaa6bf2c7f34f1c1f62dbec8913be5"
+      },
+      {
+        "url": "/icons/atlas-v1/maskable-192.png",
+        "bytes": 14451,
+        "sha256": "ef3e75ce4e1d28f5e9a2b2d0fe2a690ea70ba5920b010e5970b264c1465cf290"
+      },
+      {
+        "url": "/icons/atlas-v1/maskable-512.png",
+        "bytes": 52153,
+        "sha256": "27948f115ed41fb6ce6c1cc0baa6672a9855a67afc25c4fa28203f40f7f3fe65"
+      },
+      {
+        "url": "/icons/atlas-v1/provenance.json",
+        "bytes": 583,
+        "sha256": "68fe015e596efb252a628613a0a61da828b81d81cc24ed3955c0e3cc1da5ed16"
+      },
+      {
+        "url": "/kanji-engine.js",
+        "bytes": 1606,
+        "sha256": "12bffc547db5b2fb4f3153f627cded62d03d1fc984b2e65bc8b9cd8c3c450cfb"
+      },
+      {
+        "url": "/learning.js",
+        "bytes": 31575,
+        "sha256": "285d60ee5089679ecd272bb137d3e70694b4249379b170db9908e7f4cee5ae74"
+      },
+      {
+        "url": "/licenses/KanjiCanvas-LICENSE.txt",
+        "bytes": 1169,
+        "sha256": "a3919ff4672e4b842ce3e612cdc721bc9385f232fb89e633d73b6f39b885822c"
+      },
+      {
+        "url": "/licenses/KanjiVG-CC-BY-SA-3.0.txt",
+        "bytes": 20595,
+        "sha256": "d255e07978fd16ddfec38bc59dc9d857b885dd44ddbf4e79baf207d30746bdcc"
+      },
+      {
+        "url": "/licenses/NotoSansJP-OFL.txt",
+        "bytes": 4388,
+        "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+      },
+      {
+        "url": "/licenses/flag-native-NOTICE.md",
+        "bytes": 1222,
+        "sha256": "dc78d7a947b00459e621beb188f9c2e8c69ffb3bacf22db3420c5c3d700664ea"
+      },
+      {
+        "url": "/licenses/flag-native-source-report.md",
+        "bytes": 3712,
+        "sha256": "8be61d8568e469ec5d0cff5fd005c9fd56807823d348bc188565b51f727bf8e3"
+      },
+      {
+        "url": "/licenses/flag-native-upstream-README.md",
+        "bytes": 2737,
+        "sha256": "d2fd835e50200b79d64f48ec815f33add428420e5af9084c21224e46ec6729ef"
+      },
+      {
+        "url": "/licenses/heritage-photo-credits.json",
+        "bytes": 98992,
+        "sha256": "777610fcbde709361b4d416fe9c55577832fc3f6f320c08c1cb624cab589d0c1"
+      },
+      {
+        "url": "/manifest.webmanifest",
+        "bytes": 822,
+        "sha256": "fdbaeebde6ad0d92b55105bbac94ee07721770ad55483553bc2cfb1099e18016"
+      },
+      {
+        "url": "/offline.js",
+        "bytes": 10395,
+        "sha256": "7cc0800c063746bb6c82fd04eddd6fa298e0e0f79436764efb62a8b493679fc5"
+      },
+      {
+        "url": "/play.html",
+        "bytes": 1777,
+        "sha256": "db3d3bd836d6cf8419261c9d42364b5eb90a8eff1c54117febc8d718eaf8afe2"
+      },
+      {
+        "url": "/players.js",
+        "bytes": 25762,
+        "sha256": "3bc3c31ad4b84b36d15368d91bf71fba4042a4b93671f2f9c1a1e13f24a7ec23"
+      },
+      {
+        "url": "/style.css",
+        "bytes": 24621,
+        "sha256": "18c4c3eaf9367a8adea9831d3247d66e870528af12d67f834ee4c4f3ae633b07"
+      }
+    ],
+    "photos": [
+      {
+        "url": "/assets/heritage/1.jpg",
+        "bytes": 196503,
+        "sha256": "12b6a6d72a27ef889dd50d749d9b51696190f76204ed0cfcbe8cf8c0e9d95a1d"
+      },
+      {
+        "url": "/assets/heritage/100.jpg",
+        "bytes": 67759,
+        "sha256": "edbbd9bc7308e3a790537f5bd5d357e6094071bbc9d6217ae7a677904297f97b"
+      },
+      {
+        "url": "/assets/heritage/102.jpg",
+        "bytes": 57881,
+        "sha256": "c109b78576c160b2a654f2ac3aed63c4b515c6c85d5abe7e9a8dc73039fccf69"
+      },
+      {
+        "url": "/assets/heritage/111.jpg",
+        "bytes": 175072,
+        "sha256": "043dc912e8cd23437baa6d35212309894887d441ddf477e178d2deb77821f922"
+      },
+      {
+        "url": "/assets/heritage/1133.jpg",
+        "bytes": 108774,
+        "sha256": "8d20933e6290f752302f1a35008fa22504ead035bf0e856bf1e3dda3da37534c"
+      },
+      {
+        "url": "/assets/heritage/1142.jpg",
+        "bytes": 291669,
+        "sha256": "6e3d94d720a17e1b233a1090ba5d1c7953c2953e01e75499db9e659b1a258f6c"
+      },
+      {
+        "url": "/assets/heritage/119.jpg",
+        "bytes": 174362,
+        "sha256": "dea65e098de860d65c9c148adf55e9ceef96d3f78260805b3fdc9549351aa2be"
+      },
+      {
+        "url": "/assets/heritage/120.jpg",
+        "bytes": 156767,
+        "sha256": "ba8ff1b40904751d346a1ea57fc3c19ac87aae89aa0f17970365f6bdf3d79585"
+      },
+      {
+        "url": "/assets/heritage/121.jpg",
+        "bytes": 157748,
+        "sha256": "722baf243e7308527747504a4bd740cd00875b0e1d963cf0c59b67bb7e266d15"
+      },
+      {
+        "url": "/assets/heritage/125.jpg",
+        "bytes": 150758,
+        "sha256": "7262897e7b92dd6347d2a1f2049dc295fbfd90d78b0210871fa7015e6d131012"
+      },
+      {
+        "url": "/assets/heritage/129.jpg",
+        "bytes": 303652,
+        "sha256": "6c9ddb1fcdf4640f30aa003314e1e9d73497ff59bd50d82f58e8146300265ad5"
+      },
+      {
+        "url": "/assets/heritage/130.jpg",
+        "bytes": 116272,
+        "sha256": "f5ae45904e59232e53a8a1282fed68e639eca6861eab312d62fb7c7616391e08"
+      },
+      {
+        "url": "/assets/heritage/1314.jpg",
+        "bytes": 132160,
+        "sha256": "a2756c8fbdf71c02ce12b5add5079a37bb3c89824ffd802d82d46632a885eb62"
+      },
+      {
+        "url": "/assets/heritage/132.jpg",
+        "bytes": 165254,
+        "sha256": "c9aa37566162367f4b1d8b697aad2715dfe45cc0fc33afe91efff6fc4d3bb052"
+      },
+      {
+        "url": "/assets/heritage/136.jpg",
+        "bytes": 59141,
+        "sha256": "a347f58721eba2ac383e12eec4c8ece978a77e87706ab1a415b3d0b7dd69faf1"
+      },
+      {
+        "url": "/assets/heritage/137.jpg",
+        "bytes": 121497,
+        "sha256": "61f8531b746845a450df6ae1129761c750346f02ba6bc89857eb2ba0920ceeec"
+      },
+      {
+        "url": "/assets/heritage/140.jpg",
+        "bytes": 288642,
+        "sha256": "cd7f322587af3aa613db81c5380f377888ad479df3f9e6c912ccc4b4e15cf55c"
+      },
+      {
+        "url": "/assets/heritage/1418.jpg",
+        "bytes": 169475,
+        "sha256": "a55fe64758160bd71f93eb7d921c8611a869531d6ea1fc10a36edead8d19af15"
+      },
+      {
+        "url": "/assets/heritage/143.jpg",
+        "bytes": 189254,
+        "sha256": "b7251b7acf768dbec227982ccfa8a771c3ae5f95957c7be205c55630e9ae1af8"
+      },
+      {
+        "url": "/assets/heritage/144.jpg",
+        "bytes": 183257,
+        "sha256": "0982feb586e47f1b59f2462e090c6a0bb3adb1d2f087b6e20c04c129e51fe5ec"
+      },
+      {
+        "url": "/assets/heritage/145.jpg",
+        "bytes": 160674,
+        "sha256": "c1f8c367de3fce775af0c1e3eb4b945424901d4512103fc20d9be54704221110"
+      },
+      {
+        "url": "/assets/heritage/147.jpg",
+        "bytes": 213113,
+        "sha256": "4e5fbf4979aec54b0347a8b41fa47a6999d514c82225f64762a463d891688be9"
+      },
+      {
+        "url": "/assets/heritage/149.jpg",
+        "bytes": 189190,
+        "sha256": "c0c995b5e86b7bdfa0fd137bb673340aca456897d0de1a3ed71abe997ad7b770"
+      },
+      {
+        "url": "/assets/heritage/150.jpg",
+        "bytes": 131578,
+        "sha256": "52e55df1824b732a2987fe2aa0a068676fba0f88df1ea80cbe13493d2949d576"
+      },
+      {
+        "url": "/assets/heritage/151.jpg",
+        "bytes": 174766,
+        "sha256": "d92383173301f4406f3560759799b407783bf9c8fee07fa5cb2c4c4fc8088552"
+      },
+      {
+        "url": "/assets/heritage/153.jpg",
+        "bytes": 199573,
+        "sha256": "44ccffc85dfd9c8754cf52530f1bb6224597cf24663b4a30f2d50f957113d650"
+      },
+      {
+        "url": "/assets/heritage/154.jpg",
+        "bytes": 195482,
+        "sha256": "e0997953ed9ca167702720f27441005ff7facd1e1d02412bfcee3457a19efc32"
+      },
+      {
+        "url": "/assets/heritage/155.jpg",
+        "bytes": 203781,
+        "sha256": "1f5b13fb77dffd3619215250a001ad2d7e1af11f5df619e47faf309d836def06"
+      },
+      {
+        "url": "/assets/heritage/156.jpg",
+        "bytes": 86543,
+        "sha256": "2e6c1c8e3bcb36197415f4649b894d5ebb3a2123eb648a3c4d15bbeba87ce594"
+      },
+      {
+        "url": "/assets/heritage/157.jpg",
+        "bytes": 291375,
+        "sha256": "0ebb958e3139e1b9dd2edaedccc2e5345ff4cdd1e65b9d3a217a0693e9faef5a"
+      },
+      {
+        "url": "/assets/heritage/158.jpg",
+        "bytes": 279855,
+        "sha256": "1b6b79ccd0a64b7d4233910ba1d2f71a8c5de7d35e1d0cb0b74d5d58fa03e2b2"
+      },
+      {
+        "url": "/assets/heritage/159.jpg",
+        "bytes": 104470,
+        "sha256": "e1b4c5297d7f7e54a96dcaa297109c94924d2ed58b31ee8e6bae10b2ea093116"
+      },
+      {
+        "url": "/assets/heritage/160.jpg",
+        "bytes": 141562,
+        "sha256": "bee0556bb54761a4bc4cad72c1569fae677d28d86d4c1d2924e995b2cfaea01b"
+      },
+      {
+        "url": "/assets/heritage/162.jpg",
+        "bytes": 151907,
+        "sha256": "3f4439230209095f3c73f31673d47797279823326058210101bd2d8f82a41d50"
+      },
+      {
+        "url": "/assets/heritage/163.jpg",
+        "bytes": 157236,
+        "sha256": "84364c9c6a41e464d77bc4a0a12903837fad6f6af33118a6d201f5f9bd71b26b"
+      },
+      {
+        "url": "/assets/heritage/164.jpg",
+        "bytes": 140801,
+        "sha256": "8318cc2f79d01a9f0d97c2fab2074cfbf0602bd9e2f8f1265a01846749126e86"
+      },
+      {
+        "url": "/assets/heritage/165.jpg",
+        "bytes": 126061,
+        "sha256": "fb8c4075f92c9d31fd633e266f8db9c8ef10c0cfcd0b579cdc435c8a6da2f15e"
+      },
+      {
+        "url": "/assets/heritage/166.jpg",
+        "bytes": 82424,
+        "sha256": "243bec2ca7e49e64195f672f2582621e1b66c08b21ecfe7ab8e68108ba5ba840"
+      },
+      {
+        "url": "/assets/heritage/169.jpg",
+        "bytes": 141201,
+        "sha256": "140275a11705d292115bd53c4dc9ed0ef7f192805174396c85b109af23c8b786"
+      },
+      {
+        "url": "/assets/heritage/170.jpg",
+        "bytes": 72042,
+        "sha256": "3709eb3c0ec36d87aceb7dbb155560956217cc7e3f09dcee3cf97ac1d22102de"
+      },
+      {
+        "url": "/assets/heritage/171.jpg",
+        "bytes": 126299,
+        "sha256": "3a6a30506baf9f6cf2509a30746fd8edb6722d516c68e838b6314f861ede7e76"
+      },
+      {
+        "url": "/assets/heritage/174.jpg",
+        "bytes": 146942,
+        "sha256": "8da81e6bf7414ec45ecf2a73dfd211c7c9b7b9d94110f6070bf3149f55169029"
+      },
+      {
+        "url": "/assets/heritage/180.jpg",
+        "bytes": 159643,
+        "sha256": "6a678b4bc9405b1e9e9d10a98505a111b128b5adc9790f1cbd509949bdc00af3"
+      },
+      {
+        "url": "/assets/heritage/181.jpg",
+        "bytes": 148161,
+        "sha256": "95133a2b920ea2c726a65f69ea0c24389189ac9930b67bb6d3992c3d9733f228"
+      },
+      {
+        "url": "/assets/heritage/183.jpg",
+        "bytes": 157466,
+        "sha256": "7af562f88a7b8409ac713a8b517316addb4bec622718fa5138e7db299f00c0fd"
+      },
+      {
+        "url": "/assets/heritage/184.jpg",
+        "bytes": 121782,
+        "sha256": "091ee16b1054ac2fa8e98eeb8aadacc16c4027c3aba2ef15866dc13e69fea874"
+      },
+      {
+        "url": "/assets/heritage/185.jpg",
+        "bytes": 164148,
+        "sha256": "fd098724068b4feca2e6a20b4822f99364c782540220c893756c6aa7eee41685"
+      },
+      {
+        "url": "/assets/heritage/186.jpg",
+        "bytes": 20506,
+        "sha256": "2d05cfaa9806ff46b0470d96b4a4f18e7392440a232481b31152e8a0e865c69f"
+      },
+      {
+        "url": "/assets/heritage/187.jpg",
+        "bytes": 108820,
+        "sha256": "25dc518bcbf592cf286b110242fda4d03d54d071e48bf9c838833336d7df45da"
+      },
+      {
+        "url": "/assets/heritage/189.jpg",
+        "bytes": 90298,
+        "sha256": "2d5f02f464dbb4045659ecd652c99f20d89cf700f29043c3de2f7f3c64008c87"
+      },
+      {
+        "url": "/assets/heritage/193.jpg",
+        "bytes": 224252,
+        "sha256": "68c6408ff5477c8fa764c76068ba14b1630f73ca22c6e39cfeed21ea4acff247"
+      },
+      {
+        "url": "/assets/heritage/2.jpg",
+        "bytes": 122079,
+        "sha256": "446428637aed01ec6af5795f3f5af4d287e553bef16e6c70a3169efdaf206338"
+      },
+      {
+        "url": "/assets/heritage/200.jpg",
+        "bytes": 162661,
+        "sha256": "339e144bec65ce0d5879e764e81f07cbd90d753a1eab9efdb54e0d17f49a2109"
+      },
+      {
+        "url": "/assets/heritage/208.jpg",
+        "bytes": 209234,
+        "sha256": "6f13da598224cb6e2ca367f1f882b2e8001d5f6c8aed0066f71d519a790f4a48"
+      },
+      {
+        "url": "/assets/heritage/216.jpg",
+        "bytes": 158791,
+        "sha256": "115df28b63b6b498ba81aa2b87afcd3e220f009ecf062df1544c1d359bd96f1d"
+      },
+      {
+        "url": "/assets/heritage/228.jpg",
+        "bytes": 202923,
+        "sha256": "31221ed1c0b5230582c551cbb122efcd17c5ba2b08fe13ae116d063d2e49abf5"
+      },
+      {
+        "url": "/assets/heritage/233.jpg",
+        "bytes": 46308,
+        "sha256": "75f380909bf6c5f02a94ccff257382520fd7ad0cd34825005a4dda150ac1401a"
+      },
+      {
+        "url": "/assets/heritage/241.jpg",
+        "bytes": 138019,
+        "sha256": "fa29a743c4fe820db6657b1e41feede09ecad4ba17c6fc0fa905b9d87831b07d"
+      },
+      {
+        "url": "/assets/heritage/242.jpg",
+        "bytes": 77629,
+        "sha256": "9c3c738dc786cb4788b81cd2f97c86d2c83fecbd74b85af161142b2b701122fc"
+      },
+      {
+        "url": "/assets/heritage/243.jpg",
+        "bytes": 153957,
+        "sha256": "6879f747157e84b1184a40f9efc2c85b2172abad56788ddc1d419d3eb7d083a9"
+      },
+      {
+        "url": "/assets/heritage/246.jpg",
+        "bytes": 328099,
+        "sha256": "c8bb7e551c0334d7278c181e35310dbf9c54a6cbed3f65ef60b193f9a422f74b"
+      },
+      {
+        "url": "/assets/heritage/249.jpg",
+        "bytes": 169600,
+        "sha256": "ebe346d4e35814ecbe909f2b7eda645ce8b38b5115ed548b5f9f33dfc1197847"
+      },
+      {
+        "url": "/assets/heritage/252.jpg",
+        "bytes": 132881,
+        "sha256": "2f59fca3b5c08d683cf67665944865d372dbb7a56d728457131fbf2726e8ac58"
+      },
+      {
+        "url": "/assets/heritage/26.jpg",
+        "bytes": 114271,
+        "sha256": "a809d4441a15c20c8117a910774a53319f8b8652336ec7e10add7c6c6f388f1b"
+      },
+      {
+        "url": "/assets/heritage/263.jpg",
+        "bytes": 197394,
+        "sha256": "063259ce85db0616eb69997dd06ab3a130dfb03be898f390186cb6b6e168d0a9"
+      },
+      {
+        "url": "/assets/heritage/274.jpg",
+        "bytes": 409901,
+        "sha256": "c085bcb476ed4d48dfd533c18543dc3740c5e332aefa26599ee8635695407f63"
+      },
+      {
+        "url": "/assets/heritage/28.jpg",
+        "bytes": 176446,
+        "sha256": "1154227fb9d8a24b75ee989d2bb2c8d55a4c5eafbfc4d073238cb54f54fce460"
+      },
+      {
+        "url": "/assets/heritage/285.jpg",
+        "bytes": 93742,
+        "sha256": "10623e5131164f5a6c09215efd2151e707aa1d8001ec75f3ecc4e3c367391269"
+      },
+      {
+        "url": "/assets/heritage/3.jpg",
+        "bytes": 114480,
+        "sha256": "63068ab28f351bed8987809402d4a24de2371782729c7aa0dba9d00bc8a5fc2a"
+      },
+      {
+        "url": "/assets/heritage/303.jpg",
+        "bytes": 157162,
+        "sha256": "72140708e06f0c2e5c366c8e6d6ae504ed91680b766bb5bee92462ec4b55b5b5"
+      },
+      {
+        "url": "/assets/heritage/307.jpg",
+        "bytes": 64067,
+        "sha256": "47e1e63f1f64721915017a39c9d9e0a4db5705848d24c35f118cfaa0926d01b8"
+      },
+      {
+        "url": "/assets/heritage/31.jpg",
+        "bytes": 116025,
+        "sha256": "a06264e17fae6965a71a8b0e1422d16c6818052fda1e7f5db84ce4413a65e161"
+      },
+      {
+        "url": "/assets/heritage/326.jpg",
+        "bytes": 400805,
+        "sha256": "eab83952792806312aa5fd2a09e07de66e4b887cf8e8e363e4107685e8ae3b44"
+      },
+      {
+        "url": "/assets/heritage/356.jpg",
+        "bytes": 155483,
+        "sha256": "9ec18666b19f1ce4579d32ce93b3c324e71884d5c086815dec896144c09984f3"
+      },
+      {
+        "url": "/assets/heritage/394.jpg",
+        "bytes": 147829,
+        "sha256": "2a9e5983e31aa7cebf6daa63c2900eab38fb961efb25b99ceb1d6cdff5404769"
+      },
+      {
+        "url": "/assets/heritage/4.jpg",
+        "bytes": 179071,
+        "sha256": "c7630e03604cf339c220ab9af141e63617c9c3431b39429eab8806d8d82d17bb"
+      },
+      {
+        "url": "/assets/heritage/404.jpg",
+        "bytes": 200875,
+        "sha256": "5011cfee5b2390b562ad4ae5bd3289d8ef55d0799560377e1ebee53130cc2a29"
+      },
+      {
+        "url": "/assets/heritage/421.jpg",
+        "bytes": 214761,
+        "sha256": "2be974a133be00c653c2ac85ef1a54794eac1cf5670cb861da84075ecf7ac942"
+      },
+      {
+        "url": "/assets/heritage/438.jpg",
+        "bytes": 247766,
+        "sha256": "bf8b419eac6cd68ce23f2fadff92b029291ba8b5c09c6ee063337ee84665d808"
+      },
+      {
+        "url": "/assets/heritage/509.jpg",
+        "bytes": 249382,
+        "sha256": "4e1a83e34c96d1de297ee3665b6967aa49c66f888bc97c73326313c24d24c7cf"
+      },
+      {
+        "url": "/assets/heritage/604.jpg",
+        "bytes": 140038,
+        "sha256": "6edf11f15980f3b62616f45532b5204c30152a92d5447e72184ae28d32ab27b7"
+      },
+      {
+        "url": "/assets/heritage/63.jpg",
+        "bytes": 67335,
+        "sha256": "080636c704f6594e384881a0f30a3d750e7cb31c89a6eb919373d63f3d9f7809"
+      },
+      {
+        "url": "/assets/heritage/64.jpg",
+        "bytes": 199813,
+        "sha256": "050f34b4587b944ea11597eb1eb2255af0eb9c7271e7762c2c5aca45a16e7e43"
+      },
+      {
+        "url": "/assets/heritage/65.jpg",
+        "bytes": 203755,
+        "sha256": "e952cd0ebb5bcef49860e6394be475b155c4fcbd2353d488568a78807374b2a1"
+      },
+      {
+        "url": "/assets/heritage/660.jpg",
+        "bytes": 142319,
+        "sha256": "61e87e70d115e6d2101c3295cadd5c0102af09f441c4f842c4512a42608e9549"
+      },
+      {
+        "url": "/assets/heritage/663.jpg",
+        "bytes": 208526,
+        "sha256": "5ac1b9ef4b41174dff9acceff55f209351fb1efbaae5f874e7cc9a56d93d17eb"
+      },
+      {
+        "url": "/assets/heritage/668.jpg",
+        "bytes": 129875,
+        "sha256": "6c7c48e72b0c88b2367816885dfcb6784f2d16e94286bc6ad08b447348ec3c50"
+      },
+      {
+        "url": "/assets/heritage/687.jpg",
+        "bytes": 166737,
+        "sha256": "2652428dfd4e8a7667b84cbf6af170fe3b9bfb87a78ec84ba017cd68e97fbd2a"
+      },
+      {
+        "url": "/assets/heritage/688.jpg",
+        "bytes": 477391,
+        "sha256": "c8680a45d451e59f064948c54fd88dc8530d20884c2bb40048624cbd9de1750b"
+      },
+      {
+        "url": "/assets/heritage/71.jpg",
+        "bytes": 157862,
+        "sha256": "3949caa3153302ecd20d1d195080ee922d07b02ef67971c4e1dc62d18f611a35"
+      },
+      {
+        "url": "/assets/heritage/75.jpg",
+        "bytes": 171634,
+        "sha256": "ef3ba5e5cc26221eb45ad950e4a4e596e802ae92343d4e092cb6decdab22a3e2"
+      },
+      {
+        "url": "/assets/heritage/776.jpg",
+        "bytes": 148003,
+        "sha256": "b8c7ca92d12727e8dbfa9fae22a31582f62e7d0e16013ea864cd67846f9374a8"
+      },
+      {
+        "url": "/assets/heritage/78.jpg",
+        "bytes": 176757,
+        "sha256": "64da215fa76ea02628ae18a471cfeb188fa30967129376b6e75b8451c1e4c04b"
+      },
+      {
+        "url": "/assets/heritage/80.jpg",
+        "bytes": 183785,
+        "sha256": "58ef1b12f13b713788375dd22a9d5e24748661932f0cdda1dcdbfe97abce91dc"
+      },
+      {
+        "url": "/assets/heritage/81.jpg",
+        "bytes": 103513,
+        "sha256": "b4829b3cf99e0946324f95c8c0fcb4296c426f51224c542d1d921f9c081adfd4"
+      },
+      {
+        "url": "/assets/heritage/83.jpg",
+        "bytes": 186889,
+        "sha256": "f6977097c7cb1ede56811fabe3d80fbb2c0fe1cdae2f96d2d3d5242c5545168d"
+      },
+      {
+        "url": "/assets/heritage/84.jpg",
+        "bytes": 132698,
+        "sha256": "cb405b93feb5e4e0d51d3226af8fc376ef33e4e3cafb2a3617e8f4f98fa6d601"
+      },
+      {
+        "url": "/assets/heritage/85.jpg",
+        "bytes": 120615,
+        "sha256": "3a6bdf8095658f69a5ede9509fa0bad3d8c1a1617ddb90f727380799a2466b76"
+      },
+      {
+        "url": "/assets/heritage/86.jpg",
+        "bytes": 54400,
+        "sha256": "afb7e99a7f5f2c233e705a9b83ab2d115680f26e67fac67f0331296cb97ca207"
+      },
+      {
+        "url": "/assets/heritage/87.jpg",
+        "bytes": 144601,
+        "sha256": "f9952e825b08d70a76cf9440234580c5f31215b1c4eb1db3fc9d475ebac00c6d"
+      },
+      {
+        "url": "/assets/heritage/88.jpg",
+        "bytes": 143103,
+        "sha256": "8278a4881f5f05c632f30f536d30a7dc18a6e669ce483f17ac5e6c90c12d1207"
+      },
+      {
+        "url": "/assets/heritage/89.jpg",
+        "bytes": 257416,
+        "sha256": "d5a0a04554fba0ec2434adc19a5dd5ccabc4f272cbe04b28cc4aef5c389db2bd"
+      },
+      {
+        "url": "/assets/heritage/90.jpg",
+        "bytes": 199159,
+        "sha256": "8837fdec4906d0d576d067c5c0a76b6627506ef7fc428614b93eccd36bc9c171"
+      },
+      {
+        "url": "/assets/heritage/91.jpg",
+        "bytes": 191051,
+        "sha256": "397d390d9502e01c31235837ae0fbd6eb0e462aaa725967d1494de501ef38258"
+      },
+      {
+        "url": "/assets/heritage/913.jpg",
+        "bytes": 285308,
+        "sha256": "9d83c650533a478473e57cfe174f1cde257ae84b7ae5b9fcb073e59f865e6dbf"
+      },
+      {
+        "url": "/assets/heritage/95.jpg",
+        "bytes": 115717,
+        "sha256": "af29e799a7f43ea37f56ab3963ea65aee087411467c24881c7585a76766e326a"
+      },
+      {
+        "url": "/assets/heritage/97.jpg",
+        "bytes": 143780,
+        "sha256": "01cf37366800594e1d5192dfc6bb222f30acac32f20882c4c76ccdc6432f443a"
+      },
+      {
+        "url": "/assets/heritage/98.jpg",
+        "bytes": 262738,
+        "sha256": "17a5fd727b6ab93255ec329996bc3457b0bf09d290a794734425cf4b68522c85"
+      }
+    ],
+    "handwriting": [
+      {
+        "url": "/vendor/kanjicanvas/kanji-canvas.js",
+        "bytes": 34161,
+        "sha256": "05cb3359ad61d7478f1d67046fbbb8455d9eff1f86a496fda3b8533bf3d555ca"
+      },
+      {
+        "url": "/vendor/kanjicanvas/provenance.json",
+        "bytes": 1239,
+        "sha256": "62c0c4670afbb045595c517539845b88c605c2e17e3491c030703c978c64658c"
+      },
+      {
+        "url": "/vendor/kanjicanvas/ref-patterns.js",
+        "bytes": 6705472,
+        "sha256": "e1770a3f32ce18cc1c0eff67c539e663a3e2b0437172bde66abc3336aedf06c7"
+      },
+      {
+        "url": "/vendor/kanjicanvas/supported-characters.txt",
+        "bytes": 6640,
+        "sha256": "f0529952170412d6b786c42d15acefca8071373d53eee7a325718b3669b344ad"
+      },
+      {
+        "url": "/vendor/kanjicanvas/worker.js",
+        "bytes": 745,
+        "sha256": "6d03dc73fd30a8b3104b6d68d03742e79e8db75e67563f7afed16dfba513f673"
+      }
+    ]
+  }
+}

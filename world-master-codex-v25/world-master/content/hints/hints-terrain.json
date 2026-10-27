@@ -1,0 +1,4071 @@
+{
+  "version": 1,
+  "terrain": {
+    "terrain-mountain-01": {
+      "hints": [
+        {
+          "text": "南アジアのヒマラヤ山脈にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ネパールと中国の境界付近にあります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "海面からの標高が、世界で最も高い山です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "周辺には、シェルパの人々が暮らしています。",
+          "stage": "もう一つの特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/120/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/tree/master/10m_physical",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-mountain-02": {
+      "hints": [
+        {
+          "text": "東アフリカにあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "タンザニアにある火山です。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "アフリカで最も標高が高い山です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "キボ、マウェンジ、シラの三つの主な峰があります。",
+          "stage": "もう一つの特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/403/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-mountain-03": {
+      "hints": [
+        {
+          "text": "日本の本州の、太平洋側にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "美しい形でも知られる、独立した火山です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "山の高さは3,776mです。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "昔から信仰の対象となり、浮世絵などにも描かれてきました。",
+          "stage": "もう一つの特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1418/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-range-01": {
+      "hints": [
+        {
+          "text": "南アジアの北側に連なっています。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "世界最高峰のエベレストを含む山脈です。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ガンジス平原は、この山脈の南側に広がります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "インド側とユーラシア側の大陸が衝突し、地面が押し上げられてできた山々です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/120/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_regions_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-eight-thousanders/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-range-02": {
+      "hints": [
+        {
+          "text": "南アメリカにあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "大陸の西側を、南北に長く延びています。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "アコンカグアや、高地のチチカカ湖もこの山脈に関わります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海側のナスカプレートが南アメリカ側に沈み込む運動で、山々がつくられてきました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "主に海側のナスカプレートが南アメリカ側に沈み込む運動で、山々がつくられてきました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/tree/master/10m_physical",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/photojournal/anaglyph-south-america/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-river-01": {
+      "hints": [
+        {
+          "text": "アフリカ北東部を流れています。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "河口は地中海にあります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "古代エジプトの神殿が残る地域を流れる川です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "スーダンのハルツームで、二つの大きな流れが合流します。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/88/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/tree/master/50m_physical",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.nasa.gov/image-article/khartoum-capital-of-sudan/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-river-02": {
+      "hints": [
+        {
+          "text": "南アメリカを流れています。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "大西洋へ注ぐ川です。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "流域には、熱帯の森林や多様な生き物が暮らす水辺が広がります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ブラジルのマナウス付近で、泥色のソリモンエス川と黒っぽいネグロ川が合流します。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/998/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/tree/master/50m_physical",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/solimaes-negro-river-confluence-at-manaus-amazonia-5254/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-lake-01": {
+      "hints": [
+        {
+          "text": "ロシアのシベリア南部にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "世界で最も深い湖です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "非常に古い湖で、独特の生き物が多く暮らしています。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/754/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-lake-02": {
+      "hints": [
+        {
+          "text": "東アフリカにあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "湖岸は、ケニア・タンザニア・ウガンダにまたがります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "湖の水は、白ナイル川の流れにつながります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/lake-victorias-falling-waters/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-island-01": {
+      "hints": [
+        {
+          "text": "北アメリカの北東側にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "大きな氷床に覆われた島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大陸を除くと、世界で最も大きい島です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/mission/omg/about/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-island-02": {
+      "hints": [
+        {
+          "text": "アフリカ大陸の南東側にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "インド洋に浮かぶ島です。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "長く他の陸地から離れ、キツネザルなど独自の生き物が進化しました。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "アフリカ大陸との間に、モザンビーク海峡があります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1257/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/tree/master/10m_physical",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2020-04-11",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-archipelago-01": {
+      "hints": [
+        {
+          "text": "北太平洋に並ぶ島々です。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "火山活動によって造られた島々です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "太平洋プレートがホットスポットの上を動くことで、島の列ができました。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/publications/geology-hawaiian-islands",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-archipelago-02": {
+      "hints": [
+        {
+          "text": "東南アジアの、太平洋側に広がっています。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "一つの大きな島ではなく、多数の島からなります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "セブ島やボホール島などを含む島々です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://philippines.travel/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/tree/master/10m_physical",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-archipelago-03": {
+      "hints": [
+        {
+          "text": "アジア大陸の東側に沿って連なります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "本州の富士山も、この島々の一つにあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "北海道と本州の間には、津軽海峡があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "主な四つの島は、北海道・本州・四国・九州です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://web-japan.org/kidsweb/explore/nature/index.html",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-peninsula-01": {
+      "hints": [
+        {
+          "text": "アジアの南西部にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "紅海とペルシャ湾などに囲まれています。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "南部には、ルブアルハリ砂漠が広がります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "南側にはイエメンやオマーン、東側にはアラブ首長国連邦があります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_regions_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2017-05-27",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-peninsula-02": {
+      "hints": [
+        {
+          "text": "ヨーロッパの南西部にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "スペインやポルトガルが位置する半島です。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "アフリカ北西岸との間には、ジブラルタル海峡があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "北東側のピレネー山脈が、フランスとの境の大部分をつくっています。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/clear-skies-over-the-iberian-peninsula-83321/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-sea-01": {
+      "hints": [
+        {
+          "text": "東アジアにある海です。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "日本列島とアジア大陸の間にあります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "南西諸島の西に広がる東シナ海より、北側にある海です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "南の海峡から対馬暖流が入り、津軽海峡や宗谷海峡から流れ出します。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.data.jma.go.jp/kaiyou/data/db/maizuru/knowledge/tsushima_current.html",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-sea-02": {
+      "hints": [
+        {
+          "text": "東アジアにある海です。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "中国大陸の東側に広がります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "日本の南西諸島は、この海の東側に並んでいます。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "中国を流れる長江が、この海に注ぎます。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大陸棚の縁付近を、黒潮と呼ばれる暖かい海流が流れています。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/heavy-smoke-over-china-2692/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.data.jma.go.jp/kaiyou/data/db/maizuru/knowledge/tsushima_current.html",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-bay-01": {
+      "hints": [
+        {
+          "text": "南アジアにある大きな湾です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "インド半島の東側に広がります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "同じ半島の西側に広がるのは、アラビア海です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ガンジス川などが、この湾に注いで大きな三角州を造ります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/ganges-river-delta-1326/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-bay-02": {
+      "hints": [
+        {
+          "text": "北アメリカ南部にある湾です。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ユカタン半島やキューバの近くにあります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "北アメリカ内陸を流れるミシシッピ川が注ぎます。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "湾内には、ループ・カレントと呼ばれる暖かい海流が流れます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/tree/master/50m_physical",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://coastalscience.noaa.gov/news/west-florida-shelf-and-dry-tortugas-impact-gulf-of-mexico-loop-current/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-strait-01": {
+      "hints": [
+        {
+          "text": "ヨーロッパとアフリカの間にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "イベリア半島とアフリカ北西岸を隔てています。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "大西洋と地中海を結ぶ水路です。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "最も狭い場所では、スペインとモロッコの間が約13kmです。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "地中海から大西洋へ出る、自然の水路の入口です。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "表面では大西洋の水が地中海へ、深い所では地中海の水が大西洋へ流れます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_Strait_of_Gibraltar",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-strait-of-gibraltar-in-3d-3926/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://oceandata.sci.gsfc.nasa.gov/gallery/503/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-strait-02": {
+      "hints": [
+        {
+          "text": "東南アジアにある水路です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "マレー半島の南西側にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "スマトラ島とマレー半島の間を通ります。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "シンガポール海峡とともに、国際航行に使われる重要な水路です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.mpa.gov.sg/media-centre/details/littoral-states-of-the-straits-of-malacca-and-singapore-reaffirm-shared-commitment-to-keep-the-straits-open-and-safe-for-international-shipping",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-desert-01": {
+      "hints": [
+        {
+          "text": "アフリカ北部に広がります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "エジプトやリビアにも広がる、非常に乾いた地域です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "砂丘だけでなく、岩がむき出しになった場所もあります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/rings-of-rock-in-the-sahara/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-desert-02": {
+      "hints": [
+        {
+          "text": "アジアの内陸にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "モンゴルと中国北部に広がります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "恐竜や昔の哺乳類の化石が見つかる地域としても知られます。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/finding-fossils-from-space/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plain-01": {
+      "hints": [
+        {
+          "text": "北アメリカにある平原です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ロッキー山脈の東側に広がります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "かつて、多くのバイソンが暮らした草原の地域です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.nps.gov/articles/greatplainsprovince.htm",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.nps.gov/articles/000/bison-roamed-the-mountains-too.htm",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plain-02": {
+      "hints": [
+        {
+          "text": "中国の東部にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "黄河の下流域などに広がります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "黄土高原は黄河の中流域。この平原は、それより下流側です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "冬に小麦、夏にトウモロコシを育てる輪作が行われる、重要な農業地帯です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_regions_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.fao.org/4/ag120e/AG120E21.htm",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plateau-01": {
+      "hints": [
+        {
+          "text": "アジアの内陸に広がっています。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ヒマラヤ山脈の北側にあります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "高地の草原などが広がり、北東部にはホフシルがあります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "平均の標高がおよそ4,500メートルもある、非常に高い土地です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1540/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_regions_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/lighting-the-edge-of-the-roof-147622/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plateau-02": {
+      "hints": [
+        {
+          "text": "南アジアにあります。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "インド半島の内陸に広がります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ガンジス平原はヒマラヤ山脈の南。この高原は、さらに半島側にあります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_regions_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-mountain-04": {
+      "hints": [
+        {
+          "text": "アルプス山脈にそびえる山です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "アルプス山脈の中で、標高が最も高い山です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ふもとのシャモニーやクールマイヨールが登山の拠点になります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1786年に、バルマとパカールが初登頂しました。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.chamonix.com/la-vallee/patrimoine-culture/patrimoine-naturel-de-la-vallee-de-chamonix-mont-blanc/le-mont-blanc",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.lovevda.it/en/out-and-about/great-mountains/mont-blanc",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-mountain-05": {
+      "hints": [
+        {
+          "text": "カラコルム山脈にある山です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "標高は8,611メートルで、エベレストに次ぐ高さです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "パキスタンの中央カラコルム国立公園で紹介される高峰の一つです。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/tentativelists/5535/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://whc.unesco.org/en/tentativelists/6112",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-mountain-06": {
+      "hints": [
+        {
+          "text": "南アメリカのアンデス山脈にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "南北アメリカで最も標高が高い山です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "アルゼンチンのメンドーサ州にあり、州立公園で保護されています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.larutanatural.gob.ar/en/must-see/58/aconcagua-provincial-park",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.argentina.gob.ar/viaja-por-argentina/que-hacer/hacer-trekking-en-la-cumbre-de-america",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-mountain-07": {
+      "hints": [
+        {
+          "text": "アラスカの内陸にある山です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "アラスカ山脈の中にあり、大きな氷河に囲まれています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "北アメリカで最も標高が高い山です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/geology-and-ecology-of-national-parks/geology-denali-national-park-and-preserve",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://home.nps.gov/dena/planyourvisit/park-brochure.htm",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-mountain-08": {
+      "hints": [
+        {
+          "text": "オーストラリア大陸の南東部にある山です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "オーストラリア本土で最も標高が高い山です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ニューサウスウェールズ州のスノーウィー山地にあります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "山頂付近には、雪解け水が流れる川や高山の湖があります。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/mount-kosciuszko-summit-walk",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.ga.gov.au/scientific-topics/national-location-information/landforms/highest-mountains",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-range-03": {
+      "hints": [
+        {
+          "text": "カナダからアメリカ合衆国へ続く山々です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "東側はグレートプレーンズなどの平原、西側は高原に接します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "山並みの間に、盆地や細長い谷が入り込んでいます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pubs.usgs.gov/publication/70207970",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://pubs.usgs.gov/of//1998/of98-140/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-range-04": {
+      "hints": [
+        {
+          "text": "ヨーロッパの複数の国に広がる山々です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "モンブランなど、氷河を抱く高い山があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "雪解け水は、ライン川・ローヌ川・ポー川などをうるおします。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "スイスやオーストリア、フランス、イタリアなどにまたがります。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.aboutswitzerland.eda.admin.ch/en/the-alps",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-range-05": {
+      "hints": [
+        {
+          "text": "ヨーロッパとアジアを分ける目安とされます。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ロシアを南北に約2,500キロメートル連なる山々です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "北のツンドラから、南の森林や半乾燥地帯へ続きます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-ural-mountains-87198/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-range-06": {
+      "hints": [
+        {
+          "text": "地中海とサハラ砂漠の間の地域にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "トゥブカルという、北アフリカで最も標高が高い山があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "モロッコのイフレン付近には、スギの森林が広がる山地もあります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://visitmorocco.com/en/see-do/nature/green-destinations-and-mountains",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.visitmorocco.com/sites/default/files/atoms/files/maroc_trek_0810_pbi251101-en_2.pdf",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://visitmorocco.com/en/travel/ifrane",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-range-07": {
+      "hints": [
+        {
+          "text": "北アメリカの東側に連なる山々です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "グレートスモーキー山脈やブルーリッジを含む山地です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "太古の大陸同士の衝突で隆起し、長い年月をかけて侵食されてきました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/geology-and-ecology-of-national-parks/geology-great-smoky-mountains-national-park",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://pubs.usgs.gov/sim/2830/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-range-08": {
+      "hints": [
+        {
+          "text": "オーストラリア大陸の東側に広がります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "コジオスコ山のあるスノーウィー山地も、その一部です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "東へ海に流れる短い川と、西へ内陸に流れる長い川を分けています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ga.gov.au/scientific-topics/national-location-information/landforms/highest-mountains",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.ga.gov.au/education/natural-hazards/flood",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-river-03": {
+      "hints": [
+        {
+          "text": "中国を西から東へ流れる川です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "源流はチベット高原のタングラ山脈付近です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "三峡と呼ばれる、険しい峡谷を流れる区間があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "河口には上海があり、東シナ海へ流れ込みます。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.chinaculture.org/gb/en_travel/2003-09/24/content_34069.htm",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-river-04": {
+      "hints": [
+        {
+          "text": "北アメリカの内陸を南へ流れます。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ミネソタ州のイタスカ湖が源流です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ミズーリ川やオハイオ川が合流する、大きな水系をつくっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.epa.gov/ms-htf/mississippiatchafalaya-river-basin-marb",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.dnr.state.mn.us/state-parks/itasca/headwaters.html",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-river-05": {
+      "hints": [
+        {
+          "text": "長江より北側を流れる川です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "黄土という細かい土を大量に運び、水が黄褐色に見えます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "下流は渤海へ流れ込み、その河口に三角州をつくっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "流域は、中国の古い文明が育った地域の一つです。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.geol.lsu.edu/WDD/ASIAN/Huanghe/huange_he.htm",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://education.nationalgeographic.org/resource/huang-he-valley/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://earthobservatory.nasa.gov/images/148145/building-up-the-yellow-river-",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-river-06": {
+      "hints": [
+        {
+          "text": "ヨーロッパを流れ、黒海へ注ぎます。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ドイツの黒い森の地域から、南東へ流れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ウィーン、ブラチスラバ、ブダペスト、ベオグラードを通ります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "下流には、アイアンゲートと呼ばれる狭い峡谷があります。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.icpdr.org/danube-basin/danube-river-basin-overview-map",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.icpdr.org/danube-basin/danube-river-basin",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-river-07": {
+      "hints": [
+        {
+          "text": "アフリカ中央部を流れ、大西洋へ注ぎます。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "赤道を二度横切る、大きな川です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "キンシャサとブラザビルという二つの首都が、川を挟んで向かい合います。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/kinshasa-and-brazzaville-4329/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2024-10-13",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-river-08": {
+      "hints": [
+        {
+          "text": "東南アジアの複数の国を流れます。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "源流は中国のチベット高原で、下流はベトナムの三角州へ続きます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "雨季には、つながるトンレサップ川の流れを逆向きにするほど水が増えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中国、ミャンマー、ラオス、タイ、カンボジア、ベトナムをつなぐ水系です。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mrcmekong.org/geography/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.mrcmekong.org/geographic-regions/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-river-09": {
+      "hints": [
+        {
+          "text": "南アジアを流れ、下流はバングラデシュへ続きます。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ブラマプトラ川などとともに、ベンガル湾に大きな三角州をつくります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ヒマラヤの雪解け水と、雨季の季節風による雨が流れを支えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/ganges-river-delta-1326/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.jpl.nasa.gov/images/pia11070-ganges-river-delta/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-river-10": {
+      "hints": [
+        {
+          "text": "オーストラリア大陸の南東部を流れる川です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "オーストラリア・アルプスの西側に源があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "南オーストラリア州を通り、海へと流れ込みます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.water.dpie.nsw.gov.au/about-us/learn-about-water/introduction-water/introduction-murray-darling-basin",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-lake-03": {
+      "hints": [
+        {
+          "text": "カナダとアメリカ合衆国にまたがる五大湖の一つです。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "五大湖の中で、面積も水の量も最も大きい湖です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大きな淡水の湖で、周囲には森林や岩の多い海岸があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.epa.gov/greatlakes/lake-superior",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://19january2021snapshot.epa.gov/greatlakes/physical-features-great-lakes_.html",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.epa.gov/system/files/documents/2025-03/p1004icu.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-lake-04": {
+      "hints": [
+        {
+          "text": "東アフリカの南北に長い湖です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "タンザニア、コンゴ民主共和国、ブルンジ、ザンビアにまたがります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "アフリカで最も深く、世界でもバイカル湖に次ぐ深さです。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大地が裂けてできた大地溝帯の湖の一つです。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_Lakes_of_Africa",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.fao.org/fishery/static/LTR/GEN.HTM",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-lake-05": {
+      "hints": [
+        {
+          "text": "ペルーとボリビアにまたがる、アンデスの湖です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "湖面は海抜およそ3,800メートルの高地にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "高山にある大きな淡水湖で、周囲では葦のような水草が育ちます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ramsar.org/es/node/9042",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://rsis.ramsar.org/RISapp/files/RISrep/PE881RISformer1996_EN.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-lake-06": {
+      "hints": [
+        {
+          "text": "スイスとフランスにまたがる湖です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "三日月のように曲がった形の湖です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ローヌ川が湖を通り抜け、西の端のジュネーブから流れ出ます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/geneva-switzerland-7258/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://esrs.jsc.nasa.gov/SearchPhotos/photo.pl?frame=47&mission=NM23&roll=743",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-lake-07": {
+      "hints": [
+        {
+          "text": "カナダの北西部にある湖です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "北極圏の境目にあたる地域に広がっています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "全体がカナダ国内に収まる湖の中で、面積が最も大きい湖です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "寒い季節には、広い湖面が氷に覆われます。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://wldb.ilec.or.jp/Display/html/3431",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.nasa.gov/image-article/lakes-rivers-have-ice-too/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-lake-08": {
+      "hints": [
+        {
+          "text": "アフリカ南東部にある、南北に長い湖です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "大地溝帯のくぼみに、水がたまってできた深い湖です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ムブナと呼ばれる魚など、この湖ならではのシクリッドの仲間が多くすみます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/289",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.malawinatcom.mw/world-natural-and-cultural-heritage/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-island-03": {
+      "hints": [
+        {
+          "text": "インドネシア・マレーシア・ブルネイが位置する島です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "赤道近くにあり、熱帯雨林が広がる大きな島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "森はオランウータンの生息地として知られています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/fires-on-borneo-and-sumatra/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://modis.gsfc.nasa.gov/sci_team/pubs/abstract_new.php?id=01317",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-island-04": {
+      "hints": [
+        {
+          "text": "オーストラリア大陸の北側にある島です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "中央部には険しい山々が続き、西部にはスディルマン山脈があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "赤道近くの熱帯なのに、高山の氷河が研究されてきた島です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/glaciers-in-the-tropics-but-not-for-long-91716/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-island-05": {
+      "hints": [
+        {
+          "text": "マレー半島の南西側にある、インドネシアの島です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "低地の熱帯雨林から、高い山の森林まで広がっています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "グヌン・ルーセルなど三つの国立公園の森林が、世界遺産に登録されています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ラフレシアという、大きな花をつける植物の仲間が生育します。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1167/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.unesco.org/en/mab/gunung-leuser?hub=66369",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-island-06": {
+      "hints": [
+        {
+          "text": "ヨーロッパ大陸の北西にある島です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "イングランド・スコットランド・ウェールズが位置しています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "西にあるアイルランド島とは、別の島です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ordnancesurvey.co.uk/blog/whats-the-difference-between-uk-britain-and-british-isles?trk=public_post_comment-text",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.visitbritain.org/destinations",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-island-07": {
+      "hints": [
+        {
+          "text": "北大西洋にある島です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "北アメリカとユーラシアのプレートが離れる境目にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "火山と氷河の両方が、島の地形を形づくっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.visiticeland.com/article/geography-of-iceland_1/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.visiticeland.com/article/volcanos/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-island-08": {
+      "hints": [
+        {
+          "text": "インド半島の南東にある島です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "インド洋の熱帯にあり、内陸の高地には茶畑が広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "この島でつくられる紅茶は「セイロンティー」として知られています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://srilankateaboard.lk/ceylon-tea/why-ceylon-tea/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://srilanka.travel/scenic-beauty",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-archipelago-04": {
+      "hints": [
+        {
+          "text": "南アメリカ大陸の西、太平洋にある島々です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "火山の活動でできた島々で、大陸から離れて独特の生き物が進化しました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ゾウガメやイグアナ、フィンチの仲間などで知られます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1835年に訪れたダーウィンの研究に、大きな手がかりを与えました。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-archipelago-05": {
+      "hints": [
+        {
+          "text": "アフリカ北西岸の沖にある、スペインの島々です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "火山の活動でつくられた、大西洋の島々です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "テネリフェ島には、スペインの最高峰テイデ山があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ランサローテ島では、ティマンファヤ国立公園の火山景観が見られます。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.spain.info/gcc/en/destinations/canary-islands/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.spain.info/en/region/canary-islands/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-archipelago-06": {
+      "hints": [
+        {
+          "text": "グレートブリテン島とアイルランド島などを含む呼び名です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "一つの国の名前ではなく、島々をまとめた地理的な呼び名です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "イギリスとアイルランド共和国の両方が、この島々に位置します。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ordnancesurvey.co.uk/blog/whats-the-difference-between-uk-britain-and-british-isles?trk=public_post_comment-text",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-archipelago-07": {
+      "hints": [
+        {
+          "text": "南太平洋の北島・南島などからなる島々です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "南島にはサザンアルプスという山地と、氷河があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "北島の中央部には、活火山や温泉のある火山性の台地が広がります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.newzealand.com/uk/feature/new-zealand-geography-and-geology/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.newzealand.com/nz/south-island/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-archipelago-08": {
+      "hints": [
+        {
+          "text": "ニューギニア島の東側に連なる島々です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "地理上は、パプアニューギニアのブーゲンビル島も含みます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ブーゲンビル島では、バガナ火山などが島の中央の山地にあります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/plume-at-mount-bagana-bouganville-island-7566/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/young-active-bagana-volcano-149899/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-peninsula-03": {
+      "hints": [
+        {
+          "text": "ノルウェーやスウェーデンが位置する、北ヨーロッパの半島です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "西の海岸には、氷河が削った深い入り江「フィヨルド」が並びます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "西側のソグネフィヨルドは、深さが1,000メートルを超える入り江です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/scandinavian-peninsula-in-winter-3239/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/scandinavia-and-the-baltic-region-3705/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-peninsula-04": {
+      "hints": [
+        {
+          "text": "東南アジアで、南へ細長く延びます。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "西のアンダマン海と、東のタイ湾の間を隔てています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "北寄りには、クラ地峡と呼ばれる陸地のくびれがあります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://eol.jsc.nasa.gov/Collections/EarthObservatory/articles/CloudsandHazeoverMalayPeninsula.htm",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/one-night-in-bangkok-148346/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-peninsula-06": {
+      "hints": [
+        {
+          "text": "日本列島と中国大陸の間に延びる半島です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "西に黄海、東に日本海が広がっています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "西側の海には川の土砂が多く運ばれ、東側はより深い海に面します。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/korea-and-the-yellow-sea-79796/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2010-04-12",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-peninsula-07": {
+      "hints": [
+        {
+          "text": "アジア北東部で、太平洋側へ延びています。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "西にオホーツク海、東にベーリング海と太平洋が広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "環太平洋の火山帯にあり、火山が多く並んでいます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/photojournal/colored-height-and-shaded-relief-kamchatka-peninsula/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/volcanoes-of-kamchatka-84427/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-peninsula-08": {
+      "hints": [
+        {
+          "text": "メキシコ湾とカリブ海の間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "石灰岩が広く覆う、起伏の小さい土地です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "北側には、巨大な隕石の衝突でできたチクシュルーブの跡があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/sediment-swirls-off-the-yucatan-149114/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/photojournal/shaded-relief-with-height-as-color-yucatan-peninsula-mexico/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-peninsula-05": {
+      "hints": [
+        {
+          "text": "ヨーロッパ南東部にある半島です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "西はアドリア海、南はイオニア海やエーゲ海に面しています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "北東側には黒海があり、内部には山地が多く広がります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.dgt.uns.ac.rs/dokumentacija/zbornik/50-2/en/01en.pdf",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://education.nationalgeographic.org/resource/europe-physical-geography/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-sea-03": {
+      "hints": [
+        {
+          "text": "フィリピンの島々の西、中国大陸やベトナムの沖に広がります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "冬は北東から吹く季節風の影響を強く受けます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ルソン島の西側にあり、その東側のフィリピン海とは別の海です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://airsea.jpl.nasa.gov/science/monsoon.html",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2026-05-05",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-sea-04": {
+      "hints": [
+        {
+          "text": "北海道の北東にあり、サハリンやカムチャツカ半島に囲まれています。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "シベリアからの冷たい風と、アムール川の淡水が海氷のできやすさに関係します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "冬にできる海氷は、北海道の知床などへ流氷として運ばれます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/a-cloud-and-ice-factory-91498/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/shiretoko-peninsula-8893/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-sea-05": {
+      "hints": [
+        {
+          "text": "アフリカ北東部とアラビア半島の間の、細長い海です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "北側はスエズ運河を通して、地中海へつながります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "南側はバベルマンデブ海峡を通して、アデン湾へつながります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://asterweb.jpl.nasa.gov/gallery-detail.asp?name=strait",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-sea-06": {
+      "hints": [
+        {
+          "text": "ヨーロッパ南東部とアナトリアの間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ボスポラス海峡を通して、マルマラ海へつながっています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ヨーロッパを流れるドナウ川が、三角州をつくって注いでいます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/bosporus-strait-and-istanbul-turkey-2384/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.icpdr.org/danube-basin/danube-river-basin-overview-map",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-sea-07": {
+      "hints": [
+        {
+          "text": "グレートブリテン島とヨーロッパ大陸の間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "比較的浅く、風や潮の流れで海底の土砂が巻き上がりやすい海です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "春から初夏には、栄養の豊かな水で植物プランクトンが増えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/shades-of-green-in-the-north-sea-76318/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.nasa.gov/image-article/spring-color-north-sea/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-sea-08": {
+      "hints": [
+        {
+          "text": "中央アメリカと南アメリカ北岸、アンティル諸島の間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "南西側には、太平洋につながるパナマ運河の入口があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央アメリカのベリーズ沿岸には、大きなサンゴ礁が続いています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/panama-canal-2932/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/764/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-sea-09": {
+      "hints": [
+        {
+          "text": "アラビア半島とインド半島の間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "季節によって、北東または南西から吹く季節風が優勢になります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "季節風が海水を動かし、植物プランクトンの増え方にも影響します。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/asian-monsoon-strengthens-over-arabian-sea-6308/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/phytoplankton-bloom-in-the-arabian-sea-43050/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-sea-10": {
+      "hints": [
+        {
+          "text": "オーストラリア大陸の北東に広がります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "西寄りには、グレートバリアリーフの大きなサンゴ礁があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "沖合にもサンゴ礁が点在し、オーストラリアの海洋公園で保護されています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://atlas.parksaustralia.gov.au/amps/science-in-management/index.html",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.gbrmpa.gov.au/learn/world-heritage-area",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-bay-03": {
+      "hints": [
+        {
+          "text": "アラビア半島とイランの間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "比較的浅い海で、東のホルムズ海峡が外海への出入口です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ホルムズ海峡の先はオマーン湾へ続き、多くの石油を運ぶ船が通ります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2016-09-29",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/qeshm-island-iran-7460/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-bay-04": {
+      "hints": [
+        {
+          "text": "カナダ北東部に深く入り込んでいます。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "南の奥には、さらに細長いジェームズ湾があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "寒い季節には、湾の広い範囲が海氷に覆われます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/hudson-bays-nastapoka-arc-150665/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2019-12-20",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-bay-05": {
+      "hints": [
+        {
+          "text": "西アフリカから中央アフリカの海岸に面しています。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "赤道近くの大西洋東部にある湾です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "赤道の少し南で、海面水温の低い「冷水舌」が季節的に現れます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海水の温度は、西アフリカの雨季にも関係しています。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.giss.nasa.gov/research/briefs/2014_druyan_11/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-bay-06": {
+      "hints": [
+        {
+          "text": "アラスカの南岸に面する、北太平洋の湾です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "沿岸の氷河の雪解け水が、細かい岩の粉を海へ運び込みます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "氷河から運ばれた鉄分は、沖合の植物プランクトンの栄養になります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://oceandata.sci.gsfc.nasa.gov/gallery/486/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.nasa.gov/image-article/retreat-of-yakutat-glacier/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-bay-07": {
+      "hints": [
+        {
+          "text": "フランス西岸とスペイン北岸の間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "大西洋側にあり、地中海とは別の水域です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "フランスとスペインの間を走るピレネー山脈の、西の端に接しています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/sculpting-the-pyrenees-144995/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-bay-08": {
+      "hints": [
+        {
+          "text": "インドシナ半島南部とマレー半島の間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "南シナ海の一部で、カンボジアやベトナムの沿岸にも接しています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "バンコクを流れるチャオプラヤ川が、北の奥へ注ぎます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2025-12-24",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/flooding-in-thailand-and-cambodia-76110/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-bay-09": {
+      "hints": [
+        {
+          "text": "アラビア半島南岸とアフリカの角の間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "イエメンとソマリアの沿岸に挟まれた水域です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "西側はバベルマンデブ海峡を通して、紅海へつながります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "沿岸では季節ごとに植物プランクトンの大きな増殖が見られます。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://asterweb.jpl.nasa.gov/gallery-detail.asp?name=strait",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/bloom-in-the-gulf-of-aden-91937/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-bay-10": {
+      "hints": [
+        {
+          "text": "オーストラリア大陸の北部に入り込んでいます。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "東側にケープヨーク半島があり、珊瑚海とはその半島で隔てられます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "熱帯の浅い大陸棚が広がり、海底のサンゴ礁も調べられています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ga.gov.au/scientific-topics/national-location-information/dimensions/continental-extremities",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.ga.gov.au/image_cache/GA8723.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-strait-03": {
+      "hints": [
+        {
+          "text": "台湾島と中国大陸の間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "北の東シナ海と南の南シナ海を結ぶ水路です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "島と大陸の間の浅い海で、海流や潮の流れが強い場所です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://egusphere.copernicus.org/preprints/2026/egusphere-2025-6501/egusphere-2025-6501.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-strait-04": {
+      "hints": [
+        {
+          "text": "北海道と本州を隔てています。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "西の日本海と、東の太平洋を結びます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海底の下を青函トンネルが通っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www1.kaiho.mlit.go.jp/KAN1/soudan/kaikyo.html",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.jrhokkaido.co.jp/network/seikan/02.html",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-strait-05": {
+      "hints": [
+        {
+          "text": "北海道とサハリンを隔てています。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "日本海とオホーツク海を結ぶ、北方の水路です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "夏は海霧が発生しやすく、とくに北側で濃くなる傾向があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www1.kaiho.mlit.go.jp/shoshi/tsuiho/pdf/104/104-2019-02.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-strait-06": {
+      "hints": [
+        {
+          "text": "九州と朝鮮半島の間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "東シナ海から、日本海へ暖かい海水が流れ込む入口です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "途中の島を挟んで、韓国側の西水道と日本側の東水道に分かれます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www1.kaiho.mlit.go.jp/KAN8/sv/teach/kaisyo/stream4.html",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www1.kaiho.mlit.go.jp/kenkyu/report/rhr28/rhr28.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-strait-07": {
+      "hints": [
+        {
+          "text": "オーストラリア大陸とタスマニア島の間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "西側にキング島、東側にフリンダーズ島のある島々が点在します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大陸とタスマニア島の間を、車も運べる船が渡っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://parks.tas.gov.au/Documents/bassstraitpdf.pdf",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.infrastructure.gov.au/infrastructure-transport-vehicles/maritime/bass-strait-passenger-vehicle-equalisation-scheme",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-strait-08": {
+      "hints": [
+        {
+          "text": "ニュージーランドの北島と南島の間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "西のタスマン海と、東の太平洋を結びます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ウェリントンとピクトンを結ぶフェリーが渡っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.linz.govt.nz/our-work/new-zealand-geographic-board/place-name-stories/place-names-cooks-voyages/cook-strait",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.newzealand.com/nz/plan/business/interislander-cook-strait-ferry-picton-to-wellington/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-strait-09": {
+      "hints": [
+        {
+          "text": "オーストラリア大陸とニューギニア島の間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "オーストラリア本土の北端、ケープヨークの北にある水路です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "浅い海に多くの島、サンゴ礁、砂州が点在しています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ga.gov.au/bigobj/GA8725.pdf",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.ga.gov.au/scientific-topics/national-location-information/dimensions/continental-extremities",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-strait-10": {
+      "hints": [
+        {
+          "text": "バフィン島とグリーンランド島の間にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "北のバフィン湾と南のラブラドル海を結びます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "カラスガレイが生息・産卵する、北極圏の漁業研究でも知られる海域です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/364416.pdf",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.dfo-mpo.gc.ca/csas-sccs/Publications/SAR-AS/2023/2023_020-eng.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-desert-03": {
+      "hints": [
+        {
+          "text": "中国西部のタリム盆地にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "北に天山山脈、南にクンルン山脈がそびえています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "高い砂丘が広がり、春には砂嵐がたびたび起こります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "周囲の山の雪解け水が、砂漠の縁に扇状地をつくっています。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-taklimakan-desert-a-factory-for-dust-storms-87969/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/alluvial-fan-taklimakan-desert-92924/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-desert-04": {
+      "hints": [
+        {
+          "text": "アフリカ南西部の大西洋岸に沿っています。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "海から来る霧が、砂丘の生き物の大切な水分源になります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古い砂丘の上に新しい砂丘が重なる、大きな砂の海があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1430/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-desert-05": {
+      "hints": [
+        {
+          "text": "アフリカ南部の内陸に広がります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ボツワナ、ナミビア、南アフリカにまたがる砂地の地域です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "平行に並ぶ細長い砂丘の間に、草や低木が生える景観も見られます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://emissivity.jpl.nasa.gov/validation/kalahari-desert",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-desert-06": {
+      "hints": [
+        {
+          "text": "アンデス山脈の西側、南アメリカの西岸にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "チリ北部にあり、雨が非常に少ない地域として知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "山脈が雨雲を遮り、沖合の冷たい海流も乾燥に関係します。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/atacama-greening-144989/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/rare-snowfall-in-the-atacama-desert-154562/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-desert-07": {
+      "hints": [
+        {
+          "text": "オーストラリア大陸南部の内陸にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "風がつくった砂の尾根が続き、塩湖や石の多い平地もあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "砂丘の周りには、ユーカリや草が生える場所もあります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://library.dbca.wa.gov.au/static/FullTextFiles/021926/021926-011.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-desert-08": {
+      "hints": [
+        {
+          "text": "インド北西部とパキスタン東部にまたがります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "西側はインダス川の平原、南側はカッチ湿地に接します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "風で砂丘が移動し、少しずつ形を変えています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.jpl.nasa.gov/images/pia11094-thar-desert/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-desert-09": {
+      "hints": [
+        {
+          "text": "アメリカ合衆国南西部とメキシコ北西部にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "サワロという、腕を伸ばしたような大型のサボテンで知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "夏の季節風の雨と冬の雨が、多様な植物を支えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.nps.gov/orpi/upload/Desert-Ranger-Guide.pdf",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.usgs.gov/geology-and-ecology-of-national-parks/ecology-saguaro-national-park",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-desert-10": {
+      "hints": [
+        {
+          "text": "アラビア半島南部に広がります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "広大な砂丘が切れ目なく続く、世界有数の砂の砂漠です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "「空白地帯」という意味の英語の呼び名でも知られています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/image-article/rub-al-khali-arabia/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/ar-rub-al-khali-sand-sea-arabian-peninsula-50744/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plain-03": {
+      "hints": [
+        {
+          "text": "ヒマラヤ山脈の南、ガンジス川の流域にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "川が運んだ土が厚くたまり、農業に使われる肥沃な平地をつくっています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "季節風の雨が来る前は、砂ぼこりが山脈に遮られてたまりやすくなります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/himalayas-near-and-far-147980/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/dust-and-pollution-rise-before-the-monsoon-51842/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.fao.org/4/a0257e/a0257e02.htm",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plain-04": {
+      "hints": [
+        {
+          "text": "ウラル山脈の東側に広がります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "オビ川やイルティシ川などが流れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "非常に平らで水が流れにくく、湿地や湖が多い地域です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://eol.jsc.nasa.gov/Collections/EarthFromSpace/printinfo.pl?PHOTO=STS068-153-17",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plain-05": {
+      "hints": [
+        {
+          "text": "ヨーロッパ北部を東西に広がります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "オランダ、ドイツ、ポーランドなどへ続く、標高の低い地域です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ライン川・エルベ川・オーデル川・ビスワ川などの河川が流れます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "農業や船による交通が発達してきた、人口の多い地域です。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://education.nationalgeographic.org/resource/europe-physical-geography/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plain-06": {
+      "hints": [
+        {
+          "text": "南アメリカ南東部の、草原の平原です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "アルゼンチン東部・中部などに、肥沃な土地が広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "木の少ない温帯の草原で、牛の放牧などに利用されてきました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_5522",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.fao.org/4/y8344e/y8344e0i.htm",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plain-07": {
+      "hints": [
+        {
+          "text": "オリノコ川の流域に広がる、熱帯の平原です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "コロンビアからベネズエラにかけて広がるサバンナです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "アンデス山脈のふもとから、東の湿地や森林の地域へ続きます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2022.824873/full",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plain-08": {
+      "hints": [
+        {
+          "text": "オーストラリア南部の海岸近くにあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "昔の海底が持ち上がってできた、石灰岩の平原です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海に接する南の端には、バンダ・クリフスという長い断崖が続きます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ga.gov.au/scientific-topics/national-location-information/landforms/australian-landforms-and-their-history",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.parks.sa.gov.au/insider-tips/visiting-nullarbor-and-cliffs",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plain-09": {
+      "hints": [
+        {
+          "text": "中国東北部に広がる平原です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "松花江とその支流が流れ、川が運んだ土でできた平地が広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "東や北東には、長白山地や小興安嶺などの山地があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1016/j.revpalbo.2024.105217",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plain-10": {
+      "hints": [
+        {
+          "text": "カルパティア盆地東部に広がります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ホルトバージという、昔ながらの放牧が続いてきた草原があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "乾いた草原だけでなく、湿地や塩分のある土地も見られます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/474/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://whc.unesco.org/uploads/nominations/474rev.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plateau-03": {
+      "hints": [
+        {
+          "text": "ブラジル東部から中央部に広がる高地です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "アマゾン川より南にあり、低い山々と台地からできています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央部には、セラードと呼ばれる熱帯のサバンナが広がります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://education.nationalgeographic.org/resource/south-america-physical-geography/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.01860",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plateau-04": {
+      "hints": [
+        {
+          "text": "西シベリア平原の東にある、シベリアの高原です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "北西の端には、プトラナという湖や川の多い台地があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "寒冷な地域の針葉樹林が広がり、カラマツの森林も見られます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/org/science/article/pii/S1314694717000458",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/1234/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://ntrs.nasa.gov/api/citations/20110024174/downloads/20110024174.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plateau-05": {
+      "hints": [
+        {
+          "text": "モンゴルと中国北部に広がります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "乾燥や半乾燥の気候で、ステップと呼ばれる草原が広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "二つの国の国境付近には、ゴビ砂漠があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://disasters.nasa.gov/media/3405",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://modis.gsfc.nasa.gov/sci_team/pubs/abstract_new.php?id=63451",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plateau-06": {
+      "hints": [
+        {
+          "text": "アメリカ合衆国南西部の内陸にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "アリゾナ、ユタ、コロラド、ニューメキシコの四つの州に広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "色の違う地層が重なり、川が刻んだ深い峡谷やメサと呼ばれる台地があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "グランドキャニオンのような深い峡谷を含む地域です。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.npshistory.com/publications/hutr/sr-2024-163.pdf",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.nps.gov/grca/learn/nature/grca-geology.htm?simple=True",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plateau-07": {
+      "hints": [
+        {
+          "text": "アンデス山脈の中央部に広がる高原です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "東西の山並みに挟まれ、ペルーやボリビアなどの高地へ続きます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "チチカカ湖やウユニ塩原があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.jpl.nasa.gov/images/pia00133-earth-false-color-mosaic-of-the-andes/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2007-06-23",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plateau-08": {
+      "hints": [
+        {
+          "text": "黄河の中流域にある、黄土に覆われた高原です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "細かく崩れやすい土が侵食され、深い溝や谷が入り組んでいます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ここで削られた黄色がかった土が、黄河の水の色に関係しています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "春に日本へ届く黄砂の発生源の一つとしても研究されています。",
+          "stage": "補助の特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://earthobservatory.nasa.gov/images/148145/building-up-the-yellow-river-",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0341816222003137",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://modarch.gsfc.nasa.gov/sci_team/pubs/abstract_new.php?id=53953",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plateau-09": {
+      "hints": [
+        {
+          "text": "ミャンマー東部を中心に広がります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "山並みに挟まれた盆地には、インレー湖があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "石灰岩など、昔の海に由来する岩石が広く分布しています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arpi.unipi.it/bitstream/11568/974203/8/Re_etal_2018_InleLake_PostPrint_compressed.pdf",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9769474/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plateau-10": {
+      "hints": [
+        {
+          "text": "オーストラリア大陸の北西部にあります。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "古い砂岩などの地層がつくる高原で、川が深い峡谷を刻んでいます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "プリンスリージェント台地などを含む、起伏の多い高地です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.12324",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://library.dbca.wa.gov.au/FullTextFiles/620779.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    }
+  }
+}

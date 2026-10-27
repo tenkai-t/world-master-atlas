@@ -1,0 +1,225 @@
+const fs=require('fs');
+const items=JSON.parse(fs.readFileSync('public/assets/terrain.json','utf8'));
+const baselineIds=["terrain-mountain-01", "terrain-mountain-02", "terrain-mountain-03", "terrain-range-01", "terrain-range-02", "terrain-river-01", "terrain-river-02", "terrain-lake-01", "terrain-lake-02", "terrain-island-01", "terrain-island-02", "terrain-archipelago-01", "terrain-archipelago-02", "terrain-archipelago-03", "terrain-peninsula-01", "terrain-peninsula-02", "terrain-sea-01", "terrain-sea-02", "terrain-bay-01", "terrain-bay-02", "terrain-strait-01", "terrain-strait-02", "terrain-desert-01", "terrain-desert-02", "terrain-plain-01", "terrain-plain-02", "terrain-plateau-01", "terrain-plateau-02"];
+const book=JSON.parse(fs.readFileSync('content/hints/baseline-v1.json','utf8')).terrain;
+const original=Object.fromEntries(baselineIds.map(id=>[id,book[id]]));
+const result={version:1,terrain:JSON.parse(JSON.stringify(original))};
+const checked='2026-10-20';
+function add(id,urls,facts){if(!items.some(q=>q.id===id))throw Error(id);const old=result.terrain[id];const hints=facts.map((f,i)=>({text:typeof f==='string'?f:f[0],stage:['手がかり','特徴','決め手','補助の特徴'][i%4],inClue:Array.isArray(f)?f[1]:false,appearance:false}));result.terrain[id]={hints:[...(old?.hints||[]),...hints].filter((x,i,a)=>a.findIndex(y=>y.text===x.text)===i),sources:[...(old?.sources||[]),...urls.map(url=>({url,checked}))]};}
+add('terrain-mountain-04',['https://www.chamonix.com/la-vallee/patrimoine-culture/patrimoine-naturel-de-la-vallee-de-chamonix-mont-blanc/le-mont-blanc','https://www.lovevda.it/en/out-and-about/great-mountains/mont-blanc'],[
+ ['アルプス山脈にそびえる山です。',true],'アルプス山脈の中で、標高が最も高い山です。','ふもとのシャモニーやクールマイヨールが登山の拠点になります。','1786年に、バルマとパカールが初登頂しました。']);
+add('terrain-mountain-05',['https://whc.unesco.org/en/tentativelists/5535/','https://whc.unesco.org/en/tentativelists/6112'],[
+ ['カラコルム山脈にある山です。',true],'標高は8,611メートルで、エベレストに次ぐ高さです。','パキスタンの中央カラコルム国立公園で紹介される高峰の一つです。']);
+add('terrain-mountain-06',['https://www.larutanatural.gob.ar/en/must-see/58/aconcagua-provincial-park','https://www.argentina.gob.ar/viaja-por-argentina/que-hacer/hacer-trekking-en-la-cumbre-de-america'],[
+ ['南アメリカのアンデス山脈にあります。',true],'南北アメリカで最も標高が高い山です。','アルゼンチンのメンドーサ州にあり、州立公園で保護されています。']);
+add('terrain-mountain-07',['https://www.usgs.gov/geology-and-ecology-of-national-parks/geology-denali-national-park-and-preserve','https://home.nps.gov/dena/planyourvisit/park-brochure.htm'],[
+ ['アラスカの内陸にある山です。',true],'アラスカ山脈の中にあり、大きな氷河に囲まれています。','北アメリカで最も標高が高い山です。']);
+add('terrain-mountain-08',['https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/mount-kosciuszko-summit-walk','https://www.ga.gov.au/scientific-topics/national-location-information/landforms/highest-mountains'],[
+ ['オーストラリア大陸の南東部にある山です。',true],'オーストラリア本土で最も標高が高い山です。','ニューサウスウェールズ州のスノーウィー山地にあります。','山頂付近には、雪解け水が流れる川や高山の湖があります。']);
+add('terrain-range-03',['https://pubs.usgs.gov/publication/70207970','https://pubs.usgs.gov/of//1998/of98-140/'],[
+ ['カナダからアメリカ合衆国へ続く山々です。',true],'東側はグレートプレーンズなどの平原、西側は高原に接します。','山並みの間に、盆地や細長い谷が入り込んでいます。']);
+add('terrain-range-04',['https://www.aboutswitzerland.eda.admin.ch/en/the-alps'],[
+ ['ヨーロッパの複数の国に広がる山々です。',true],'モンブランなど、氷河を抱く高い山があります。','雪解け水は、ライン川・ローヌ川・ポー川などをうるおします。','スイスやオーストリア、フランス、イタリアなどにまたがります。']);
+add('terrain-range-05',['https://science.nasa.gov/earth/earth-observatory/the-ural-mountains-87198/'],[
+ ['ヨーロッパとアジアを分ける目安とされます。',true],'ロシアを南北に約2,500キロメートル連なる山々です。','北のツンドラから、南の森林や半乾燥地帯へ続きます。']);
+add('terrain-range-06',['https://visitmorocco.com/en/see-do/nature/green-destinations-and-mountains','https://www.visitmorocco.com/sites/default/files/atoms/files/maroc_trek_0810_pbi251101-en_2.pdf','https://visitmorocco.com/en/travel/ifrane'],[
+ ['地中海とサハラ砂漠の間の地域にあります。',true],'トゥブカルという、北アフリカで最も標高が高い山があります。','モロッコのイフレン付近には、スギの森林が広がる山地もあります。']);
+add('terrain-range-07',['https://www.usgs.gov/geology-and-ecology-of-national-parks/geology-great-smoky-mountains-national-park','https://pubs.usgs.gov/sim/2830/'],[
+ ['北アメリカの東側に連なる山々です。',true],'グレートスモーキー山脈やブルーリッジを含む山地です。','太古の大陸同士の衝突で隆起し、長い年月をかけて侵食されてきました。']);
+add('terrain-range-08',['https://www.ga.gov.au/scientific-topics/national-location-information/landforms/highest-mountains','https://www.ga.gov.au/education/natural-hazards/flood'],[
+ ['オーストラリア大陸の東側に広がります。',true],'コジオスコ山のあるスノーウィー山地も、その一部です。','東へ海に流れる短い川と、西へ内陸に流れる長い川を分けています。']);
+add('terrain-river-03',['https://en.chinaculture.org/gb/en_travel/2003-09/24/content_34069.htm'],[
+ ['中国を西から東へ流れる川です。',true],'源流はチベット高原のタングラ山脈付近です。','三峡と呼ばれる、険しい峡谷を流れる区間があります。','河口には上海があり、東シナ海へ流れ込みます。']);
+add('terrain-river-04',['https://www.epa.gov/ms-htf/mississippiatchafalaya-river-basin-marb','https://www.dnr.state.mn.us/state-parks/itasca/headwaters.html'],[
+ ['北アメリカの内陸を南へ流れます。',true],'ミネソタ州のイタスカ湖が源流です。','ミズーリ川やオハイオ川が合流する、大きな水系をつくっています。']);
+add('terrain-river-05',['https://www.geol.lsu.edu/WDD/ASIAN/Huanghe/huange_he.htm','https://education.nationalgeographic.org/resource/huang-he-valley/'],[
+ ['長江より北側を流れる川です。',true],'黄土という細かい土を大量に運び、水が黄褐色に見えます。','下流は渤海へ流れ込み、その河口に三角州をつくっています。','流域は、中国の古い文明が育った地域の一つです。']);
+add('terrain-river-06',['https://www.icpdr.org/danube-basin/danube-river-basin-overview-map','https://www.icpdr.org/danube-basin/danube-river-basin'],[
+ ['ヨーロッパを流れ、黒海へ注ぎます。',true],'ドイツの黒い森の地域から、南東へ流れます。','ウィーン、ブラチスラバ、ブダペスト、ベオグラードを通ります。','下流には、アイアンゲートと呼ばれる狭い峡谷があります。']);
+add('terrain-river-07',['https://science.nasa.gov/earth/earth-observatory/kinshasa-and-brazzaville-4329/','https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2024-10-13'],[
+ ['アフリカ中央部を流れ、大西洋へ注ぎます。',true],'赤道を二度横切る、大きな川です。','キンシャサとブラザビルという二つの首都が、川を挟んで向かい合います。']);
+add('terrain-river-08',['https://www.mrcmekong.org/geography/','https://www.mrcmekong.org/geographic-regions/'],[
+ ['東南アジアの複数の国を流れます。',true],'源流は中国のチベット高原で、下流はベトナムの三角州へ続きます。','雨季には、つながるトンレサップ川の流れを逆向きにするほど水が増えます。','中国、ミャンマー、ラオス、タイ、カンボジア、ベトナムをつなぐ水系です。']);
+add('terrain-river-09',['https://science.nasa.gov/earth/earth-observatory/ganges-river-delta-1326/','https://www.jpl.nasa.gov/images/pia11070-ganges-river-delta/'],[
+ ['南アジアを流れ、下流はバングラデシュへ続きます。',true],'ブラマプトラ川などとともに、ベンガル湾に大きな三角州をつくります。','ヒマラヤの雪解け水と、雨季の季節風による雨が流れを支えます。']);
+add('terrain-river-10',['https://www.water.dpie.nsw.gov.au/about-us/learn-about-water/introduction-water/introduction-murray-darling-basin'],[
+ ['オーストラリア大陸の南東部を流れる川です。',true],'オーストラリア・アルプスの西側に源があります。','南オーストラリア州を通り、海へと流れ込みます。']);
+add('terrain-lake-03',['https://www.epa.gov/greatlakes/lake-superior','https://19january2021snapshot.epa.gov/greatlakes/physical-features-great-lakes_.html'],[
+ ['カナダとアメリカ合衆国にまたがる五大湖の一つです。',true],'五大湖の中で、面積も水の量も最も大きい湖です。','大きな淡水の湖で、周囲には森林や岩の多い海岸があります。']);
+add('terrain-lake-04',['https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_Lakes_of_Africa','https://www.fao.org/fishery/static/LTR/GEN.HTM'],[
+ ['東アフリカの南北に長い湖です。',true],'タンザニア、コンゴ民主共和国、ブルンジ、ザンビアにまたがります。','アフリカで最も深く、世界でもバイカル湖に次ぐ深さです。','大地が裂けてできた大地溝帯の湖の一つです。']);
+add('terrain-lake-05',['https://www.ramsar.org/es/node/9042','https://rsis.ramsar.org/RISapp/files/RISrep/PE881RISformer1996_EN.pdf'],[
+ ['ペルーとボリビアにまたがる、アンデスの湖です。',true],'湖面は海抜およそ3,800メートルの高地にあります。','高山にある大きな淡水湖で、周囲では葦のような水草が育ちます。']);
+add('terrain-lake-06',['https://science.nasa.gov/earth/earth-observatory/geneva-switzerland-7258/','https://esrs.jsc.nasa.gov/SearchPhotos/photo.pl?frame=47&mission=NM23&roll=743'],[
+ ['スイスとフランスにまたがる湖です。',true],'三日月のように曲がった形の湖です。','ローヌ川が湖を通り抜け、西の端のジュネーブから流れ出ます。']);
+add('terrain-lake-07',['https://wldb.ilec.or.jp/Display/html/3431','https://www.nasa.gov/image-article/lakes-rivers-have-ice-too/'],[
+ ['カナダの北西部にある湖です。',true],'北極圏の境目にあたる地域に広がっています。','全体がカナダ国内に収まる湖の中で、面積が最も大きい湖です。','寒い季節には、広い湖面が氷に覆われます。']);
+add('terrain-lake-08',['https://whc.unesco.org/en/list/289','https://www.malawinatcom.mw/world-natural-and-cultural-heritage/'],[
+ ['アフリカ南東部にある、南北に長い湖です。',true],'大地溝帯のくぼみに、水がたまってできた深い湖です。','ムブナと呼ばれる魚など、この湖ならではのシクリッドの仲間が多くすみます。']);
+add('terrain-island-03',['https://science.nasa.gov/earth/earth-observatory/fires-on-borneo-and-sumatra/','https://modis.gsfc.nasa.gov/sci_team/pubs/abstract_new.php?id=01317'],[
+ ['インドネシア・マレーシア・ブルネイが位置する島です。',true],'赤道近くにあり、熱帯雨林が広がる大きな島です。','森はオランウータンの生息地として知られています。']);
+add('terrain-island-04',['https://science.nasa.gov/earth/earth-observatory/glaciers-in-the-tropics-but-not-for-long-91716/'],[
+ ['オーストラリア大陸の北側にある島です。',true],'中央部には険しい山々が続き、西部にはスディルマン山脈があります。','赤道近くの熱帯なのに、高山の氷河が研究されてきた島です。']);
+add('terrain-island-05',['https://whc.unesco.org/en/list/1167/','https://www.unesco.org/en/mab/gunung-leuser?hub=66369'],[
+ ['マレー半島の南西側にある、インドネシアの島です。',true],'低地の熱帯雨林から、高い山の森林まで広がっています。','グヌン・ルーセルなど三つの国立公園の森林が、世界遺産に登録されています。','ラフレシアという、大きな花をつける植物の仲間が生育します。']);
+add('terrain-island-06',['https://www.ordnancesurvey.co.uk/blog/whats-the-difference-between-uk-britain-and-british-isles?trk=public_post_comment-text','https://www.visitbritain.org/destinations'],[
+ ['ヨーロッパ大陸の北西にある島です。',true],'イングランド・スコットランド・ウェールズが位置しています。','西にあるアイルランド島とは、別の島です。']);
+add('terrain-island-07',['https://www.visiticeland.com/article/geography-of-iceland_1/','https://www.visiticeland.com/article/volcanos/'],[
+ ['北大西洋にある島です。',true],'北アメリカとユーラシアのプレートが離れる境目にあります。','火山と氷河の両方が、島の地形を形づくっています。']);
+add('terrain-island-08',['https://srilankateaboard.lk/ceylon-tea/why-ceylon-tea/','https://srilanka.travel/scenic-beauty'],[
+ ['インド半島の南東にある島です。',true],'インド洋の熱帯にあり、内陸の高地には茶畑が広がります。','この島でつくられる紅茶は「セイロンティー」として知られています。']);
+add('terrain-archipelago-04',['https://whc.unesco.org/en/list/1/'],[
+ ['南アメリカ大陸の西、太平洋にある島々です。',true],'火山の活動でできた島々で、大陸から離れて独特の生き物が進化しました。','ゾウガメやイグアナ、フィンチの仲間などで知られます。','1835年に訪れたダーウィンの研究に、大きな手がかりを与えました。']);
+add('terrain-archipelago-05',['https://www.spain.info/gcc/en/destinations/canary-islands/','https://www.spain.info/en/region/canary-islands/'],[
+ ['アフリカ北西岸の沖にある、スペインの島々です。',true],'火山の活動でつくられた、大西洋の島々です。','テネリフェ島には、スペインの最高峰テイデ山があります。','ランサローテ島では、ティマンファヤ国立公園の火山景観が見られます。']);
+add('terrain-archipelago-06',['https://www.ordnancesurvey.co.uk/blog/whats-the-difference-between-uk-britain-and-british-isles?trk=public_post_comment-text'],[
+ ['グレートブリテン島とアイルランド島などを含む呼び名です。',true],'一つの国の名前ではなく、島々をまとめた地理的な呼び名です。','イギリスとアイルランド共和国の両方が、この島々に位置します。']);
+add('terrain-archipelago-07',['https://www.newzealand.com/uk/feature/new-zealand-geography-and-geology/','https://www.newzealand.com/nz/south-island/'],[
+ ['南太平洋の北島・南島などからなる島々です。',true],'南島にはサザンアルプスという山地と、氷河があります。','北島と南島では、火山や山岳など異なる景観が見られます。']);
+add('terrain-archipelago-08',['https://science.nasa.gov/earth/earth-observatory/plume-at-mount-bagana-bouganville-island-7566/','https://science.nasa.gov/earth/earth-observatory/young-active-bagana-volcano-149899/'],[
+ ['ニューギニア島の東側に連なる島々です。',true],'地理上は、パプアニューギニアのブーゲンビル島も含みます。','ブーゲンビル島では、バガナ火山などが島の中央の山地にあります。']);
+add('terrain-peninsula-03',['https://science.nasa.gov/earth/earth-observatory/scandinavian-peninsula-in-winter-3239/','https://science.nasa.gov/earth/earth-observatory/scandinavia-and-the-baltic-region-3705/'],[
+ ['ノルウェーやスウェーデンが位置する、北ヨーロッパの半島です。',true],'西の海岸には、氷河が削った深い入り江「フィヨルド」が並びます。','西側のソグネフィヨルドは、深さが1,000メートルを超える入り江です。']);
+add('terrain-peninsula-04',['https://eol.jsc.nasa.gov/Collections/EarthObservatory/articles/CloudsandHazeoverMalayPeninsula.htm','https://science.nasa.gov/earth/earth-observatory/one-night-in-bangkok-148346/'],[
+ ['東南アジアで、南へ細長く延びます。',true],'西のアンダマン海と、東のタイ湾の間を隔てています。','北寄りには、クラ地峡と呼ばれる陸地のくびれがあります。']);
+add('terrain-peninsula-06',['https://science.nasa.gov/earth/earth-observatory/korea-and-the-yellow-sea-79796/','https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2010-04-12'],[
+ ['日本列島と中国大陸の間に延びる半島です。',true],'西に黄海、東に日本海が広がっています。','西側の海には川の土砂が多く運ばれ、東側はより深い海に面します。']);
+add('terrain-peninsula-07',['https://science.nasa.gov/photojournal/colored-height-and-shaded-relief-kamchatka-peninsula/','https://science.nasa.gov/earth/earth-observatory/volcanoes-of-kamchatka-84427/'],[
+ ['アジア北東部で、太平洋側へ延びています。',true],'西にオホーツク海、東にベーリング海と太平洋が広がります。','環太平洋の火山帯にあり、火山が多く並んでいます。']);
+add('terrain-peninsula-08',['https://science.nasa.gov/earth/earth-observatory/sediment-swirls-off-the-yucatan-149114/','https://science.nasa.gov/photojournal/shaded-relief-with-height-as-color-yucatan-peninsula-mexico/'],[
+ ['メキシコ湾とカリブ海の間にあります。',true],'石灰岩が広く覆う、起伏の小さい土地です。','北側には、巨大な隕石の衝突でできたチクシュルーブの跡があります。']);
+add('terrain-peninsula-05',['https://www.dgt.uns.ac.rs/dokumentacija/zbornik/50-2/en/01en.pdf','https://education.nationalgeographic.org/resource/europe-physical-geography/'],[
+ ['ヨーロッパ南東部にある半島です。',true],'西はアドリア海、南はイオニア海やエーゲ海に面しています。','北東側には黒海があり、内部には山地が多く広がります。']);
+add('terrain-sea-03',['https://airsea.jpl.nasa.gov/science/monsoon.html','https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2026-05-05'],[
+ 'フィリピンの島々の西、中国大陸やベトナムの沖に広がります。','冬は北東から吹く季節風の影響を強く受けます。','ルソン島の西側にあり、その東側のフィリピン海とは別の海です。']);
+add('terrain-sea-04',['https://science.nasa.gov/earth/earth-observatory/a-cloud-and-ice-factory-91498/','https://science.nasa.gov/earth/earth-observatory/shiretoko-peninsula-8893/'],[
+ ['北海道の北東にあり、サハリンやカムチャツカ半島に囲まれています。',true],'シベリアからの冷たい風と、アムール川の淡水が海氷のできやすさに関係します。','冬にできる海氷は、北海道の知床などへ流氷として運ばれます。']);
+add('terrain-sea-05',['https://asterweb.jpl.nasa.gov/gallery-detail.asp?name=strait'],[
+ ['アフリカ北東部とアラビア半島の間の、細長い海です。',true],'北側はスエズ運河を通して、地中海へつながります。','南側はバベルマンデブ海峡を通して、アデン湾へつながります。']);
+add('terrain-sea-06',['https://science.nasa.gov/earth/earth-observatory/bosporus-strait-and-istanbul-turkey-2384/','https://www.icpdr.org/danube-basin/danube-river-basin-overview-map'],[
+ ['ヨーロッパ南東部とアナトリアの間にあります。',true],'ボスポラス海峡を通して、マルマラ海へつながっています。','ヨーロッパを流れるドナウ川が、三角州をつくって注いでいます。']);
+add('terrain-sea-07',['https://science.nasa.gov/earth/earth-observatory/shades-of-green-in-the-north-sea-76318/','https://www.nasa.gov/image-article/spring-color-north-sea/'],[
+ ['グレートブリテン島とヨーロッパ大陸の間にあります。',true],'比較的浅く、風や潮の流れで海底の土砂が巻き上がりやすい海です。','春から初夏には、栄養の豊かな水で植物プランクトンが増えます。']);
+add('terrain-sea-08',['https://science.nasa.gov/earth/earth-observatory/panama-canal-2932/'],[
+ ['中央アメリカと南アメリカ北岸、アンティル諸島の間にあります。',true],'南西側には、太平洋につながるパナマ運河の入口があります。','パナマ運河に面するコロンの港は、この海の側にあります。']);
+add('terrain-sea-09',['https://science.nasa.gov/earth/earth-observatory/asian-monsoon-strengthens-over-arabian-sea-6308/','https://science.nasa.gov/earth/earth-observatory/phytoplankton-bloom-in-the-arabian-sea-43050/'],[
+ ['アラビア半島とインド半島の間にあります。',true],'季節によって、北東または南西から吹く季節風が優勢になります。','季節風が海水を動かし、植物プランクトンの増え方にも影響します。']);
+add('terrain-sea-10',['https://atlas.parksaustralia.gov.au/amps/science-in-management/index.html','https://www.gbrmpa.gov.au/learn/world-heritage-area'],[
+ ['オーストラリア大陸の北東に広がります。',true],'西寄りには、グレートバリアリーフの大きなサンゴ礁があります。','沖合にもサンゴ礁が点在し、オーストラリアの海洋公園で保護されています。']);
+add('terrain-bay-03',['https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2016-09-29','https://science.nasa.gov/earth/earth-observatory/qeshm-island-iran-7460/'],[
+ ['アラビア半島とイランの間にあります。',true],'比較的浅い海で、東のホルムズ海峡が外海への出入口です。','ホルムズ海峡の先はオマーン湾へ続き、多くの石油を運ぶ船が通ります。']);
+add('terrain-bay-04',['https://science.nasa.gov/earth/earth-observatory/hudson-bays-nastapoka-arc-150665/','https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2019-12-20'],[
+ ['カナダ北東部に深く入り込んでいます。',true],'南の奥には、さらに細長いジェームズ湾があります。','寒い季節には、湾の広い範囲が海氷に覆われます。']);
+add('terrain-bay-05',['https://www.giss.nasa.gov/research/briefs/2014_druyan_11/'],[
+ ['西アフリカから中央アフリカの海岸に面しています。',true],'赤道近くの大西洋東部にある湾です。','赤道の少し南で、海面水温の低い「冷水舌」が季節的に現れます。','海水の温度は、西アフリカの雨季にも関係しています。']);
+add('terrain-bay-06',['https://oceandata.sci.gsfc.nasa.gov/gallery/486/','https://www.nasa.gov/image-article/retreat-of-yakutat-glacier/'],[
+ ['アラスカの南岸に面する、北太平洋の湾です。',true],'沿岸の氷河の雪解け水が、細かい岩の粉を海へ運び込みます。','氷河から運ばれた鉄分は、沖合の植物プランクトンの栄養になります。']);
+add('terrain-bay-07',['https://science.nasa.gov/earth/earth-observatory/sculpting-the-pyrenees-144995/'],[
+ ['フランス西岸とスペイン北岸の間にあります。',true],'大西洋側にあり、地中海とは別の水域です。','フランスとスペインの間を走るピレネー山脈の、西の端に接しています。']);
+add('terrain-bay-08',['https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2025-12-24','https://science.nasa.gov/earth/earth-observatory/flooding-in-thailand-and-cambodia-76110/'],[
+ ['インドシナ半島南部とマレー半島の間にあります。',true],'南シナ海の一部で、カンボジアやベトナムの沿岸にも接しています。','バンコクを流れるチャオプラヤ川が、北の奥へ注ぎます。']);
+add('terrain-bay-09',['https://asterweb.jpl.nasa.gov/gallery-detail.asp?name=strait','https://science.nasa.gov/earth/earth-observatory/bloom-in-the-gulf-of-aden-91937/'],[
+ ['アラビア半島南岸とアフリカの角の間にあります。',true],'イエメンとソマリアの沿岸に挟まれた水域です。','西側はバベルマンデブ海峡を通して、紅海へつながります。','沿岸では季節ごとに植物プランクトンの大きな増殖が見られます。']);
+add('terrain-bay-10',['https://www.ga.gov.au/scientific-topics/national-location-information/dimensions/continental-extremities','https://www.ga.gov.au/image_cache/GA8723.pdf'],[
+ ['オーストラリア大陸の北部に入り込んでいます。',true],'東側にケープヨーク半島があり、珊瑚海とはその半島で隔てられます。','熱帯の浅い大陸棚が広がり、海底のサンゴ礁も調べられています。']);
+add('terrain-strait-03',['https://egusphere.copernicus.org/preprints/2026/egusphere-2025-6501/egusphere-2025-6501.pdf'],[
+ ['台湾島と中国大陸の間にあります。',true],'北の東シナ海と南の南シナ海を結ぶ水路です。','島と大陸の間の浅い海で、海流や潮の流れが強い場所です。']);
+add('terrain-strait-04',['https://www1.kaiho.mlit.go.jp/KAN1/soudan/kaikyo.html','https://www.jrhokkaido.co.jp/network/seikan/02.html'],[
+ ['北海道と本州を隔てています。',true],'西の日本海と、東の太平洋を結びます。','海底の下を青函トンネルが通っています。']);
+add('terrain-strait-05',['https://www1.kaiho.mlit.go.jp/shoshi/tsuiho/pdf/104/104-2019-02.pdf'],[
+ ['北海道とサハリンを隔てています。',true],'日本海とオホーツク海を結ぶ、北方の水路です。','夏は海霧が発生しやすく、とくに北側で濃くなる傾向があります。']);
+add('terrain-strait-06',['https://www1.kaiho.mlit.go.jp/KAN8/sv/teach/kaisyo/stream4.html','https://www1.kaiho.mlit.go.jp/kenkyu/report/rhr28/rhr28.pdf'],[
+ ['九州と朝鮮半島の間にあります。',true],'東シナ海から、日本海へ暖かい海水が流れ込む入口です。','途中の島を挟んで、韓国側の西水道と日本側の東水道に分かれます。']);
+add('terrain-strait-07',['https://parks.tas.gov.au/Documents/bassstraitpdf.pdf','https://www.infrastructure.gov.au/infrastructure-transport-vehicles/maritime/bass-strait-passenger-vehicle-equalisation-scheme'],[
+ ['オーストラリア大陸とタスマニア島の間にあります。',true],'西側にキング島、東側にフリンダーズ島のある島々が点在します。','大陸とタスマニア島の間を、車も運べる船が渡っています。']);
+add('terrain-strait-08',['https://www.linz.govt.nz/our-work/new-zealand-geographic-board/place-name-stories/place-names-cooks-voyages/cook-strait','https://www.newzealand.com/nz/plan/business/interislander-cook-strait-ferry-picton-to-wellington/'],[
+ ['ニュージーランドの北島と南島の間にあります。',true],'西のタスマン海と、東の太平洋を結びます。','ウェリントンとピクトンを結ぶフェリーが渡っています。']);
+add('terrain-strait-09',['https://www.ga.gov.au/bigobj/GA8725.pdf','https://www.ga.gov.au/scientific-topics/national-location-information/dimensions/continental-extremities'],[
+ ['オーストラリア大陸とニューギニア島の間にあります。',true],'オーストラリア本土の北端、ケープヨークの北にある水路です。','浅い海に多くの島、サンゴ礁、砂州が点在しています。']);
+add('terrain-strait-10',['https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/364416.pdf'],[
+ ['バフィン島とグリーンランド島の間にあります。',true],'北のバフィン湾と南のラブラドル海を結びます。','北極海側の海と、大西洋側の海のつながりを考える手がかりになる水路です。']);
+add('terrain-desert-03',['https://science.nasa.gov/earth/earth-observatory/the-taklimakan-desert-a-factory-for-dust-storms-87969/','https://science.nasa.gov/earth/earth-observatory/alluvial-fan-taklimakan-desert-92924/'],[
+ ['中国西部のタリム盆地にあります。',true],'北に天山山脈、南にクンルン山脈がそびえています。','高い砂丘が広がり、春には砂嵐がたびたび起こります。','周囲の山の雪解け水が、砂漠の縁に扇状地をつくっています。']);
+add('terrain-desert-04',['https://whc.unesco.org/en/list/1430/'],[
+ ['アフリカ南西部の大西洋岸に沿っています。',true],'海から来る霧が、砂丘の生き物の大切な水分源になります。','古い砂丘の上に新しい砂丘が重なる、大きな砂の海があります。']);
+add('terrain-desert-05',['https://emissivity.jpl.nasa.gov/validation/kalahari-desert'],[
+ ['アフリカ南部の内陸に広がります。',true],'ボツワナ、ナミビア、南アフリカにまたがる砂地の地域です。','平行に並ぶ細長い砂丘の間に、草や低木が生える景観も見られます。']);
+add('terrain-desert-06',['https://science.nasa.gov/earth/earth-observatory/atacama-greening-144989/','https://science.nasa.gov/earth/earth-observatory/rare-snowfall-in-the-atacama-desert-154562/'],[
+ ['アンデス山脈の西側、南アメリカの西岸にあります。',true],'チリ北部にあり、雨が非常に少ない地域として知られます。','山脈が雨雲を遮り、沖合の冷たい海流も乾燥に関係します。']);
+add('terrain-desert-07',['https://library.dbca.wa.gov.au/static/FullTextFiles/021926/021926-011.pdf'],[
+ ['オーストラリア大陸南部の内陸にあります。',true],'風がつくった砂の尾根が続き、塩湖や石の多い平地もあります。','砂丘の周りには、ユーカリや草が生える場所もあります。']);
+add('terrain-desert-08',['https://www.jpl.nasa.gov/images/pia11094-thar-desert/'],[
+ ['インド北西部とパキスタン東部にまたがります。',true],'西側はインダス川の平原、南側はカッチ湿地に接します。','風で砂丘が移動し、少しずつ形を変えています。']);
+add('terrain-desert-09',['https://www.nps.gov/orpi/upload/Desert-Ranger-Guide.pdf','https://www.usgs.gov/geology-and-ecology-of-national-parks/ecology-saguaro-national-park'],[
+ ['アメリカ合衆国南西部とメキシコ北西部にあります。',true],'サワロという、腕を伸ばしたような大型のサボテンで知られます。','夏の季節風の雨と冬の雨が、多様な植物を支えます。']);
+add('terrain-desert-10',['https://www.nasa.gov/image-article/rub-al-khali-arabia/','https://science.nasa.gov/earth/earth-observatory/ar-rub-al-khali-sand-sea-arabian-peninsula-50744/'],[
+ ['アラビア半島南部に広がります。',true],'広大な砂丘が切れ目なく続く、世界有数の砂の砂漠です。','「空白地帯」という意味の英語の呼び名でも知られています。']);
+add('terrain-plain-03',['https://science.nasa.gov/earth/earth-observatory/himalayas-near-and-far-147980/','https://science.nasa.gov/earth/earth-observatory/dust-and-pollution-rise-before-the-monsoon-51842/'],[
+ ['ヒマラヤ山脈の南、ガンジス川の流域にあります。',true],'北の高い山々の手前に広がる、低く平らな地域です。','季節風の雨が来る前は、砂ぼこりが山脈に遮られてたまりやすくなります。']);
+add('terrain-plain-04',['https://eol.jsc.nasa.gov/Collections/EarthFromSpace/printinfo.pl?PHOTO=STS068-153-17'],[
+ ['ウラル山脈の東側に広がります。',true],'オビ川やイルティシ川などが流れます。','非常に平らで水が流れにくく、湿地や湖が多い地域です。']);
+add('terrain-plain-05',['https://education.nationalgeographic.org/resource/europe-physical-geography/'],[
+ ['ヨーロッパ北部を東西に広がります。',true],'オランダ、ドイツ、ポーランドなどへ続く、標高の低い地域です。','ライン川・エルベ川・オーデル川・ビスワ川などの河川が流れます。','農業や船による交通が発達してきた、人口の多い地域です。']);
+add('terrain-plain-06',['https://agrovoc.fao.org/browse/agrovoc/en/page/c_5522','https://www.fao.org/4/y8344e/y8344e0i.htm'],[
+ ['南アメリカ南東部の、草原の平原です。',true],'アルゼンチン東部・中部などに、肥沃な土地が広がります。','木の少ない温帯の草原で、牛の放牧などに利用されてきました。']);
+add('terrain-plain-07',['https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2022.824873/full'],[
+ ['オリノコ川の流域に広がる、熱帯の平原です。',true],'コロンビアからベネズエラにかけて広がるサバンナです。','アンデス山脈のふもとから、東の湿地や森林の地域へ続きます。']);
+add('terrain-plain-08',['https://www.ga.gov.au/scientific-topics/national-location-information/landforms/australian-landforms-and-their-history'],[
+ ['オーストラリア南部の海岸近くにあります。',true],'昔の海底が持ち上がってできた、石灰岩の平原です。','地面の石灰岩は、中新世と呼ばれる時代の海でできました。']);
+add('terrain-plain-09',['https://doi.org/10.1016/j.revpalbo.2024.105217'],[
+ ['中国東北部に広がる平原です。',true],'松花江とその支流が流れ、川が運んだ土でできた平地が広がります。','東や北東には、長白山地や小興安嶺などの山地があります。']);
+add('terrain-plain-10',['https://whc.unesco.org/en/list/474/','https://whc.unesco.org/uploads/nominations/474rev.pdf'],[
+ ['カルパティア盆地東部に広がります。',true],'ホルトバージという、昔ながらの放牧が続いてきた草原があります。','乾いた草原だけでなく、湿地や塩分のある土地も見られます。']);
+add('terrain-plateau-03',['https://education.nationalgeographic.org/resource/south-america-physical-geography/','https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.01860'],[
+ ['ブラジル東部から中央部に広がる高地です。',true],'アマゾン川より南にあり、低い山々と台地からできています。','中央部には、セラードと呼ばれる熱帯のサバンナが広がります。']);
+add('terrain-plateau-04',['https://www.sciencedirect.com/org/science/article/pii/S1314694717000458','https://whc.unesco.org/en/list/1234/','https://ntrs.nasa.gov/api/citations/20110024174/downloads/20110024174.pdf'],[
+ ['西シベリア平原の東にある、シベリアの高原です。',true],'北西の端には、プトラナという湖や川の多い台地があります。','寒冷な地域の針葉樹林が広がり、カラマツの森林も見られます。']);
+add('terrain-plateau-05',['https://disasters.nasa.gov/media/3405','https://modis.gsfc.nasa.gov/sci_team/pubs/abstract_new.php?id=63451'],[
+ ['モンゴルと中国北部に広がります。',true],'乾燥や半乾燥の気候で、ステップと呼ばれる草原が広がります。','二つの国の国境付近には、ゴビ砂漠があります。']);
+add('terrain-plateau-06',['https://www.npshistory.com/publications/hutr/sr-2024-163.pdf','https://www.nps.gov/grca/learn/nature/grca-geology.htm?simple=True'],[
+ ['アメリカ合衆国南西部の内陸にあります。',true],'アリゾナ、ユタ、コロラド、ニューメキシコの四つの州に広がります。','色の違う地層が重なり、川が刻んだ深い峡谷やメサと呼ばれる台地があります。','グランドキャニオンのような深い峡谷を含む地域です。']);
+add('terrain-plateau-07',['https://www.jpl.nasa.gov/images/pia00133-earth-false-color-mosaic-of-the-andes/','https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2007-06-23'],[
+ ['アンデス山脈の中央部に広がる高原です。',true],'東西の山並みに挟まれ、ペルーやボリビアなどの高地へ続きます。','チチカカ湖やウユニ塩原があります。']);
+add('terrain-plateau-08',['https://earthobservatory.nasa.gov/images/148145/building-up-the-yellow-river-','https://www.sciencedirect.com/science/article/abs/pii/S0341816222003137','https://modarch.gsfc.nasa.gov/sci_team/pubs/abstract_new.php?id=53953'],[
+ ['黄河の中流域にある、黄土に覆われた高原です。',true],'細かく崩れやすい土が侵食され、深い溝や谷が入り組んでいます。','ここで削られた黄色がかった土が、黄河の水の色に関係しています。','春に日本へ届く黄砂の発生源の一つとしても研究されています。']);
+add('terrain-plateau-09',['https://arpi.unipi.it/bitstream/11568/974203/8/Re_etal_2018_InleLake_PostPrint_compressed.pdf','https://pmc.ncbi.nlm.nih.gov/articles/PMC9769474/'],[
+ ['ミャンマー東部を中心に広がります。',true],'山並みに挟まれた盆地には、インレー湖があります。','石灰岩など、昔の海に由来する岩石が広く分布しています。']);
+add('terrain-plateau-10',['https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.12324','https://library.dbca.wa.gov.au/FullTextFiles/620779.pdf'],[
+ ['オーストラリア大陸の北西部にあります。',true],'古い砂岩などの地層がつくる高原で、川が深い峡谷を刻んでいます。','プリンスリージェント台地などを含む、起伏の多い高地です。']);
+// Replace redundant variants with independently supported, distinguishing facts.
+result.terrain['terrain-plain-03'].sources.push({url:'https://www.fao.org/4/a0257e/a0257e02.htm',checked});
+result.terrain['terrain-plain-03'].hints[1].text='川が運んだ土が厚くたまり、農業に使われる肥沃な平地をつくっています。';
+result.terrain['terrain-plain-08'].sources.push({url:'https://www.parks.sa.gov.au/insider-tips/visiting-nullarbor-and-cliffs',checked});
+result.terrain['terrain-plain-08'].hints[2].text='海に接する南の端には、バンダ・クリフスという長い断崖が続きます。';
+result.terrain['terrain-strait-10'].hints[2].text='カラスガレイが生息・産卵する、北極圏の漁業研究でも知られる海域です。';
+result.terrain['terrain-strait-10'].sources.push({url:'https://www.dfo-mpo.gc.ca/csas-sccs/Publications/SAR-AS/2023/2023_020-eng.pdf',checked});
+
+// Additional independent facts for introductory clue questions: keep inClue tags intact.
+add('terrain-range-01',['https://science.nasa.gov/earth/earth-observatory/the-eight-thousanders/'],['インド側とユーラシア側の大陸が衝突し、地面が押し上げられてできた山々です。']);
+add('terrain-range-02',['https://science.nasa.gov/photojournal/anaglyph-south-america/'],['主に海側のナスカプレートが南アメリカ側に沈み込む運動で、山々がつくられてきました。']);
+add('terrain-river-01',['https://www.nasa.gov/image-article/khartoum-capital-of-sudan/'],['スーダンのハルツームで、二つの大きな流れが合流します。']);
+add('terrain-river-02',['https://science.nasa.gov/earth/earth-observatory/solimaes-negro-river-confluence-at-manaus-amazonia-5254/'],['ブラジルのマナウス付近で、泥色のソリモンエス川と黒っぽいネグロ川が合流します。']);
+add('terrain-island-02',['https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2020-04-11'],['アフリカ大陸との間に、モザンビーク海峡があります。']);
+add('terrain-peninsula-01',['https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2017-05-27'],['南側にはイエメンやオマーン、東側にはアラブ首長国連邦があります。']);
+add('terrain-peninsula-02',['https://science.nasa.gov/earth/earth-observatory/clear-skies-over-the-iberian-peninsula-83321/'],['北東側のピレネー山脈が、フランスとの境の大部分をつくっています。']);
+add('terrain-sea-01',['https://www.data.jma.go.jp/kaiyou/data/db/maizuru/knowledge/tsushima_current.html'],['南の海峡から対馬暖流が入り、津軽海峡や宗谷海峡から流れ出します。']);
+add('terrain-sea-02',['https://www.data.jma.go.jp/kaiyou/data/db/maizuru/knowledge/tsushima_current.html'],['大陸棚の縁付近を、黒潮と呼ばれる暖かい海流が流れています。']);
+add('terrain-bay-02',['https://coastalscience.noaa.gov/news/west-florida-shelf-and-dry-tortugas-impact-gulf-of-mexico-loop-current/'],['湾内には、ループ・カレントと呼ばれる暖かい海流が流れます。']);
+add('terrain-strait-01',['https://oceandata.sci.gsfc.nasa.gov/gallery/503/'],['表面では大西洋の水が地中海へ、深い所では地中海の水が大西洋へ流れます。']);
+add('terrain-plain-02',['https://www.fao.org/4/ag120e/AG120E21.htm'],['冬に小麦、夏にトウモロコシを育てる輪作が行われる、重要な農業地帯です。']);
+add('terrain-plateau-01',['https://science.nasa.gov/earth/earth-observatory/lighting-the-edge-of-the-roof-147622/'],['平均の標高がおよそ4,500メートルもある、非常に高い土地です。']);
+// Improve two overly broad/duplicative formulations during the editorial content pass.
+result.terrain['terrain-archipelago-07'].hints[2].text='北島の中央部には、活火山や温泉のある火山性の台地が広がります。';
+result.terrain['terrain-sea-08'].hints[2].text='中央アメリカのベリーズ沿岸には、大きなサンゴ礁が続いています。';
+result.terrain['terrain-sea-08'].sources.push({url:'https://whc.unesco.org/en/list/764/',checked});
+result.terrain['terrain-river-05'].sources.push({url:'https://earthobservatory.nasa.gov/images/148145/building-up-the-yellow-river-',checked});
+result.terrain['terrain-lake-03'].sources.push({url:'https://www.epa.gov/system/files/documents/2025-03/p1004icu.pdf',checked});
+for(const [id,record] of Object.entries(result.terrain)){
+ const q=items.find(q=>q.id===id);if(!q)throw Error(id);
+ for(const h of record.hints){if(h.text.length<6||h.text.length>110)throw Error(id+': length '+h.text.length);if(q.aliases.some(a=>a.length>1&&h.text.includes(a)))console.warn('Name overlap needs filtering:',id,h.text)}
+ record.sources=record.sources.filter((s,i,a)=>a.findIndex(x=>x.url===s.url)===i);
+}
+const missing=items.filter(q=>!result.terrain[q.id]).map(q=>({id:q.id,name:q.name}));
+fs.writeFileSync('content/hints/hints-terrain.json',JSON.stringify(result,null,2)+'\n');
+fs.writeFileSync('scripts/hints-terrain-review.json',JSON.stringify({checked,total:items.length,records:Object.keys(result.terrain).length,retained:Object.keys(original).length,newRecords:Object.keys(result.terrain).length-Object.keys(original).length,missing,method:'既存の28対象の個別編集ヒントを保持し、追加の90対象を項目別に調査。新規事実は実際に取得できた検索本文・公式説明・原論文を照合して短く要約。問題文と同じ位置情報はinClue=trueとし、新しい特徴と区別。全対象の出典・名称・文字数を検査。URLの検索本文は取得できても直接閲覧が403になる資料がある。実画面の形式別フィルター検証は親担当。',reviewNotes:['資料によって数値が異なる山の標高は、K2の8611m以外は数値を省略。','デナリの名称を別名で変更せず、山の位置・地形のみ出題用に追加。','クック海峡の資料はLINZの検索本文を確認（直接ページは403）；別途政府観光局の航路案内を確認。','高原・半島の一部の出典は原論文・学術誌の検索本文で照合。','位置を繰り返しただけになるヒントはinClueに設定。地形Clueでは除外して用いる。','2つの新規特徴を用意できない対象は、表示時の有効数で正確に集計すること。']},null,2)+'\n');
+console.log(JSON.stringify({records:Object.keys(result.terrain).length,newRecords:Object.keys(result.terrain).length-Object.keys(original).length,missing}));

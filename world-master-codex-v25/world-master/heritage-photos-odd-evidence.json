@@ -1,0 +1,54 @@
+{
+  "checked": "2026-10-17",
+  "accepted": 41,
+  "excluded": [],
+  "notes": "Commons imageinfo extmetadata reviewed; verified against UNESCO registry and official component references; contact sheet visually reviewed. Photographs are real registered-site views; no AI/replicas. No existing photo records modified.",
+  "resumedAccepted": [
+    "wh-159",
+    "wh-171",
+    "wh-663",
+    "wh-1133"
+  ],
+  "resumedEvidence": [
+    {
+      "id": "wh-159",
+      "evidence": {
+        "unescoPage": "https://whc.unesco.org/en/list/159/",
+        "componentSource": "https://whc.unesco.org/en/list/159/",
+        "imageSource": "https://commons.wikimedia.org/wiki/File:Pteroglossus-torquatus-001.jpg",
+        "correspondence": "撮影者自身の説明に2008年2月、Parque Nacional Darién, Panamaと明記。公園内の野鳥の実写であり、景観写真や生息域からの推定ではない。",
+        "visualReview": "実画像を目視確認。登録対象の実写と整合し、図・複製品・無関係な近隣景観ではない。"
+      }
+    },
+    {
+      "id": "wh-171",
+      "evidence": {
+        "unescoPage": "https://whc.unesco.org/en/list/171/",
+        "componentSource": "https://whc.unesco.org/en/list/171/",
+        "imageSource": "https://commons.wikimedia.org/wiki/File:Alamgiri_Gate_Lahore_Fort_1.jpg",
+        "correspondence": "Commonsの撮影対象はAlamgiri Gate Lahore Fort。登録資産のラホール城塞の門であり、付近のバードシャーヒー・モスクではない。",
+        "visualReview": "実画像を目視確認。登録対象の実写と整合し、図・複製品・無関係な近隣景観ではない。"
+      }
+    },
+    {
+      "id": "wh-663",
+      "evidence": {
+        "unescoPage": "https://whc.unesco.org/en/list/663/",
+        "componentSource": "https://common3.pref.akita.lg.jp/shirakami/locations/248",
+        "imageSource": "https://commons.wikimedia.org/wiki/File:Sirakami_santi.JPG",
+        "correspondence": "撮影者の説明は二ツ森より望む白神山地。撮影地点40.435592,140.116539、北西向き。秋田県の案内が二ツ森から核心地域の原生ブナ林を見下ろすと説明する景観と対応。岳岱の林や地形図、地名入り画像は不採用。",
+        "visualReview": "実画像を目視確認。登録対象の実写と整合し、図・複製品・無関係な近隣景観ではない。"
+      }
+    },
+    {
+      "id": "wh-1133",
+      "evidence": {
+        "unescoPage": "https://whc.unesco.org/en/list/1133/",
+        "componentSource": "https://whc.unesco.org/en/list/1133/maps/",
+        "imageSource": "https://commons.wikimedia.org/wiki/File:Primeval_forest_Have%C5%A1ov%C3%A1.jpg",
+        "correspondence": "写真の撮影対象はHavešová原生林。UNESCO構成資産一覧の1133quinquies-089 Havešová Primeval Forest (Poloniny)と一致。ハイニヒの遊歩道写真は不採用。",
+        "visualReview": "実画像を目視確認。登録対象の実写と整合し、図・複製品・無関係な近隣景観ではない。"
+      }
+    }
+  ]
+}

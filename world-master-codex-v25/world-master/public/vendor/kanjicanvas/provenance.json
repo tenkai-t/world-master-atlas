@@ -1,0 +1,28 @@
+{
+  "checked": "2026-10-20",
+  "source": "https://github.com/asdfjkl/kanjicanvas",
+  "copyright": "2019–2024 Dominik Klein / 2020 Seth Clydesdale",
+  "license": "MIT-style, attribution and backlink required; see /licenses/KanjiCanvas-LICENSE.txt",
+  "changes": "Upstream engine and reference patterns unchanged. Custom local Worker transport and UI integration added. Reference patterns are not filtered by current question or its answer.",
+  "files": {
+    "kanji-canvas.js": {
+      "bytes": 34161,
+      "sha256": "05cb3359ad61d7478f1d67046fbbb8455d9eff1f86a496fda3b8533bf3d555ca"
+    },
+    "ref-patterns.js": {
+      "bytes": 6705472,
+      "sha256": "e1770a3f32ce18cc1c0eff67c539e663a3e2b0437172bde66abc3336aedf06c7"
+    },
+    "worker.js": {
+      "bytes": 745,
+      "sha256": "6d03dc73fd30a8b3104b6d68d03742e79e8db75e67563f7afed16dfba513f673"
+    },
+    "kanji-engine.js": {
+      "bytes": 1606,
+      "sha256": "12bffc547db5b2fb4f3153f627cded62d03d1fc984b2e65bc8b9cd8c3c450cfb"
+    }
+  },
+  "testFixture": "Tomoe recorded stroke data selected under LGPL-2.1; source/licence in test-fixtures/handwriting. Not added to application reference patterns.",
+  "kanjiCount": 2213,
+  "supportedCharacters": "supported-characters.txt"
+}

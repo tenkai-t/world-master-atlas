@@ -1,0 +1,19 @@
+{
+  "checked": "2026-10-20",
+  "assigned": 103,
+  "covered": 103,
+  "candidates": 318,
+  "secondaryOnly": 80,
+  "contentReview": "103対象について各都市の地理・沿革の個別ページを照合。固有の川・湖・島・山地・建造物・成立史を短く編集。既存ヒント3対象を保持。",
+  "limitations": [
+    "二次資料のみの対象は secondaryOnly で区別。全件を一次資料だけで確認したものではありません。",
+    "実画面と問題文による最終フィルター後のヒント数・有用性は統合側で確認が必要です。",
+    "更新され得る政治情勢や人口順位は新しいヒントに用いていません。"
+  ],
+  "failures": [],
+  "preserved": [
+    "cap-ru-moscow",
+    "cap-th-bangkok",
+    "cap-us-washington-d-c"
+  ]
+}

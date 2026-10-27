@@ -1,0 +1,2995 @@
+{
+  "version": 1,
+  "capital": {
+    "cap-ad-andorra-la-vella": {
+      "hints": [
+        {
+          "text": "ピレネー山脈の谷間にある都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "バリラ川の中央の谷に位置します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "旧市街には、かつて議会に使われたカサ・デ・ラ・バルがあります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.turismeandorralavella.com/wp-content/uploads/2018/05/Guia-general-210x180_ENG_canvi-portades_b.pdf",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ae-abu-dhabi": {
+      "hints": [
+        {
+          "text": "ペルシャ湾に面した島から発展した都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "真珠採りや漁業の集落から発展した歴史があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "カスル・アル・ホスンという歴史的な城塞があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://abudhabiculture.ae/en/cultural-sites/historic-buildings-and-cultural-landscapes/qasr-al-hosn",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.moec.gov.ae/en/web/guest/-/qasr-al-hosn?delta=8&start=2",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-af-kabul": {
+      "hints": [
+        {
+          "text": "ヒンドゥークシュ山脈の南側の山間盆地にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "盆地は海抜約1800メートルで、西から東へ川が流れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央アジアとインド方面を結ぶ山越えの道の要地でした。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.iranicaonline.org/articles/kabul-ii-historical-geography/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ag-saint-john-s": {
+      "hints": [
+        {
+          "text": "カリブ海の島にある、船が集まる港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "港の入口にフォート・ジェームズという砦があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大聖堂の塔や、レッドクリフ・キーの歴史的な建物が目印です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.visitantiguabarbuda.com/wp-content/uploads/ANU-2020-ITA-ING.pdf",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.visitantiguabarbuda.com/culinary/beachlimerz/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-al-tirana": {
+      "hints": [
+        {
+          "text": "アドリア海岸から内陸へ入った、ダイティ山に近い都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中心部にスカンデルベグ広場があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "広場のそばには1822年に造られた時計塔があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://akt.gov.al/en/cities/tirane/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://akt.gov.al/en/itineraries/1-day-tour-in-Tirana/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-am-yerevan": {
+      "hints": [
+        {
+          "text": "ピンク色の凝灰岩を使った建物で知られる都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "フラズダン川の谷には、赤い石で造られた橋があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "紀元前782年に造られたエレブニの城塞が、都市の歴史につながります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://armenia.travel/places-to-go/yerevan/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.visityerevan.am/places/details/294/en/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.yerevan.am/en/tourism/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ao-luanda": {
+      "hints": [
+        {
+          "text": "アフリカ南西部の大西洋岸にある港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "細長い砂の陸地に守られた湾があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "湾に面した高台にはサン・ミゲルの砦があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Loanda",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.encyclopedia.com/places/africa/angolan-political-geography/luanda",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ar-buenos-aires": {
+      "hints": [
+        {
+          "text": "ラプラタ川に面し、タンゴの文化でも知られます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "カミニートには、色とりどりの家並みがあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "歴史的なマヨ広場の周囲に、カビルドやカサ・ロサーダが並びます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.argentina.travel/en/activities/buenos-aires-tradicional",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://buenosaires.gob.ar/gcaba_historico/plaza-de-mayo",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-at-vienna": {
+      "hints": [
+        {
+          "text": "アルプス山脈の北東端に近く、ドナウ川が流れます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ハプスブルク家が皇帝の居所を置いた都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "モーツァルトやベートーベンなど、多くの作曲家が活動しました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Vienna",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-au-canberra": {
+      "hints": [
+        {
+          "text": "都市の計画を立てて造られた首都です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "街の中心に、バーリー・グリフィン湖があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "都市の設計は、1911〜1912年の国際コンペで選ばれました。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.naa.gov.au/students-and-teachers/learning-resources/learning-resource-themes/government-and-democracy/parliament-and-elections/plan-canberra",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://visitcanberra.com.au/attractions/56b23b58d5f1565045d801cf/lake-burley-griffin",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-az-baku": {
+      "hints": [
+        {
+          "text": "カスピ海の西岸にある都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "アプシェロン半島の南側に広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "旧市街には乙女の塔とシルヴァンシャー宮殿が残っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Baku",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ba-sarajevo": {
+      "hints": [
+        {
+          "text": "ディナル・アルプスの山々に囲まれた谷にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ミリャツカ川が街を東から西へ流れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1984年の冬季オリンピックが開かれた都市です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sarajevo",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bb-bridgetown": {
+      "hints": [
+        {
+          "text": "カリブ海の島の南西岸にある港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "港はカーライル湾に面しています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中心部のカリネージという水路の近くに議会の建物があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bridgetown",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bd-dhaka": {
+      "hints": [
+        {
+          "text": "周囲にいくつもの川や水路が広がる都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "南西側をブリガンガ川が流れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "川岸のサダルガット港から、人や荷物を運ぶ船が出ます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Dhaka",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-be-brussels": {
+      "hints": [
+        {
+          "text": "ヨーロッパ各国の話し合いの拠点となる都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "EUの欧州委員会や理事会などの機関が置かれています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "NATOの本部も置かれています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Brussels",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bf-ouagadougou": {
+      "hints": [
+        {
+          "text": "西アフリカ内陸の、サバナとサヘルが接する地域にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "モシ王国の中心地として発展した歴史があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "モロ・ナバの王宮があり、伝統的な儀式が行われます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ouagadougou",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bg-sofia": {
+      "hints": [
+        {
+          "text": "バルカン半島の内陸にある、山に囲まれた盆地の都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ビトシャ山の北のふもとにあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市内には多くの鉱泉や温泉があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sofia",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bh-manama": {
+      "hints": [
+        {
+          "text": "ペルシャ湾に面した島の北東岸にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "真珠採りや海上交易を背景に発展した港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Manama",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bi-gitega": {
+      "hints": [
+        {
+          "text": "2019年に政治の中心となった内陸の都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "王室ゆかりの太鼓の聖地が周辺にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "王室の品々などを伝える国立博物館があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gitega",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bj-cotonou": {
+      "hints": [
+        {
+          "text": "大西洋とノクエ湖の間に広がる都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市街を、湖と海につながる水路が分けています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "多くの政府機関があり、憲法上の首都とは別の都市です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cotonou",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bj-porto-novo": {
+      "hints": [
+        {
+          "text": "大西洋に近い潟湖の岸にある都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "経済の中心コトヌーより東側にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "東には、ナイジェリアとの国境があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Porto-Novo",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bn-bandar-seri-begawan": {
+      "hints": [
+        {
+          "text": "川の上に家を建てた集落から発展しました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "カンポン・アイールという水上集落があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "オマール・アリ・サイフディン・モスクが街の目印です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bo-la-paz": {
+      "hints": [
+        {
+          "text": "アルティプラノの高地に囲まれた、すり鉢状の谷にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "チョケヤプ川が削った谷に市街が広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "街からは雪を頂くイリマニ山が見えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/La_Paz",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bo-sucre": {
+      "hints": [
+        {
+          "text": "白く塗られた植民地時代の建物から「白い町」と呼ばれます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "政府の所在地とは別に、憲法で首都と定められた都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "最高裁判所が置かれ、司法の中心になっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sucre",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-br-brasilia": {
+      "hints": [
+        {
+          "text": "20世紀に、計画を立てて造られた都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ルシオ・コスタとオスカー・ニーマイヤーが都市づくりに関わりました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "行政地区と住宅地区の配置は、鳥の姿にたとえられます。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/445/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bs-nassau": {
+      "hints": [
+        {
+          "text": "ニュー・プロビデンス島にある港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "かつては海賊の拠点となった歴史があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海を隔てた北西側には、アメリカのフロリダ半島があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nassau,_Bahamas",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bt-thimphu": {
+      "hints": [
+        {
+          "text": "ヒマラヤの山間にある、南北に細長く広がる都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ワン川の谷の西岸に市街が延びています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "飛行機で訪れる際は、近隣のパロ空港を利用します。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Thimphu",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bw-gaborone": {
+      "hints": [
+        {
+          "text": "南アフリカとの国境に近い、国土の南東部にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ノトワネ川とセゴディツァネ川が合流する地点の近くにあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1960年代に、独立に向けた新しい首都として計画されました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gaborone",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-by-minsk": {
+      "hints": [
+        {
+          "text": "東ヨーロッパの森林地帯に位置する内陸都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "スヴィスロチ川が北西から南東へ流れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1067年の年代記に、付近の川での戦いとともに記録されました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Minsk",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-bz-belmopan": {
+      "hints": [
+        {
+          "text": "ハリケーンの被害を受けた港町に代わり、内陸に建設されました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "政府が移ったのは1970年です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "国会議事堂は、古代マヤの神殿を思わせる形をしています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Belmopan",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ca-ottawa": {
+      "hints": [
+        {
+          "text": "オンタリオ州とケベック州の境に近い、川沿いの都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "対岸のガティノーと一つの首都圏をつくっています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市内をリドー運河が通っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "国会議事堂の近くで、運河が大きな川につながります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ottawatourism.ca/en/ottawa-insider/top-10-things-to-do-in-ottawa",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ottawa",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-cd-kinshasa": {
+      "hints": [
+        {
+          "text": "大きな川をはさんで、別の国の首都と向かい合います。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "対岸にある都市はブラザヴィルです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "川を上る船の交通で、キサンガニなどの内陸都市と結ばれます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kinshasa",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-cf-bangui": {
+      "hints": [
+        {
+          "text": "ウバンギ川の北岸にある都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "川の対岸には、別の国の町ゾンゴがあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上流の急流が大型船の行き来を妨げるため、川の交通の要地になりました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bangui",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-cg-brazzaville": {
+      "hints": [
+        {
+          "text": "赤道より南の内陸にあり、大きな川の北側に広がります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "マレボ湖に近く、川の下流には船が通れない急流があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "対岸には別の国の首都キンシャサがあります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Brazzaville",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ch-bern": {
+      "hints": [
+        {
+          "text": "アルプス山脈の北側の高原にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "旧市街は、アーレ川が大きく曲がる場所に囲まれています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "旧市街の時計塔ツィットグロッゲが有名です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bern",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ci-abidjan": {
+      "hints": [
+        {
+          "text": "ギニア湾沿岸のエブリエ潟湖に広がる都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "プラトー地区には、高いオフィスビルや行政施設が集まります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "バンコの森が国立公園として残されています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Abidjan",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ci-yamoussoukro": {
+      "hints": [
+        {
+          "text": "海沿いの大都市アビジャンより北西の内陸にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1983年に法律上の首都となりました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大きなドームを持つ「平和の聖母聖堂」があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yamoussoukro",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-cl-santiago": {
+      "hints": [
+        {
+          "text": "アンデス山脈に近い、内陸の盆地にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "マポチョ川が市街を流れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市街にはサンタ・ルシアの丘やサン・クリストバルの丘があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Santiago",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-cl-valparaiso": {
+      "hints": [
+        {
+          "text": "太平洋に面した港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大西洋と太平洋を行き来する船の寄港地として栄えました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1990年から国会が置かれている都市です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-cm-yaounde": {
+      "hints": [
+        {
+          "text": "海沿いではなく、国の中央地方の内陸にある都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海抜約750メートルにあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "人口の多い港町ドゥアラとは別の都市です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Yaound%C3%A9",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-cn-beijing": {
+      "hints": [
+        {
+          "text": "天壇には、明・清の皇帝が豊作を祈るために訪れました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "胡同と呼ばれる細い路地や、四合院という伝統的な住居が残ります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "明・清の皇帝が暮らした宮殿「紫禁城」があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/439/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Beijing",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-co-bogota": {
+      "hints": [
+        {
+          "text": "アンデス山脈の東部山系にある高原都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海抜はおよそ2640メートルで、一年を通して涼しい気候です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "東側にはモンセラーテ山やグアダルーペ山があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-cr-san-jose": {
+      "hints": [
+        {
+          "text": "国土の中央部に広がる中央盆地にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "周辺のアラフエラやエレディア、カルタゴなどと大都市圏をつくります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "コーヒーで栄えた時代を伝える国立劇場があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/San_Jos%C3%A9,_Costa_Rica",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-cu-havana": {
+      "hints": [
+        {
+          "text": "フロリダ海峡に面する、島の北岸の都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "細い入口の奥に、いくつも枝分かれした港が広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "湾を見下ろす丘には、モロ城やカバーニャ要塞があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Havana",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-cv-praia": {
+      "hints": [
+        {
+          "text": "大西洋にあるサンティアゴ島の都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中心部は、港を見下ろす台地の上にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "「プラトー」と呼ぶ旧市街には、植民地時代の建物が並びます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Praia",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-cy-nicosia": {
+      "hints": [
+        {
+          "text": "地中海の島の内陸、メサオリア平野に位置します。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "旧市街を、ベネチア時代の城壁が囲んでいます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "城壁にはキレニア門、パフォス門、ファマグスタ門があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nicosia",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-cz-prague": {
+      "hints": [
+        {
+          "text": "川の両岸に、歴史的な街並みが広がります。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市内をヴルタヴァ川が流れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "カレル橋や、カール4世に関わる建築で知られます。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/616/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-de-berlin": {
+      "hints": [
+        {
+          "text": "かつて、街が東西に分かれていた歴史があります。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "政府の建物が集まる地区をシュプレー川が流れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ブランデンブルク門がある都市です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.visitberlin.de/en/government-district",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.visitberlin.de/en/living-divided-city-west-berlin",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-dj-djibouti": {
+      "hints": [
+        {
+          "text": "アフリカの角と呼ばれる地域の港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "タジュラ湾に面し、紅海とインド洋を結ぶ航路に近い都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1888年にフランスが港の拠点として建設を始めました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Djibouti_City",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-dk-copenhagen": {
+      "hints": [
+        {
+          "text": "シェラン島とアマー島にまたがる都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "東側にエーレスンド海峡があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "対岸のスウェーデンのマルメとは、道路と鉄道の橋で結ばれています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Copenhagen",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-dm-roseau": {
+      "hints": [
+        {
+          "text": "カリブ海に面した島の西岸にある港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "近くにモーン・ブルースの丘がそびえます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "フォート・ヤングという砦は、1770年にイギリスが築きました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Roseau",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-do-santo-domingo": {
+      "hints": [
+        {
+          "text": "イスパニョーラ島の南岸にある港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "オサマ川の河口に位置します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "旧市街には16世紀初めの建物や、オサマ要塞が残っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-dz-algiers": {
+      "hints": [
+        {
+          "text": "地中海に面した、北アフリカの港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "白い建物が広がる景観から「白い町」と呼ばれます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "坂道の旧市街「カスバ」が世界遺産になっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Algiers",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ec-quito": {
+      "hints": [
+        {
+          "text": "赤道に近い、アンデス山脈の高地にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ピチンチャ火山の東側の斜面に市街が延びています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "グアイリャバンバ川の流域にあり、周囲を火山が囲んでいます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Quito",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ee-tallinn": {
+      "hints": [
+        {
+          "text": "バルト海につながるフィンランド湾の南岸にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海をはさんだ北側にはヘルシンキがあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中世の城壁と塔が残る旧市街が世界遺産です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tallinn",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-eg-cairo": {
+      "hints": [
+        {
+          "text": "ナイル川がデルタへと分かれる場所の、すぐ南にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "歴史地区には、モスクやイスラームの学校が残っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "10世紀に築かれたイスラーム都市の歴史地区があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/89/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cairo",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-eg-the-new-capital": {
+      "hints": [
+        {
+          "text": "カイロの東、スエズへ向かう途中の地域に建設されました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "混雑する大都市から行政機能を分けるための計画都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "カイロ側のアドリー・マンスール駅から、ライトレールで結ばれています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/New_Administrative_Capital",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-er-asmara": {
+      "hints": [
+        {
+          "text": "海抜2000メートルを超える高地の都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "イタリア統治時代のモダニズム建築が数多く残っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "飛行機の翼のような屋根を持つフィアット・タリエロが有名です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Asmara",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-es-madrid": {
+      "hints": [
+        {
+          "text": "イベリア半島の中央部、メセタと呼ばれる高原にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古い市街はマンサナレス川の左岸の丘から発展しました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中心部には、並木のあるプラド通りがあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ブエン・レティーロ公園と、その周辺の文化的な景観で知られます。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1618/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Madrid",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-et-addis-ababa": {
+      "hints": [
+        {
+          "text": "東アフリカの大地溝帯の西側、高地にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "エントト山のふもとに広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市街の北側は、南側の空港付近よりも高くなっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Addis_Ababa",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-fi-helsinki": {
+      "hints": [
+        {
+          "text": "バルト海につながるフィンランド湾に面する都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海の向こうの南側にはタリンがあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1952年の夏季オリンピックが開かれました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Helsinki",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-fj-suva": {
+      "hints": [
+        {
+          "text": "ビティレブ島の南東岸にある港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "港とラウカラ湾の間にある、丘の多い半島に広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ビティレブ島の西側のナンディより、雨が多い地域にあります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Suva",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-fm-palikir": {
+      "hints": [
+        {
+          "text": "ポンペイ島の北西部にある都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "島の中心的な町コロニアより南西にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1989年に国の首都となり、周囲には森林が広がります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Palikir",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-fr-paris": {
+      "hints": [
+        {
+          "text": "川の中州シテ島は、古くから交易と街の中心になった場所です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市街をセーヌ川が流れています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "エッフェル塔がある都市です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/600/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Paris",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ga-libreville": {
+      "hints": [
+        {
+          "text": "大西洋につながる入り江の北岸にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "コモ川が海へ流れ込む場所に近い都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1849年に、奴隷船から解放された人々の入植地がつくられました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Libreville",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-gb-london": {
+      "hints": [
+        {
+          "text": "王室に関わる歴史的な建築が残る都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市街をテムズ川が流れています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "川沿いには、ウィリアム1世が築いた「ホワイト・タワー」があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/488/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-gd-st-george-s": {
+      "hints": [
+        {
+          "text": "カリブ海の島にある、馬てい形の港の都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古い火山の火口の斜面に囲まれています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "港の西側の岬には、18世紀初めに築かれた砦があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/St._George's,_Grenada",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ge-tbilisi": {
+      "hints": [
+        {
+          "text": "南コーカサスの、山に囲まれた谷に広がる都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "クラ川の両岸に市街があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "北にサグラモ山地、南や西にトリアレティ山地があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tbilisi",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-gh-accra": {
+      "hints": [
+        {
+          "text": "ギニア湾に面した、国土の南岸の都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "独立を象徴するブラック・スター広場があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "鉄道でテマやクマシなどの都市と結ばれています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Accra",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-gm-banjul": {
+      "hints": [
+        {
+          "text": "大西洋に流れ込む大きな川の河口にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "セント・メアリーズ島に市街があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "島と本土の間は橋で結ばれ、川の対岸へはフェリーが出ています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Banjul",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-gn-conakry": {
+      "hints": [
+        {
+          "text": "大西洋に突き出した細長い陸地に広がる都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "もとはトンボ島にあり、近くのカルーム半島へ広がりました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1887年に島がイギリスからフランスへ渡った後、都市が発展しました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Conakry",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-gq-ciudad-de-la-paz": {
+      "hints": [
+        {
+          "text": "島ではなく、大陸側の内陸に建設された都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "バタとモンゴモの間に位置します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ジブロホ州にあり、メンゴメイエンの空港に近い都市です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ciudad_de_la_Paz",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-gq-malabo": {
+      "hints": [
+        {
+          "text": "アフリカ大陸ではなく、ビオコ島にある都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "島の北岸の湾に面して市街が広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1827年に建設された港町で、長く政治の拠点でした。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Malabo",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-gr-athens": {
+      "hints": [
+        {
+          "text": "古代の都市国家として栄えた歴史があります。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "岩山の上に、古代の神殿群が残っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "パルテノン神殿がある都市です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/404/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-gt-guatemala-city": {
+      "hints": [
+        {
+          "text": "中央アメリカの内陸、海抜約1500メートルの都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "以前の首都が大地震で被害を受けたため、政治の中心が移されました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "現在の場所へ政府が移ったのは1776年です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Guatemala_City",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-gw-bissau": {
+      "hints": [
+        {
+          "text": "大西洋に近い、ジェバ川の河口の港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "周囲は低く平らな土地で、外洋を航行する船も川に入れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1687年にポルトガルの交易拠点として築かれました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bissau",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-gy-georgetown": {
+      "hints": [
+        {
+          "text": "南アメリカ北岸の、低く平らな海岸平野にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "デメララ川が大西洋に注ぐ河口の東岸に位置します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "水路や水門、海岸の堤防で浸水を防いでいます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Georgetown,_Guyana",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-hn-tegucigalpa": {
+      "hints": [
+        {
+          "text": "中央アメリカの山々に囲まれた、内陸の都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "チョルテカ川が市街を南から北へ流れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中心部を見下ろすエル・ピカチョの丘が目印です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-hr-zagreb": {
+      "hints": [
+        {
+          "text": "メドベドニツァ山の南側に広がる都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市街の南部をサバ川が流れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "第二次世界大戦後、川の南側にも新しい市街が広がりました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Zagreb",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ht-port-au-prince": {
+      "hints": [
+        {
+          "text": "イスパニョーラ島の西側にある港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ゴナーブ湾に面した、自然の良港があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海辺の商業地区の背後に、住宅が並ぶ丘が広がります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-hu-budapest": {
+      "hints": [
+        {
+          "text": "パンノニア盆地にある、ドナウ川沿いの都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "川の西側は丘が多く、東側は平らな土地が広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "温泉が豊富で、古代ローマ時代から入浴の文化がありました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Budapest",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-id-jakarta": {
+      "hints": [
+        {
+          "text": "ジャワ島の北西岸にある都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "チリウン川の河口付近に市街が広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海岸沿いの低い平野にあり、川の氾濫や高潮への対策が重要です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jakarta",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ie-dublin": {
+      "hints": [
+        {
+          "text": "島の東岸に位置し、アイリッシュ海に面しています。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "リフィー川が市街を北側と南側に分けます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "グランド運河とロイヤル運河が、市街から西のシャノン川につながります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Dublin",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-il-jerusalem": {
+      "hints": [
+        {
+          "text": "地中海と死海の間の、山地の高台にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "旧市街の東側には、オリーブ山とキドロンの谷があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ユダヤ教・キリスト教・イスラム教の聖地が集まっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jerusalem",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-in-new-delhi": {
+      "hints": [
+        {
+          "text": "政治の中心となるよう、新しく整備された地区です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ライシナ丘陵の周辺に、大統領官邸などが置かれました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "「インド門」と呼ばれる大きな記念門があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.delhitourism.gov.in/aboutus/new-delhi.html",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://delhitourism.gov.in/tourist_place/india_gate.html",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-iq-baghdad": {
+      "hints": [
+        {
+          "text": "メソポタミアの平野に広がる都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "チグリス川が市街を東側と西側に分けます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "762年にアッバース朝の新しい都として建設され、学問の中心として栄えました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Baghdad",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ir-tehran": {
+      "hints": [
+        {
+          "text": "アルボルズ山脈の南のふもとに広がる都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "北側の山に近い地区ほど高く、冬は寒くなります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "夏は長く乾燥し、雨は主に秋から春に降ります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tehran",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-is-reykjavik": {
+      "hints": [
+        {
+          "text": "北大西洋の島の南西部にある都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ファクサ湾の南岸に位置します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "地熱の温水を、建物の暖房や歩道の雪を溶かすために利用しています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Reykjav%C3%ADk",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-it-rome": {
+      "hints": [
+        {
+          "text": "古代の大きな帝国の中心だった都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古代の広場や、神殿のパンテオンが残っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "アウグストゥスやハドリアヌスの霊廟（れいびょう：お墓の建物）があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/91/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-jm-kingston": {
+      "hints": [
+        {
+          "text": "カリブ海の島の南東岸にある港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "パリサドーズという細長い砂の陸地が、港を外海から守っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "砂の陸地パリサドーズには、ポート・ロイヤルの町と国際空港があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kingston,_Jamaica",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-jo-amman": {
+      "hints": [
+        {
+          "text": "ヨルダン川の東側の高地にある都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "丘と谷に沿って広がり、もとは七つの丘の上に築かれました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古代にはフィラデルフィアと呼ばれていました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Amman",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-jp-tokyo": {
+      "hints": [
+        {
+          "text": "かつて、将軍の政治の中心だった都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "昔の城の跡に、現在の皇居があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "昔は「江戸」と呼ばれていました。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.gotokyo.org/jp/story/guide/a-noble-look-at-tokyos-imperial-palace-a-guide-to-the-royal-residence/index.html",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ke-nairobi": {
+      "hints": [
+        {
+          "text": "モンバサと内陸を結ぶ鉄道の拠点として発展しました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市域に野生動物の暮らす国立公園があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "国連環境計画など、国際機関の拠点が置かれています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nairobi",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-kg-bishkek": {
+      "hints": [
+        {
+          "text": "天山山脈につながる山地の北側にある都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "南にアラトー山地、北にはカザフスタンへ続く草原が広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "チュー川の流域にあり、中心部にアラトー広場があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bishkek",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-kh-phnom-penh": {
+      "hints": [
+        {
+          "text": "大きな川どうしが合流し、さらに分かれる場所にある都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "メコン川とトンレサップ川が出合い、バサック川が始まります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ワット・プノンという丘の寺院が、街の歴史につながります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Phnom_Penh",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ki-south-tarawa": {
+      "hints": [
+        {
+          "text": "太平洋の環礁にある、細長く低い陸地の都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "潟湖の南側に並ぶ小島を、道路の堤防でつないでいます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "土地の多くは海抜3メートル未満で、幅も狭いのが特徴です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/South_Tarawa",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-km-moroni": {
+      "hints": [
+        {
+          "text": "インド洋のグランドコモロ島にある港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "活火山カルタラ山のふもとにあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "港の近くには、バジャナニ・モスクがあります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Moroni,_Comoros",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-kn-basseterre": {
+      "hints": [
+        {
+          "text": "東カリブ海の、セントキッツ島にある港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "島の南西岸に位置します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "東カリブ中央銀行の本部が置かれています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Basseterre",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-kp-pyongyang": {
+      "hints": [
+        {
+          "text": "朝鮮半島の西側の平野にある都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大同江が市街を流れ、黄海側の湾へ注ぎます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "川沿いに大きな競技場や、チュチェ思想塔があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Pyongyang",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-kr-sejong": {
+      "hints": [
+        {
+          "text": "国土の中央部に行政機能を分散するために建設された都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大田の北側にあり、2012年から多くの省庁が移りました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "錦江の支流である美湖川が流れ、湖の公園も整備されています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sejong_City",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-kr-seoul": {
+      "hints": [
+        {
+          "text": "昔の王朝の宮殿が残る都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市内を漢江（ハンガン）が流れ、街を南北に分けています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "景福宮や昌徳宮がある都市です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://english.visitseoul.net/attractions/Hangang-River/ENP015060",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://english.visitseoul.net/attractions--/Palaces/ENP015109",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-kw-kuwait-city": {
+      "hints": [
+        {
+          "text": "ペルシャ湾の奥にある、入り江の南岸の都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "真珠採りや海上交易の中心地として栄えました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "18世紀には、インドやバグダードなどを結ぶ交易の拠点になりました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kuwait_City",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://whc.unesco.org/document/169051",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.qdl.qa/en/historical-profile-kuwait",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-kz-astana": {
+      "hints": [
+        {
+          "text": "中央アジアの、広大な草原の中にある都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "イシム川の北側に古い地区、南側に新しい地区が広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "新しい都市計画には、日本の建築家・黒川紀章が関わりました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Astana",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-la-vientiane": {
+      "hints": [
+        {
+          "text": "メコン川沿いにある内陸の都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "川の向こう側にはタイがあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "仏教の象徴的な建物タート・ルアンや、パトゥーサイの門があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Vientiane",
+          "checked": "2026-10-20"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "checked": "2026-10-23",
+  "method": "実際のヒント関数を、各形式の問題文・写真の有無を再現したDOMで全対象に適用。2件以上は件数上の基準であり、内容の事実確認を代替しません。",
+  "contentReview": {
+    "country": "既存教材の首都・地形・UNESCO登録国・採用地図の共有境界を照合し、不足する島嶼等は個別資料で補足。",
+    "capital": "都市別の地理・歴史資料を確認。公式観光・自治体・議会・UNESCO等に加え百科事典記事を使用し、すべてを一次資料で再確認したものではありません。",
+    "terrain": "地形別に公式機関・国立公園・河川管理機関・研究資料などの本文または検索本文で確認。一部は直接閲覧に制限があります。",
+    "heritage": "UNESCOの各登録ページ108件を確認し、登録単位ごとに要約。外観と特徴問題の既出内容を区別。",
+    "flags": "ゲームが採用している205の原寸比SVGを比較シートで目視し、色・配置・模様を説明。法律上の規格を新たに認定するものではありません。"
+  },
+  "categories": {
+    "country": {
+      "targets": 205,
+      "authored": 205,
+      "modes": {
+        "flag": {
+          "eligible": 205,
+          "twoOrMore": 205,
+          "one": 0,
+          "none": 0
+        },
+        "name": {
+          "eligible": 205,
+          "twoOrMore": 205,
+          "one": 0,
+          "none": 0
+        },
+        "location": {
+          "eligible": 205,
+          "twoOrMore": 205,
+          "one": 0,
+          "none": 0
+        },
+        "chooseFlag": {
+          "eligible": 205,
+          "provided": false,
+          "reason": "国名から国旗は答えの漏えいを避けるためヒントなし"
+        },
+        "flagLocation": {
+          "eligible": 205,
+          "twoOrMore": 205,
+          "one": 0,
+          "none": 0
+        }
+      },
+      "twoOrMoreInEveryEligibleMode": 205
+    },
+    "capital": {
+      "targets": 207,
+      "authored": 207,
+      "modes": {
+        "capitalName": {
+          "eligible": 207,
+          "twoOrMore": 207,
+          "one": 0,
+          "none": 0
+        },
+        "capitalCountry": {
+          "eligible": 207,
+          "twoOrMore": 207,
+          "one": 0,
+          "none": 0
+        },
+        "capitalMap": {
+          "eligible": 207,
+          "twoOrMore": 207,
+          "one": 0,
+          "none": 0
+        },
+        "capitalLocation": {
+          "eligible": 207,
+          "twoOrMore": 207,
+          "one": 0,
+          "none": 0
+        },
+        "capitalFlag": {
+          "eligible": 207,
+          "twoOrMore": 207,
+          "one": 0,
+          "none": 0
+        }
+      },
+      "twoOrMoreInEveryEligibleMode": 207
+    },
+    "terrain": {
+      "targets": 118,
+      "authored": 118,
+      "modes": {
+        "terrainName": {
+          "eligible": 118,
+          "twoOrMore": 118,
+          "one": 0,
+          "none": 0
+        },
+        "terrainLocation": {
+          "eligible": 118,
+          "twoOrMore": 118,
+          "one": 0,
+          "none": 0
+        },
+        "terrainClue": {
+          "eligible": 118,
+          "twoOrMore": 118,
+          "one": 0,
+          "none": 0
+        }
+      },
+      "twoOrMoreInEveryEligibleMode": 118
+    },
+    "heritage": {
+      "targets": 108,
+      "authored": 108,
+      "modes": {
+        "heritagePhoto": {
+          "eligible": 108,
+          "twoOrMore": 108,
+          "one": 0,
+          "none": 0
+        },
+        "heritageMap": {
+          "eligible": 108,
+          "twoOrMore": 108,
+          "one": 0,
+          "none": 0
+        },
+        "heritageLocation": {
+          "eligible": 108,
+          "twoOrMore": 108,
+          "one": 0,
+          "none": 0
+        },
+        "heritageCountry": {
+          "eligible": 108,
+          "twoOrMore": 108,
+          "one": 0,
+          "none": 0
+        },
+        "heritageType": {
+          "eligible": 108,
+          "twoOrMore": 108,
+          "one": 0,
+          "none": 0
+        },
+        "heritageClue": {
+          "eligible": 108,
+          "twoOrMore": 108,
+          "one": 0,
+          "none": 0
+        }
+      },
+      "twoOrMoreInEveryEligibleMode": 108
+    }
+  },
+  "missing": [],
+  "issues": []
+}

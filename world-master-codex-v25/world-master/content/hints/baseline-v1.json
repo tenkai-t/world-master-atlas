@@ -1,0 +1,2159 @@
+{
+  "version": 1,
+  "checked": "2026-10-20",
+  "policy": "大まかな手がかり→対象らしい特徴→見分ける決め手。距離・緯度の自動補充なし。数より内容を優先し、問題文に使われた事実と正解名の漏えいを除外。",
+  "capital": {
+    "cap-au-canberra": {
+      "hints": [
+        {
+          "text": "都市の計画を立てて造られた首都です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "街の中心に、バーリー・グリフィン湖があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "都市の設計は、1911〜1912年の国際コンペで選ばれました。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.naa.gov.au/students-and-teachers/learning-resources/learning-resource-themes/government-and-democracy/parliament-and-elections/plan-canberra",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://visitcanberra.com.au/attractions/56b23b58d5f1565045d801cf/lake-burley-griffin",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-br-brasilia": {
+      "hints": [
+        {
+          "text": "20世紀に、計画を立てて造られた都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ルシオ・コスタとオスカー・ニーマイヤーが都市づくりに関わりました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "行政地区と住宅地区の配置は、鳥の姿にたとえられます。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/445/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ca-ottawa": {
+      "hints": [
+        {
+          "text": "北アメリカにある首都です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市内をリドー運河が通っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "国会議事堂の近くで、運河が大きな川につながります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ottawatourism.ca/en/ottawa-insider/top-10-things-to-do-in-ottawa",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-cn-beijing": {
+      "hints": [
+        {
+          "text": "歴代の皇帝に関わる建築が残る都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "明・清の皇帝が暮らした宮殿があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "その宮殿は「紫禁城」と呼ばれています。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/439/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-de-berlin": {
+      "hints": [
+        {
+          "text": "かつて、街が東西に分かれていた歴史があります。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "政府の建物が集まる地区をシュプレー川が流れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ブランデンブルク門がある都市です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.visitberlin.de/en/government-district",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.visitberlin.de/en/living-divided-city-west-berlin",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-eg-cairo": {
+      "hints": [
+        {
+          "text": "アフリカ北部の、歴史ある大都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "歴史地区には、モスクやイスラームの学校が残っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "10世紀に築かれたイスラーム都市の歴史地区があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/89/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-es-madrid": {
+      "hints": [
+        {
+          "text": "ヨーロッパの芸術や科学に関わる都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中心部には、並木のあるプラド通りがあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ブエン・レティーロ公園と、その周辺の文化的な景観で知られます。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1618/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-fr-paris": {
+      "hints": [
+        {
+          "text": "川沿いに歴史的な建築が並ぶ都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市街をセーヌ川が流れています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "エッフェル塔がある都市です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/600/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-gb-london": {
+      "hints": [
+        {
+          "text": "王室に関わる歴史的な建築が残る都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市街をテムズ川が流れています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "川沿いには、ウィリアム1世が築いた「ホワイト・タワー」があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/488/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-gr-athens": {
+      "hints": [
+        {
+          "text": "古代の都市国家として栄えた歴史があります。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "岩山の上に、古代の神殿群が残っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "パルテノン神殿がある都市です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/404/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-in-new-delhi": {
+      "hints": [
+        {
+          "text": "政治の中心となるよう、新しく整備された地区です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ライシナ丘陵の周辺に、大統領官邸などが置かれました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "「インド門」と呼ばれる大きな記念門があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.delhitourism.gov.in/aboutus/new-delhi.html",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://delhitourism.gov.in/tourist_place/india_gate.html",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-it-rome": {
+      "hints": [
+        {
+          "text": "古代の大きな帝国の中心だった都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古代の広場や、神殿のパンテオンが残っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "アウグストゥスやハドリアヌスの霊廟（れいびょう：お墓の建物）があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/91/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-jp-tokyo": {
+      "hints": [
+        {
+          "text": "かつて、将軍の政治の中心だった都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "昔の城の跡に、現在の皇居があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "昔は「江戸」と呼ばれていました。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.gotokyo.org/jp/story/guide/a-noble-look-at-tokyos-imperial-palace-a-guide-to-the-royal-residence/index.html",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-kr-seoul": {
+      "hints": [
+        {
+          "text": "昔の王朝の宮殿が残る都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市内を漢江（ハンガン）が流れ、街を南北に分けています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "景福宮や昌徳宮がある都市です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://english.visitseoul.net/attractions/Hangang-River/ENP015060",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://english.visitseoul.net/attractions--/Palaces/ENP015109",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-ru-moscow": {
+      "hints": [
+        {
+          "text": "歴史的な城壁や宗教建築が残る都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "政治と宗教の中心だったクレムリンがあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "「赤の広場」に、聖ワシリー聖堂があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/545/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-th-bangkok": {
+      "hints": [
+        {
+          "text": "川沿いに王宮や寺院がある都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市街をチャオプラヤー川が流れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "川沿いには、王宮やワット・アルンがあります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.tourismthailand.org/Articles/royal-barge-procession-2026-en",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.tourismthailand.org/Attraction/wat-arun-ratchawararam-ratchawaramahawihan",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-us-washington-d-c": {
+      "hints": [
+        {
+          "text": "国の政治の中心として、計画された都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ポトマック川沿いに、首都の場所が選ばれました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ホワイトハウスと連邦議会議事堂がある都市です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.nps.gov/places/information-panel-construction-of-the-white-house.htm",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "cap-cz-prague": {
+      "hints": [
+        {
+          "text": "川の両岸に、歴史的な街並みが広がります。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市内をヴルタヴァ川が流れます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "カレル橋や、カール4世に関わる建築で知られます。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/616/",
+          "checked": "2026-10-20"
+        }
+      ]
+    }
+  },
+  "terrain": {
+    "terrain-mountain-01": {
+      "hints": [
+        {
+          "text": "南アジアのヒマラヤ山脈にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ネパールと中国の境界付近にあります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "海面からの標高が、世界で最も高い山です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "周辺には、シェルパの人々が暮らしています。",
+          "stage": "もう一つの特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/120/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/tree/master/10m_physical",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-mountain-02": {
+      "hints": [
+        {
+          "text": "東アフリカにあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "タンザニアにある火山です。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "アフリカで最も標高が高い山です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "キボ、マウェンジ、シラの三つの主な峰があります。",
+          "stage": "もう一つの特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/403/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-mountain-03": {
+      "hints": [
+        {
+          "text": "日本の本州の、太平洋側にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "美しい形でも知られる、独立した火山です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "山の高さは3,776mです。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "昔から信仰の対象となり、浮世絵などにも描かれてきました。",
+          "stage": "もう一つの特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1418/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-range-01": {
+      "hints": [
+        {
+          "text": "南アジアの北側に連なっています。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "世界最高峰のエベレストを含む山脈です。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ガンジス平原は、この山脈の南側に広がります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/120/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_regions_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-range-02": {
+      "hints": [
+        {
+          "text": "南アメリカにあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "大陸の西側を、南北に長く延びています。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "アコンカグアや、高地のチチカカ湖もこの山脈に関わります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/tree/master/10m_physical",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-river-01": {
+      "hints": [
+        {
+          "text": "アフリカ北東部を流れています。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "河口は地中海にあります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "古代エジプトの神殿が残る地域を流れる川です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/88/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/tree/master/50m_physical",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-river-02": {
+      "hints": [
+        {
+          "text": "南アメリカを流れています。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "大西洋へ注ぐ川です。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "流域には、熱帯の森林や多様な生き物が暮らす水辺が広がります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/998/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/tree/master/50m_physical",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-lake-01": {
+      "hints": [
+        {
+          "text": "ロシアのシベリア南部にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "世界で最も深い湖です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "非常に古い湖で、独特の生き物が多く暮らしています。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/754/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-lake-02": {
+      "hints": [
+        {
+          "text": "東アフリカにあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "湖岸は、ケニア・タンザニア・ウガンダにまたがります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "湖の水は、白ナイル川の流れにつながります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/lake-victorias-falling-waters/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-island-01": {
+      "hints": [
+        {
+          "text": "北アメリカの北東側にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "大きな氷床に覆われた島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大陸を除くと、世界で最も大きい島です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/mission/omg/about/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-island-02": {
+      "hints": [
+        {
+          "text": "アフリカ大陸の南東側にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "インド洋に浮かぶ島です。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "長く他の陸地から離れ、キツネザルなど独自の生き物が進化しました。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1257/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/tree/master/10m_physical",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-archipelago-01": {
+      "hints": [
+        {
+          "text": "北太平洋に並ぶ島々です。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "火山活動によって造られた島々です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "太平洋プレートがホットスポットの上を動くことで、島の列ができました。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/publications/geology-hawaiian-islands",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-archipelago-02": {
+      "hints": [
+        {
+          "text": "東南アジアの、太平洋側に広がっています。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "一つの大きな島ではなく、多数の島からなります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "セブ島やボホール島などを含む島々です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://philippines.travel/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/tree/master/10m_physical",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-archipelago-03": {
+      "hints": [
+        {
+          "text": "アジア大陸の東側に沿って連なります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "本州の富士山も、この島々の一つにあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "北海道と本州の間には、津軽海峡があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "主な四つの島は、北海道・本州・四国・九州です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://web-japan.org/kidsweb/explore/nature/index.html",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-peninsula-01": {
+      "hints": [
+        {
+          "text": "アジアの南西部にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "紅海とペルシャ湾などに囲まれています。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "南部には、ルブアルハリ砂漠が広がります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_regions_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-peninsula-02": {
+      "hints": [
+        {
+          "text": "ヨーロッパの南西部にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "スペインやポルトガルが位置する半島です。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "アフリカ北西岸との間には、ジブラルタル海峡があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-sea-01": {
+      "hints": [
+        {
+          "text": "東アジアにある海です。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "日本列島とアジア大陸の間にあります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "南西諸島の西に広がる東シナ海より、北側にある海です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-sea-02": {
+      "hints": [
+        {
+          "text": "東アジアにある海です。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "中国大陸の東側に広がります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "日本の南西諸島は、この海の東側に並んでいます。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "中国を流れる長江が、この海に注ぎます。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/heavy-smoke-over-china-2692/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-bay-01": {
+      "hints": [
+        {
+          "text": "南アジアにある大きな湾です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "インド半島の東側に広がります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "同じ半島の西側に広がるのは、アラビア海です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ガンジス川などが、この湾に注いで大きな三角州を造ります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/ganges-river-delta-1326/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-bay-02": {
+      "hints": [
+        {
+          "text": "北アメリカ南部にある湾です。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ユカタン半島やキューバの近くにあります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "北アメリカ内陸を流れるミシシッピ川が注ぎます。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/tree/master/50m_physical",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-strait-01": {
+      "hints": [
+        {
+          "text": "ヨーロッパとアフリカの間にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "イベリア半島とアフリカ北西岸を隔てています。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "大西洋と地中海を結ぶ水路です。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "最も狭い場所では、スペインとモロッコの間が約13kmです。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "地中海から大西洋へ出る、自然の水路の入口です。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_Strait_of_Gibraltar",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-strait-of-gibraltar-in-3d-3926/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-strait-02": {
+      "hints": [
+        {
+          "text": "東南アジアにある水路です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "マレー半島の南西側にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "スマトラ島とマレー半島の間を通ります。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "シンガポール海峡とともに、国際航行に使われる重要な水路です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_marine_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-ocean/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.mpa.gov.sg/media-centre/details/littoral-states-of-the-straits-of-malacca-and-singapore-reaffirm-shared-commitment-to-keep-the-straits-open-and-safe-for-international-shipping",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-desert-01": {
+      "hints": [
+        {
+          "text": "アフリカ北部に広がります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "エジプトやリビアにも広がる、非常に乾いた地域です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "砂丘だけでなく、岩がむき出しになった場所もあります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/rings-of-rock-in-the-sahara/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-desert-02": {
+      "hints": [
+        {
+          "text": "アジアの内陸にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "モンゴルと中国北部に広がります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "恐竜や昔の哺乳類の化石が見つかる地域としても知られます。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/finding-fossils-from-space/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plain-01": {
+      "hints": [
+        {
+          "text": "北アメリカにある平原です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ロッキー山脈の東側に広がります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "かつて、多くのバイソンが暮らした草原の地域です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.nps.gov/articles/greatplainsprovince.htm",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.nps.gov/articles/000/bison-roamed-the-mountains-too.htm",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plain-02": {
+      "hints": [
+        {
+          "text": "中国の東部にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "黄河の下流域などに広がります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "黄土高原は黄河の中流域。この平原は、それより下流側です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_regions_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plateau-01": {
+      "hints": [
+        {
+          "text": "アジアの内陸に広がっています。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ヒマラヤ山脈の北側にあります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "高地の草原などが広がり、北東部にはホフシルがあります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1540/",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_regions_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "terrain-plateau-02": {
+      "hints": [
+        {
+          "text": "南アジアにあります。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "インド半島の内陸に広がります。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ガンジス平原はヒマラヤ山脈の南。この高原は、さらに半島側にあります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_geography_regions_polys.geojson",
+          "checked": "2026-10-20"
+        },
+        {
+          "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-physical-labels/",
+          "checked": "2026-10-20"
+        }
+      ]
+    }
+  },
+  "heritage": {
+    "wh-252": {
+      "hints": [
+        {
+          "text": "皇帝の家族に関係する建造物です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "亡くなった妃をしのんで、シャー・ジャハーンが建てさせました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "17世紀に造られた、白い大理石の霊廟（れいびょう：お墓の建物）です。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/252/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-438": {
+      "hints": [
+        {
+          "text": "外からの侵入を防ぐための施設です。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "秦の始皇帝が、それまでの防御施設をつなげました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "明の時代まで、長い年月をかけて築かれた防御の仕組みです。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/438/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-274": {
+      "hints": [
+        {
+          "text": "南アメリカの、山の上に築かれた都市遺跡です。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "インカ帝国の人々が造りました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "石の壁や段々畑が、急な山の斜面に沿って残っています。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/274/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-86": {
+      "hints": [
+        {
+          "text": "古代の王の埋葬（まいそう）に関わる遺跡群です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ピラミッドだけでなく、岩窟墓やマスタバと呼ばれる墓も含みます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "写真のギザだけでなく、ダハシュールまでの墓地遺跡を含む登録です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/86/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-326": {
+      "hints": [
+        {
+          "text": "昔の隊商（たいしょう：荷物を運ぶ商人たち）が行き交った交易都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ナバテア人の都市で、紅海と死海の間にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "岩を彫り込んだ建築と、石を積んだ建築が組み合わさっています。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/326/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-668": {
+      "hints": [
+        {
+          "text": "東南アジアに残る、大きな都市や寺院の遺跡群です。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "9〜15世紀の、クメール帝国の都の跡を含みます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "寺院一つだけでなく、多くの寺院や都市の遺構が登録されています。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/668/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-404": {
+      "hints": [
+        {
+          "text": "古代の都市国家の歴史を伝える神殿群です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "紀元前5世紀、ペリクレスの時代に主要な建築が造られました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "構成する建物の一つに、パルテノン神殿があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/404/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-80": {
+      "hints": [
+        {
+          "text": "潮の満ち引きが大きい湾にあります。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": true
+        },
+        {
+          "text": "ノルマンディーとブルターニュの間の小島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大天使ミカエルにささげられた修道院があります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/80/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-91": {
+      "hints": [
+        {
+          "text": "古代の帝国と、キリスト教の歴史に関わる街です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古代の広場、神殿、皇帝の霊廟（れいびょう：お墓の建物）などが登録されています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "パンテオンや、教皇に関わる建築を含む登録です。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/91/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-394": {
+      "hints": [
+        {
+          "text": "海の交易で力を持った、歴史ある都市です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "たくさんの小さな島に広がる街です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": true
+        },
+        {
+          "text": "街全体と、周囲の潟（かた：海の一部が隔てられた水域）を一緒に登録しています。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/394/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-688": {
+      "hints": [
+        {
+          "text": "長く都だった場所の、木造建築や庭園を伝える遺産です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "794年に築かれた都の歴史と関係しています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "寺社や城などが、一つではなく複数の市にまたがって登録されています。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/688/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-1418": {
+      "hints": [
+        {
+          "text": "人々の信仰と、芸術への影響が評価されました。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "巡礼の道や、山麓の神社などを含みます。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "19世紀の浮世絵が、この山を世界に広める一因となりました。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1418/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-28": {
+      "hints": [
+        {
+          "text": "大地の熱が生み出す現象で知られる公園です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1872年に国立公園になりました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "熱い湯を噴き上げる間欠泉が多く、バイソンなども暮らします。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/28/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-75": {
+      "hints": [
+        {
+          "text": "長い時間をかけてできた地形が見どころです。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "コロラド川が、大地を深く削って造りました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "崖に重なる地層から、長い地球の歴史を読み取れます。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/75/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-154": {
+      "hints": [
+        {
+          "text": "海に暮らす多様な生き物が評価されています。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ジュゴンやアオウミガメの生息地でもあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大きなサンゴ礁の集まりが広がっています。",
+          "stage": "見分ける決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/154/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-1": {
+      "hints": [
+        {
+          "text": "大陸から離れた島々の、独自の生き物が特徴です。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "ゾウガメやイグアナ、さまざまなフィンチが暮らします。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": true
+        },
+        {
+          "text": "1835年にダーウィンが訪れ、進化を考える手がかりになりました。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-83": {
+      "hints": [
+        {
+          "text": "王たちが暮らした宮殿と、その庭園です。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": true
+        },
+        {
+          "text": "ルイ14世からルイ16世の時代の王室に関わります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "建築家だけでなく、彫刻家や庭園の設計者も造営に関わりました。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/83/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-166": {
+      "hints": [
+        {
+          "text": "20世紀の建築の工夫が評価されています。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1973年に開場した、上演のための建物です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "構成する屋根は、重なり合うシェルの形をしています。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/166/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-307": {
+      "hints": [
+        {
+          "text": "独立を記念して贈られた、大きな記念像です。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "フランスから贈られ、1886年に披露されました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "港の入口で、新しく渡ってくる移民たちを迎えてきました。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/307/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-776": {
+      "hints": [
+        {
+          "text": "海と山の景観に調和する、信仰の場です。",
+          "stage": "大まかな手がかり",
+          "inClue": true,
+          "appearance": true
+        },
+        {
+          "text": "瀬戸内海にある島に建っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "現在の社殿の姿は、12世紀にさかのぼります。",
+          "stage": "見分ける決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/776/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-156": {
+      "hints": [
+        {
+          "text": "草原で暮らす草食動物と、それを追う肉食動物の営みが見られます。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "水を求めて移動する、ヌーやシマウマなどの大きな群れが特徴です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/156/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-208": {
+      "hints": [
+        {
+          "text": "多様な文化の影響が、ガンダーラの仏教美術に結び付きました。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "仏教の僧院群や聖所に加え、イスラーム期の防御施設も残ります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/208/",
+          "checked": "2026-10-20"
+        }
+      ]
+    },
+    "wh-356": {
+      "hints": [
+        {
+          "text": "黒海と地中海を結ぶ要地で、長く政治や宗教の舞台となりました。",
+          "stage": "大まかな手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "6世紀のアヤ・ソフィアと、16世紀のスレイマニエ・モスクが含まれます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/356/",
+          "checked": "2026-10-20"
+        }
+      ]
+    }
+  }
+}

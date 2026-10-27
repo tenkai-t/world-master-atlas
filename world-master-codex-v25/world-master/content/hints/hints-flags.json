@@ -1,0 +1,6156 @@
+{
+  "version": 1,
+  "checked": "2026-10-20",
+  "country": {
+    "AD": {
+      "hints": [
+        {
+          "text": "縦に三つの色を並べ、中央に紋章があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から青・黄・赤の順です。黄色の帯は両端より少し広くなっています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ad.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：AD"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "AE": {
+      "hints": [
+        {
+          "text": "左端の縦帯と、右側の三本の横帯を組み合わせています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左端は赤。右側は上から緑・白・黒です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ae.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：AE"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "AF": {
+      "hints": [
+        {
+          "text": "縦の三色の上に、細かい白い紋章を重ねた図案です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から黒・赤・緑で、建物と麦の穂を描いた紋章が中央にあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/af.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：AF"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "AG": {
+      "hints": [
+        {
+          "text": "赤い左右の部分の間に、逆三角形のような図案があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "黒い部分から黄色い太陽がのぞき、その下に青い帯と白い三角形があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ag.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：AG"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "AL": {
+      "hints": [
+        {
+          "text": "一色の地に、黒い鳥の図案があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "地は赤で、鳥は頭が左右に二つあるワシです。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/al.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：AL"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "AM": {
+      "hints": [
+        {
+          "text": "紋章のない、三本の横帯の旗です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から赤・青・オレンジの順に並びます。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/am.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：AM"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "AO": {
+      "hints": [
+        {
+          "text": "上下二色の上に、黄色い道具と星の図案があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が赤、下が黒。中央に歯車の一部、なた、五つの角の星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ao.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：AO"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "AR": {
+      "hints": [
+        {
+          "text": "明るい青と白を横に並べた旗です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "青・白・青の中央の白い帯に、顔のある金色の太陽があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ar.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：AR"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "AT": {
+      "hints": [
+        {
+          "text": "三本の横帯で、上下が同じ色です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "赤・白・赤の順で、中央に紋章はありません。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/at.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：AT"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "AU": {
+      "hints": [
+        {
+          "text": "青地の左上に、赤・白・青を組み合わせた旗があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "星は白。左上の旗の下に大きな星があり、右側にも星が並んでいます。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/au.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：AU"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "AZ": {
+      "hints": [
+        {
+          "text": "三色の横帯に、白い月と星を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から青・赤・緑。中央の赤い帯に三日月と八つの角の星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/az.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：AZ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BA": {
+      "hints": [
+        {
+          "text": "青地に大きな黄色い三角形があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "三角形の斜めの辺に沿って、白い星が一列に並んでいます。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ba.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BA"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BB": {
+      "hints": [
+        {
+          "text": "三本の縦帯で、左右が同じ色です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "青・黄・青の中央に、黒い三つまたのほこがあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bb.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BB"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BD": {
+      "hints": [
+        {
+          "text": "緑の地に、大きな赤い円があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "円の中心は、旗の真ん中より少し左に寄っています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bd.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BD"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BE": {
+      "hints": [
+        {
+          "text": "紋章のない三色の縦じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から黒・黄・赤の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/be.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BE"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BF": {
+      "hints": [
+        {
+          "text": "上下二色の中央に、黄色い星があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が赤、下が緑で、星は五つの角を持ちます。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bf.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BF"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BG": {
+      "hints": [
+        {
+          "text": "紋章のない三色の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から白・緑・赤の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bg.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BG"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BH": {
+      "hints": [
+        {
+          "text": "左が白、右が赤で、境目がギザギザです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "白い部分の右端にある、とがった山は五つです。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bh.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BH"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BI": {
+      "hints": [
+        {
+          "text": "白い斜め十字で、地の色を四つに分けています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上下は赤、左右は緑。中央の白い円に、緑で縁取った赤い星が三つあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bi.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BI"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BJ": {
+      "hints": [
+        {
+          "text": "左に縦帯、右に上下二色の帯があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左は緑。右は上が黄色、下が赤です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bj.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BJ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BN": {
+      "hints": [
+        {
+          "text": "黄色い地を、白と黒の斜めの帯が横切ります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央には、三日月や両手を組み合わせた赤い紋章があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bn.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BN"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BO": {
+      "hints": [
+        {
+          "text": "三色の横帯で、中央に紋章があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から赤・黄・緑。紋章は黄色い帯に置かれています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bo.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BO"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BR": {
+      "hints": [
+        {
+          "text": "緑の地に、大きな黄色いひし形があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ひし形の中は青い円で、白い帯と小さな白い星が描かれています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/br.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BR"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BS": {
+      "hints": [
+        {
+          "text": "横じまと、左端の黒い三角形を組み合わせています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上下が青緑、中央が黄色の三本の帯です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bs.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BS"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BT": {
+      "hints": [
+        {
+          "text": "地が斜めに二色に分かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左上が黄色、右下がオレンジで、その境目に白い龍が描かれています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bt.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BT"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BW": {
+      "hints": [
+        {
+          "text": "明るい青地の中央に、黒い横帯があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "黒い帯の上下には、細い白い線があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bw.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BW"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BY": {
+      "hints": [
+        {
+          "text": "大きな上下二色と、左端の縦模様を組み合わせています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が赤、下が緑。左端に赤と白の細かな織物のような模様があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/by.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BY"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "BZ": {
+      "hints": [
+        {
+          "text": "青い地の上下に、細い赤い帯があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央の白い円の中に、木と二人の人物を含む紋章があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bz.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：BZ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CA": {
+      "hints": [
+        {
+          "text": "左右に色の帯があり、中央は広い白い部分です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左右は赤。中央に赤いカエデの葉が一枚あります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ca.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CA"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CD": {
+      "hints": [
+        {
+          "text": "明るい青地を、斜めの帯が横切ります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "斜めの帯は赤で黄色い縁があります。左上には黄色い星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cd.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CD"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CF": {
+      "hints": [
+        {
+          "text": "四本の横帯を、一本の縦帯が横切ります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "横帯は上から青・白・緑・黄。中央に赤い縦帯、左上に黄色い星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cf.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CF"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CG": {
+      "hints": [
+        {
+          "text": "三色を斜めに分けた旗です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左上が緑、右下が赤で、その間を黄色い斜めの帯が通ります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cg.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CG"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CH": {
+      "hints": [
+        {
+          "text": "横長ではなく、正方形の旗です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "赤い地の中央に、白い十字があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ch.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CH"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CI": {
+      "hints": [
+        {
+          "text": "紋章のない三色の縦じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左からオレンジ・白・緑の順です。似た旗とは、左右の色を見比べよう。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ci.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CI"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CK": {
+      "hints": [
+        {
+          "text": "青地の左上に、赤・白・青の旗があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "右側の十五個の白い星が、輪になって並んでいます。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ck.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CK"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CL": {
+      "hints": [
+        {
+          "text": "上半分と下半分で、図案の分け方が異なります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "下半分は赤。上は左が青く白い星が一つ、右が白です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cl.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CL"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CM": {
+      "hints": [
+        {
+          "text": "三色の縦帯に、黄色い星を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から緑・赤・黄。星は中央の赤い帯にあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cm.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CM"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CN": {
+      "hints": [
+        {
+          "text": "赤い地の左上に、黄色い星が集まっています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大きな星が一つと、小さな星が四つあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cn.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CN"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CO": {
+      "hints": [
+        {
+          "text": "黄色・青・赤の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上の黄色い帯が、青や赤の帯の二倍の幅を占めます。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/co.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CO"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CR": {
+      "hints": [
+        {
+          "text": "五本の横帯で、中央の帯が太くなっています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から青・白・赤・白・青。中央の赤い帯の左寄りに紋章があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cr.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CR"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CU": {
+      "hints": [
+        {
+          "text": "横じまと、左端の三角形を組み合わせています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "青三本と白二本の横じまに、白い星のある赤い三角形を重ねています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cu.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CU"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CV": {
+      "hints": [
+        {
+          "text": "青い地に、白と赤の細い横帯があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "黄色い十個の星が、中央より左側で輪になっています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cv.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CV"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CY": {
+      "hints": [
+        {
+          "text": "白い地に、島の輪郭が描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "島は銅色で、その下に二本の緑のオリーブの枝があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cy.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CY"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "CZ": {
+      "hints": [
+        {
+          "text": "上が白、下が赤の二色を使っています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左端から、青い三角形が旗の中央へ突き出しています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cz.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：CZ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "DE": {
+      "hints": [
+        {
+          "text": "紋章のない三色の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から黒・赤・金色の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/de.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：DE"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "DJ": {
+      "hints": [
+        {
+          "text": "上下二色の帯に、左端の白い三角形を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が明るい青、下が緑。白い三角形の中に赤い星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/dj.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：DJ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "DK": {
+      "hints": [
+        {
+          "text": "十字の中心が、旗の左側に寄っています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "赤い地に白い十字で、十字の中に別の色の線はありません。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/dk.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：DK"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "DM": {
+      "hints": [
+        {
+          "text": "緑地に、三色の十字を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央の赤い円にオウムと緑の星があり、十字は黄・黒・白です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/dm.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：DM"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "DO": {
+      "hints": [
+        {
+          "text": "白い十字が、旗を四つの色の区画に分けています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左上と右下が青、右上と左下が赤で、十字の中央に紋章があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/do.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：DO"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "DZ": {
+      "hints": [
+        {
+          "text": "左右二色の中央に、赤い月と星があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左が緑、右が白。月は三日月で、星は五つの角があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/dz.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：DZ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "EC": {
+      "hints": [
+        {
+          "text": "三色の横帯で、上の帯が太くなっています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から黄・青・赤。中央に、大きな鳥を上に載せた紋章があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ec.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：EC"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "EE": {
+      "hints": [
+        {
+          "text": "紋章のない三色の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から青・黒・白の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ee.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：EE"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "EG": {
+      "hints": [
+        {
+          "text": "三色の横帯の中央に、金色の鳥の紋章があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から赤・白・黒。ワシの紋章は白い帯にあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/eg.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：EG"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "ER": {
+      "hints": [
+        {
+          "text": "三色を、三つの三角形に分けています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が緑、下が青。その間の赤い三角形に、黄色い枝の図案があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/er.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：ER"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "ES": {
+      "hints": [
+        {
+          "text": "赤と黄色の横帯を使っています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上と下が赤、幅広い中央が黄色で、左寄りに紋章があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/es.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：ES"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "ET": {
+      "hints": [
+        {
+          "text": "三色の横帯の中央に、青い円があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から緑・黄・赤。円の中に黄色い星と放射状の線があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/et.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：ET"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "FI": {
+      "hints": [
+        {
+          "text": "白地に、左寄りの十字を描いています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "十字は青い一色で、旗の端まで伸びています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/fi.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：FI"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "FJ": {
+      "hints": [
+        {
+          "text": "明るい青地の左上に、赤・白・青の旗があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "右側に盾があり、その中には赤い十字と植物などが描かれています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/fj.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：FJ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "FM": {
+      "hints": [
+        {
+          "text": "明るい青い一色の地を使っています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "白い五角の星が四つあり、上下左右に並んでいます。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/fm.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：FM"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "FR": {
+      "hints": [
+        {
+          "text": "紋章のない三色の縦じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から青・白・赤の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/fr.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：FR"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "GA": {
+      "hints": [
+        {
+          "text": "紋章のない三色の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から緑・黄・青の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ga.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：GA"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "GB": {
+      "hints": [
+        {
+          "text": "縦横の十字と、斜めの十字を重ねた図案です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "青い地に白と赤の十字が重なり、中央の赤い十字は白く縁取られています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gb.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：GB"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "GD": {
+      "hints": [
+        {
+          "text": "赤い外枠の内側が、黄色と緑の三角形に分かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "枠と中央に黄色い星があり、左側にはナツメグの実の図案があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gd.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：GD"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "GE": {
+      "hints": [
+        {
+          "text": "白い地に、大きな赤い十字があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大きな十字の四隅に、小さな赤い十字が一つずつあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ge.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：GE"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "GH": {
+      "hints": [
+        {
+          "text": "三色の横帯の中央に、黒い星があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から赤・黄・緑で、星は黄色い帯にあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gh.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：GH"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "GL": {
+      "hints": [
+        {
+          "text": "白と赤の上下二色に、円を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が白、下が赤。左寄りの円は、上半分が赤、下半分が白です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gl.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：GL"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "GM": {
+      "hints": [
+        {
+          "text": "赤・青・緑の横帯を使っています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央の青い帯の上下には、細い白い帯があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gm.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：GM"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "GN": {
+      "hints": [
+        {
+          "text": "紋章のない三色の縦じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から赤・黄・緑の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gn.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：GN"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "GQ": {
+      "hints": [
+        {
+          "text": "横じまと、左端の青い三角形を組み合わせています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から緑・白・赤で、白い帯の中央に木を描いた紋章があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gq.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：GQ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "GR": {
+      "hints": [
+        {
+          "text": "青と白の横じまに、左上の四角を組み合わせています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "横帯は全部で九本。左上の青い四角に白い十字があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gr.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：GR"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "GT": {
+      "hints": [
+        {
+          "text": "三本の縦帯で、中央に紋章があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左右が明るい青、中央が白。紋章には鳥と巻物、枝などがあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gt.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：GT"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "GU": {
+      "hints": [
+        {
+          "text": "青い地の外側を、細い赤い枠が囲んでいます。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央の縦長の紋章に、ヤシの木、舟、海岸が描かれています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gu.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：GU"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "GW": {
+      "hints": [
+        {
+          "text": "左に縦帯、右に上下二色の帯があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左の赤い帯に黒い星があり、右側は上が黄色、下が緑です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gw.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：GW"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "GY": {
+      "hints": [
+        {
+          "text": "緑の地に、左から右へ伸びる二重の三角形があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大きな黄色い三角形は白い縁、内側の赤い三角形は黒い縁があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gy.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：GY"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "HK": {
+      "hints": [
+        {
+          "text": "赤い地の中央に、白い花の図案があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "花びらは五枚で、それぞれに小さな赤い星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/hk.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：HK"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "HN": {
+      "hints": [
+        {
+          "text": "三本の横帯を並べた旗です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "青・白・青の中央の白い帯に、小さな青い星が五つあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/hn.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：HN"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "HR": {
+      "hints": [
+        {
+          "text": "三色の横帯に、盾の紋章を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から赤・白・青。盾の中は赤と白の市松模様で、上に五つの小さな盾があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/hr.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：HR"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "HT": {
+      "hints": [
+        {
+          "text": "青と赤の上下二色を使っています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が青、下が赤。中央の白い四角に、ヤシの木などの紋章があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ht.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：HT"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "HU": {
+      "hints": [
+        {
+          "text": "紋章のない三色の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から赤・白・緑の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/hu.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：HU"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "ID": {
+      "hints": [
+        {
+          "text": "紋章のない、上下二色の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が赤、下が白。採用画像の縦：横は2：3です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/id.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：ID"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "IE": {
+      "hints": [
+        {
+          "text": "紋章のない三色の縦じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から緑・白・オレンジの順です。似た旗とは、左右の色を見比べよう。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ie.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：IE"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "IL": {
+      "hints": [
+        {
+          "text": "白い地の上下寄りに、青い横帯があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央の青い星は、二つの三角形を重ねた六つの角の星です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/il.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：IL"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "IN": {
+      "hints": [
+        {
+          "text": "三色の横帯の中央に、車輪があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上からサフラン色・白・緑。白い帯の青い車輪には二十四本の線があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/in.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：IN"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "IQ": {
+      "hints": [
+        {
+          "text": "三色の横帯の中央に、文字を入れた旗です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から赤・白・黒で、白い帯に緑のアラビア文字があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/iq.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：IQ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "IR": {
+      "hints": [
+        {
+          "text": "三色の横帯の中央に、赤い図案があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から緑・白・赤。白い帯の上下の境には、文字の形を繰り返した模様があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ir.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：IR"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "IS": {
+      "hints": [
+        {
+          "text": "青い地に、左寄りの十字を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "十字の中心は赤で、その外側を白い線が縁取っています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/is.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：IS"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "IT": {
+      "hints": [
+        {
+          "text": "紋章のない三色の縦じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から緑・白・赤の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/it.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：IT"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "JM": {
+      "hints": [
+        {
+          "text": "斜めの十字で、地を四つに分けています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "十字は黄色。上下の三角形が緑、左右が黒です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/jm.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：JM"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "JO": {
+      "hints": [
+        {
+          "text": "三色の横帯に、左端の赤い三角形を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から黒・白・緑。三角形には、七つの角を持つ白い星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/jo.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：JO"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "JP": {
+      "hints": [
+        {
+          "text": "地は白一色で、文字や星はありません。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央に、大きな赤い円が一つあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/jp.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：JP"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "KE": {
+      "hints": [
+        {
+          "text": "三色の横帯に、中央の盾と槍を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から黒・赤・緑で、赤い帯の上下に細い白い線があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ke.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：KE"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "KG": {
+      "hints": [
+        {
+          "text": "赤い地の中央に、黄色い太陽があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "太陽の内側には、輪の中で線が交差する図案があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/kg.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：KG"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "KH": {
+      "hints": [
+        {
+          "text": "青と赤の横帯の中央に、建物を描いています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央の赤い帯が広く、白いアンコール・ワットの図案があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/kh.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：KH"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "KI": {
+      "hints": [
+        {
+          "text": "上は赤、下は青と白の波模様です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "水平線から昇る黄色い太陽と、その上を飛ぶ黄色い鳥があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ki.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：KI"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "KM": {
+      "hints": [
+        {
+          "text": "四色の横帯に、左端の緑の三角形を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "横帯は上から黄・白・赤・青。三角形に白い月と四つの星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/km.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：KM"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "KN": {
+      "hints": [
+        {
+          "text": "緑と赤の間を、黒い斜めの帯が通ります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "黒い帯の縁は黄色で、中に白い星が二つあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/kn.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：KN"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "KP": {
+      "hints": [
+        {
+          "text": "太い赤い横帯の上下に、青い帯があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "赤と青の間には細い白い帯。左寄りの白い円に赤い星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/kp.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：KP"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "KR": {
+      "hints": [
+        {
+          "text": "白い地の中央に、赤と青の円形の図案があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "円の周りの四隅には、黒い棒を組み合わせた模様があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/kr.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：KR"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "KW": {
+      "hints": [
+        {
+          "text": "三色の横帯の左端に、黒い台形があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "横帯は上から緑・白・赤です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/kw.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：KW"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "KZ": {
+      "hints": [
+        {
+          "text": "明るい青い地に、黄色い図案を描いています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央に太陽と翼を広げたワシ、左端に縦長の模様があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/kz.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：KZ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "LA": {
+      "hints": [
+        {
+          "text": "赤・青・赤の三本の横帯です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央の青い帯が広く、その中に白い円があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/la.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：LA"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "LB": {
+      "hints": [
+        {
+          "text": "赤い上下の帯の間に、広い白い帯があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央の白い帯に、緑のスギの木があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/lb.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：LB"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "LC": {
+      "hints": [
+        {
+          "text": "明るい青地に、先のとがった三角形があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "黒い三角形は白く縁取られ、その手前に小さな黄色い三角形があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/lc.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：LC"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "LI": {
+      "hints": [
+        {
+          "text": "青と赤の上下二色の旗です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が青、下が赤で、左上に金色の王冠があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/li.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：LI"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "LK": {
+      "hints": [
+        {
+          "text": "金色の枠の内側を、左右に分けた図案です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左には緑とオレンジの帯、右のえんじ色の部分には剣を持つ金色のライオンがあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/lk.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：LK"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "LR": {
+      "hints": [
+        {
+          "text": "赤と白の横じまを使っています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "横帯は全部で十一本。左上の青い四角に、白い星が一つあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/lr.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：LR"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "LS": {
+      "hints": [
+        {
+          "text": "三色の横帯の中央に、黒い図案があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から青・白・緑。中央は円すい形の帽子を描いた図案です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ls.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：LS"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "LT": {
+      "hints": [
+        {
+          "text": "紋章のない三色の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から黄・緑・赤の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/lt.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：LT"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "LU": {
+      "hints": [
+        {
+          "text": "赤・白・明るい青の三本の横帯です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "いちばん下の青は明るい水色です。似た三色旗と、青の明るさや比率を比べよう。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/lu.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：LU"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "LV": {
+      "hints": [
+        {
+          "text": "同じ色の上下の帯の間に、細い白い帯があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上下は暗い赤で、白い帯の幅は赤い帯の半分です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/lv.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：LV"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "LY": {
+      "hints": [
+        {
+          "text": "三色の横帯の中央に、白い月と星があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が赤、中央が黒、下が緑で、黒い帯の幅が広くなっています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ly.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：LY"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MA": {
+      "hints": [
+        {
+          "text": "赤一色の地に、緑の線の図案があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央の図案は、一筆書きのようにつながった五角の星です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ma.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MA"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MC": {
+      "hints": [
+        {
+          "text": "紋章のない、上下二色の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が赤、下が白。採用画像の縦：横は4：5で、正方形に近い形です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mc.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MC"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MD": {
+      "hints": [
+        {
+          "text": "三色の縦帯の中央に、鳥の紋章があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から青・黄・赤。中央のワシが、胸に盾を持っています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/md.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MD"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "ME": {
+      "hints": [
+        {
+          "text": "赤い地の周りを、金色の枠が囲んでいます。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央に、二つの頭と王冠を持つ金色のワシの紋章があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/me.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：ME"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MG": {
+      "hints": [
+        {
+          "text": "左端の縦帯と、右側の上下二色でできています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左が白、右上が赤、右下が緑です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mg.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MG"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MH": {
+      "hints": [
+        {
+          "text": "青い地を、二本の斜めの帯が横切ります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "帯はオレンジと白で、右へ向かうほど広がります。左上に白い放射状の星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mh.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MH"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MK": {
+      "hints": [
+        {
+          "text": "赤い地の中央に、黄色い円があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "円から八方向へ、太い黄色い光が旗の端まで伸びています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mk.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MK"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "ML": {
+      "hints": [
+        {
+          "text": "紋章のない三色の縦じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から緑・黄・赤の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ml.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：ML"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MM": {
+      "hints": [
+        {
+          "text": "三色の横帯に、大きな白い星を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から黄・緑・赤。星は五つの角で、三本の帯にまたがっています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mm.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MM"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MN": {
+      "hints": [
+        {
+          "text": "三本の縦帯で、左右が赤、中央が青です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左の赤い帯に、炎・太陽・月などを組み合わせた黄色い図案があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mn.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MN"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MO": {
+      "hints": [
+        {
+          "text": "緑の地に、白い植物と黄色い星があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央にハスの花と橋・水の図案があり、その上に五つの星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mo.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MO"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MR": {
+      "hints": [
+        {
+          "text": "緑の地の上下に、細い赤い横帯があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央には、上向きの黄色い三日月と、その上に黄色い星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mr.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MR"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MT": {
+      "hints": [
+        {
+          "text": "白と赤の、左右二色の旗です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左が白、右が赤で、左上に赤く縁取られた十字の勲章があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mt.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MT"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MU": {
+      "hints": [
+        {
+          "text": "紋章のない、四本の横帯です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から赤・青・黄・緑の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mu.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MU"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MV": {
+      "hints": [
+        {
+          "text": "赤い地の中に、緑の長方形があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "緑の部分の中央には、白い三日月があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mv.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MV"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MW": {
+      "hints": [
+        {
+          "text": "三色の横帯に、半分だけ見える太陽を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から黒・赤・緑。上の黒い帯から赤い太陽が昇る図案です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mw.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MW"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MX": {
+      "hints": [
+        {
+          "text": "三色の縦帯の中央に、細かい紋章があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から緑・白・赤。紋章には、サボテンの上でヘビをくわえるワシが描かれています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mx.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MX"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MY": {
+      "hints": [
+        {
+          "text": "赤と白の横じまに、左上の青い四角を組み合わせています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "横帯は十四本。青い部分に黄色い三日月と、十四の角を持つ星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/my.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MY"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "MZ": {
+      "hints": [
+        {
+          "text": "三色の横帯に、左端の赤い三角形を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から緑・黒・黄。三角形の黄色い星の上に、本や道具の図案があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mz.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：MZ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "NA": {
+      "hints": [
+        {
+          "text": "青と緑の間を、赤い斜めの帯が通ります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "赤い帯には白い縁があり、左上の青い部分に黄色い太陽があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/na.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：NA"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "NE": {
+      "hints": [
+        {
+          "text": "三色の横帯の中央に、円があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上からオレンジ・白・緑で、中央の円はオレンジ色です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ne.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：NE"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "NG": {
+      "hints": [
+        {
+          "text": "三本の縦帯で、左右が同じ色です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "緑・白・緑の順で、紋章や星はありません。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ng.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：NG"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "NI": {
+      "hints": [
+        {
+          "text": "青・白・青の三本の横帯です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央に、山と虹などを描いた三角形を含む紋章があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ni.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：NI"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "NL": {
+      "hints": [
+        {
+          "text": "紋章のない三色の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から赤・白・青の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/nl.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：NL"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "NO": {
+      "hints": [
+        {
+          "text": "赤い地に、左寄りの十字を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "十字の中心は青で、その外側を白い線が縁取っています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/no.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：NO"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "NP": {
+      "hints": [
+        {
+          "text": "長方形ではなく、二つの三角形を縦につないだ輪郭です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "青い縁の内側は赤で、上に白い月、下に白い太陽があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/np.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：NP"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "NR": {
+      "hints": [
+        {
+          "text": "青い地を、細い黄色い横線が横切ります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "黄色い線の左下に、十二の角を持つ白い星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/nr.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：NR"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "NU": {
+      "hints": [
+        {
+          "text": "黄色い地の左上に、赤・白・青の旗があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左上の図案の中に黄色い星があり、中央の星は青い円に重なっています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/nu.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：NU"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "NZ": {
+      "hints": [
+        {
+          "text": "青地の左上に、赤・白・青の旗があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "右側に、白く縁取られた赤い星が四つあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/nz.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：NZ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "OM": {
+      "hints": [
+        {
+          "text": "左の縦帯と、右側の三本の横帯を組み合わせています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左は赤で、右は上から白・赤・緑。左上に白い剣と短剣の図案があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/om.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：OM"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "PA": {
+      "hints": [
+        {
+          "text": "四つの四角形に分けた図案です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "右上が赤、左下が青。左上の白地に青い星、右下の白地に赤い星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pa.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：PA"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "PE": {
+      "hints": [
+        {
+          "text": "赤・白・赤の三本の縦帯です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央の白い帯に、動物や木、角からこぼれる金貨を描いた紋章があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pe.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：PE"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "PG": {
+      "hints": [
+        {
+          "text": "斜めに分かれた二色の地を使っています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左下の黒い部分に白い星、右上の赤い部分に黄色い鳥があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pg.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：PG"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "PH": {
+      "hints": [
+        {
+          "text": "青と赤の横帯に、左端の白い三角形を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "三角形に黄色い太陽と三つの星があり、上の帯は青、下は赤です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ph.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：PH"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "PK": {
+      "hints": [
+        {
+          "text": "緑の広い部分と、左端の白い縦帯があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "緑の部分に、大きな白い三日月と五角の星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pk.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：PK"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "PL": {
+      "hints": [
+        {
+          "text": "紋章のない、上下二色の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が白、下が赤です。赤が上にある似た旗と区別しよう。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pl.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：PL"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "PR": {
+      "hints": [
+        {
+          "text": "横じまと、左端の三角形を組み合わせています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "赤三本と白二本の横じまに、白い星のある青い三角形を重ねています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pr.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：PR"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "PS": {
+      "hints": [
+        {
+          "text": "三色の横帯に、左端の赤い三角形を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から黒・白・緑で、赤い三角形に星はありません。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ps.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：PS"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "PT": {
+      "hints": [
+        {
+          "text": "緑と赤の縦二色で、幅は同じではありません。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左の緑が狭く、右の赤が広い形です。境目に、黄色い球形の図案と盾があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pt.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：PT"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "PW": {
+      "hints": [
+        {
+          "text": "明るい青の地に、黄色い円があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "円は真ん中より少し左に寄っていて、星や文字はありません。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pw.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：PW"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "PY": {
+      "hints": [
+        {
+          "text": "三色の横帯の中央に、小さな円形の紋章があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から赤・白・青。採用画像の中央の紋章には、星と枝が描かれています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/py.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：PY"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "QA": {
+      "hints": [
+        {
+          "text": "左が白、右がえんじ色で、境目がギザギザです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "白い部分の右端にある、とがった山は九つです。赤と白の似た旗より横長です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/qa.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：QA"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "RO": {
+      "hints": [
+        {
+          "text": "紋章のない三色の縦じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から青・黄・赤の順で、帯の幅は同じです。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ro.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：RO"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "RS": {
+      "hints": [
+        {
+          "text": "三色の横帯の、左寄りに紋章があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から赤・青・白。紋章には王冠と白い双頭のワシがあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/rs.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：RS"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "RU": {
+      "hints": [
+        {
+          "text": "紋章のない三色の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から白・青・赤の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ru.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：RU"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "RW": {
+      "hints": [
+        {
+          "text": "三色の横帯で、上の帯が広くなっています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が明るい青、中央が黄色、下が緑で、右上に黄色い太陽があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/rw.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：RW"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SA": {
+      "hints": [
+        {
+          "text": "緑一色の地に、白い文字と道具の図案があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "白いアラビア文字の下に、横向きの剣があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sa.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SA"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SB": {
+      "hints": [
+        {
+          "text": "青と緑の間を、細い黄色い斜めの帯が通ります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左上の青い部分には、五つの白い星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sb.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SB"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SC": {
+      "hints": [
+        {
+          "text": "五色が、左下の一点から扇のように広がります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から青・黄・赤・白・緑の順に分かれています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sc.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SC"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SD": {
+      "hints": [
+        {
+          "text": "三色の横帯に、左端の緑の三角形を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "横帯は上から赤・白・黒の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sd.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SD"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SE": {
+      "hints": [
+        {
+          "text": "青い地に、左寄りの十字があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "十字は黄色一色で、旗の端まで伸びています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/se.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SE"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SG": {
+      "hints": [
+        {
+          "text": "赤と白の上下二色を使っています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上の赤い部分の左側に、白い三日月と五つの星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sg.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SG"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SI": {
+      "hints": [
+        {
+          "text": "三色の横帯に、左上寄りの盾を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から白・青・赤。盾の中に白い山、青い波、三つの星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/si.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SI"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SK": {
+      "hints": [
+        {
+          "text": "三色の横帯に、左寄りの赤い盾があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から白・青・赤。盾の中に白い二重十字と、青い三つの山があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sk.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SK"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SL": {
+      "hints": [
+        {
+          "text": "紋章のない三色の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から緑・白・青の順です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sl.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SL"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SM": {
+      "hints": [
+        {
+          "text": "白と明るい青の、上下二色の旗です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が白、下が明るい青。中央の紋章に、三つの塔と王冠があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sm.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SM"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SN": {
+      "hints": [
+        {
+          "text": "三色の縦帯の中央に、星があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から緑・黄・赤で、中央の星は緑です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sn.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SN"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SO": {
+      "hints": [
+        {
+          "text": "明るい青い一色の地を使っています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央に、大きな白い五角の星が一つあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/so.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SO"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SR": {
+      "hints": [
+        {
+          "text": "五本の横帯で、上下が同じ並び方です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "緑・白・赤・白・緑の順で、広い中央の赤い帯に黄色い星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sr.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SR"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SS": {
+      "hints": [
+        {
+          "text": "三色の横帯に、左端の青い三角形を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "横帯は上から黒・赤・緑で、その間に白い線があります。三角形には黄色い星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ss.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SS"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "ST": {
+      "hints": [
+        {
+          "text": "緑・黄・緑の横帯に、左端の赤い三角形を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央の黄色い帯に、黒い星が横に二つ並んでいます。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/st.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：ST"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SV": {
+      "hints": [
+        {
+          "text": "青・白・青の三本の横帯です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央の白い帯に、五つの旗と三角形などを組み合わせた紋章があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sv.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SV"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SY": {
+      "hints": [
+        {
+          "text": "三色の横帯に、赤い星を重ねた図案です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から緑・白・黒で、中央の白い帯に赤い星が三つ並んでいます。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sy.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SY"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "SZ": {
+      "hints": [
+        {
+          "text": "五本の横帯と、中央の大きな盾の図案があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "太い中央は赤、その上下は黄色と青です。盾は白と黒に分かれ、槍などが重なります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sz.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：SZ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "TD": {
+      "hints": [
+        {
+          "text": "紋章のない三色の縦じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から濃い青・黄・赤の順で、帯の幅は同じです。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/td.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：TD"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "TG": {
+      "hints": [
+        {
+          "text": "緑と黄色の横じまに、左上の赤い四角を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "横帯は五本で、赤い四角には白い星が一つあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tg.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：TG"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "TH": {
+      "hints": [
+        {
+          "text": "五本の横帯で、中央の帯が太くなっています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から赤・白・青・白・赤の順で、中央の青い帯は外側の帯の二倍の幅です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/th.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：TH"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "TJ": {
+      "hints": [
+        {
+          "text": "三色の横帯の中央に、金色の図案があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から赤・白・緑。中央の白い帯には王冠と、その上に七つの星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tj.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：TJ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "TL": {
+      "hints": [
+        {
+          "text": "赤い地の左側に、二重の三角形があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "黄色い大きな三角形の上に、白い星がある黒い三角形を重ねています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tl.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：TL"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "TM": {
+      "hints": [
+        {
+          "text": "緑の地の左寄りに、縦長の細かな模様があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "縦模様には五つのじゅうたんの図案があり、右上寄りに白い三日月と五つの星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tm.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：TM"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "TN": {
+      "hints": [
+        {
+          "text": "赤い地の中央に、白い円があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "白い円の中に、赤い三日月と赤い五角の星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tn.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：TN"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "TO": {
+      "hints": [
+        {
+          "text": "赤い地の左上に、白い四角があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "その白い四角の中に、赤い十字があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/to.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：TO"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "TR": {
+      "hints": [
+        {
+          "text": "赤い地に、白い月と星があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "三日月の右側に白い五角の星があり、周りを囲む白い円はありません。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tr.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：TR"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "TT": {
+      "hints": [
+        {
+          "text": "赤い地を、黒い斜めの帯が横切ります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "黒い帯の両側には、細い白い縁があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tt.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：TT"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "TV": {
+      "hints": [
+        {
+          "text": "明るい青地の左上に、赤・白・青の旗があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "右側には、九つの黄色い星が散らばっています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tv.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：TV"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "TW": {
+      "hints": [
+        {
+          "text": "赤い地の左上に、青い四角があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "青い部分に、十二本の光を持つ白い太陽があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tw.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：TW"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "TZ": {
+      "hints": [
+        {
+          "text": "緑と青の間を、黒い斜めの帯が通ります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左上は緑、右下は青。黒い帯の両側に黄色い縁があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tz.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：TZ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "UA": {
+      "hints": [
+        {
+          "text": "紋章のない、上下二色の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が青、下が黄色です。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ua.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：UA"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "UG": {
+      "hints": [
+        {
+          "text": "六本の横帯で、同じ三色を繰り返しています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "黒・黄・赤・黒・黄・赤の順。中央の白い円に鳥が描かれています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ug.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：UG"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "US": {
+      "hints": [
+        {
+          "text": "赤と白の横じまに、左上の青い四角を組み合わせています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "横帯は十三本で、青い部分に小さな白い星が五十個並んでいます。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/us.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：US"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "UY": {
+      "hints": [
+        {
+          "text": "白と青の横じまに、左上の白い四角を組み合わせています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "横帯は九本で、左上に顔のある黄色い太陽が描かれています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/uy.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：UY"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "UZ": {
+      "hints": [
+        {
+          "text": "三色の横帯の間に、細い赤い線があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から青・白・緑。左上に、白い三日月と十二個の星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/uz.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：UZ"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "VA": {
+      "hints": [
+        {
+          "text": "横長ではなく、正方形の旗です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左が黄色、右が白で、白い部分に二本の鍵と冠があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/va.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：VA"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "VC": {
+      "hints": [
+        {
+          "text": "縦の三色で、中央の帯が広くなっています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "左から青・黄・緑。黄色い部分に、緑のひし形が三つあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/vc.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：VC"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "VE": {
+      "hints": [
+        {
+          "text": "三色の横帯に、白い星を重ねています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から黄・青・赤。青い帯に八つの白い星が弧を描いて並びます。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ve.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：VE"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "VN": {
+      "hints": [
+        {
+          "text": "赤い一色の地を使っています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中央に、大きな黄色い五角の星が一つあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/vn.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：VN"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "VU": {
+      "hints": [
+        {
+          "text": "横向きのＹ字の図案で、地を三つに分けています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上が赤、下が緑、左が黒。黒い部分に、黄色い円形の牙と葉の図案があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/vu.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：VU"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "WS": {
+      "hints": [
+        {
+          "text": "赤い地の左上に、青い四角があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "青い部分に、大きさの違う五つの白い星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ws.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：WS"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "XK": {
+      "hints": [
+        {
+          "text": "青い一色の地に、黄色い陸地の輪郭があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "陸地の輪郭の上に、六つの白い星が弧を描いて並びます。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/xk.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：XK"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "XNC": {
+      "hints": [
+        {
+          "text": "白い地の上下寄りに、赤い横帯があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "二本の赤い帯の間に、赤い三日月と五角の星があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg?download=1",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：XNC"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "YE": {
+      "hints": [
+        {
+          "text": "紋章のない三色の横じまです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上から赤・白・黒の順で、中央に星や文字はありません。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ye.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：YE"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "ZA": {
+      "hints": [
+        {
+          "text": "横向きのＹ字の図案が、旗を区切っています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "Ｙ字は緑。上が赤、下が青、左が黒で、白や黄色の縁も使っています。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/za.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：ZA"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "ZM": {
+      "hints": [
+        {
+          "text": "緑の地の右下に、三色の縦帯があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "右下の帯は赤・黒・オレンジで、その上に翼を広げたオレンジ色のワシがあります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/zm.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：ZM"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    },
+    "ZW": {
+      "hints": [
+        {
+          "text": "七本の横帯と、左端の白い三角形があります。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "横帯は緑・黄・赤・黒・赤・黄・緑。白い部分には、赤い星と鳥の図案があります。",
+          "stage": "特徴",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/hampusborgos/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/zw.svg",
+          "checked": "2026-10-20",
+          "title": "ゲーム採用の原寸比SVGを目視確認：ZW"
+        }
+      ],
+      "basis": "adopted-svg-observation"
+    }
+  }
+}

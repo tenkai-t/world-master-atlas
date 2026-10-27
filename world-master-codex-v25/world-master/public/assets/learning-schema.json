@@ -1,0 +1,1796 @@
+{
+  "version": "world-2026-10-v7",
+  "policy": "編集した代表性の段階。累積範囲：入門=1、基本=1+2、発展=1+2+3。政治的分類・写真有無から自動決定しない。",
+  "tiers": {
+    "country": {
+      "ZW": "advanced",
+      "ZM": "advanced",
+      "YE": "advanced",
+      "VN": "intro",
+      "VE": "advanced",
+      "VU": "advanced",
+      "UZ": "advanced",
+      "UY": "all",
+      "FM": "advanced",
+      "MH": "advanced",
+      "US": "intro",
+      "GB": "intro",
+      "AE": "all",
+      "UA": "all",
+      "UG": "advanced",
+      "TM": "advanced",
+      "TR": "intro",
+      "TN": "advanced",
+      "TT": "advanced",
+      "TO": "advanced",
+      "TG": "advanced",
+      "TL": "advanced",
+      "TH": "intro",
+      "TZ": "all",
+      "TJ": "advanced",
+      "SY": "advanced",
+      "CH": "intro",
+      "SE": "intro",
+      "SZ": "advanced",
+      "SR": "advanced",
+      "SS": "advanced",
+      "SD": "advanced",
+      "LK": "all",
+      "ES": "intro",
+      "KR": "intro",
+      "ZA": "intro",
+      "SO": "advanced",
+      "SB": "advanced",
+      "SK": "advanced",
+      "SI": "advanced",
+      "SG": "all",
+      "SL": "advanced",
+      "SC": "advanced",
+      "RS": "all",
+      "SN": "advanced",
+      "SA": "intro",
+      "ST": "advanced",
+      "SM": "advanced",
+      "WS": "advanced",
+      "VC": "advanced",
+      "LC": "advanced",
+      "KN": "advanced",
+      "RW": "advanced",
+      "RU": "intro",
+      "RO": "all",
+      "QA": "advanced",
+      "PT": "all",
+      "PL": "all",
+      "PH": "all",
+      "PE": "all",
+      "PY": "advanced",
+      "PG": "advanced",
+      "PA": "advanced",
+      "PW": "advanced",
+      "PK": "all",
+      "OM": "advanced",
+      "NO": "intro",
+      "KP": "advanced",
+      "NG": "all",
+      "NE": "advanced",
+      "NI": "advanced",
+      "NZ": "intro",
+      "NL": "all",
+      "NP": "all",
+      "NR": "advanced",
+      "NA": "advanced",
+      "MZ": "advanced",
+      "MA": "all",
+      "ME": "advanced",
+      "MN": "all",
+      "MD": "advanced",
+      "MC": "advanced",
+      "MX": "intro",
+      "MU": "advanced",
+      "MR": "advanced",
+      "MT": "advanced",
+      "ML": "advanced",
+      "MV": "advanced",
+      "MY": "all",
+      "MW": "advanced",
+      "MG": "all",
+      "MK": "advanced",
+      "LU": "advanced",
+      "LT": "advanced",
+      "LI": "advanced",
+      "LY": "advanced",
+      "LR": "advanced",
+      "LS": "advanced",
+      "LB": "advanced",
+      "LV": "advanced",
+      "LA": "all",
+      "KG": "advanced",
+      "KW": "advanced",
+      "KI": "advanced",
+      "KE": "intro",
+      "KZ": "all",
+      "JO": "all",
+      "JP": "intro",
+      "JM": "advanced",
+      "IT": "intro",
+      "IL": "all",
+      "IE": "all",
+      "IQ": "all",
+      "IR": "all",
+      "ID": "intro",
+      "IN": "intro",
+      "IS": "all",
+      "HU": "all",
+      "HN": "advanced",
+      "HT": "advanced",
+      "GY": "advanced",
+      "GW": "advanced",
+      "GN": "advanced",
+      "GT": "advanced",
+      "GD": "advanced",
+      "GR": "intro",
+      "GH": "all",
+      "DE": "intro",
+      "GE": "advanced",
+      "GM": "advanced",
+      "GA": "advanced",
+      "FR": "intro",
+      "FI": "intro",
+      "FJ": "advanced",
+      "ET": "all",
+      "EE": "advanced",
+      "ER": "advanced",
+      "GQ": "advanced",
+      "SV": "advanced",
+      "EG": "intro",
+      "EC": "advanced",
+      "DO": "advanced",
+      "DM": "advanced",
+      "DJ": "advanced",
+      "DK": "all",
+      "CZ": "all",
+      "CY": "advanced",
+      "CU": "all",
+      "HR": "advanced",
+      "CI": "advanced",
+      "CR": "advanced",
+      "CD": "all",
+      "CG": "advanced",
+      "KM": "advanced",
+      "CO": "all",
+      "CN": "intro",
+      "CL": "all",
+      "TD": "advanced",
+      "CF": "advanced",
+      "CV": "advanced",
+      "CA": "intro",
+      "CM": "advanced",
+      "KH": "all",
+      "MM": "all",
+      "BI": "advanced",
+      "BF": "advanced",
+      "BG": "advanced",
+      "BN": "advanced",
+      "BR": "intro",
+      "BW": "advanced",
+      "BA": "advanced",
+      "BO": "all",
+      "BT": "advanced",
+      "BJ": "advanced",
+      "BZ": "advanced",
+      "BE": "all",
+      "BY": "advanced",
+      "BB": "advanced",
+      "BD": "all",
+      "BH": "advanced",
+      "BS": "advanced",
+      "AZ": "advanced",
+      "AT": "all",
+      "AU": "intro",
+      "AM": "advanced",
+      "AR": "intro",
+      "AG": "advanced",
+      "AO": "advanced",
+      "AD": "advanced",
+      "DZ": "all",
+      "AL": "advanced",
+      "AF": "all",
+      "TV": "advanced",
+      "PS": "all",
+      "VA": "all",
+      "TW": "all",
+      "XK": "advanced",
+      "XNC": "advanced",
+      "HK": "all",
+      "MO": "advanced",
+      "GL": "all",
+      "PR": "advanced",
+      "GU": "advanced",
+      "CK": "advanced",
+      "NU": "advanced"
+    },
+    "capital": {
+      "cap-ad-andorra-la-vella": "advanced",
+      "cap-ae-abu-dhabi": "all",
+      "cap-af-kabul": "all",
+      "cap-ag-saint-john-s": "advanced",
+      "cap-al-tirana": "advanced",
+      "cap-am-yerevan": "advanced",
+      "cap-ao-luanda": "advanced",
+      "cap-ar-buenos-aires": "all",
+      "cap-at-vienna": "all",
+      "cap-au-canberra": "intro",
+      "cap-az-baku": "advanced",
+      "cap-ba-sarajevo": "advanced",
+      "cap-bb-bridgetown": "advanced",
+      "cap-bd-dhaka": "all",
+      "cap-be-brussels": "all",
+      "cap-bf-ouagadougou": "advanced",
+      "cap-bg-sofia": "advanced",
+      "cap-bh-manama": "advanced",
+      "cap-bi-gitega": "advanced",
+      "cap-bj-cotonou": "advanced",
+      "cap-bj-porto-novo": "advanced",
+      "cap-bn-bandar-seri-begawan": "advanced",
+      "cap-bo-la-paz": "advanced",
+      "cap-bo-sucre": "advanced",
+      "cap-br-brasilia": "intro",
+      "cap-bs-nassau": "advanced",
+      "cap-bt-thimphu": "advanced",
+      "cap-bw-gaborone": "advanced",
+      "cap-by-minsk": "advanced",
+      "cap-bz-belmopan": "advanced",
+      "cap-ca-ottawa": "intro",
+      "cap-cd-kinshasa": "all",
+      "cap-cf-bangui": "advanced",
+      "cap-cg-brazzaville": "advanced",
+      "cap-ch-bern": "advanced",
+      "cap-ci-abidjan": "advanced",
+      "cap-ci-yamoussoukro": "advanced",
+      "cap-cl-santiago": "all",
+      "cap-cl-valparaiso": "advanced",
+      "cap-cm-yaounde": "advanced",
+      "cap-cn-beijing": "intro",
+      "cap-co-bogota": "all",
+      "cap-cr-san-jose": "advanced",
+      "cap-cu-havana": "all",
+      "cap-cv-praia": "advanced",
+      "cap-cy-nicosia": "advanced",
+      "cap-cz-prague": "all",
+      "cap-de-berlin": "intro",
+      "cap-dj-djibouti": "advanced",
+      "cap-dk-copenhagen": "all",
+      "cap-dm-roseau": "advanced",
+      "cap-do-santo-domingo": "advanced",
+      "cap-dz-algiers": "all",
+      "cap-ec-quito": "advanced",
+      "cap-ee-tallinn": "advanced",
+      "cap-eg-cairo": "intro",
+      "cap-eg-the-new-capital": "advanced",
+      "cap-er-asmara": "advanced",
+      "cap-es-madrid": "intro",
+      "cap-et-addis-ababa": "all",
+      "cap-fi-helsinki": "all",
+      "cap-fj-suva": "advanced",
+      "cap-fm-palikir": "advanced",
+      "cap-fr-paris": "intro",
+      "cap-ga-libreville": "advanced",
+      "cap-gb-london": "intro",
+      "cap-gd-st-george-s": "advanced",
+      "cap-ge-tbilisi": "advanced",
+      "cap-gh-accra": "all",
+      "cap-gm-banjul": "advanced",
+      "cap-gn-conakry": "advanced",
+      "cap-gq-ciudad-de-la-paz": "advanced",
+      "cap-gq-malabo": "advanced",
+      "cap-gr-athens": "intro",
+      "cap-gt-guatemala-city": "advanced",
+      "cap-gw-bissau": "advanced",
+      "cap-gy-georgetown": "advanced",
+      "cap-hn-tegucigalpa": "advanced",
+      "cap-hr-zagreb": "advanced",
+      "cap-ht-port-au-prince": "advanced",
+      "cap-hu-budapest": "all",
+      "cap-id-jakarta": "all",
+      "cap-id-nusantara": "advanced",
+      "cap-ie-dublin": "all",
+      "cap-il-jerusalem": "advanced",
+      "cap-in-new-delhi": "intro",
+      "cap-iq-baghdad": "all",
+      "cap-ir-tehran": "all",
+      "cap-is-reykjavik": "all",
+      "cap-it-rome": "intro",
+      "cap-jm-kingston": "advanced",
+      "cap-jo-amman": "all",
+      "cap-jp-tokyo": "intro",
+      "cap-ke-nairobi": "all",
+      "cap-kg-bishkek": "advanced",
+      "cap-kh-phnom-penh": "all",
+      "cap-ki-south-tarawa": "advanced",
+      "cap-km-moroni": "advanced",
+      "cap-kn-basseterre": "advanced",
+      "cap-kp-pyongyang": "advanced",
+      "cap-kr-sejong": "advanced",
+      "cap-kr-seoul": "intro",
+      "cap-kw-kuwait-city": "advanced",
+      "cap-kz-astana": "all",
+      "cap-la-vientiane": "all",
+      "cap-lb-beirut": "advanced",
+      "cap-lc-castries": "advanced",
+      "cap-li-vaduz": "advanced",
+      "cap-lk-colombo": "advanced",
+      "cap-lk-sri-jayawardenepura-kotte": "advanced",
+      "cap-lr-monrovia": "advanced",
+      "cap-ls-maseru": "advanced",
+      "cap-lt-vilnius": "advanced",
+      "cap-lu-luxembourg": "advanced",
+      "cap-lv-riga": "advanced",
+      "cap-ly-tripoli": "advanced",
+      "cap-ma-rabat": "all",
+      "cap-mc-monaco": "advanced",
+      "cap-md-chisinau": "advanced",
+      "cap-me-podgorica": "advanced",
+      "cap-mg-antananarivo": "all",
+      "cap-mh-majuro": "advanced",
+      "cap-mk-skopje": "advanced",
+      "cap-ml-bamako": "advanced",
+      "cap-mm-naypyidaw": "all",
+      "cap-mn-ulaanbaatar": "all",
+      "cap-mr-nouakchott": "advanced",
+      "cap-mt-valletta": "advanced",
+      "cap-mu-port-louis": "advanced",
+      "cap-mv-male": "advanced",
+      "cap-mw-lilongwe": "advanced",
+      "cap-mx-mexico-city": "all",
+      "cap-my-kuala-lumpur": "advanced",
+      "cap-my-putrajaya": "advanced",
+      "cap-mz-maputo": "advanced",
+      "cap-na-windhoek": "advanced",
+      "cap-ne-niamey": "advanced",
+      "cap-ng-abuja": "all",
+      "cap-ni-managua": "advanced",
+      "cap-nl-amsterdam": "advanced",
+      "cap-nl-the-hague": "advanced",
+      "cap-no-oslo": "all",
+      "cap-np-kathmandu": "all",
+      "cap-nr-yaren": "advanced",
+      "cap-nz-wellington": "all",
+      "cap-om-muscat": "advanced",
+      "cap-pa-panama-city": "advanced",
+      "cap-pe-lima": "all",
+      "cap-pg-port-moresby": "advanced",
+      "cap-ph-manila": "all",
+      "cap-pk-islamabad": "all",
+      "cap-pl-warsaw": "all",
+      "cap-pt-lisbon": "all",
+      "cap-pw-ngerulmud": "advanced",
+      "cap-py-asuncion": "advanced",
+      "cap-qa-doha": "advanced",
+      "cap-ro-bucharest": "all",
+      "cap-rs-belgrade": "all",
+      "cap-ru-moscow": "intro",
+      "cap-rw-kigali": "advanced",
+      "cap-sa-riyadh": "all",
+      "cap-sb-honiara": "advanced",
+      "cap-sc-victoria": "advanced",
+      "cap-sd-khartoum": "advanced",
+      "cap-se-stockholm": "all",
+      "cap-sg-singapore": "all",
+      "cap-si-ljubljana": "advanced",
+      "cap-sk-bratislava": "advanced",
+      "cap-sl-freetown": "advanced",
+      "cap-sm-san-marino": "advanced",
+      "cap-sn-dakar": "advanced",
+      "cap-so-mogadishu": "advanced",
+      "cap-sr-paramaribo": "advanced",
+      "cap-ss-juba": "advanced",
+      "cap-st-sao-tome": "advanced",
+      "cap-sv-san-salvador": "advanced",
+      "cap-sy-damascus": "advanced",
+      "cap-sz-lobamba": "advanced",
+      "cap-sz-mbabane": "advanced",
+      "cap-td-n-djamena": "advanced",
+      "cap-tg-lome": "advanced",
+      "cap-th-bangkok": "intro",
+      "cap-tj-dushanbe": "advanced",
+      "cap-tl-dili": "advanced",
+      "cap-tm-ashgabat": "advanced",
+      "cap-tn-tunis": "advanced",
+      "cap-to-nuku-alofa": "advanced",
+      "cap-tr-ankara": "all",
+      "cap-tt-port-of-spain": "advanced",
+      "cap-tv-funafuti": "advanced",
+      "cap-tz-dodoma": "all",
+      "cap-ua-kyiv": "all",
+      "cap-ug-kampala": "advanced",
+      "cap-us-washington-d-c": "intro",
+      "cap-uy-montevideo": "all",
+      "cap-uz-tashkent": "advanced",
+      "cap-vc-kingstown": "advanced",
+      "cap-ve-caracas": "advanced",
+      "cap-vn-hanoi": "all",
+      "cap-vu-port-vila": "advanced",
+      "cap-ws-apia": "advanced",
+      "cap-ye-aden": "advanced",
+      "cap-ye-sanaa": "advanced",
+      "cap-za-bloemfontein": "advanced",
+      "cap-za-cape-town": "advanced",
+      "cap-za-pretoria": "advanced",
+      "cap-zm-lusaka": "advanced",
+      "cap-zw-harare": "advanced"
+    },
+    "terrain": {
+      "terrain-mountain-01": "intro",
+      "terrain-mountain-02": "intro",
+      "terrain-mountain-03": "intro",
+      "terrain-mountain-04": "all",
+      "terrain-mountain-05": "all",
+      "terrain-mountain-06": "advanced",
+      "terrain-mountain-07": "advanced",
+      "terrain-mountain-08": "advanced",
+      "terrain-range-01": "intro",
+      "terrain-range-02": "intro",
+      "terrain-range-03": "all",
+      "terrain-range-04": "all",
+      "terrain-range-05": "all",
+      "terrain-range-06": "advanced",
+      "terrain-range-07": "advanced",
+      "terrain-range-08": "advanced",
+      "terrain-river-01": "intro",
+      "terrain-river-02": "intro",
+      "terrain-river-03": "all",
+      "terrain-river-04": "all",
+      "terrain-river-05": "all",
+      "terrain-river-06": "all",
+      "terrain-river-07": "advanced",
+      "terrain-river-08": "advanced",
+      "terrain-river-09": "advanced",
+      "terrain-river-10": "advanced",
+      "terrain-lake-01": "intro",
+      "terrain-lake-02": "intro",
+      "terrain-lake-03": "all",
+      "terrain-lake-04": "all",
+      "terrain-lake-05": "all",
+      "terrain-lake-06": "advanced",
+      "terrain-lake-07": "advanced",
+      "terrain-lake-08": "advanced",
+      "terrain-island-01": "intro",
+      "terrain-island-02": "intro",
+      "terrain-island-03": "all",
+      "terrain-island-04": "all",
+      "terrain-island-05": "all",
+      "terrain-island-06": "advanced",
+      "terrain-island-07": "advanced",
+      "terrain-island-08": "advanced",
+      "terrain-archipelago-01": "intro",
+      "terrain-archipelago-02": "intro",
+      "terrain-archipelago-03": "intro",
+      "terrain-archipelago-04": "all",
+      "terrain-archipelago-05": "all",
+      "terrain-archipelago-06": "advanced",
+      "terrain-archipelago-07": "advanced",
+      "terrain-archipelago-08": "advanced",
+      "terrain-peninsula-01": "intro",
+      "terrain-peninsula-02": "intro",
+      "terrain-peninsula-03": "all",
+      "terrain-peninsula-04": "all",
+      "terrain-peninsula-05": "all",
+      "terrain-peninsula-06": "advanced",
+      "terrain-peninsula-07": "advanced",
+      "terrain-peninsula-08": "advanced",
+      "terrain-sea-01": "intro",
+      "terrain-sea-02": "intro",
+      "terrain-sea-03": "all",
+      "terrain-sea-04": "all",
+      "terrain-sea-05": "all",
+      "terrain-sea-06": "all",
+      "terrain-sea-07": "advanced",
+      "terrain-sea-08": "advanced",
+      "terrain-sea-09": "advanced",
+      "terrain-sea-10": "advanced",
+      "terrain-bay-01": "intro",
+      "terrain-bay-02": "intro",
+      "terrain-bay-03": "all",
+      "terrain-bay-04": "all",
+      "terrain-bay-05": "all",
+      "terrain-bay-06": "all",
+      "terrain-bay-07": "advanced",
+      "terrain-bay-08": "advanced",
+      "terrain-bay-09": "advanced",
+      "terrain-bay-10": "advanced",
+      "terrain-strait-01": "intro",
+      "terrain-strait-02": "intro",
+      "terrain-strait-03": "all",
+      "terrain-strait-04": "all",
+      "terrain-strait-05": "all",
+      "terrain-strait-06": "advanced",
+      "terrain-strait-07": "advanced",
+      "terrain-strait-08": "advanced",
+      "terrain-strait-09": "advanced",
+      "terrain-strait-10": "advanced",
+      "terrain-desert-01": "intro",
+      "terrain-desert-02": "intro",
+      "terrain-desert-03": "all",
+      "terrain-desert-04": "all",
+      "terrain-desert-05": "all",
+      "terrain-desert-06": "all",
+      "terrain-desert-07": "advanced",
+      "terrain-desert-08": "advanced",
+      "terrain-desert-09": "advanced",
+      "terrain-desert-10": "advanced",
+      "terrain-plain-01": "intro",
+      "terrain-plain-02": "intro",
+      "terrain-plain-03": "all",
+      "terrain-plain-04": "all",
+      "terrain-plain-05": "all",
+      "terrain-plain-06": "advanced",
+      "terrain-plain-07": "advanced",
+      "terrain-plain-08": "advanced",
+      "terrain-plain-09": "advanced",
+      "terrain-plain-10": "advanced",
+      "terrain-plateau-01": "intro",
+      "terrain-plateau-02": "intro",
+      "terrain-plateau-03": "all",
+      "terrain-plateau-04": "all",
+      "terrain-plateau-05": "all",
+      "terrain-plateau-06": "advanced",
+      "terrain-plateau-07": "advanced",
+      "terrain-plateau-08": "advanced",
+      "terrain-plateau-09": "advanced",
+      "terrain-plateau-10": "advanced"
+    },
+    "heritage": {
+      "wh-252": "intro",
+      "wh-438": "intro",
+      "wh-274": "intro",
+      "wh-86": "intro",
+      "wh-326": "intro",
+      "wh-668": "intro",
+      "wh-404": "intro",
+      "wh-80": "intro",
+      "wh-91": "intro",
+      "wh-394": "intro",
+      "wh-688": "intro",
+      "wh-1418": "intro",
+      "wh-156": "all",
+      "wh-28": "intro",
+      "wh-75": "intro",
+      "wh-154": "intro",
+      "wh-509": "all",
+      "wh-1314": "advanced",
+      "wh-421": "all",
+      "wh-303": "all",
+      "wh-1": "intro",
+      "wh-2": "advanced",
+      "wh-3": "advanced",
+      "wh-4": "advanced",
+      "wh-26": "advanced",
+      "wh-31": "all",
+      "wh-63": "advanced",
+      "wh-64": "all",
+      "wh-65": "advanced",
+      "wh-71": "advanced",
+      "wh-78": "advanced",
+      "wh-81": "all",
+      "wh-83": "intro",
+      "wh-84": "advanced",
+      "wh-85": "advanced",
+      "wh-87": "all",
+      "wh-88": "all",
+      "wh-89": "all",
+      "wh-90": "advanced",
+      "wh-95": "all",
+      "wh-97": "advanced",
+      "wh-98": "all",
+      "wh-100": "advanced",
+      "wh-102": "advanced",
+      "wh-111": "advanced",
+      "wh-119": "all",
+      "wh-120": "all",
+      "wh-121": "all",
+      "wh-125": "advanced",
+      "wh-129": "all",
+      "wh-130": "advanced",
+      "wh-132": "advanced",
+      "wh-136": "advanced",
+      "wh-137": "advanced",
+      "wh-140": "advanced",
+      "wh-143": "advanced",
+      "wh-144": "advanced",
+      "wh-145": "all",
+      "wh-147": "all",
+      "wh-149": "advanced",
+      "wh-150": "all",
+      "wh-151": "all",
+      "wh-153": "advanced",
+      "wh-155": "advanced",
+      "wh-157": "advanced",
+      "wh-158": "advanced",
+      "wh-159": "advanced",
+      "wh-160": "all",
+      "wh-162": "all",
+      "wh-163": "advanced",
+      "wh-164": "all",
+      "wh-165": "advanced",
+      "wh-166": "intro",
+      "wh-169": "advanced",
+      "wh-170": "all",
+      "wh-171": "all",
+      "wh-174": "all",
+      "wh-180": "advanced",
+      "wh-181": "all",
+      "wh-183": "advanced",
+      "wh-184": "advanced",
+      "wh-185": "advanced",
+      "wh-186": "advanced",
+      "wh-187": "advanced",
+      "wh-189": "advanced",
+      "wh-193": "advanced",
+      "wh-200": "advanced",
+      "wh-208": "all",
+      "wh-216": "all",
+      "wh-228": "advanced",
+      "wh-233": "all",
+      "wh-241": "all",
+      "wh-242": "all",
+      "wh-243": "all",
+      "wh-246": "advanced",
+      "wh-249": "advanced",
+      "wh-263": "all",
+      "wh-285": "advanced",
+      "wh-307": "intro",
+      "wh-356": "all",
+      "wh-604": "advanced",
+      "wh-660": "all",
+      "wh-663": "all",
+      "wh-687": "advanced",
+      "wh-776": "intro",
+      "wh-913": "all",
+      "wh-1142": "all",
+      "wh-1133": "advanced"
+    }
+  },
+  "flagHints": {
+    "ZW": [
+      "黒",
+      "緑",
+      "黄・金",
+      "白"
+    ],
+    "ZM": [
+      "緑",
+      "オレンジ",
+      "赤",
+      "黒"
+    ],
+    "YE": [
+      "赤",
+      "黒",
+      "白"
+    ],
+    "VN": [
+      "赤"
+    ],
+    "VE": [
+      "青",
+      "黄・金",
+      "赤"
+    ],
+    "VU": [
+      "赤",
+      "緑",
+      "黒",
+      "黄・金"
+    ],
+    "UZ": [
+      "緑",
+      "水色",
+      "白"
+    ],
+    "UY": [
+      "白",
+      "青"
+    ],
+    "FM": [
+      "青"
+    ],
+    "MH": [
+      "青",
+      "白",
+      "オレンジ"
+    ],
+    "US": [
+      "赤",
+      "白",
+      "青"
+    ],
+    "GB": [
+      "赤",
+      "白",
+      "青"
+    ],
+    "AE": [
+      "緑",
+      "赤",
+      "白",
+      "黒"
+    ],
+    "UA": [
+      "青",
+      "黄・金"
+    ],
+    "UG": [
+      "黄・金",
+      "赤",
+      "黒"
+    ],
+    "TM": [
+      "緑",
+      "赤"
+    ],
+    "TR": [
+      "赤"
+    ],
+    "TN": [
+      "赤",
+      "白"
+    ],
+    "TT": [
+      "赤",
+      "黒",
+      "白"
+    ],
+    "TO": [
+      "赤",
+      "白"
+    ],
+    "TG": [
+      "緑",
+      "黄・金",
+      "赤"
+    ],
+    "TL": [
+      "赤",
+      "黒",
+      "オレンジ"
+    ],
+    "TH": [
+      "赤",
+      "青",
+      "白"
+    ],
+    "TZ": [
+      "黒",
+      "緑",
+      "水色",
+      "黄・金"
+    ],
+    "TJ": [
+      "白",
+      "赤",
+      "緑"
+    ],
+    "SY": [
+      "緑",
+      "黒",
+      "白"
+    ],
+    "CH": [
+      "赤",
+      "白"
+    ],
+    "SE": [
+      "青",
+      "黄・金"
+    ],
+    "SZ": [
+      "青",
+      "赤",
+      "黄・金"
+    ],
+    "SR": [
+      "緑",
+      "赤",
+      "白"
+    ],
+    "SS": [
+      "緑",
+      "黒",
+      "青",
+      "赤",
+      "白"
+    ],
+    "SD": [
+      "赤",
+      "黒",
+      "白",
+      "緑"
+    ],
+    "LK": [
+      "オレンジ",
+      "赤紫",
+      "水色"
+    ],
+    "ES": [
+      "赤",
+      "黄・金"
+    ],
+    "KR": [
+      "白"
+    ],
+    "ZA": [
+      "緑",
+      "赤",
+      "青",
+      "白",
+      "黒"
+    ],
+    "SO": [
+      "青"
+    ],
+    "SB": [
+      "緑",
+      "青",
+      "黄・金"
+    ],
+    "SK": [
+      "赤",
+      "白",
+      "青"
+    ],
+    "SI": [
+      "青",
+      "赤",
+      "白"
+    ],
+    "SG": [
+      "白",
+      "赤"
+    ],
+    "SL": [
+      "緑",
+      "青",
+      "白"
+    ],
+    "SC": [
+      "赤",
+      "緑",
+      "青",
+      "黄・金",
+      "白"
+    ],
+    "RS": [
+      "赤紫",
+      "白",
+      "青"
+    ],
+    "SN": [
+      "緑",
+      "赤",
+      "黄・金"
+    ],
+    "SA": [
+      "緑"
+    ],
+    "ST": [
+      "緑",
+      "黄・金",
+      "赤"
+    ],
+    "SM": [
+      "青",
+      "白"
+    ],
+    "WS": [
+      "赤",
+      "青"
+    ],
+    "VC": [
+      "黄・金",
+      "緑",
+      "青"
+    ],
+    "LC": [
+      "青",
+      "黄・金"
+    ],
+    "KN": [
+      "黒",
+      "緑",
+      "赤",
+      "黄・金"
+    ],
+    "RW": [
+      "水色",
+      "緑",
+      "黄・金"
+    ],
+    "RU": [
+      "青",
+      "白",
+      "赤"
+    ],
+    "RO": [
+      "青",
+      "黄・金",
+      "赤"
+    ],
+    "QA": [
+      "赤紫",
+      "白"
+    ],
+    "PT": [
+      "赤",
+      "緑"
+    ],
+    "PL": [
+      "白",
+      "赤"
+    ],
+    "PH": [
+      "赤",
+      "青",
+      "白"
+    ],
+    "PE": [
+      "赤",
+      "白"
+    ],
+    "PY": [
+      "赤",
+      "青",
+      "白"
+    ],
+    "PG": [
+      "黒",
+      "赤"
+    ],
+    "PA": [
+      "白",
+      "赤",
+      "青"
+    ],
+    "PW": [
+      "青",
+      "黄・金"
+    ],
+    "PK": [
+      "緑",
+      "白"
+    ],
+    "OM": [
+      "赤",
+      "緑",
+      "白"
+    ],
+    "NO": [
+      "赤",
+      "青",
+      "白"
+    ],
+    "KP": [
+      "赤",
+      "青"
+    ],
+    "NG": [
+      "緑",
+      "白"
+    ],
+    "NE": [
+      "オレンジ",
+      "緑",
+      "白"
+    ],
+    "NI": [
+      "青",
+      "白"
+    ],
+    "NZ": [
+      "青",
+      "赤",
+      "白"
+    ],
+    "NL": [
+      "赤",
+      "白",
+      "青"
+    ],
+    "NP": [
+      "赤",
+      "青",
+      "白"
+    ],
+    "NR": [
+      "青",
+      "オレンジ"
+    ],
+    "NA": [
+      "緑",
+      "青",
+      "赤",
+      "白"
+    ],
+    "MZ": [
+      "黄・金",
+      "水色",
+      "黒",
+      "赤"
+    ],
+    "MA": [
+      "赤"
+    ],
+    "ME": [
+      "赤",
+      "黄・金",
+      "オレンジ"
+    ],
+    "MN": [
+      "赤",
+      "青"
+    ],
+    "MD": [
+      "赤",
+      "青",
+      "黄・金"
+    ],
+    "MC": [
+      "赤",
+      "白"
+    ],
+    "MX": [
+      "緑",
+      "赤",
+      "白"
+    ],
+    "MU": [
+      "赤",
+      "青",
+      "黄・金",
+      "緑"
+    ],
+    "MR": [
+      "緑",
+      "赤"
+    ],
+    "MT": [
+      "赤",
+      "白"
+    ],
+    "ML": [
+      "緑",
+      "黄・金",
+      "赤"
+    ],
+    "MV": [
+      "赤",
+      "緑"
+    ],
+    "MY": [
+      "赤",
+      "白",
+      "青"
+    ],
+    "MW": [
+      "赤",
+      "緑",
+      "黒"
+    ],
+    "MG": [
+      "白",
+      "赤",
+      "緑"
+    ],
+    "MK": [
+      "赤",
+      "黄・金"
+    ],
+    "LU": [
+      "赤",
+      "白",
+      "水色"
+    ],
+    "LT": [
+      "オレンジ",
+      "緑",
+      "赤"
+    ],
+    "LI": [
+      "赤",
+      "青"
+    ],
+    "LY": [
+      "黒",
+      "赤",
+      "緑"
+    ],
+    "LR": [
+      "赤",
+      "白",
+      "青"
+    ],
+    "LS": [
+      "白",
+      "青",
+      "緑"
+    ],
+    "LB": [
+      "赤",
+      "白",
+      "緑"
+    ],
+    "LV": [
+      "赤",
+      "白"
+    ],
+    "LA": [
+      "赤",
+      "青",
+      "白"
+    ],
+    "KG": [
+      "赤"
+    ],
+    "KW": [
+      "赤",
+      "緑",
+      "白",
+      "黒"
+    ],
+    "KI": [
+      "赤",
+      "青",
+      "白"
+    ],
+    "KE": [
+      "赤",
+      "黒",
+      "緑",
+      "白"
+    ],
+    "KZ": [
+      "水色"
+    ],
+    "JO": [
+      "緑",
+      "黒",
+      "赤",
+      "白"
+    ],
+    "JP": [
+      "白",
+      "赤"
+    ],
+    "JM": [
+      "オレンジ",
+      "緑",
+      "黒"
+    ],
+    "IT": [
+      "緑",
+      "白",
+      "赤"
+    ],
+    "IL": [
+      "白",
+      "青"
+    ],
+    "IE": [
+      "緑",
+      "オレンジ",
+      "白"
+    ],
+    "IQ": [
+      "赤",
+      "黒",
+      "白"
+    ],
+    "IR": [
+      "赤",
+      "白",
+      "緑"
+    ],
+    "ID": [
+      "赤",
+      "白"
+    ],
+    "IN": [
+      "オレンジ",
+      "緑",
+      "白"
+    ],
+    "IS": [
+      "青",
+      "赤",
+      "白"
+    ],
+    "HU": [
+      "赤",
+      "緑",
+      "白"
+    ],
+    "HN": [
+      "青",
+      "白"
+    ],
+    "HT": [
+      "青",
+      "赤"
+    ],
+    "GY": [
+      "緑",
+      "赤",
+      "黄・金"
+    ],
+    "GW": [
+      "黄・金",
+      "緑",
+      "赤"
+    ],
+    "GN": [
+      "赤",
+      "黄・金",
+      "緑"
+    ],
+    "GT": [
+      "青",
+      "白"
+    ],
+    "GD": [
+      "赤",
+      "黄・金",
+      "緑"
+    ],
+    "GR": [
+      "青",
+      "白"
+    ],
+    "GH": [
+      "赤",
+      "緑",
+      "黄・金"
+    ],
+    "DE": [
+      "黒",
+      "赤",
+      "黄・金"
+    ],
+    "GE": [
+      "白",
+      "赤"
+    ],
+    "GM": [
+      "赤",
+      "緑",
+      "青",
+      "白"
+    ],
+    "GA": [
+      "黄・金",
+      "緑",
+      "青"
+    ],
+    "FR": [
+      "青",
+      "白",
+      "赤"
+    ],
+    "FI": [
+      "白",
+      "青"
+    ],
+    "FJ": [
+      "青",
+      "赤",
+      "白"
+    ],
+    "ET": [
+      "緑",
+      "赤",
+      "黄・金",
+      "青"
+    ],
+    "EE": [
+      "青",
+      "黒",
+      "白"
+    ],
+    "ER": [
+      "赤",
+      "緑",
+      "青"
+    ],
+    "GQ": [
+      "緑",
+      "赤",
+      "白",
+      "青"
+    ],
+    "SV": [
+      "青",
+      "白"
+    ],
+    "EG": [
+      "赤",
+      "黒",
+      "白"
+    ],
+    "EC": [
+      "黄・金",
+      "赤",
+      "青"
+    ],
+    "DO": [
+      "赤",
+      "青",
+      "白"
+    ],
+    "DM": [
+      "緑",
+      "黄・金",
+      "赤",
+      "白",
+      "黒"
+    ],
+    "DJ": [
+      "緑",
+      "青",
+      "白"
+    ],
+    "DK": [
+      "赤",
+      "白"
+    ],
+    "CZ": [
+      "赤",
+      "白",
+      "青"
+    ],
+    "CY": [
+      "白",
+      "オレンジ"
+    ],
+    "CU": [
+      "青",
+      "白",
+      "赤"
+    ],
+    "HR": [
+      "赤",
+      "青",
+      "白"
+    ],
+    "CI": [
+      "オレンジ",
+      "白",
+      "緑"
+    ],
+    "CR": [
+      "白",
+      "青",
+      "赤"
+    ],
+    "CD": [
+      "青",
+      "赤",
+      "黄・金"
+    ],
+    "CG": [
+      "緑",
+      "赤",
+      "黄・金"
+    ],
+    "KM": [
+      "緑",
+      "青",
+      "オレンジ",
+      "白",
+      "赤"
+    ],
+    "CO": [
+      "黄・金",
+      "青",
+      "赤"
+    ],
+    "CN": [
+      "赤"
+    ],
+    "CL": [
+      "赤",
+      "白",
+      "青"
+    ],
+    "TD": [
+      "青",
+      "黄・金",
+      "赤"
+    ],
+    "CF": [
+      "黄・金",
+      "緑",
+      "白",
+      "青",
+      "赤"
+    ],
+    "CV": [
+      "青",
+      "白",
+      "赤"
+    ],
+    "CA": [
+      "赤",
+      "白"
+    ],
+    "CM": [
+      "黄・金",
+      "緑",
+      "赤"
+    ],
+    "KH": [
+      "青",
+      "赤"
+    ],
+    "MM": [
+      "黄・金",
+      "赤",
+      "緑",
+      "白"
+    ],
+    "BI": [
+      "緑",
+      "白",
+      "赤"
+    ],
+    "BF": [
+      "緑",
+      "赤"
+    ],
+    "BG": [
+      "白",
+      "緑",
+      "赤"
+    ],
+    "BN": [
+      "黄・金",
+      "白",
+      "黒"
+    ],
+    "BR": [
+      "緑",
+      "黄・金",
+      "青"
+    ],
+    "BW": [
+      "青",
+      "黒"
+    ],
+    "BA": [
+      "青",
+      "黄・金"
+    ],
+    "BO": [
+      "赤",
+      "緑",
+      "黄・金"
+    ],
+    "BT": [
+      "黄・金",
+      "オレンジ",
+      "白"
+    ],
+    "BJ": [
+      "緑",
+      "黄・金",
+      "赤"
+    ],
+    "BZ": [
+      "青",
+      "赤",
+      "白"
+    ],
+    "BE": [
+      "黄・金",
+      "赤",
+      "黒"
+    ],
+    "BY": [
+      "赤",
+      "緑"
+    ],
+    "BB": [
+      "青",
+      "オレンジ"
+    ],
+    "BD": [
+      "緑",
+      "赤"
+    ],
+    "BH": [
+      "赤",
+      "白"
+    ],
+    "BS": [
+      "水色",
+      "黒",
+      "オレンジ"
+    ],
+    "AZ": [
+      "水色",
+      "緑",
+      "赤"
+    ],
+    "AT": [
+      "赤",
+      "白"
+    ],
+    "AU": [
+      "青",
+      "赤",
+      "白"
+    ],
+    "AM": [
+      "オレンジ",
+      "赤",
+      "青"
+    ],
+    "AR": [
+      "青",
+      "白"
+    ],
+    "AG": [
+      "赤",
+      "黒",
+      "青",
+      "白"
+    ],
+    "AO": [
+      "赤",
+      "黒"
+    ],
+    "AD": [
+      "赤",
+      "青",
+      "黄・金",
+      "オレンジ"
+    ],
+    "DZ": [
+      "白",
+      "緑"
+    ],
+    "AL": [
+      "赤",
+      "黒"
+    ],
+    "AF": [
+      "緑",
+      "赤",
+      "黒"
+    ],
+    "TV": [
+      "水色",
+      "赤",
+      "青",
+      "白"
+    ],
+    "PS": [
+      "緑",
+      "黒",
+      "白",
+      "赤"
+    ],
+    "VA": [
+      "黄・金",
+      "白"
+    ],
+    "TW": [
+      "赤",
+      "青"
+    ],
+    "XK": [
+      "青",
+      "オレンジ"
+    ],
+    "XNC": [
+      "白",
+      "赤"
+    ],
+    "HK": [
+      "赤",
+      "白"
+    ],
+    "MO": [
+      "緑"
+    ],
+    "GL": [
+      "赤",
+      "白"
+    ],
+    "PR": [
+      "赤",
+      "白",
+      "青"
+    ],
+    "GU": [
+      "青",
+      "赤"
+    ],
+    "CK": [
+      "青",
+      "白",
+      "赤"
+    ],
+    "NU": [
+      "黄・金",
+      "赤",
+      "青",
+      "白"
+    ]
+  },
+  "countryStages": {
+    "c1": [
+      "US",
+      "GB",
+      "IN",
+      "EG",
+      "AU",
+      "CA",
+      "KR",
+      "GR",
+      "ES",
+      "CN",
+      "DE",
+      "TR",
+      "JP",
+      "BR",
+      "CH"
+    ],
+    "c2": [
+      "IT",
+      "RU",
+      "AR",
+      "IL",
+      "KE",
+      "SA",
+      "JM",
+      "SG",
+      "NP",
+      "VA",
+      "BT",
+      "MX",
+      "SO",
+      "TH",
+      "ZA"
+    ],
+    "c3": [
+      "ID",
+      "KH",
+      "MK",
+      "LK",
+      "PA",
+      "PW",
+      "BD",
+      "MN",
+      "FR",
+      "BE",
+      "PT",
+      "MY",
+      "MM",
+      "VN",
+      "FI"
+    ],
+    "c4": [
+      "NZ",
+      "IS",
+      "IR",
+      "UY",
+      "AT",
+      "NL",
+      "QA",
+      "SM",
+      "TZ",
+      "CL",
+      "TV",
+      "BH",
+      "PE",
+      "LA",
+      "LY"
+    ],
+    "c5": [
+      "KN",
+      "VC",
+      "BA",
+      "SZ",
+      "CK",
+      "GE",
+      "TN",
+      "NO",
+      "PH",
+      "PL",
+      "FM",
+      "GT",
+      "DK",
+      "MA",
+      "LB",
+      "NA",
+      "DO",
+      "CZ",
+      "HR",
+      "ET",
+      "UZ",
+      "IQ",
+      "DZ",
+      "IE",
+      "MR",
+      "MG",
+      "BG",
+      "PG",
+      "PK",
+      "DM"
+    ]
+  },
+  "hintPolicy": {
+    "checked": "2026-10-20",
+    "version": 2,
+    "basis": "既存の各項目の説明・出典とNatural Earth都市座標／地形代表座標・UNESCO構成地点。方角は初期方位、距離は大円距離を概数に丸めた学習用の計算値。境界、隣接関係や地形全体までの最短距離ではない。",
+    "capitalFacts": {
+      "FR": {
+        "hints": [
+          "市街をセーヌ川が流れています。",
+          "ルーヴル宮殿やエッフェル塔が、川沿いの歴史景観に含まれます。"
+        ],
+        "source": "https://whc.unesco.org/en/list/600/",
+        "checked": "2026-10-20"
+      },
+      "GB": {
+        "hints": [
+          "テムズ川沿いに、王権の象徴となった塔の要塞があります。",
+          "11世紀のノルマン征服に関わる王の建築が残る都市です。"
+        ],
+        "source": "https://whc.unesco.org/en/list/488/",
+        "checked": "2026-10-20"
+      },
+      "CZ": {
+        "hints": [
+          "ヴルタヴァ川の両岸に歴史的な街並みが広がります。",
+          "カレル橋や、14世紀のカール4世に関わる建築で知られます。"
+        ],
+        "source": "https://whc.unesco.org/en/list/616/",
+        "checked": "2026-10-20"
+      }
+    },
+    "heritageFacts": {
+      "wh-252": {
+        "hints": [
+          "ムガル帝国の皇帝が、亡くなった妃をしのんで建設させました。",
+          "17世紀に築かれた、白い大理石の大きな霊廟です。"
+        ],
+        "source": "https://whc.unesco.org/en/list/252/",
+        "checked": "2026-10-20"
+      },
+      "wh-156": {
+        "hints": [
+          "草原で暮らす草食動物と、それを追う肉食動物の営みが見られます。",
+          "水を求めて移動する、ヌーやシマウマなどの大きな群れが特徴です。"
+        ],
+        "source": "https://whc.unesco.org/en/list/156/",
+        "checked": "2026-10-20"
+      },
+      "wh-208": {
+        "hints": [
+          "多様な文化の影響が、ガンダーラの仏教美術に結び付きました。",
+          "仏教の僧院群や聖所に加え、イスラーム期の防御施設も残ります。"
+        ],
+        "source": "https://whc.unesco.org/en/list/208/",
+        "checked": "2026-10-20"
+      },
+      "wh-356": {
+        "hints": [
+          "黒海と地中海を結ぶ要地で、長く政治や宗教の舞台となりました。",
+          "6世紀のアヤ・ソフィアと、16世紀のスレイマニエ・モスクが含まれます。"
+        ],
+        "source": "https://whc.unesco.org/en/list/356/",
+        "checked": "2026-10-20"
+      }
+    },
+    "status": "旧版の検証来歴。現在の個別ヒントはhintbook.jsonで管理。距離や緯度によるヒント生成は廃止。"
+  }
+}

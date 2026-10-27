@@ -1,0 +1,702 @@
+[
+  {
+    "id": "wh-2",
+    "photo": {
+      "path": "assets/heritage/2.jpg",
+      "fileTitle": "File:Quito Panorama of the historic center from Casa Bella Vista 01.jpg",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Quito_Panorama_of_the_historic_center_from_Casa_Bella_Vista_01.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Quito_Panorama_of_the_historic_center_from_Casa_Bella_Vista_01.jpg",
+      "description": "キト歴史地区の街並み。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "446428637aed01ec6af5795f3f5af4d287e553bef16e6c70a3169efdaf206338"
+    },
+    "photoSubject": "キト歴史地区の街並み",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/2",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "City of Quito",
+      "photoLocationEvidence": "キト歴史地区の街並みが登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-26",
+    "photo": {
+      "path": "assets/heritage/26.jpg",
+      "fileTitle": "File:Goree-island-senegal.png",
+      "author": "Warren McKenzie",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goree-island-senegal.png",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Goree-island-senegal.png",
+      "description": "ゴレ島の海岸と街並み。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "a809d4441a15c20c8117a910774a53319f8b8652336ec7e10add7c6c6f388f1b"
+    },
+    "photoSubject": "ゴレ島の海岸と街並み",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/26",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Island of Gorée",
+      "photoLocationEvidence": "ゴレ島の海岸と街並みが登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-78",
+    "photo": {
+      "path": "assets/heritage/78.jpg",
+      "fileTitle": "File:Independence Hall, Philadelphia 20240528.jpg",
+      "author": "颐园居",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Independence_Hall,_Philadelphia_20240528.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Independence_Hall%2C_Philadelphia_20240528.jpg",
+      "description": "フィラデルフィアの独立記念館。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "64da215fa76ea02628ae18a471cfeb188fa30967129376b6e75b8451c1e4c04b"
+    },
+    "photoSubject": "フィラデルフィアの独立記念館",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/78",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Independence Hall",
+      "photoLocationEvidence": "フィラデルフィアの独立記念館が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-84",
+    "photo": {
+      "path": "assets/heritage/84.jpg",
+      "fileTitle": "File:Mary Magdalene basilica in Vezelay 08.jpg",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mary_Magdalene_basilica_in_Vezelay_08.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Mary_Magdalene_basilica_in_Vezelay_08.jpg",
+      "description": "ヴェズレーのサント・マドレーヌ聖堂。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "cb405b93feb5e4e0d51d3226af8fc376ef33e4e3cafb2a3617e8f4f98fa6d601"
+    },
+    "photoSubject": "ヴェズレーのサント・マドレーヌ聖堂",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/84",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Vézelay, Church and Hill",
+      "photoLocationEvidence": "ヴェズレーのサント・マドレーヌ聖堂が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-90",
+    "photo": {
+      "path": "assets/heritage/90.jpg",
+      "fileTitle": "File:Ruins at Abu Mena (V).jpg",
+      "author": "isawnyu",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ruins_at_Abu_Mena_(V).jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Ruins_at_Abu_Mena_%28V%29.jpg",
+      "description": "アブ・メナの遺跡。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "8837fdec4906d0d576d067c5c0a76b6627506ef7fc428614b93eccd36bc9c171"
+    },
+    "photoSubject": "アブ・メナの遺跡",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/90",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Abu Mena",
+      "photoLocationEvidence": "アブ・メナの遺跡が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-100",
+    "photo": {
+      "path": "assets/heritage/100.jpg",
+      "fileTitle": "File:Crno jezero - 2.jpg",
+      "author": "Ingo Mehling",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Crno_jezero_-_2.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Crno_jezero_-_2.jpg",
+      "description": "ドゥルミトル国立公園の黒い湖（ツルノ湖）。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "edbbd9bc7308e3a790537f5bd5d357e6094071bbc9d6217ae7a677904297f97b"
+    },
+    "photoSubject": "ドゥルミトル国立公園の黒い湖（ツルノ湖）",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/100",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Durmitor National Park",
+      "photoLocationEvidence": "ドゥルミトル国立公園の黒い湖（ツルノ湖）が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-132",
+    "photo": {
+      "path": "assets/heritage/132.jpg",
+      "fileTitle": "File:Complejo de Ħaġar Qim, isla de Malta, Malta, 2021-08-25, DD 63.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Complejo_de_%C4%A6a%C4%A1ar_Qim,_isla_de_Malta,_Malta,_2021-08-25,_DD_63.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Complejo_de_%C4%A6a%C4%A1ar_Qim%2C_isla_de_Malta%2C_Malta%2C_2021-08-25%2C_DD_63.jpg",
+      "description": "マルタの巨石神殿群のハジャー・イム神殿。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "c9aa37566162367f4b1d8b697aad2715dfe45cc0fc33afe91efff6fc4d3bb052"
+    },
+    "photoSubject": "マルタの巨石神殿群のハジャー・イム神殿",
+    "photoAnswers": [
+      "ハジャー・イム神殿",
+      "ハジャーイム神殿",
+      "はじゃーいむしんでん"
+    ],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/132",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Megalithic Temples of Malta",
+      "photoLocationEvidence": "マルタの巨石神殿群のハジャー・イム神殿が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-4",
+    "photo": {
+      "path": "assets/heritage/4.jpg",
+      "fileTitle": "File:LanseAuxMeadows LargeBuilding.JPG",
+      "author": "Clinton Pierce",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:LanseAuxMeadows_LargeBuilding.JPG",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/LanseAuxMeadows_LargeBuilding.JPG",
+      "description": "ランス・オ・メドーの元のヴァイキング建物の遺構。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "c7630e03604cf339c220ab9af141e63617c9c3431b39429eab8806d8d82d17bb"
+    },
+    "photoSubject": "ランス・オ・メドーの元のヴァイキング建物の遺構",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/4",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "L’Anse aux Meadows National Historic Site",
+      "photoLocationEvidence": "ランス・オ・メドーの元のヴァイキング建物の遺構が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-130",
+    "photo": {
+      "path": "assets/heritage/130.jpg",
+      "fileTitle": "File:Richard Ellis, Hal Saflieni Hypogeum (large room with painted ceiling).jpg",
+      "author": "Richard Ellis (1842–1924)",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-90",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Richard_Ellis%2C_Hal_Saflieni_Hypogeum_%28large_room_with_painted_ceiling%29.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Richard_Ellis%2C_Hal_Saflieni_Hypogeum_%28large_room_with_painted_ceiling%29.jpg",
+      "description": "ハル・サフリエニ地下墳墓内部の歴史写真。",
+      "changes": "表示用縮小後、書籍の余白と地名入りの印刷キャプションだけを除去。写真内の遺構・署名は改変していません。歴史写真。",
+      "checked": "2026-10-16",
+      "sha256": "f5ae45904e59232e53a8a1282fed68e639eca6861eab312d62fb7c7616391e08"
+    },
+    "photoSubject": "ハル・サフリエニ地下墳墓内部の歴史写真",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/130",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Ħal Saflieni Hypogeum",
+      "photoLocationEvidence": "ハル・サフリエニ地下墳墓内部の歴史写真が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-136",
+    "photo": {
+      "path": "assets/heritage/136.jpg",
+      "fileTitle": "File:Garamba National Park overhead.jpg",
+      "author": "Nuria Ortega",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Garamba_National_Park_overhead.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Garamba_National_Park_overhead.jpg",
+      "description": "ガランバ国立公園の空撮風景。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "a347f58721eba2ac383e12eec4c8ece978a77e87706ab1a415b3d0b7dd69faf1"
+    },
+    "photoSubject": "ガランバ国立公園の空撮風景",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/136",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Garamba National Park",
+      "photoLocationEvidence": "ガランバ国立公園の空撮風景が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-140",
+    "photo": {
+      "path": "assets/heritage/140.jpg",
+      "fileTitle": "File:Takht-i-Bahi Buddhist Monastery.jpg",
+      "author": "Muzamil Hassain Toori",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Takht-i-Bahi_Buddhist_Monastery.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Takht-i-Bahi_Buddhist_Monastery.jpg",
+      "description": "タフティ・バヒの仏教僧院跡。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "cd7f322587af3aa613db81c5380f377888ad479df3f9e6c912ccc4b4e15cf55c"
+    },
+    "photoSubject": "タフティ・バヒの仏教僧院跡",
+    "photoAnswers": [
+      "タフティ・バヒ",
+      "たふてぃばひ"
+    ],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/140",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Buddhist Ruins of Takht-i-Bahi and Neighbouring City Remains at Sahr-i-Bahlol",
+      "photoLocationEvidence": "タフティ・バヒの仏教僧院跡が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-144",
+    "photo": {
+      "path": "assets/heritage/144.jpg",
+      "fileTitle": "File:Great Mosque Kilwa Kisiwani Tanzania.jpg",
+      "author": "Janetmpurdy",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_Mosque_Kilwa_Kisiwani_Tanzania.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Great_Mosque_Kilwa_Kisiwani_Tanzania.jpg",
+      "description": "キルワ・キシワニの大モスク遺構。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "0982feb586e47f1b59f2462e090c6a0bb3adb1d2f087b6e20c04c129e51fe5ec"
+    },
+    "photoSubject": "キルワ・キシワニの大モスク遺構",
+    "photoAnswers": [
+      "キルワ・キシワニ",
+      "きるわきしわに"
+    ],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/144",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Ruins of Kilwa Kisiwani and Ruins of Songo Mnara",
+      "photoLocationEvidence": "キルワ・キシワニの大モスク遺構が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-158",
+    "photo": {
+      "path": "assets/heritage/158.jpg",
+      "fileTitle": "File:Head-Smashed-In Buffalo Jump-27527-2.jpg",
+      "author": "Ken Thomas",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Head-Smashed-In_Buffalo_Jump-27527-2.jpg#Licensing",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Head-Smashed-In_Buffalo_Jump-27527-2.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Head-Smashed-In_Buffalo_Jump-27527-2.jpg",
+      "description": "ヘッド・スマッシュト・インの狩猟に使われた崖。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "1b6b79ccd0a64b7d4233910ba1d2f71a8c5de7d35e1d0cb0b74d5d58fa03e2b2"
+    },
+    "photoSubject": "ヘッド・スマッシュト・インの狩猟に使われた崖",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/158",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Head-Smashed-In Buffalo Jump",
+      "photoLocationEvidence": "ヘッド・スマッシュト・インの狩猟に使われた崖が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-160",
+    "photo": {
+      "path": "assets/heritage/160.jpg",
+      "fileTitle": "File:Fontainebleau Cour Ovale 2015.JPG",
+      "author": "Thomon",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fontainebleau_Cour_Ovale_2015.JPG",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Fontainebleau_Cour_Ovale_2015.JPG",
+      "description": "フォンテーヌブロー宮殿の中庭。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "bee0556bb54761a4bc4cad72c1569fae677d28d86d4c1d2924e995b2cfaea01b"
+    },
+    "photoSubject": "フォンテーヌブロー宮殿の中庭",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/160",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Palace and Park of Fontainebleau",
+      "photoLocationEvidence": "フォンテーヌブロー宮殿の中庭が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-170",
+    "photo": {
+      "path": "assets/heritage/170.jpg",
+      "fileTitle": "File:Panorama de Fès, partie nord - Fès - Médiathèque de l'architecture et du patrimoine - AP62T060729.jpg",
+      "author": "Paul Queste",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_de_F%C3%A8s,_partie_nord_-_F%C3%A8s_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_AP62T060729.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Panorama_de_F%C3%A8s%2C_partie_nord_-_F%C3%A8s_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_AP62T060729.jpg",
+      "description": "フェズ旧市街の歴史写真。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "3709eb3c0ec36d87aceb7dbb155560956217cc7e3f09dcee3cf97ac1d22102de"
+    },
+    "photoSubject": "フェズ旧市街の歴史写真",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/170",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Medina of Fez",
+      "photoLocationEvidence": "フェズ旧市街の歴史写真が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-180",
+    "photo": {
+      "path": "assets/heritage/180.jpg",
+      "fileTitle": "File:Citadelle Laferrière Aerial View.jpg",
+      "author": "SPC Gibran Torres, United States Army",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Citadelle_Laferri%C3%A8re_Aerial_View.jpg#Licensing",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Citadelle_Laferri%C3%A8re_Aerial_View.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Citadelle_Laferri%C3%A8re_Aerial_View.jpg",
+      "description": "シタデル・ラフェリエールの要塞。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "6a678b4bc9405b1e9e9d10a98505a111b128b5adc9790f1cbd509949bdc00af3"
+    },
+    "photoSubject": "シタデル・ラフェリエールの要塞",
+    "photoAnswers": [
+      "シタデル・ラフェリエール",
+      "シタデルラフェリエール"
+    ],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/180",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "National History Park – Citadel, Sans Souci, Ramiers",
+      "photoLocationEvidence": "シタデル・ラフェリエールの要塞が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-184",
+    "photo": {
+      "path": "assets/heritage/184.jpg",
+      "fileTitle": "File:Theatre of Sabratha, Libya.jpg",
+      "author": "duimdog; Commons version by Marku1988",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Theatre_of_Sabratha,_Libya.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Theatre_of_Sabratha%2C_Libya.jpg",
+      "description": "サブラタのローマ劇場。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "091ee16b1054ac2fa8e98eeb8aadacc16c4027c3aba2ef15866dc13e69fea874"
+    },
+    "photoSubject": "サブラタのローマ劇場",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/184",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Archaeological Site of Sabratha",
+      "photoLocationEvidence": "サブラタのローマ劇場が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-208",
+    "photo": {
+      "path": "assets/heritage/208.jpg",
+      "fileTitle": "File:Monks caves in cliff Bamiyan.jpg",
+      "author": "Wendy Tanner",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Monks_caves_in_cliff_Bamiyan.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Monks_caves_in_cliff_Bamiyan.jpg",
+      "description": "バーミヤン渓谷の崖に残る僧院の石窟。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "6f13da598224cb6e2ca367f1f882b2e8001d5f6c8aed0066f71d519a790f4a48"
+    },
+    "photoSubject": "バーミヤン渓谷の崖に残る僧院の石窟",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/208",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Cultural Landscape and Archaeological Remains of the Bamiyan Valley",
+      "photoLocationEvidence": "バーミヤン渓谷の崖に残る僧院の石窟が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-228",
+    "photo": {
+      "path": "assets/heritage/228.jpg",
+      "fileTitle": "File:Avignon Papstpalast Gartenseite 20250629.jpg",
+      "author": "Uoaei1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Avignon_Papstpalast_Gartenseite_20250629.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Avignon_Papstpalast_Gartenseite_20250629.jpg",
+      "description": "アヴィニョンの教皇宮殿。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "31221ed1c0b5230582c551cbb122efcd17c5ba2b08fe13ae116d063d2e49abf5"
+    },
+    "photoSubject": "アヴィニョンの教皇宮殿",
+    "photoAnswers": [
+      "教皇宮殿",
+      "きょうこうきゅうでん"
+    ],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/228",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Historic Centre of Avignon: Papal Palace, Episcopal Ensemble and Avignon Bridge",
+      "photoLocationEvidence": "アヴィニョンの教皇宮殿が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-246",
+    "photo": {
+      "path": "assets/heritage/246.jpg",
+      "fileTitle": "File:Exterior of The Sun temple, Konark, Odisha, India.jpg",
+      "author": "Mohitfusion",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Exterior_of_The_Sun_temple,_Konark,_Odisha,_India.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Exterior_of_The_Sun_temple%2C_Konark%2C_Odisha%2C_India.jpg",
+      "description": "コナーラクの太陽神寺院の外壁と彫刻装飾。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "c8bb7e551c0334d7278c181e35310dbf9c54a6cbed3f65ef60b193f9a422f74b"
+    },
+    "photoSubject": "コナーラクの太陽神寺院の外壁と彫刻装飾",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/246",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Sun Temple, Konârak",
+      "photoLocationEvidence": "コナーラクの太陽神寺院の外壁と彫刻装飾が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-356",
+    "photo": {
+      "path": "assets/heritage/356.jpg",
+      "fileTitle": "File:Hagia Sophia Mars 2013.jpg",
+      "author": "Arild Vågen",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Mars_2013.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Hagia_Sophia_Mars_2013.jpg",
+      "description": "イスタンブールのアヤソフィア。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "9ec18666b19f1ce4579d32ce93b3c324e71884d5c086815dec896144c09984f3"
+    },
+    "photoSubject": "イスタンブールのアヤソフィア",
+    "photoAnswers": [
+      "アヤソフィア",
+      "あやそふぃあ"
+    ],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/356",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Historic Areas of Istanbul",
+      "photoLocationEvidence": "イスタンブールのアヤソフィアが登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-1142",
+    "photo": {
+      "path": "assets/heritage/1142.jpg",
+      "fileTitle": "File:Nachikatsuura Kumano-Nachi-taisha Hiro-jinja Nachi Falls 06.jpg",
+      "author": "Zairon",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nachikatsuura_Kumano-Nachi-taisha_Hiro-jinja_Nachi_Falls_06.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Nachikatsuura_Kumano-Nachi-taisha_Hiro-jinja_Nachi_Falls_06.jpg",
+      "description": "那智の滝とその周辺。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "6e3d94d720a17e1b233a1090ba5d1c7953c2953e01e75499db9e659b1a258f6c"
+    },
+    "photoSubject": "那智の滝とその周辺",
+    "photoAnswers": [
+      "那智の滝",
+      "なちのたき"
+    ],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/1142",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Sacred Sites and Pilgrimage Routes in the Kii Mountain Range",
+      "photoLocationEvidence": "那智の滝とその周辺が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-102",
+    "photo": {
+      "path": "assets/heritage/102.jpg",
+      "fileTitle": "File:Al Qal'a of Beni Hammad-108942.jpg",
+      "author": "Yvon Fruneau / UNESCO Photobank",
+      "license": "CC BY-SA 3.0 IGO",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Al_Qal%27a_of_Beni_Hammad-108942.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Al_Qal%27a_of_Beni_Hammad-108942.jpg",
+      "description": "ベニ・ハンマドの城塞の遺構。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-16",
+      "sha256": "c109b78576c160b2a654f2ac3aed63c4b515c6c85d5abe7e9a8dc73039fccf69"
+    },
+    "photoSubject": "ベニ・ハンマドの城塞の遺構",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/102",
+      "registrySource": "https://whc.unesco.org/en/list/xml/",
+      "registryPropertyName": "Al Qal'a of Beni Hammad",
+      "photoLocationEvidence": "ベニ・ハンマドの城塞の遺構が登録物件またはその構成資産に対応する。Commonsの撮影地・被写体情報とUNESCOの登録情報を照合。",
+      "visualReview": "実写を目視確認。登録物件そのもの、または記載した構成資産の写真。"
+    }
+  },
+  {
+    "id": "wh-162",
+    "photo": {
+      "path": "assets/heritage/162.jpg",
+      "fileTitle": "File:Amiens, cathedral Notre-Dame, the west facade.JPG",
+      "author": "Dguendel",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Amiens,_cathedral_Notre-Dame,_the_west_facade.JPG",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Amiens%2C_cathedral_Notre-Dame%2C_the_west_facade.JPG",
+      "description": "アミアン大聖堂の西正面の実写写真。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-17",
+      "sha256": "3f4439230209095f3c73f31673d47797279823326058210101bd2d8f82a41d50"
+    },
+    "photoSubject": "アミアン大聖堂の西正面",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/162",
+      "commonsSource": "https://commons.wikimedia.org/wiki/File:Amiens,_cathedral_Notre-Dame,_the_west_facade.JPG",
+      "photoLocationEvidence": "Commonsの撮影対象と位置がアミアン大聖堂の西正面に一致し、登録物件そのものを写している。",
+      "visualReview": "2026-10-17にコンタクトシートで被写体を目視確認。"
+    }
+  },
+  {
+    "id": "wh-164",
+    "photo": {
+      "path": "assets/heritage/164.jpg",
+      "fileTitle": "File:Arles Amphitheater.jpg",
+      "author": "Peter_Glyn",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Arles_Amphitheater.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Arles_Amphitheater.jpg",
+      "description": "アルルのローマ円形闘技場の実写写真。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-17",
+      "sha256": "8318cc2f79d01a9f0d97c2fab2074cfbf0602bd9e2f8f1265a01846749126e86"
+    },
+    "photoSubject": "アルルのローマ円形闘技場",
+    "photoAnswers": [
+      "アルルの円形闘技場",
+      "あるるのえんけいとうぎじょう",
+      "Arles Amphitheatre"
+    ],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/164",
+      "commonsSource": "https://commons.wikimedia.org/wiki/File:Arles_Amphitheater.jpg",
+      "photoLocationEvidence": "Commonsの撮影対象と位置がアルルのローマ円形闘技場に一致。UNESCOの登録説明で円形闘技場が構成要素に挙げられている。",
+      "visualReview": "2026-10-17にコンタクトシートで被写体を目視確認。"
+    }
+  },
+  {
+    "id": "wh-150",
+    "photo": {
+      "path": "assets/heritage/150.jpg",
+      "fileTitle": "File:Rotunda in Mammoth Cave, NPS Photo (2649cd25-059e-442a-a255-329df533ee5f).jpg",
+      "author": "NPS Photo",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rotunda_in_Mammoth_Cave,_NPS_Photo_(2649cd25-059e-442a-a255-329df533ee5f).jpg#Licensing",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rotunda_in_Mammoth_Cave,_NPS_Photo_(2649cd25-059e-442a-a255-329df533ee5f).jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Rotunda_in_Mammoth_Cave%2C_NPS_Photo_%282649cd25-059e-442a-a255-329df533ee5f%29.jpg",
+      "description": "マンモス・ケーブ国立公園のロタンダ（洞窟内部）の実写写真。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-17",
+      "sha256": "52e55df1824b732a2987fe2aa0a068676fba0f88df1ea80cbe13493d2949d576"
+    },
+    "photoSubject": "マンモス・ケーブ国立公園のロタンダ（洞窟内部）",
+    "photoAnswers": [],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/150",
+      "commonsSource": "https://commons.wikimedia.org/wiki/File:Rotunda_in_Mammoth_Cave,_NPS_Photo_(2649cd25-059e-442a-a255-329df533ee5f).jpg",
+      "photoLocationEvidence": "米国国立公園局の写真で、マンモス・ケーブの歴史的入口内側にあるロタンダを撮影。洞窟内部の実写である。",
+      "visualReview": "2026-10-17にコンタクトシートで被写体を目視確認。"
+    }
+  },
+  {
+    "id": "wh-604",
+    "photo": {
+      "path": "assets/heritage/604.jpg",
+      "fileTitle": "File:Saint Sophia Cathedral in Novgorod pic1.JPG",
+      "author": "Alf van Beem",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Saint_Sophia_Cathedral_in_Novgorod_pic1.JPG#Licensing",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Saint_Sophia_Cathedral_in_Novgorod_pic1.JPG",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Saint_Sophia_Cathedral_in_Novgorod_pic1.JPG",
+      "description": "ノヴゴロドの聖ソフィア大聖堂の実写写真。",
+      "changes": "表示用に長辺900px以内へ縮小、JPEGとして保存。画像内容の改変なし。",
+      "checked": "2026-10-17",
+      "sha256": "6edf11f15980f3b62616f45532b5204c30152a92d5447e72184ae28d32ab27b7"
+    },
+    "photoSubject": "ノヴゴロドの聖ソフィア大聖堂",
+    "photoAnswers": [
+      "ノヴゴロドの聖ソフィア大聖堂",
+      "のゔごろどのせいそふぃあだいせいどう"
+    ],
+    "evidence": {
+      "unescoSource": "https://whc.unesco.org/en/list/604",
+      "commonsSource": "https://commons.wikimedia.org/wiki/File:Saint_Sophia_Cathedral_in_Novgorod_pic1.JPG",
+      "photoLocationEvidence": "撮影地はヴェリーキー・ノヴゴロド。UNESCOの登録説明で聖ソフィア聖堂が構成要素に挙げられており、キーウ等の同名聖堂ではない。",
+      "visualReview": "2026-10-17にコンタクトシートで被写体を目視確認。"
+    }
+  }
+]

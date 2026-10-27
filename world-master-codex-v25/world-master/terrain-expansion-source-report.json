@@ -1,0 +1,516 @@
+{
+  "checked": "2026-10-16",
+  "preserved": 58,
+  "added": 60,
+  "total": 118,
+  "counts": {
+    "mountain": 8,
+    "range": 8,
+    "river": 10,
+    "lake": 8,
+    "island": 8,
+    "archipelago": 8,
+    "peninsula": 8,
+    "sea": 10,
+    "bay": 10,
+    "strait": 10,
+    "desert": 10,
+    "plain": 10,
+    "plateau": 10
+  },
+  "method": "Named Natural Earth 10m polygons; marine label areas intersected with 10m ocean; topology-preserving simplification 0.005 degrees straits / 0.015 others. No artificial rectangles, points or invented routes.",
+  "warnings": [
+    "Landform polygons are cartographic approximate extents, not scientific surveyed boundaries.",
+    "Marine open-water boundaries use Natural Earth named subdivisions; subordinate gulfs may be separate from parent seas.",
+    "Straits use actual clipped water-area polygons, not navigational centerlines.",
+    "Related countries are principal geographic links, not claims about sovereignty or complete coast-country lists.",
+    "Sea of Japan is the dataset primary name; East Sea/東海 are searchable aliases."
+  ],
+  "sources": {
+    "ne_10m_geography_marine_polys": "53f865e8ffa966cdd402145c82c5cd14ee7ce974cd0eb9a3f59f03a4cfd2d66c",
+    "ne_10m_geography_regions_polys": "b7b26e50ea917d3696aec87f932def2bf5f890f5770e441d59c162c6f4c92a77",
+    "ne_10m_ocean": "f9696a1337c746a0f6c8c13bc60d0f230d2ef8d105198d5657726c8f8e763fc2"
+  },
+  "validation": [
+    {
+      "id": "terrain-sea-01",
+      "name": "日本海",
+      "source": "Sea of Japan",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 102.68928,
+      "valid": true
+    },
+    {
+      "id": "terrain-sea-02",
+      "name": "東シナ海",
+      "source": "East China Sea",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 66.82744,
+      "valid": true
+    },
+    {
+      "id": "terrain-sea-03",
+      "name": "南シナ海",
+      "source": "South China Sea",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 262.685,
+      "valid": true
+    },
+    {
+      "id": "terrain-sea-04",
+      "name": "オホーツク海",
+      "source": "Sea of Okhotsk",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 194.13014,
+      "valid": true
+    },
+    {
+      "id": "terrain-sea-05",
+      "name": "紅海",
+      "source": "Red Sea",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 38.31513,
+      "valid": true
+    },
+    {
+      "id": "terrain-sea-06",
+      "name": "黒海",
+      "source": "Black Sea",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 46.49698,
+      "valid": true
+    },
+    {
+      "id": "terrain-sea-07",
+      "name": "北海",
+      "source": "North Sea",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 72.78677,
+      "valid": true
+    },
+    {
+      "id": "terrain-sea-08",
+      "name": "カリブ海",
+      "source": "Caribbean Sea",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 237.34169,
+      "valid": true
+    },
+    {
+      "id": "terrain-sea-09",
+      "name": "アラビア海",
+      "source": "Arabian Sea",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 345.79408,
+      "valid": true
+    },
+    {
+      "id": "terrain-sea-10",
+      "name": "珊瑚海",
+      "source": "Coral Sea",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 339.71745,
+      "valid": true
+    },
+    {
+      "id": "terrain-bay-01",
+      "name": "ベンガル湾",
+      "source": "Bay of Bengal",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 169.91478,
+      "valid": true
+    },
+    {
+      "id": "terrain-bay-02",
+      "name": "メキシコ湾",
+      "source": "Gulf of Mexico",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 125.55191,
+      "valid": true
+    },
+    {
+      "id": "terrain-bay-03",
+      "name": "ペルシャ湾",
+      "source": "Persian Gulf",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 21.71545,
+      "valid": true
+    },
+    {
+      "id": "terrain-bay-04",
+      "name": "ハドソン湾",
+      "source": "Hudson Bay",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 121.72984,
+      "valid": true
+    },
+    {
+      "id": "terrain-bay-05",
+      "name": "ギニア湾",
+      "source": "Gulf of Guinea",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 51.88517,
+      "valid": true
+    },
+    {
+      "id": "terrain-bay-06",
+      "name": "アラスカ湾",
+      "source": "Gulf of Alaska",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 62.03998,
+      "valid": true
+    },
+    {
+      "id": "terrain-bay-07",
+      "name": "ビスケー湾",
+      "source": "Bay of Biscay",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 24.72855,
+      "valid": true
+    },
+    {
+      "id": "terrain-bay-08",
+      "name": "タイ湾",
+      "source": "Gulf of Thailand",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 24.34887,
+      "valid": true
+    },
+    {
+      "id": "terrain-bay-09",
+      "name": "アデン湾",
+      "source": "Gulf of Aden",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 21.39429,
+      "valid": true
+    },
+    {
+      "id": "terrain-bay-10",
+      "name": "カーペンタリア湾",
+      "source": "Gulf of Carpentaria",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 24.13444,
+      "valid": true
+    },
+    {
+      "id": "terrain-strait-01",
+      "name": "ジブラルタル海峡",
+      "source": "Strait of Gibraltar",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 0.00089,
+      "valid": true
+    },
+    {
+      "id": "terrain-strait-02",
+      "name": "マラッカ海峡",
+      "source": "Strait of Malacca",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 15.69111,
+      "valid": true
+    },
+    {
+      "id": "terrain-strait-03",
+      "name": "台湾海峡",
+      "source": "Taiwan Strait",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 4.23231,
+      "valid": true
+    },
+    {
+      "id": "terrain-strait-04",
+      "name": "津軽海峡",
+      "source": "Tsugaru Strait",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 0.57598,
+      "valid": true
+    },
+    {
+      "id": "terrain-strait-05",
+      "name": "宗谷海峡",
+      "source": "La Pérouse Strait",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 0.00153,
+      "valid": true
+    },
+    {
+      "id": "terrain-strait-06",
+      "name": "対馬海峡",
+      "source": "Korea Strait",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 8.54944,
+      "valid": true
+    },
+    {
+      "id": "terrain-strait-07",
+      "name": "バス海峡",
+      "source": "Bass Strait",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 11.11769,
+      "valid": true
+    },
+    {
+      "id": "terrain-strait-08",
+      "name": "クック海峡",
+      "source": "Cook Strait",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 0.57113,
+      "valid": true
+    },
+    {
+      "id": "terrain-strait-09",
+      "name": "トレス海峡",
+      "source": "Torres Strait",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 2.0936,
+      "valid": true
+    },
+    {
+      "id": "terrain-strait-10",
+      "name": "デービス海峡",
+      "source": "Davis Strait",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 126.16185,
+      "valid": true
+    },
+    {
+      "id": "terrain-desert-01",
+      "name": "サハラ砂漠",
+      "source": "SAHARA",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 932.67682,
+      "valid": true
+    },
+    {
+      "id": "terrain-desert-02",
+      "name": "ゴビ砂漠",
+      "source": "GOBI DESERT",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 120.53006,
+      "valid": true
+    },
+    {
+      "id": "terrain-desert-03",
+      "name": "タクラマカン砂漠",
+      "source": "TAKLIMAKAN DESERT",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 21.31266,
+      "valid": true
+    },
+    {
+      "id": "terrain-desert-04",
+      "name": "ナミブ砂漠",
+      "source": "NAMIB DESERT",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 11.27276,
+      "valid": true
+    },
+    {
+      "id": "terrain-desert-05",
+      "name": "カラハリ砂漠",
+      "source": "KALAHARI DESERT",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 67.48922,
+      "valid": true
+    },
+    {
+      "id": "terrain-desert-06",
+      "name": "アタカマ砂漠",
+      "source": "DESIERTO DE ATACAMA",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 14.66406,
+      "valid": true
+    },
+    {
+      "id": "terrain-desert-07",
+      "name": "グレートビクトリア砂漠",
+      "source": "GREAT VICTORIA DESERT",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 22.89928,
+      "valid": true
+    },
+    {
+      "id": "terrain-desert-08",
+      "name": "タール砂漠",
+      "source": "THAR DESERT",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 24.34069,
+      "valid": true
+    },
+    {
+      "id": "terrain-desert-09",
+      "name": "ソノラ砂漠",
+      "source": "SONORAN DESERT",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 21.87701,
+      "valid": true
+    },
+    {
+      "id": "terrain-desert-10",
+      "name": "ルブアルハリ砂漠",
+      "source": "RUB’ AL KHALI",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 51.42536,
+      "valid": true
+    },
+    {
+      "id": "terrain-plain-01",
+      "name": "グレートプレーンズ",
+      "source": "GREAT PLAINS",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 218.73885,
+      "valid": true
+    },
+    {
+      "id": "terrain-plain-02",
+      "name": "華北平原",
+      "source": "NORTH CHINA PLAIN",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 45.30623,
+      "valid": true
+    },
+    {
+      "id": "terrain-plain-03",
+      "name": "ガンジス平原",
+      "source": "GANGES PLAIN",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 45.14464,
+      "valid": true
+    },
+    {
+      "id": "terrain-plain-04",
+      "name": "西シベリア平原",
+      "source": "WESTERN SIBERIAN PLAIN",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 265.52129,
+      "valid": true
+    },
+    {
+      "id": "terrain-plain-05",
+      "name": "北ヨーロッパ平原",
+      "source": "NORTHERN EUROPEAN PLAIN",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 332.05874,
+      "valid": true
+    },
+    {
+      "id": "terrain-plain-06",
+      "name": "パンパ",
+      "source": "PAMPAS",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 82.567,
+      "valid": true
+    },
+    {
+      "id": "terrain-plain-07",
+      "name": "リャノ",
+      "source": "LLANOS",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 31.44204,
+      "valid": true
+    },
+    {
+      "id": "terrain-plain-08",
+      "name": "ナラボー平原",
+      "source": "NULLARBOR PLAIN",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 15.641,
+      "valid": true
+    },
+    {
+      "id": "terrain-plain-09",
+      "name": "中国東北平原",
+      "source": "MANCHURIAN PLAIN",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 31.548,
+      "valid": true
+    },
+    {
+      "id": "terrain-plain-10",
+      "name": "ハンガリー大平原",
+      "source": "Alföld",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 11.84728,
+      "valid": true
+    },
+    {
+      "id": "terrain-plateau-01",
+      "name": "チベット高原",
+      "source": "PLATEAU OF TIBET",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 295.77163,
+      "valid": true
+    },
+    {
+      "id": "terrain-plateau-02",
+      "name": "デカン高原",
+      "source": "DECCAN PLATEAU",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 31.09049,
+      "valid": true
+    },
+    {
+      "id": "terrain-plateau-03",
+      "name": "ブラジル高原",
+      "source": "BRAZILIAN HIGHLANDS",
+      "geometry": "MultiPolygon",
+      "areaSquareDegrees": 329.68784,
+      "valid": true
+    },
+    {
+      "id": "terrain-plateau-04",
+      "name": "中央シベリア高原",
+      "source": "CENTRAL SIBERIAN PLATEAU",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 416.51758,
+      "valid": true
+    },
+    {
+      "id": "terrain-plateau-05",
+      "name": "モンゴル高原",
+      "source": "MONGOLIAN PLATEAU",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 104.54669,
+      "valid": true
+    },
+    {
+      "id": "terrain-plateau-06",
+      "name": "コロラド高原",
+      "source": "COLORADO PLATEAU",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 30.72318,
+      "valid": true
+    },
+    {
+      "id": "terrain-plateau-07",
+      "name": "アルティプラノ",
+      "source": "ALTIPLANO",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 29.74648,
+      "valid": true
+    },
+    {
+      "id": "terrain-plateau-08",
+      "name": "黄土高原",
+      "source": "Loess Plateau",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 19.35101,
+      "valid": true
+    },
+    {
+      "id": "terrain-plateau-09",
+      "name": "シャン高原",
+      "source": "SHAN PLATEAU",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 15.99193,
+      "valid": true
+    },
+    {
+      "id": "terrain-plateau-10",
+      "name": "キンバリー高原",
+      "source": "KIMBERLEY PLATEAU",
+      "geometry": "Polygon",
+      "areaSquareDegrees": 9.90438,
+      "valid": true
+    }
+  ]
+}

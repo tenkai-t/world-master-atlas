@@ -1,0 +1,142 @@
+{
+  "engine": "Kanji Canvas, unmodified recognition algorithm in local Worker adapter",
+  "characters": 2213,
+  "fixture": "Independent Tomoe recorded stroke samples; not live device handwriting or a population accuracy study",
+  "n": 19,
+  "top10": 15,
+  "rows": [
+    {
+      "char": "日",
+      "supported": true,
+      "inTop10": true,
+      "ms": 128,
+      "candidates": "今  仁  尺  幻  曰  日  川  丑  円  月  "
+    },
+    {
+      "char": "中",
+      "supported": true,
+      "inTop10": true,
+      "ms": 127,
+      "candidates": "凡  幻  山  月  心  小  内  牛  中  円  "
+    },
+    {
+      "char": "本",
+      "supported": true,
+      "inTop10": true,
+      "ms": 203,
+      "candidates": "本  内  勾  用  幼  中  田  今  功  末  "
+    },
+    {
+      "char": "山",
+      "supported": true,
+      "inTop10": true,
+      "ms": 57,
+      "candidates": "大  山  下  川  人  小  巾  少  八  口  "
+    },
+    {
+      "char": "海",
+      "supported": true,
+      "inTop10": false,
+      "ms": 931,
+      "candidates": "押  沿  岬  洪  玩  旺  呪  昧  泊  洗  "
+    },
+    {
+      "char": "韓",
+      "supported": true,
+      "inTop10": true,
+      "ms": 952,
+      "candidates": "韓  轄  顕  礁  鎮  聴  鍋  頻  醜  顔  "
+    },
+    {
+      "char": "京",
+      "supported": true,
+      "inTop10": true,
+      "ms": 756,
+      "candidates": "京  侍  宗  夜  冶  努  序  克  府  伯  "
+    },
+    {
+      "char": "峡",
+      "supported": true,
+      "inTop10": true,
+      "ms": 1209,
+      "candidates": "岬  峠  峡  拐  拓  価  押  挟  拝  抹  "
+    },
+    {
+      "char": "原",
+      "supported": true,
+      "inTop10": true,
+      "ms": 1276,
+      "candidates": "原  県  待  除  涼  庭  枯  娯  峠  時  "
+    },
+    {
+      "char": "湖",
+      "supported": true,
+      "inTop10": true,
+      "ms": 1629,
+      "candidates": "添  湖  釣  細  渋  術  尉  経  給  液  "
+    },
+    {
+      "char": "高",
+      "supported": true,
+      "inTop10": true,
+      "ms": 1242,
+      "candidates": "荷  為  高  衰  信  昭  約  南  借  値  "
+    },
+    {
+      "char": "士",
+      "supported": true,
+      "inTop10": true,
+      "ms": 75,
+      "candidates": "口  土  寸  士  工  上  己  山  亡  二  "
+    },
+    {
+      "char": "西",
+      "supported": true,
+      "inTop10": false,
+      "ms": 354,
+      "candidates": "圧  伝  団  四  在  巧  因  旭  田  皿  "
+    },
+    {
+      "char": "川",
+      "supported": true,
+      "inTop10": true,
+      "ms": 69,
+      "candidates": "川  小  山  凡  乃  口  巾  八  刈  心  "
+    },
+    {
+      "char": "東",
+      "supported": true,
+      "inTop10": true,
+      "ms": 704,
+      "candidates": "序  束  東  応  京  雨  克  使  局  伺  "
+    },
+    {
+      "char": "南",
+      "supported": true,
+      "inTop10": true,
+      "ms": 1301,
+      "candidates": "南  卒  刹  知  佳  妬  承  侶  供  国  "
+    },
+    {
+      "char": "富",
+      "supported": true,
+      "inTop10": false,
+      "ms": 1640,
+      "candidates": "宿  陸  猛  液  崎  得  涼  帽  衛  偶  "
+    },
+    {
+      "char": "北",
+      "supported": true,
+      "inTop10": true,
+      "ms": 206,
+      "candidates": "払  刊  以  打  北  加  六  仁  双  叱  "
+    },
+    {
+      "char": "蘭",
+      "supported": false,
+      "inTop10": false,
+      "ms": 838,
+      "candidates": "鯨  鯉  顕  鎮  顔  贈  繕  韓  曜  礎  "
+    }
+  ]
+}

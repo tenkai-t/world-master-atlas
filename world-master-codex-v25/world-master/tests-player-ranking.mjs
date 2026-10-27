@@ -1,0 +1,60 @@
+import {DatabaseSync} from 'node:sqlite';
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import {rankingRequest,DEPARTMENTS,VERSION} from './server/ranking.mjs';
+const require=createRequire(import.meta.url),{fixture,launch,login}=require('./tests-security.cjs');
+const bank=Object.fromEntries([['country','data'],['capital','capitals'],['terrain','terrain'],['heritage','heritage'],['icons','player-icons']].map(([k,v])=>[k,JSON.parse(fs.readFileSync('public/assets/'+v+'.json'))]));
+const sql=new DatabaseSync(':memory:');for(const f of fs.readdirSync('drizzle').filter(f=>f.endsWith('.sql')).sort())sql.exec(fs.readFileSync('drizzle/'+f,'utf8'));
+const DB={prepare(s){return{bind(...p){return{async first(){return sql.prepare(s).get(...p)||null},async all(){return{results:sql.prepare(s).all(...p)}},async run(){return sql.prepare(s).run(...p)}}}}}};
+const a={id:crypto.randomUUID(),secret:'a'.repeat(64)},b={id:crypto.randomUUID(),secret:'b'.repeat(64)};
+async function api(action,body,c=a,user='same-account',extra={}){const req=new Request('https://test.local/api/rank/'+action,{method:body?'POST':'GET',headers:{...(body?{'Content-Type':'application/json',Origin:'https://test.local'}:{}),...(c?{'X-WM-Player':c.id,'X-WM-Key':c.secret}:{}),...extra},...(body?{body:JSON.stringify(body)}:{})});const r=await rankingRequest(req,action.split('?')[0],DB,bank,user);return{status:r.status,j:await r.json()}}
+const mutation=()=>crypto.randomUUID();
+let p={name:'同じ名前',icon:'🌱',revision:0,mutation:mutation()};
+assert.equal((await api('profile',p,a,null)).status,401);
+assert.equal((await api('start',{department:'flags'},null)).status,403);
+assert.equal((await api('profile',p)).status,200);assert.equal((await api('profile',p,b)).status,200);
+assert.equal((await api('profile',p,{...a,secret:b.secret})).status,403);
+assert.equal((await api('profile',p,a,'other-account')).status,403);
+assert.equal((await api('profile',{...p,revision:1,name:'🍎',mutation:mutation()})).status,400);
+assert.equal((await api('profile',{...p,revision:1,name:'あ'.repeat(21),mutation:mutation()})).status,400);
+async function finish(c,dept,right){const start=await api('start',{department:dept},c);assert.equal(start.status,200,JSON.stringify(start));const run=start.j.run,qs=JSON.parse(sql.prepare('SELECT questions FROM player_ranking_runs WHERE id=?').get(run).questions);assert(!('answer' in start.j.question));assert.equal((await api('answer',{run,position:0,question:qs[0].id,choice:qs[0].answer},c===a?b:a)).status,404);let last;for(let i=0;i<qs.length;i++){const body={run,position:i,question:qs[i].id,choice:i<right?qs[i].answer:'skip'};last=await api('answer',body,c);assert.equal(last.status,200,JSON.stringify(last));const retry=await api('answer',body,c);assert.equal(retry.j.right,last.j.right);assert.equal(retry.j.outcome,last.j.outcome);assert.equal((await api('answer',{...body,choice:body.choice==='skip'?qs[i].answer:'skip'},c)).status,409)}return last.j}
+for(const dept of Object.keys(DEPARTMENTS))assert.equal((await finish(a,dept,DEPARTMENTS[dept].count)).outcome,'first');
+assert.equal((await finish(b,'flags',8)).right,8);assert.equal((await finish(b,'flags',9)).outcome,'best');
+let board=(await api('leaderboard?department=flags')).j;assert.equal(board.rows.length,2);assert.equal(board.rows.filter(r=>r.mine).length,1);assert.equal(board.rows.filter(r=>r.nickname==='同じ名前').length,2);
+const score=sql.prepare('SELECT * FROM player_ranking_scores WHERE player_id=? AND department=?').get(a.id,'flags');
+p={name:'変更後の20文字名前あいうえおかきく',icon:'🧩',revision:1,mutation:mutation()};assert(p.name.length<=20);
+let rename=await api('profile',p);assert.equal(rename.status,200,JSON.stringify(rename));assert.equal((await api('profile',p)).j.profile.revision,2);
+assert.equal((await api('profile',{...p,mutation:mutation()})).status,409);
+board=(await api('leaderboard?department=flags')).j;assert.equal(board.rows[0].nickname,p.name);assert.equal(board.rows[0].icon,'🧩');
+assert.equal((await finish(a,'flags',0)).outcome,'unchanged');assert.deepEqual(sql.prepare('SELECT * FROM player_ranking_scores WHERE player_id=? AND department=?').get(a.id,'flags'),score);
+assert(!JSON.stringify(board).includes('secret'));assert(!JSON.stringify(board).includes('owner_id'));assert(!JSON.stringify(board).includes(a.id));
+// Own rank remains available beyond top 20, ties are rank 1/1/3, old scores untouched.
+for(let i=0;i<25;i++){const id=crypto.randomUUID();sql.prepare('INSERT INTO ranking_players VALUES(?,?,?,?,?,?,?)').run(id,'fixture','hash','旅人'+i,'🌱',1,mutation());sql.prepare('INSERT INTO player_ranking_scores VALUES(?,?,?,?,?,?,?,?,?)').run(id,'flags',VERSION,10,10,1000,i,mutation(),'first')}
+const own=(await api('leaderboard?department=flags',null,b)).j;assert.equal(own.rows.length,20);assert.equal(own.own.rank,27);assert(own.rows.every(r=>r.rank===1));
+sql.prepare('INSERT INTO ranking_scores VALUES(?,?,?,?,?,?,?,?,?)').run('same-account','flags',VERSION,'旧成績',7,10,123,1,'old-run');const old=(await api('legacy?department=flags')).j;assert.equal(old.own.right_count,7);assert(!(await api('leaderboard?department=flags')).j.rows.some(r=>r.nickname==='旧成績'));
+assert.equal((await api('profile',p,a,'same-account',{Origin:'https://evil.local'})).status,403);
+console.log('PASS server player ranking: A/B same account/name, 6 departments, per-player authorization/foreign account/forged capability/guest, server grading, retry and best, profile CAS/idempotence/20char/icons, unchanged score+date, top20+own, ties, legacy separation, CSRF');
+// Real application scripts and actual forms with SQLite-backed server requests.
+const ids=['local-a','local-b'],ik='world-master:players:v1',sk='world-master:security:v1',pk='world-master:player:v1:';
+const key=JSON.stringify({v:VERSION,content:'country',mode:'flag',level:'c3',region:'世界全体',scope:'all',input:'choice',count:10,practice:'test',challenge:null,hints:false,changed:false});
+const history=(right,at=100)=>({at,content:'country',mode:'flag',input:'choice',practice:'test',region:'世界全体',scope:'all',level:'c3',n:10,right,rankKey:key,dataVersion:VERSION,complete:true});
+const store=new Map([[ik,JSON.stringify({version:1,players:ids.map(id=>({id,name:'同じ名前',icon:'🌱'})),last:ids[0]})],[sk,JSON.stringify({schema:1,players:Object.fromEntries(ids.map(id=>[id,fixture('1234')])),admin:fixture('654321'),minutes:5})],...ids.map((id,i)=>[pk+id,JSON.stringify({schema:1,revision:crypto.randomUUID(),data:{version:1,records:{},history:[history(9-i)]}})])]);
+let failAfterProfile=false,failAfterAnswer=false;
+const x=await launch(store,{fetch:async(path,opt)=>{if(path.startsWith('/api/')){const req=new Request('https://test.local'+path,opt),r=await rankingRequest(req,path.split('/').pop().split('?')[0],DB,bank,'ui-account');if(failAfterProfile&&path==='/api/rank/profile'){failAfterProfile=false;throw Error('network interrupted after commit')}if(failAfterAnswer&&path==='/api/rank/answer'){failAfterAnswer=false;throw Error('answer connection lost after commit')}return r}return{ok:true,json:async()=>JSON.parse(fs.readFileSync('public/'+path))}}});
+await login(x,ids[0]);x.e('navigator.onLine=true');await x.e('rankPrepare()');const online=JSON.parse(store.get('world-master:online-players:v1'))[ids[0]];
+x.e('rankings()');assert.equal(x.$('#localBoard tbody').rows.length,2);assert(x.$('#ownRank').textContent.includes('1位'));assert(!x.$('#localBoard').textContent.includes('1234'));
+assert.equal(x.e('rememberRankingResult({...db.history[0],right:10},db)'),'自己ベスト更新！');x.e('db.history=[]');await x.e('save()');assert.equal(JSON.parse(store.get(pk+ids[0])).data.rankingBests[key].right,10);
+for(const edit of ['名前変更','オフライン変更']){if(edit==='オフライン変更')x.e('navigator.onLine=false');await x.e('editPlayer()');x.set('secureName',edit);x.set('confirmOwn','1234');await x.submit('secureProfile');await x.e('rankSyncPending()');if(edit==='オフライン変更'){assert(JSON.parse(store.get('world-master:online-players:v1'))[ids[0]].pending);x.e('navigator.onLine=true');await x.e('rankSyncPending()')}assert.equal(sql.prepare('SELECT name FROM ranking_players WHERE id=?').get(online.id).name,edit)}
+// Network commits then fails: outbox survives, retry uses the same mutation and does not increment twice.
+x.e('navigator.onLine=false');await x.e('editPlayer()');x.set('secureName','再送確認');x.set('confirmOwn','1234');await x.submit('secureProfile');failAfterProfile=true;x.e('navigator.onLine=true');await x.e('rankSyncPending()');assert(JSON.parse(store.get('world-master:online-players:v1'))[ids[0]].pending);const rev=sql.prepare('SELECT revision FROM ranking_players WHERE id=?').get(online.id).revision;await x.e('rankSyncPending()');assert.equal(sql.prepare('SELECT revision FROM ranking_players WHERE id=?').get(online.id).revision,rev);assert(!JSON.parse(store.get('world-master:online-players:v1'))[ids[0]].pending);
+x.e('navigator.onLine=false');await x.e('editPlayer()');x.set('secureName','先の名前');x.set('confirmOwn','1234');await x.submit('secureProfile');failAfterProfile=true;x.e('navigator.onLine=true');await x.e('rankSyncPending()');x.e('navigator.onLine=false');await x.e('editPlayer()');x.set('secureName','最新の名前');x.set('confirmOwn','1234');await x.submit('secureProfile');x.e('navigator.onLine=true');await x.e('rankSyncPending()');await x.e('rankSyncPending()');assert.equal(sql.prepare('SELECT name FROM ranking_players WHERE id=?').get(online.id).name,'最新の名前');
+// Teacher edits another player while A remains selected.
+await x.e('finishPlayerSwitch()');await login(x,ids[1]);await x.e('rankPrepare()');await x.e('finishPlayerSwitch()');x.$('#teacherEntry').click();x.set('teacherPin','654321');await x.submit('teacherLogin');x.$('[data-admin-action=edit][data-id="local-a"]').click();await new Promise(r=>setTimeout(r,0));x.set('secureName','先生による変更');await x.submit('secureProfile');await x.e('rankSyncPending()');assert.equal(sql.prepare('SELECT name FROM ranking_players WHERE id=?').get(online.id).name,'先生による変更');
+x.$('#modal').close();await login(x,ids[0]);x.e("rankingTab='online';rankings()");await x.e('rankSyncPending()');await new Promise(r=>setTimeout(r,30));assert(!x.$('#nickname'));assert(x.$('#onlineMessage').textContent.includes('未挑戦'));await x.$('#officialStart').onclick();assert.equal(x.e('view'),'official');const run=x.e('officialRun.run');assert.equal(sql.prepare('SELECT player_id FROM player_ranking_runs WHERE id=?').get(run).player_id,online.id);
+failAfterAnswer=true;await x.e("officialAnswer('skip')");assert(x.$('#officialRetry'));assert.equal(x.e('officialRun.position'),0);await x.$('#officialRetry').onclick();assert.equal(x.e('officialRun.position'),1);assert.equal(sql.prepare('SELECT position FROM player_ranking_runs WHERE id=?').get(run).position,1);await x.e('finishPlayerSwitch()');await login(x,ids[1]);x.e("rankingTab='online';rankings()");assert(!x.$('#resumeOfficial'));await x.e('finishPlayerSwitch()');await login(x,ids[0]);x.e("rankingTab='online';rankings()");assert(x.$('#resumeOfficial'));
+// Export/restore keeps learning best but never includes server capability or binds the old identity.
+const parsed=x.e("parsePlayerImport({format:'world-master-player',version:1,player:{name:activePlayer.name,icon:activePlayer.icon,data:db}})");assert(parsed[0].data.rankingBests[key]);assert(!JSON.stringify(parsed).includes(online.secret));assert(!JSON.stringify(parsed).includes(online.id));
+await x.e('finishPlayerSwitch()');await x.e('startGuest()');assert.throws(()=>x.e('rankHeaders()'));x.e("rankingTab='online';rankings()");assert(x.$('#officialStart').disabled);await x.e('finishPlayerSwitch()');assert.equal(JSON.parse(store.get(pk+ids[0])).data.rankingBests[key].right,10);
+x.close();
+console.log('PASS frontend: real forms/scripts + SQLite: current names/icons/local A/B/shared rank, durable best after history eviction, own rename, teacher rename another player, offline queue, retry after server commit idempotent, new online start/answer, resume ownership, backup secrecy, guest denial');

@@ -1,0 +1,17 @@
+{
+  "capital": {
+    "targets": 207,
+    "belowTwo": [],
+    "total": 1035
+  },
+  "terrain": {
+    "targets": 118,
+    "belowTwo": [],
+    "total": 354
+  },
+  "heritage": {
+    "targets": 108,
+    "belowTwo": [],
+    "total": 648
+  }
+}

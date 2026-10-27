@@ -1,0 +1,3828 @@
+{
+  "version": 1,
+  "checked": "2026-10-20",
+  "heritage": {
+    "wh-252": {
+      "hints": [
+        {
+          "text": "ムガル帝国の皇帝が、亡くなった妃をしのんで建てさせました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "シャー・ジャハーン帝の命で、17世紀に造られました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "アグラという都市にあり、イスラーム美術を伝えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "白い大理石で造られた、墓を納める建物です。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/252/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-438": {
+      "hints": [
+        {
+          "text": "北からの侵入に備えて、長い年月をかけて築かれました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "秦の始皇帝は、それ以前にあった防御施設をつなぎました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "建設は秦の時代だけで終わらず、明の時代にも続きました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "軍事の歴史と、巨大な建築技術の両方を伝える遺産です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/438/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-274": {
+      "hints": [
+        {
+          "text": "インカ帝国の最盛期に造られた都市の遺跡です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海抜およそ2430メートルの、熱帯の山地林にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "周囲の自然は、アマゾン川の上流域にもつながっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "石の壁や段々畑が、急な山の地形に合わせて造られています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        },
+        {
+          "text": "建物の歴史だけでなく、山地の豊かな動植物も評価されています。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/274/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-86": {
+      "hints": [
+        {
+          "text": "古王国時代の都に関係する、王たちの埋葬施設が集まっています。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "一つの建物ではなく、複数の王墓や神殿を含む登録です。",
+          "stage": "特徴",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "平らな屋根のマスタバと呼ばれる墓も含まれています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "石を積んだ巨大な王墓だけでなく、岩を掘った墓もあります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/86/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-326": {
+      "hints": [
+        {
+          "text": "紅海と死海の間で、隊商の交易によって栄えた都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ナバテア人の都市で、アラビアと周辺地域を結ぶ要所でした。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古代オリエントの伝統と、ヘレニズムの建築様式が出会っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "建物を積み上げる技術と、岩を彫る技術の両方が使われています。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/326/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-668": {
+      "hints": [
+        {
+          "text": "9〜15世紀のクメール帝国の都の移り変わりを伝えます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "森林も含めて、およそ400平方キロメートルに広がる遺跡群です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "バイヨン寺院の彫刻など、多くの建築・美術作品が残っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "一つの有名な寺院だけでなく、いくつもの都の遺構が含まれます。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/668/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-404": {
+      "hints": [
+        {
+          "text": "紀元前5世紀後半、民主政が発展した時代に主要な建物が造られました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "政治家ペリクレスの計画を、多くの芸術家が実現しました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "彫刻家フェイディアスが建設を指導したことで知られます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "パルテノン神殿やエレクテイオンなどが含まれます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "岩の丘を利用して、古代の神殿群が造られています。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/404/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-80": {
+      "hints": [
+        {
+          "text": "ノルマンディーとブルターニュの間にあり、潮の満ち引きが大きい場所です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大天使ミカエルにささげられた、ベネディクト会の修道院があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "11〜16世紀、難しい地形に合わせて建物が造られていきました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "岩の小島だけでなく、周囲の砂地や湾も登録に含まれます。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/80/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-91": {
+      "hints": [
+        {
+          "text": "古代の政治の中心が、のちにキリスト教世界の中心へと変わりました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "パンテオンや古代のフォルムなど、異なる時代の建物を含みます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "伝説では、紀元前753年に双子の兄弟が建てた都市とされています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古代の記念建造物と、教皇に関わる宗教建築を一緒に学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/91/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-394": {
+      "hints": [
+        {
+          "text": "5世紀に始まった都市が、10世紀には海の交易で大きな力を持ちました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "118の小さな島に広がった都市として紹介されています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ティツィアーノやティントレットらの美術作品とも結び付いています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "街の建築だけでなく、取り巻く潟も一つの登録に含まれます。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/394/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-688": {
+      "hints": [
+        {
+          "text": "794年に都が造られ、19世紀半ばまで皇室の都として続きました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "木造の宗教建築と、庭園のつくり方の発展を学べます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古代の東アジアの都を手本にした、長い歴史を持つ都市です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "庭園の芸術は、海外の造園にも影響を与えました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/688/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-1418": {
+      "hints": [
+        {
+          "text": "山を訪れる巡礼と、絵画などの芸術への影響が評価されています。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "19世紀の浮世絵を通じて、海外の芸術にも影響しました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "登拝道だけでなく、浅間神社や御師の住宅なども含まれます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "12世紀には、神道の要素も持つ仏教修行の場となっていました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "山や湖などの風景を、人々の信仰や芸術との関係から学ぶ遺産です。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1418/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-156": {
+      "hints": [
+        {
+          "text": "ヌーやシマウマなどの大きな群れが、水を求めて毎年移動します。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "草食動物の移動を追って、肉食動物も動きます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "150万ヘクタールほどのサバンナに、動物の営みが広がっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "東アフリカの広い草原にある公園です。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/156/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-28": {
+      "hints": [
+        {
+          "text": "1872年に国立公園となった場所です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ワイオミング州を中心に、モンタナ州とアイダホ州にも広がります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "地面の下の熱が生む現象と、野生動物の暮らしを一緒に学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "グリズリーやオオカミ、バイソン、ワピチなどが暮らします。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "湯や蒸気が地表に現れ、熱水や間欠泉が見られます。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/28/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-75": {
+      "hints": [
+        {
+          "text": "コロラド川が地面を削ってつくった峡谷です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "アリゾナ州にあり、深さは場所によって約1500メートルに達します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "重なった地層から、約20億年に及ぶ地球の歴史を読み取れます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "先史時代の人々が、厳しい環境で暮らした痕跡も残っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大地を大きく刻む、深い峡谷の景観があります。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/75/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-154": {
+      "hints": [
+        {
+          "text": "ジュゴンやアオウミガメなど、絶滅の恐れのある生物の生息地です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "多くのサンゴだけでなく、魚や貝など多様な生物が暮らします。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "サンゴ礁の生態系を、ひとまとまりの広い海域で守っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大陸の北東岸の沖に、数多くのサンゴ礁が広がっています。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/154/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-509": {
+      "hints": [
+        {
+          "text": "ザンベジ川の水が、玄武岩の峡谷へ流れ落ちる場所です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "滝つぼから上がる大きな水しぶきは、遠くからも見えます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "川がつくった峡谷と、火山由来の岩との関係を学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "水の流れが落下して、大きな音と霧のようなしぶきを生みます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/509/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-1314": {
+      "hints": [
+        {
+          "text": "潮が引くと広い砂や泥の地面が現れる、海沿いの湿地です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ゴマフアザラシの仲間やネズミイルカなども暮らす海域です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "砂州、塩性湿地、干潟など、潮の働きでできる環境が集まっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "自然の潮の働きと生物の活動が、今も地形や生息地をつくっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1314/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-421": {
+      "hints": [
+        {
+          "text": "マオリの人々にとって、山は宗教や心のつながりを持つ場所です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "火山の景観と、人々が山に寄せる信仰の両方が評価されています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1993年、文化的景観を評価する基準が登録に加えられました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "活動中の火山と、活動を終えた火山の両方があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/421/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-303": {
+      "hints": [
+        {
+          "text": "対岸側の同名の国立公園は、この遺産とは別の登録です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "滝の周囲には亜熱帯の雨林が広がり、ジャガーやバクなどが暮らします。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "玄武岩の境界に沿って、いくつもの滝が半円状に並びます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "植物の多様性も高く、大きな滝と森林の生態系が結び付いています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/303/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-1": {
+      "hints": [
+        {
+          "text": "南米大陸から約1000キロメートル離れた、太平洋の島々です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "三つの海流が出会い、陸と海の両方に独特な生態系があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ダーウィンが1835年に訪れ、進化を考える手がかりを得ました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ゾウガメやフィンチなどが、離れた島々で独自に進化しました。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "火山活動で生まれた島で、生き物が環境に適応する過程を学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-2": {
+      "hints": [
+        {
+          "text": "16世紀、インカの都市の跡に建設された街です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "標高およそ2850メートルにあり、先住民と欧州の美術が出会いました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "サン・フランシスコやサント・ドミンゴなどの修道院があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "教会の装飾には、バロックと先住民の表現が組み合わされています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/2/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-3": {
+      "hints": [
+        {
+          "text": "カール大帝の宮廷礼拝堂として、8世紀末ごろに建設が始まりました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中心部が八角形になった、初期中世の宗教建築です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "建物は最初の時代のままではなく、中世にも増築されました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "東方の教会建築の影響を受けた、天井の高い礼拝空間があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/3/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-4": {
+      "hints": [
+        {
+          "text": "ニューファンドランド島の北端近くに残る遺跡です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "11世紀に、北欧のバイキングが定住した証拠が残っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "木の骨組みと、草の生えた泥炭を使った建物の跡が見つかりました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "北米と北欧が海を通じてつながっていたことを伝えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/4/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-26": {
+      "hints": [
+        {
+          "text": "ダカールの沖にある小さな島です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "15〜19世紀の大西洋奴隷貿易の歴史を伝えます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "収容された人々の住まいと、商人の家の対照が歴史を物語ります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "人間の搾取の記憶を残し、和解を考える場所として守られています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/26/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-31": {
+      "hints": [
+        {
+          "text": "第二次世界大戦中の、人権が踏みにじられた歴史を伝える場所です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "多くのユダヤ人を含む人々が、迫害され命を奪われました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "兵舎や鉄道のホームなどが、当時の仕組みを証言しています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "残された施設を通して、同じ悲劇を繰り返さないことを学びます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/31/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-63": {
+      "hints": [
+        {
+          "text": "湿地や草原から、標高5000メートルを超える山の雪原まで広がります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "マウンテンゴリラやカバが暮らす、多様な生息地を守っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ルウェンゾリ山地の雪原や、火山の斜面も公園に含まれます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "シベリアから渡ってきた鳥が、冬を過ごす場所でもあります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/63/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-64": {
+      "hints": [
+        {
+          "text": "紀元前6世紀から紀元後10世紀にかけて、人々が暮らしたマヤの都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "儀礼の中心地には、神殿や宮殿、広場がつくられました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中心の建物だけでなく、周囲には住居の跡も散らばっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "都市遺跡と、それを包む豊かな熱帯林が一緒に守られています。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/64/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-65": {
+      "hints": [
+        {
+          "text": "16世紀初めに建設され、かつて植民地統治の中心となった都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1773年の大地震で大きな被害を受け、建物の一部が遺構として残りました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ルネサンスの考え方に影響を受けた、格子状の街路があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "標高およそ1500メートルの、地震の多い地域に築かれました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/65/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-71": {
+      "hints": [
+        {
+          "text": "アルバータ州の、水や風に削られたバッドランドと呼ばれる地形にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "約7500万年前の地層から、多くの恐竜化石が見つかっています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "恐竜の時代の生物を、化石と地層の関係から調べられる場所です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "爬虫類が栄えた時代を伝える、多様な恐竜の化石が重要です。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/71/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-78": {
+      "hints": [
+        {
+          "text": "1776年の独立宣言と、1787年の憲法に関わる建物です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "フィラデルフィアという都市にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "この場所で話し合われた自由や民主主義の原則は、他国にも影響しました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "もとは、ペンシルベニア植民地の議会のために造られた建物です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "建設は1732年に始まり、1753年に完成しました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/78/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-81": {
+      "hints": [
+        {
+          "text": "1194年の火災の後、約26年をかけて主要部分が再建されました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "12〜13世紀のステンドグラスが、よい状態で残っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "先のとがったアーチや彫刻が、ゴシック美術の発展を伝えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        },
+        {
+          "text": "建築、彫刻、窓の美術を、一つの宗教空間として学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/81/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-83": {
+      "hints": [
+        {
+          "text": "ルイ14世からルイ16世まで、王たちの主な住まいとなりました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "建築家だけでなく、彫刻家や庭園の設計者たちも整備に関わりました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ほかの欧州の王宮づくりにも、長く影響を与えた場所です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "宮殿だけでなく、庭園も一緒に評価されている登録です。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/83/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-84": {
+      "hints": [
+        {
+          "text": "9世紀に開かれた修道院に、祈りの旅をする人々が集まるようになりました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "マグダラのマリアゆかりの聖遺物（信仰の対象となる遺品）をまつった場所です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1146年、ベルナルドゥスが第2回十字軍を呼びかけた場所です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "12世紀の教会には、ロマネスク様式の柱頭や入口の彫刻があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/84/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-85": {
+      "hints": [
+        {
+          "text": "旧石器時代の人々の暮らしと、美術の始まりを伝えます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ラスコー洞窟は、1940年に発見されました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "壁には、動物を生き生きと描いた狩猟の場面などが残っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        },
+        {
+          "text": "一つの洞窟だけでなく、多くの先史時代の遺跡と装飾洞窟を含みます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/85/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-87": {
+      "hints": [
+        {
+          "text": "中王国・新王国時代に栄えた、アメン神ゆかりの都です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "カルナックやルクソールの神殿などが含まれます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "王家の谷と王妃の谷など、王族の墓地も含む広い登録です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "神殿だけでなく、宮殿や墓地からも古代文明を学べます。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/87/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-88": {
+      "hints": [
+        {
+          "text": "ダムによる水位の上昇から遺跡を守る、国際協力が行われました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "UNESCOの救済活動は、1960〜1980年に進められました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ラムセス2世の神殿や、イシス女神をまつる聖所などを含みます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "一つの神殿ではなく、川沿いの複数の遺跡をまとめた登録です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/88/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-89": {
+      "hints": [
+        {
+          "text": "10世紀に創設され、14世紀に大きく栄えた都市の中心部です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "モスクだけでなく、学校、浴場、噴水なども歴史を伝えます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "近代的な大都市の中に、中世イスラーム都市の街区が残っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "宗教施設と人々の日常生活の建物を、一緒に学べる場所です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/89/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-90": {
+      "hints": [
+        {
+          "text": "紀元296年に亡くなった殉教者の墓を中心に発展しました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "教会だけでなく、洗礼のための施設や修道院も造られました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "住宅、工房、道などが残り、巡礼都市全体の暮らしを伝えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "キリスト教が広がった初期の、信仰と都市の結び付きを学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/90/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-95": {
+      "hints": [
+        {
+          "text": "13世紀以降、地中海の海上交易で大きな力を持った都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ダルマチア沿岸にあり、「アドリア海の真珠」とも呼ばれます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1667年の地震の後も、中世から近世の教会や宮殿が残りました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ゴシック、ルネサンス、バロックなど、時代の違う建築を見比べられます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/95/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-97": {
+      "hints": [
+        {
+          "text": "3〜4世紀に造られた、皇帝の宮殿を核として街が発展しました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古代の墓の材料を再利用して、中世に大聖堂が造られました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古代の遺構と、中世の教会や近世の宮殿が同じ街に残ります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ローマ時代の都市が、後の時代にも使い続けられたことを学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/97/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-98": {
+      "hints": [
+        {
+          "text": "水中の成分がたまった石灰華（せっかいか）が、自然のダムをつくります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "地形ができる働きは過去だけでなく、今も続いています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "周囲の森林には、クマやオオカミ、珍しい鳥などが暮らしています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "水の流れがせき止められて、いくつもの湖と滝が生まれています。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/98/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-100": {
+      "hints": [
+        {
+          "text": "氷河が地形をつくり、その後も川や地下水が流れています。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "タラ川が刻んだ深い峡谷が、公園の特徴の一つです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "マツの密林や透明な湖があり、固有の植物も育ちます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "山岳だけでなく、峡谷や湖を含む広い自然を守っています。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/100/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-102": {
+      "hints": [
+        {
+          "text": "1007年に築かれ、1152年に破壊された王都の遺跡です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ハンマード朝の最初の都として、山地に置かれました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "モスクの礼拝室には、多くの列をなす空間がつくられました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "要塞で守られた中世イスラーム都市の姿を伝えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/102/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-111": {
+      "hints": [
+        {
+          "text": "昔の溶岩、氷河、そして大地溝帯の働きが、地形をつくりました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "五つの主要な川が生まれ、多くの人々の水源となっています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "火山の峰、氷河湖、森、峡谷などが組み合わさっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        },
+        {
+          "text": "山地の異なる環境が、多様な生物や固有の生物を支えています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/111/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-119": {
+      "hints": [
+        {
+          "text": "15〜16世紀、イスラームの学問と信仰の中心地となりました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "サンコーレの学びの場や、三つの大きなモスクがあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "砂漠化から守る必要がある、歴史的な建築群です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ジンガレーベル、サンコーレ、シディ・ヤヒアのモスクが黄金期を伝えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/119/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-120": {
+      "hints": [
+        {
+          "text": "ユキヒョウやレッサーパンダなど、珍しい動物も暮らす山地です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "シェルパの人々の文化も、この場所を理解する手がかりです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "氷河や深い谷があり、世界でも特に高い山々の環境を守っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        },
+        {
+          "text": "ヒマラヤの高山の景観と、生物の暮らしを一緒に学べます。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/120/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-121": {
+      "hints": [
+        {
+          "text": "七つの建造物群が、歴史と美術の発展を伝えます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "仏教のストゥーパと、ヒンドゥー教の寺院の両方を含みます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "パタンやバクタプルの、かつての王宮広場も含まれます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "スワヤンブーやボダナートなどの仏塔が、信仰の歴史を伝えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/121/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-125": {
+      "hints": [
+        {
+          "text": "中世、石造りの技術や聖画の制作でも知られた交易港です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "アドリア海の自然の港を利用して発展しました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1979年の地震で損傷し、国際的な協力を受けて復旧しました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ロマネスク様式の教会や城壁が、海沿いの都市に残っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/125/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-129": {
+      "hints": [
+        {
+          "text": "マヤの都市の発展を、三つの段階の遺構から学べます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "10世紀初めに都市が放棄されるまで、広場や城塞が使われました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1570年に記録されましたが、本格的な発掘は19世紀に始まりました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "石碑や彫刻だけでなく、都市の広場や建物の配置も重要です。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/129/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-130": {
+      "hints": [
+        {
+          "text": "紀元前2500年ごろに造られた、大規模な地下の施設です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "もとは祈りの場所で、先史時代に墓地として使われたと考えられています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "石灰岩を掘り、地上の建物とは違う地下空間をつくりました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        },
+        {
+          "text": "古代の埋葬と信仰を、地下に残る施設から学ぶ遺産です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/130/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-132": {
+      "hints": [
+        {
+          "text": "二つの島に点在する、七つの巨石神殿が登録されています。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ゴゾ島のジュガンティーヤなど、巨大な石造の施設を含みます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ハジャール・イムやムナイドラなど、異なる神殿を見比べられます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "限られた道具や資源で、大きな石の宗教建築を造った技術が重要です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/132/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-136": {
+      "hints": [
+        {
+          "text": "熱帯の森林とサバンナが出会う、中央アフリカの移行帯にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "乾いた草原だけでなく、川沿いの森やパピルスの湿地も守っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "マルミミゾウやコルドファンキリン、カバなどが生息しています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "火や動物の採食、季節ごとの洪水が、森と草原の姿を変えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/136/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-137": {
+      "hints": [
+        {
+          "text": "二つの火山を中心に、広い原生の熱帯林が残る場所です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ヒガシローランドゴリラの生息地として重要です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海抜2000メートルを超える地域でも、ゴリラが暮らしています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大型の霊長類を含む、多様な森林の動物を守っています。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/137/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-140": {
+      "hints": [
+        {
+          "text": "紀元1世紀の初めに創設された、仏教の僧院の跡です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "高い丘の上にあったため、たび重なる侵入から比較的よく守られました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "近くに、同じ時代の小さな城壁都市の跡もあります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ガンダーラ地域の、宗教施設と都市の関係を学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/140/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-143": {
+      "hints": [
+        {
+          "text": "14〜18世紀、複数の王朝やムガルの支配者のもとで整備されました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "シンド地方の文明を、都市と大きな墓地の遺構から学べます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "三つの王朝の都となり、その後も支配者が変わりながら発展しました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "マクリの墓地の建物が、支配者たちの歴史を伝えます。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/143/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-144": {
+      "hints": [
+        {
+          "text": "二つの沿岸の島に残る、東アフリカの港の遺跡です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "13〜16世紀、インド洋の広い交易網で栄えました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "金や銀、真珠のほか、遠い地域から来た陶磁器も取引されました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "アラビア、ペルシア、東アジアの品物を結ぶ港でした。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/144/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-145": {
+      "hints": [
+        {
+          "text": "南米南部の高い山々と、氷河がつくった湖を含む公園です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "長さおよそ160キロメートルのアルヘンティーノ湖があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "いくつかの氷河が湖に達し、大きな氷の塊を水中へ落とします。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "氷河の細かな岩の粒を含む、白く濁った湖の水も特徴です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/145/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-147": {
+      "hints": [
+        {
+          "text": "少なくとも4万年以上にわたる、人々の暮らしの痕跡があります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "岩絵や岩の彫刻が、先住民の技術や生活を伝えます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "潮の干満を受ける平地、氾濫原、高原など、多様な環境を含みます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "人の歴史と、希少な生物を支える生態系の両方が大切にされています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/147/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-149": {
+      "hints": [
+        {
+          "text": "紀元2世紀から人が住み、8世紀には独立した国の都として栄えました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "カウアク・スカイ王の時代に、重要な都市となりました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "彫刻された暦や石碑が、マヤ文明を研究する手がかりです。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "8世紀につくられた、大きく細かな彫刻の石碑が残っています。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/149/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-150": {
+      "hints": [
+        {
+          "text": "ケンタッキー州にあり、地下の通路が網の目のようにつながっています。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "石灰岩がつくる、非常に大規模な洞窟のしくみを学べます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "地下と地上の両方に、絶滅の恐れのある生物を含む多様な生物が暮らします。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "自然の洞窟と地下通路が、広い範囲に連なっています。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/150/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-151": {
+      "hints": [
+        {
+          "text": "ワシントン州の北西部にあり、氷河のある峰から海岸までを含みます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "太平洋岸北西部の、よく保たれた温帯雨林が重要です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "山から流れる多くの川は、海と川を行き来する魚の生息地です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "マダラウミスズメやマスの仲間など、絶滅の恐れのある動物も守っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/151/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-153": {
+      "hints": [
+        {
+          "text": "ガンビア川沿いの、水に恵まれた環境にある公園です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "川沿いの森とサバンナが組み合わさった生息地です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大きなレイヨウの仲間、ジャイアントイランドが暮らします。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "チンパンジーやライオン、ヒョウなど、多様な動物が暮らします。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/153/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-155": {
+      "hints": [
+        {
+          "text": "サバンナから山が立ち上がり、森林と山地の草原が続いています。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "固有のヒキガエルの仲間には、子を産む種類がいます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "石を道具として使うチンパンジーも、この地域の特徴です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "登録は二つの国の保護区にまたがり、国境を越えて自然を守っています。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/155/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-157": {
+      "hints": [
+        {
+          "text": "ハイダ・グワイの沖の、小さな島にある集落の跡です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "木の家の跡と、死者をしのぶ彫刻の柱が残っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ハイダの人々が、陸や海とどう関わったかを伝えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "口で伝えられてきた物語と、造形の芸術を結び付けて学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/157/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-158": {
+      "hints": [
+        {
+          "text": "北米の平原の人々が、およそ6000年続けた狩りの痕跡です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "動物の行動と地形を利用し、群れを崖へ誘導していました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "崖の下には、多くのバイソンの骨が積もった場所があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "動物を追う道や野営地も残り、共同の狩りのしくみを学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/158/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-159": {
+      "hints": [
+        {
+          "text": "南北の大陸をつなぐ、陸の橋のような場所にある公園です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "低地と高地の熱帯林だけでなく、マングローブや湿地も含みます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "砂浜から岩の海岸まで、違う環境が近い範囲に集まっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "先住民の人々が暮らす地域でもあり、豊かな野生生物を守っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/159/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-160": {
+      "hints": [
+        {
+          "text": "12世紀から、王たちの狩りのための滞在先として使われました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "16世紀、フランソワ1世が大きく拡張し、美術で飾りました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "イタリアのルネサンスの影響と、地元の芸術の伝統が出会っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "イル・ド・フランスの広い森の中に造られた宮殿です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/160/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-162": {
+      "hints": [
+        {
+          "text": "ピカルディ地方にある、13世紀の大きなゴシック聖堂です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "建物の設計のまとまりと、高い内部空間の構成が評価されています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "主な入口の正面や南側に、細かな彫刻が並んでいます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        },
+        {
+          "text": "内部の壁は三層に分かれ、垂直方向の広がりを感じさせます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/162/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-163": {
+      "hints": [
+        {
+          "text": "ローヌ川の谷にある、古代の劇場と記念門の登録です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "劇場には、長さおよそ103メートルの正面の壁が残っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "記念門は紀元1世紀初めに造られ、平和の成立を祝う浮彫があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "演劇を行う場所と、帝国の力を示す建築を一緒に学べます。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/163/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-164": {
+      "hints": [
+        {
+          "text": "古代の都市を、中世の人々が使い直した歴史を伝えます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "円形闘技場や劇場に加え、地下の回廊の遺構もあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "4世紀には、コンスタンティヌスの浴場などが造られました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "サン・トロフィーム教会は、ロマネスク建築の重要な例です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/164/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-165": {
+      "hints": [
+        {
+          "text": "1119年、聖ベルナルドゥスによって創設されました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "祈る場所だけでなく、パン焼き場や製鉄の施設もありました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "修道士たちが、自分たちの生活を自ら支えたしくみを伝えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "回廊、食堂、寝室などが残り、修道生活全体を学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/165/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-166": {
+      "hints": [
+        {
+          "text": "1973年に開館した、20世紀の建築作品です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1957年の国際審査で、ヨーン・ウツソンの設計が選ばれました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "二つの主要な上演ホールやレストランを、一連の屋根が覆います。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "貝殻にたとえられる屋根を組み合わせた、新しい構造が特徴です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/166/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-169": {
+      "hints": [
+        {
+          "text": "18世紀、司教領主のために、多国籍の芸術家たちが建設しました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "バルタザール・ノイマンが、建築家たちを率いました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "画家ティエポロも装飾に参加した、バロック様式の宮殿です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "建築、絵画、彫刻、しっくいの装飾が、一つの空間にまとめられています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/169/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-170": {
+      "hints": [
+        {
+          "text": "9世紀に創設され、マリーン朝の13〜14世紀に大きく栄えました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "学校や商人の宿、宮殿、噴水などが、昔の街の構成を伝えます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1912年に政治の中心がラバトへ移った後も、文化と信仰の中心であり続けました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "イスラームの歴史を、宗教建築だけでなく街全体から学べます。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/170/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-171": {
+      "hints": [
+        {
+          "text": "シャー・ジャハーン帝の時代に栄えた、ムガルの建築文化を伝えます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "城塞には、大理石の宮殿やモスクがあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "庭園は三段のテラスを使い、水や池を組み合わせて造られています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "城塞と庭園という、役割の違う二つの施設を含む登録です。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/171/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-174": {
+      "hints": [
+        {
+          "text": "15〜16世紀、メディチ家のもとで経済と文化が大きく発展しました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ジョット、ボッティチェリ、ミケランジェロなどの作品と結び付きます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ウフィツィやピッティ宮殿など、多くの美術と建築を含みます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古代の集落跡に発展し、ルネサンスの中心の一つとなった都市です。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/174/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-180": {
+      "hints": [
+        {
+          "text": "19世紀初め、奴隷制から解放された人々が建てた記念建造物です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "独立した国の自由を表す、宮殿や大きな防御施設が残っています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "サン・スーシの宮殿と、ラミエールの建物群などを含みます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "植民地からの独立後、新しい国をつくった歴史を伝えます。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/180/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-181": {
+      "hints": [
+        {
+          "text": "氷河の強い働きを受けた地域に、深い峡谷や温帯雨林が残ります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "石灰岩の洞窟の遺物から、2万年以上前の人々の生活が分かります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大規模な原生の森と、長く続く人の歴史の両方が評価されています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "複数の公園や保護区をまとめて、広い原生地域を守っています。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/181/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-183": {
+      "hints": [
+        {
+          "text": "この都市で生まれたセプティミウス・セウェルスが、のちに皇帝となりました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "その皇帝の時代に、街は拡張され華やかに整備されました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "港、市場、倉庫、店、住宅などがそろった都市の姿を伝えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "公共の記念建築だけでなく、交易や日常生活の施設も重要です。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/183/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-184": {
+      "hints": [
+        {
+          "text": "もとはフェニキア人の交易拠点で、内陸の産物を運び出す港でした。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "一時はマシニッサのヌミディア王国の支配下にありました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "紀元2〜3世紀に、ローマ風の都市へとつくり直されました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古代の海の交易と、支配者の変化を学べる遺跡です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/184/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-185": {
+      "hints": [
+        {
+          "text": "浅い潟を囲む、四つの大きなサンゴの島からなります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "人が近づきにくい立地が、人間の影響を小さく保つ助けとなりました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ゾウガメの大きな個体群が残り、島の生態系を学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "外側をサンゴ礁が囲み、内側には浅い海の水域があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/185/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-186": {
+      "hints": [
+        {
+          "text": "海底から続く火山活動によって生まれた、孤立した島々です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "島ならではの生物が多く、とくに固有の鳥類が重要です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海底2000メートルより深いところから立ち上がる、火山の地形です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "離れた島で、動植物が独自に暮らすしくみを学べます。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/186/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-187": {
+      "hints": [
+        {
+          "text": "11世紀初めの、オットー朝時代の宗教建築を伝えます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "建物の両端に祭壇側の空間を置く、対称的な設計が特徴です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "木の天井や、青銅の扉・円柱などの美術品も重要です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "建物と内部の装飾を通して、中世のロマネスク美術を学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/187/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-189": {
+      "hints": [
+        {
+          "text": "16世紀に建設され、サトウキビ産業とともに発展した都市です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "17世紀に略奪を受けた後に再建され、18世紀の街の構成が残ります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "建物と庭園、教会や修道院が調和する街並みです。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "バロックの教会や小さな礼拝堂が、植民都市の歴史を伝えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/189/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-193": {
+      "hints": [
+        {
+          "text": "地中海の古い交易拠点が、のちにローマの戦略拠点となりました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "フェニキア、ローマ、初期キリスト教、ビザンツの遺構が重なっています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "先住の王国の大きな王墓も、登録の重要な要素です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "異なる時代と文化の遺跡が、一つの地域にまとまっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/193/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-200": {
+      "hints": [
+        {
+          "text": "紀元前3世紀、ブッダゆかりの菩提樹の枝が運ばれました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "約1300年にわたって、政治と宗教の中心として栄えました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "993年の侵入後に放棄され、長く森に覆われていました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "宮殿や修道院などが残り、仏教の聖地の歴史を伝えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/200/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-208": {
+      "hints": [
+        {
+          "text": "1〜13世紀、異なる文化が出会い、ガンダーラの仏教美術が発展しました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "仏教の僧院や聖所だけでなく、イスラーム時代の防御施設も含みます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "2001年、大きな二体の立像が破壊された歴史も伝える場所です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "一つの像だけでなく、谷全体の文化的な景観と遺跡が登録されています。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/208/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-216": {
+      "hints": [
+        {
+          "text": "10世紀、正教会の隠修者が始めた、山の信仰の場です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "19世紀初めの火災の後、1834〜1862年に再建されました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中世から、人々の精神面と社会生活を支えた修道院です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "18〜19世紀の民族文化の復興を象徴する建築でもあります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/216/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-228": {
+      "hints": [
+        {
+          "text": "14世紀、教皇の座が置かれた都市の歴史を伝えます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ローヌ川にかかる、12世紀の橋の遺構も含まれます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "シモーネ・マルティーニらが飾った、要塞のような宮殿があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ゴシックの宮殿と、ロマネスクの大聖堂を一緒に学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/228/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-233": {
+      "hints": [
+        {
+          "text": "13世紀初め、赤い砂岩を使って建てられた、高さ約72.5メートルの塔です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "周辺には、1311年に建てられたアラーイー・ダルワーザ門があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "昔の寺院の建材を再利用した、初期のモスクも含まれます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "上へいくほど細くなる塔に、丸い溝と角ばった溝が交互にあります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/233/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-241": {
+      "hints": [
+        {
+          "text": "ヴィジャヤナガル王国の最後の都となった場所です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "14〜16世紀、豊かな支配者たちが神殿や宮殿を造りました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1565年に征服され、略奪を受けた後に都市が放棄されました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ドラヴィダ様式の神殿から、南アジアの王国の歴史を学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/241/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-242": {
+      "hints": [
+        {
+          "text": "紀元前2〜1世紀に、最初の仏教の石窟が造られました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "5〜6世紀のグプタ朝時代に、華やかな石窟が追加されました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "壁画や彫刻は、仏教美術の発展に大きな影響を与えました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "同じ仏教の遺跡でも、異なる時代に造られた部分を学べます。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/242/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-243": {
+      "hints": [
+        {
+          "text": "6〜10世紀にかけて、岩壁を掘って造られた34の施設があります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "仏教、ヒンドゥー教、ジャイナ教の施設が並んでいます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "玄武岩の高い崖に沿って、2キロメートル以上にわたり続きます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        },
+        {
+          "text": "複数の宗教が共存した歴史を、建築から学べる場所です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/243/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-246": {
+      "hints": [
+        {
+          "text": "ベンガル湾の岸にあり、13世紀に建てられた寺院です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "太陽神スーリヤの乗る戦車を、建物で表したものです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "24の車輪には、それぞれ象徴的な模様が刻まれています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        },
+        {
+          "text": "ヒンドゥー教の信仰と、彫刻・建築の技術が結び付いています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/246/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-249": {
+      "hints": [
+        {
+          "text": "7〜8世紀、パッラヴァ朝の王たちによって造られました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "コロマンデル海岸にあり、岩を彫る技術が多様に使われています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "「ガンジス川の降下」と呼ばれる、大きな屋外の浮彫があります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "戦車形の寺院や洞窟の聖所など、異なる岩の建築が集まっています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/249/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-263": {
+      "hints": [
+        {
+          "text": "15〜16世紀の大航海の時代を理解する手がかりとなる登録です。",
+          "stage": "手がかり",
+          "inClue": true,
+          "appearance": false
+        },
+        {
+          "text": "修道院の建設は1502年に始まりました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "塔は、ヴァスコ・ダ・ガマの遠征を記念する建築です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "港の入口の近くにある、修道院と防御の塔が一緒に登録されています。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/263/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-285": {
+      "hints": [
+        {
+          "text": "カリブ海の湾を利用して発展した、南米の防御された港町です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "サン・ペドロ、サン・ディエゴ、ヘツェマニの三つの地区に分かれます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "商人の地区や人々の居住地区など、昔の都市の構成が分かります。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大聖堂や宮殿と、港を守る施設を合わせて学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/285/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-307": {
+      "hints": [
+        {
+          "text": "彫刻家バルトルディが制作し、内部の骨組みにはエッフェルが関わりました。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "独立100年を記念する贈り物として造られ、1886年に公開されました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "海から入ってくる多くの移民を迎える、港の入口に置かれました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "彫刻だけでなく、大きな像を支える構造の技術も重要です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/307/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-356": {
+      "hints": [
+        {
+          "text": "黒海と地中海を結ぶ道に近く、2000年以上の政治や信仰の歴史を持ちます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "バルカンとアナトリアの間の、海峡の半島に発展しました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "6世紀のアヤソフィアや、16世紀のスレイマニエ・モスクを含みます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "競馬場の遺跡など、帝国の時代の都市施設も残っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/356/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-604": {
+      "hints": [
+        {
+          "text": "中央アジアと北ヨーロッパをつなぐ、昔の交易路にあります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "正教会の信仰や、教会建築の発展の中心となった都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "14世紀の画家テオファネスによる、フレスコ画が残っています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "中世の教会や修道院を通して、建築と宗教美術の関係を学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/604/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-660": {
+      "hints": [
+        {
+          "text": "7世紀末〜8世紀初めにさかのぼる、古い木造建築が残ります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大陸の仏教建築を取り入れ、地域の文化に合わせた工夫が見られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "朝鮮半島を経た仏教の伝来と、建築の発展を結び付けて学べます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "奈良県にあり、複数の仏教建造物が登録されています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/660/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-663": {
+      "hints": [
+        {
+          "text": "本州北部に残る、冷温帯のブナの原生的な森です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "かつて北部の丘や山を広く覆った森林の姿を伝えます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ツキノワグマやカモシカなどが暮らす、生態系が守られています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "人の手があまり入っていない、広いブナ林が重要です。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/663/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-687": {
+      "hints": [
+        {
+          "text": "19〜20世紀に整備された、鉄を生産する一連の設備が残ります。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "原料の石炭や鉄鉱石を扱う設備から、高炉で鉄をつくる工程までが残ります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1986年に生産を終えた時の設備が、まとまって保存されています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大きな高炉だけでなく、ガスをきれいにする装置や運搬の設備も重要です。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/687/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-776": {
+      "hints": [
+        {
+          "text": "瀬戸内海の島で、古くから続く神道の信仰を伝える場所です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "現在の社殿は、12世紀の建築に由来します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "人の造った建物と、海や山の景観の関係が評価されています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "色や形の対比を生かして、建築と自然を調和させています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/776/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-913": {
+      "hints": [
+        {
+          "text": "徳川将軍家の歴史、とくに徳川家康と深い関わりを持ちます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "東照宮、二荒山神社、輪王寺の建物群が登録されています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "多くの建物は17世紀に造られ、江戸時代の建築を伝えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "山や森を神聖なものとして敬う信仰と、建築が結び付いています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/913/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-1142": {
+      "hints": [
+        {
+          "text": "神道の自然への信仰と、伝わってきた仏教が結び付いた場所です。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "吉野・大峯、熊野三山、高野山という三つの霊場が含まれます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "古い都から霊場へ続く道が、山での信仰の歴史を伝えます。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "1200年以上続く、聖なる山と人々の関係が記録されています。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1142/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    },
+    "wh-1133": {
+      "hints": [
+        {
+          "text": "最後の氷期の後、ブナが広い地域へ広がった過程を伝えます。",
+          "stage": "手がかり",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "気候や地形の違いに適応した、木の広がる力を学べます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "アルプスやピレネーなどに残った避難地から、森林が拡大しました。",
+          "stage": "決め手",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "一か所の森ではなく、離れた多数の構成資産をまとめた登録です。",
+          "stage": "決め手",
+          "inClue": true,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1133/",
+          "checked": "2026-10-20",
+          "title": "UNESCO World Heritage Centre — 個別登録ページ"
+        }
+      ]
+    }
+  }
+}

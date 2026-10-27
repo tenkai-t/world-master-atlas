@@ -1,0 +1,900 @@
+{
+  "cap-ad-andorra-la-vella": {
+    "h": [
+      "ピレネー山脈の谷間にある都市です。",
+      "バリラ川の中央の谷に位置します。",
+      "旧市街には、かつて議会に使われたカサ・デ・ラ・バルがあります。"
+    ],
+    "u": [
+      "https://www.turismeandorralavella.com/wp-content/uploads/2018/05/Guia-general-210x180_ENG_canvi-portades_b.pdf"
+    ]
+  },
+  "cap-ae-abu-dhabi": {
+    "h": [
+      "ペルシャ湾に面した島から発展した都市です。",
+      "真珠採りや漁業の集落から発展した歴史があります。",
+      "カスル・アル・ホスンという歴史的な城塞があります。"
+    ],
+    "u": [
+      "https://abudhabiculture.ae/en/cultural-sites/historic-buildings-and-cultural-landscapes/qasr-al-hosn",
+      "https://www.moec.gov.ae/en/web/guest/-/qasr-al-hosn?delta=8&start=2"
+    ]
+  },
+  "cap-af-kabul": {
+    "h": [
+      "ヒンドゥークシュ山脈の南側の山間盆地にあります。",
+      "盆地は海抜約1800メートルで、西から東へ川が流れます。",
+      "中央アジアとインド方面を結ぶ山越えの道の要地でした。"
+    ],
+    "u": [
+      "https://www.iranicaonline.org/articles/kabul-ii-historical-geography/"
+    ]
+  },
+  "cap-ag-saint-john-s": {
+    "h": [
+      "カリブ海の島にある、船が集まる港町です。",
+      "港の入口にフォート・ジェームズという砦があります。",
+      "大聖堂の塔や、レッドクリフ・キーの歴史的な建物が目印です。"
+    ],
+    "u": [
+      "https://www.visitantiguabarbuda.com/wp-content/uploads/ANU-2020-ITA-ING.pdf",
+      "https://www.visitantiguabarbuda.com/culinary/beachlimerz/"
+    ]
+  },
+  "cap-al-tirana": {
+    "h": [
+      "アドリア海岸から内陸へ入った、ダイティ山に近い都市です。",
+      "中心部にスカンデルベグ広場があります。",
+      "広場のそばには1822年に造られた時計塔があります。"
+    ],
+    "u": [
+      "https://akt.gov.al/en/cities/tirane/",
+      "https://akt.gov.al/en/itineraries/1-day-tour-in-Tirana/"
+    ]
+  },
+  "cap-am-yerevan": {
+    "h": [
+      "ピンク色の凝灰岩を使った建物で知られる都市です。",
+      "フラズダン川の谷には、赤い石で造られた橋があります。",
+      "紀元前782年に造られたエレブニの城塞が、都市の歴史につながります。"
+    ],
+    "u": [
+      "https://armenia.travel/places-to-go/yerevan/",
+      "https://www.visityerevan.am/places/details/294/en/",
+      "https://www.yerevan.am/en/tourism/"
+    ]
+  },
+  "cap-ao-luanda": {
+    "h": [
+      "アフリカ南西部の大西洋岸にある港町です。",
+      "細長い砂の陸地に守られた湾があります。",
+      "湾に面した高台にはサン・ミゲルの砦があります。"
+    ],
+    "u": [
+      "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Loanda",
+      "https://www.encyclopedia.com/places/africa/angolan-political-geography/luanda"
+    ]
+  },
+  "cap-ar-buenos-aires": {
+    "h": [
+      "ラプラタ川に面し、タンゴの文化でも知られます。",
+      "カミニートには、色とりどりの家並みがあります。",
+      "歴史的なマヨ広場の周囲に、カビルドやカサ・ロサーダが並びます。"
+    ],
+    "u": [
+      "https://www.argentina.travel/en/activities/buenos-aires-tradicional",
+      "https://buenosaires.gob.ar/gcaba_historico/plaza-de-mayo"
+    ]
+  },
+  "cap-at-vienna": {
+    "h": [
+      "アルプス山脈の北東端に近く、ドナウ川が流れます。",
+      "ハプスブルク家が皇帝の居所を置いた都市です。",
+      "モーツァルトやベートーベンなど、多くの作曲家が活動しました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Vienna"
+    ]
+  },
+  "cap-az-baku": {
+    "h": [
+      "カスピ海の西岸にある都市です。",
+      "アプシェロン半島の南側に広がります。",
+      "旧市街には乙女の塔とシルヴァンシャー宮殿が残っています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Baku"
+    ]
+  },
+  "cap-ba-sarajevo": {
+    "h": [
+      "ディナル・アルプスの山々に囲まれた谷にあります。",
+      "ミリャツカ川が街を東から西へ流れます。",
+      "1984年の冬季オリンピックが開かれた都市です。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Sarajevo"
+    ]
+  },
+  "cap-bb-bridgetown": {
+    "h": [
+      "カリブ海の島の南西岸にある港町です。",
+      "港はカーライル湾に面しています。",
+      "中心部のカリネージという水路の近くに議会の建物があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Bridgetown"
+    ]
+  },
+  "cap-bd-dhaka": {
+    "h": [
+      "周囲にいくつもの川や水路が広がる都市です。",
+      "南西側をブリガンガ川が流れます。",
+      "川岸のサダルガット港から、人や荷物を運ぶ船が出ます。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Dhaka"
+    ]
+  },
+  "cap-be-brussels": {
+    "h": [
+      "ヨーロッパ各国の話し合いの拠点となる都市です。",
+      "EUの欧州委員会や理事会などの機関が置かれています。",
+      "NATOの本部も置かれています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Brussels"
+    ]
+  },
+  "cap-bf-ouagadougou": {
+    "h": [
+      "西アフリカ内陸の、サバナとサヘルが接する地域にあります。",
+      "モシ王国の中心地として発展した歴史があります。",
+      "モロ・ナバの王宮があり、伝統的な儀式が行われます。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Ouagadougou"
+    ]
+  },
+  "cap-bg-sofia": {
+    "h": [
+      "バルカン半島の内陸にある、山に囲まれた盆地の都市です。",
+      "ビトシャ山の北のふもとにあります。",
+      "市内には多くの鉱泉や温泉があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Sofia"
+    ]
+  },
+  "cap-bh-manama": {
+    "h": [
+      "ペルシャ湾に面した島の北東岸にあります。",
+      "真珠採りや海上交易を背景に発展した港町です。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Manama"
+    ]
+  },
+  "cap-bi-gitega": {
+    "h": [
+      "2019年に政治の中心となった内陸の都市です。",
+      "王室ゆかりの太鼓の聖地が周辺にあります。",
+      "王室の品々などを伝える国立博物館があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Gitega"
+    ]
+  },
+  "cap-bj-cotonou": {
+    "h": [
+      "大西洋とノクエ湖の間に広がる都市です。",
+      "市街を、湖と海につながる水路が分けています。",
+      "多くの政府機関があり、憲法上の首都とは別の都市です。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Cotonou"
+    ]
+  },
+  "cap-bj-porto-novo": {
+    "h": [
+      "大西洋に近い潟湖の岸にある都市です。",
+      "経済の中心コトヌーより東側にあります。",
+      "東には、ナイジェリアとの国境があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Porto-Novo"
+    ]
+  },
+  "cap-bn-bandar-seri-begawan": {
+    "h": [
+      "川の上に家を建てた集落から発展しました。",
+      "カンポン・アイールという水上集落があります。",
+      "オマール・アリ・サイフディン・モスクが街の目印です。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan"
+    ]
+  },
+  "cap-bo-la-paz": {
+    "h": [
+      "アルティプラノの高地に囲まれた、すり鉢状の谷にあります。",
+      "チョケヤプ川が削った谷に市街が広がります。",
+      "街からは雪を頂くイリマニ山が見えます。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/La_Paz"
+    ]
+  },
+  "cap-bo-sucre": {
+    "h": [
+      "白く塗られた植民地時代の建物から「白い町」と呼ばれます。",
+      "政府の所在地とは別に、憲法で首都と定められた都市です。",
+      "最高裁判所が置かれ、司法の中心になっています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Sucre"
+    ]
+  },
+  "cap-bs-nassau": {
+    "h": [
+      "ニュー・プロビデンス島にある港町です。",
+      "かつては海賊の拠点となった歴史があります。",
+      "海を隔てた北西側には、アメリカのフロリダ半島があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Nassau,_Bahamas"
+    ]
+  },
+  "cap-bt-thimphu": {
+    "h": [
+      "ヒマラヤの山間にある、南北に細長く広がる都市です。",
+      "ワン川の谷の西岸に市街が延びています。",
+      "飛行機で訪れる際は、近隣のパロ空港を利用します。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Thimphu"
+    ]
+  },
+  "cap-bw-gaborone": {
+    "h": [
+      "南アフリカとの国境に近い、国土の南東部にあります。",
+      "ノトワネ川とセゴディツァネ川が合流する地点の近くにあります。",
+      "1960年代に、独立に向けた新しい首都として計画されました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Gaborone"
+    ]
+  },
+  "cap-by-minsk": {
+    "h": [
+      "東ヨーロッパの森林地帯に位置する内陸都市です。",
+      "スヴィスロチ川が北西から南東へ流れます。",
+      "1067年の年代記に、付近の川での戦いとともに記録されました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Minsk"
+    ]
+  },
+  "cap-bz-belmopan": {
+    "h": [
+      "ハリケーンの被害を受けた港町に代わり、内陸に建設されました。",
+      "政府が移ったのは1970年です。",
+      "国会議事堂は、古代マヤの神殿を思わせる形をしています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Belmopan"
+    ]
+  },
+  "cap-cd-kinshasa": {
+    "h": [
+      "大きな川をはさんで、別の国の首都と向かい合います。",
+      "対岸にある都市はブラザヴィルです。",
+      "川を上る船の交通で、キサンガニなどの内陸都市と結ばれます。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Kinshasa"
+    ]
+  },
+  "cap-cf-bangui": {
+    "h": [
+      "ウバンギ川の北岸にある都市です。",
+      "川の対岸には、別の国の町ゾンゴがあります。",
+      "上流の急流が大型船の行き来を妨げるため、川の交通の要地になりました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Bangui"
+    ]
+  },
+  "cap-cg-brazzaville": {
+    "h": [
+      "赤道より南の内陸にあり、大きな川の北側に広がります。",
+      "マレボ湖に近く、川の下流には船が通れない急流があります。",
+      "対岸には別の国の首都キンシャサがあります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Brazzaville"
+    ]
+  },
+  "cap-ch-bern": {
+    "h": [
+      "アルプス山脈の北側の高原にあります。",
+      "旧市街は、アーレ川が大きく曲がる場所に囲まれています。",
+      "旧市街の時計塔ツィットグロッゲが有名です。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Bern"
+    ]
+  },
+  "cap-ci-abidjan": {
+    "h": [
+      "ギニア湾沿岸のエブリエ潟湖に広がる都市です。",
+      "プラトー地区には、高いオフィスビルや行政施設が集まります。",
+      "バンコの森が国立公園として残されています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Abidjan"
+    ]
+  },
+  "cap-ci-yamoussoukro": {
+    "h": [
+      "海沿いの大都市アビジャンより北西の内陸にあります。",
+      "1983年に法律上の首都となりました。",
+      "大きなドームを持つ「平和の聖母聖堂」があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Yamoussoukro"
+    ]
+  },
+  "cap-cl-santiago": {
+    "h": [
+      "アンデス山脈に近い、内陸の盆地にあります。",
+      "マポチョ川が市街を流れます。",
+      "市街にはサンタ・ルシアの丘やサン・クリストバルの丘があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Santiago"
+    ]
+  },
+  "cap-cl-valparaiso": {
+    "h": [
+      "太平洋に面した港町です。",
+      "大西洋と太平洋を行き来する船の寄港地として栄えました。",
+      "1990年から国会が置かれている都市です。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Valpara%C3%ADso"
+    ]
+  },
+  "cap-cm-yaounde": {
+    "h": [
+      "海沿いではなく、国の中央地方の内陸にある都市です。",
+      "海抜約750メートルにあります。",
+      "人口の多い港町ドゥアラとは別の都市です。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Yaound%C3%A9"
+    ]
+  },
+  "cap-co-bogota": {
+    "h": [
+      "アンデス山脈の東部山系にある高原都市です。",
+      "海抜はおよそ2640メートルで、一年を通して涼しい気候です。",
+      "東側にはモンセラーテ山やグアダルーペ山があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Bogot%C3%A1"
+    ]
+  },
+  "cap-cr-san-jose": {
+    "h": [
+      "国土の中央部に広がる中央盆地にあります。",
+      "周辺のアラフエラやエレディア、カルタゴなどと大都市圏をつくります。",
+      "コーヒーで栄えた時代を伝える国立劇場があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/San_Jos%C3%A9,_Costa_Rica"
+    ]
+  },
+  "cap-cu-havana": {
+    "h": [
+      "フロリダ海峡に面する、島の北岸の都市です。",
+      "細い入口の奥に、いくつも枝分かれした港が広がります。",
+      "湾を見下ろす丘には、モロ城やカバーニャ要塞があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Havana"
+    ]
+  },
+  "cap-cv-praia": {
+    "h": [
+      "大西洋にあるサンティアゴ島の都市です。",
+      "中心部は、港を見下ろす台地の上にあります。",
+      "「プラトー」と呼ぶ旧市街には、植民地時代の建物が並びます。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Praia"
+    ]
+  },
+  "cap-cy-nicosia": {
+    "h": [
+      "地中海の島の内陸、メサオリア平野に位置します。",
+      "旧市街を、ベネチア時代の城壁が囲んでいます。",
+      "城壁にはキレニア門、パフォス門、ファマグスタ門があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Nicosia"
+    ]
+  },
+  "cap-dj-djibouti": {
+    "h": [
+      "アフリカの角と呼ばれる地域の港町です。",
+      "タジュラ湾に面し、紅海とインド洋を結ぶ航路に近い都市です。",
+      "1888年にフランスが港の拠点として建設を始めました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Djibouti_City"
+    ]
+  },
+  "cap-dk-copenhagen": {
+    "h": [
+      "シェラン島とアマー島にまたがる都市です。",
+      "東側にエーレスンド海峡があります。",
+      "対岸のスウェーデンのマルメとは、道路と鉄道の橋で結ばれています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Copenhagen"
+    ]
+  },
+  "cap-dm-roseau": {
+    "h": [
+      "カリブ海に面した島の西岸にある港町です。",
+      "近くにモーン・ブルースの丘がそびえます。",
+      "フォート・ヤングという砦は、1770年にイギリスが築きました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Roseau"
+    ]
+  },
+  "cap-do-santo-domingo": {
+    "h": [
+      "イスパニョーラ島の南岸にある港町です。",
+      "オサマ川の河口に位置します。",
+      "旧市街には16世紀初めの建物や、オサマ要塞が残っています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Santo_Domingo"
+    ]
+  },
+  "cap-dz-algiers": {
+    "h": [
+      "地中海に面した、北アフリカの港町です。",
+      "白い建物が広がる景観から「白い町」と呼ばれます。",
+      "坂道の旧市街「カスバ」が世界遺産になっています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Algiers"
+    ]
+  },
+  "cap-ec-quito": {
+    "h": [
+      "赤道に近い、アンデス山脈の高地にあります。",
+      "ピチンチャ火山の東側の斜面に市街が延びています。",
+      "グアイリャバンバ川の流域にあり、周囲を火山が囲んでいます。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Quito"
+    ]
+  },
+  "cap-ee-tallinn": {
+    "h": [
+      "バルト海につながるフィンランド湾の南岸にあります。",
+      "海をはさんだ北側にはヘルシンキがあります。",
+      "中世の城壁と塔が残る旧市街が世界遺産です。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Tallinn"
+    ]
+  },
+  "cap-er-asmara": {
+    "h": [
+      "海抜2000メートルを超える高地の都市です。",
+      "イタリア統治時代のモダニズム建築が数多く残っています。",
+      "飛行機の翼のような屋根を持つフィアット・タリエロが有名です。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Asmara"
+    ]
+  },
+  "cap-et-addis-ababa": {
+    "h": [
+      "東アフリカの大地溝帯の西側、高地にあります。",
+      "エントト山のふもとに広がります。",
+      "市街の北側は、南側の空港付近よりも高くなっています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Addis_Ababa"
+    ]
+  },
+  "cap-fi-helsinki": {
+    "h": [
+      "バルト海につながるフィンランド湾に面する都市です。",
+      "海の向こうの南側にはタリンがあります。",
+      "1952年の夏季オリンピックが開かれました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Helsinki"
+    ]
+  },
+  "cap-fj-suva": {
+    "h": [
+      "ビティレブ島の南東岸にある港町です。",
+      "港とラウカラ湾の間にある、丘の多い半島に広がります。",
+      "同じ島の西側のナンディより、雨が多い地域にあります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Suva"
+    ]
+  },
+  "cap-fm-palikir": {
+    "h": [
+      "ポンペイ島の北西部にある都市です。",
+      "島の中心的な町コロニアより南西にあります。",
+      "1989年に国の首都となり、周囲には森林が広がります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Palikir"
+    ]
+  },
+  "cap-ga-libreville": {
+    "h": [
+      "大西洋につながる入り江の北岸にあります。",
+      "コモ川が海へ流れ込む場所に近い都市です。",
+      "1849年に、奴隷船から解放された人々の入植地がつくられました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Libreville"
+    ]
+  },
+  "cap-gd-st-george-s": {
+    "h": [
+      "カリブ海の島にある、馬てい形の港の都市です。",
+      "古い火山の火口の斜面に囲まれています。",
+      "港の西側の岬には、18世紀初めに築かれた砦があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/St._George's,_Grenada"
+    ]
+  },
+  "cap-ge-tbilisi": {
+    "h": [
+      "南コーカサスの、山に囲まれた谷に広がる都市です。",
+      "クラ川の両岸に市街があります。",
+      "北にサグラモ山地、南や西にトリアレティ山地があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Tbilisi"
+    ]
+  },
+  "cap-gh-accra": {
+    "h": [
+      "ギニア湾に面した、国土の南岸の都市です。",
+      "独立を象徴するブラック・スター広場があります。",
+      "鉄道でテマやクマシなどの都市と結ばれています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Accra"
+    ]
+  },
+  "cap-gm-banjul": {
+    "h": [
+      "大西洋に流れ込む大きな川の河口にあります。",
+      "セント・メアリーズ島に市街があります。",
+      "島と本土の間は橋で結ばれ、川の対岸へはフェリーが出ています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Banjul"
+    ]
+  },
+  "cap-gn-conakry": {
+    "h": [
+      "大西洋に突き出した細長い陸地に広がる都市です。",
+      "もとはトンボ島にあり、近くのカルーム半島へ広がりました。",
+      "1887年に島がイギリスからフランスへ渡った後、都市が発展しました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Conakry"
+    ]
+  },
+  "cap-gq-ciudad-de-la-paz": {
+    "h": [
+      "島ではなく、大陸側の内陸に建設された都市です。",
+      "バタとモンゴモの間に位置します。",
+      "ジブロホ州にあり、メンゴメイエンの空港に近い都市です。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Ciudad_de_la_Paz"
+    ]
+  },
+  "cap-gq-malabo": {
+    "h": [
+      "アフリカ大陸ではなく、ビオコ島にある都市です。",
+      "島の北岸の湾に面して市街が広がります。",
+      "1827年に建設された港町で、長く政治の拠点でした。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Malabo"
+    ]
+  },
+  "cap-gt-guatemala-city": {
+    "h": [
+      "中央アメリカの内陸、海抜約1500メートルの都市です。",
+      "以前の首都が大地震で被害を受けたため、政治の中心が移されました。",
+      "現在の場所へ政府が移ったのは1776年です。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Guatemala_City"
+    ]
+  },
+  "cap-gw-bissau": {
+    "h": [
+      "大西洋に近い、ジェバ川の河口の港町です。",
+      "周囲は低く平らな土地で、外洋を航行する船も川に入れます。",
+      "1687年にポルトガルの交易拠点として築かれました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Bissau"
+    ]
+  },
+  "cap-gy-georgetown": {
+    "h": [
+      "南アメリカ北岸の、低く平らな海岸平野にあります。",
+      "デメララ川が大西洋に注ぐ河口の東岸に位置します。",
+      "水路や水門、海岸の堤防で浸水を防いでいます。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Georgetown,_Guyana"
+    ]
+  },
+  "cap-hn-tegucigalpa": {
+    "h": [
+      "中央アメリカの山々に囲まれた、内陸の都市です。",
+      "チョルテカ川が市街を南から北へ流れます。",
+      "中心部を見下ろすエル・ピカチョの丘が目印です。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Tegucigalpa"
+    ]
+  },
+  "cap-hr-zagreb": {
+    "h": [
+      "メドベドニツァ山の南側に広がる都市です。",
+      "市街の南部をサバ川が流れます。",
+      "第二次世界大戦後、川の南側にも新しい市街が広がりました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Zagreb"
+    ]
+  },
+  "cap-eg-the-new-capital": {
+    "h": [
+      "カイロの東、スエズへ向かう途中の地域に建設されました。",
+      "混雑する大都市から行政機能を分けるための計画都市です。",
+      "カイロ側のアドリー・マンスール駅から、ライトレールで結ばれています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/New_Administrative_Capital"
+    ]
+  },
+  "cap-ht-port-au-prince": {
+    "h": [
+      "イスパニョーラ島の西側にある港町です。",
+      "ゴナーブ湾に面した、自然の良港があります。",
+      "海辺の商業地区の背後に、住宅が並ぶ丘が広がります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Port-au-Prince"
+    ]
+  },
+  "cap-hu-budapest": {
+    "h": [
+      "パンノニア盆地にある、ドナウ川沿いの都市です。",
+      "川の西側は丘が多く、東側は平らな土地が広がります。",
+      "温泉が豊富で、古代ローマ時代から入浴の文化がありました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Budapest"
+    ]
+  },
+  "cap-id-jakarta": {
+    "h": [
+      "ジャワ島の北西岸にある都市です。",
+      "チリウン川の河口付近に市街が広がります。",
+      "海岸沿いの低い平野にあり、川の氾濫や高潮への対策が重要です。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Jakarta"
+    ]
+  },
+  "cap-ie-dublin": {
+    "h": [
+      "島の東岸に位置し、アイリッシュ海に面しています。",
+      "リフィー川が市街を北側と南側に分けます。",
+      "グランド運河とロイヤル運河が、市街から西のシャノン川につながります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Dublin"
+    ]
+  },
+  "cap-il-jerusalem": {
+    "h": [
+      "地中海と死海の間の、山地の高台にあります。",
+      "旧市街の東側には、オリーブ山とキドロンの谷があります。",
+      "ユダヤ教・キリスト教・イスラム教の聖地が集まっています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Jerusalem"
+    ]
+  },
+  "cap-iq-baghdad": {
+    "h": [
+      "メソポタミアの平野に広がる都市です。",
+      "チグリス川が市街を東側と西側に分けます。",
+      "762年にアッバース朝の新しい都として建設され、学問の中心として栄えました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Baghdad"
+    ]
+  },
+  "cap-ir-tehran": {
+    "h": [
+      "アルボルズ山脈の南のふもとに広がる都市です。",
+      "北側の山に近い地区ほど高く、冬は寒くなります。",
+      "夏は長く乾燥し、雨は主に秋から春に降ります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Tehran"
+    ]
+  },
+  "cap-is-reykjavik": {
+    "h": [
+      "北大西洋の島の南西部にある都市です。",
+      "ファクサ湾の南岸に位置します。",
+      "地熱の温水を、建物の暖房や歩道の雪を溶かすために利用しています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Reykjav%C3%ADk"
+    ]
+  },
+  "cap-jm-kingston": {
+    "h": [
+      "カリブ海の島の南東岸にある港町です。",
+      "パリサドーズという細長い砂の陸地が、港を外海から守っています。",
+      "その砂の陸地には、ポート・ロイヤルの町と国際空港があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Kingston,_Jamaica"
+    ]
+  },
+  "cap-jo-amman": {
+    "h": [
+      "ヨルダン川の東側の高地にある都市です。",
+      "丘と谷に沿って広がり、もとは七つの丘の上に築かれました。",
+      "古代にはフィラデルフィアと呼ばれていました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Amman"
+    ]
+  },
+  "cap-ke-nairobi": {
+    "h": [
+      "モンバサと内陸を結ぶ鉄道の拠点として発展しました。",
+      "市域に野生動物の暮らす国立公園があります。",
+      "国連環境計画など、国際機関の拠点が置かれています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Nairobi"
+    ]
+  },
+  "cap-kg-bishkek": {
+    "h": [
+      "天山山脈につながる山地の北側にある都市です。",
+      "南にアラトー山地、北にはカザフスタンへ続く草原が広がります。",
+      "チュー川の流域にあり、中心部にアラトー広場があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Bishkek"
+    ]
+  },
+  "cap-kh-phnom-penh": {
+    "h": [
+      "大きな川どうしが合流し、さらに分かれる場所にある都市です。",
+      "メコン川とトンレサップ川が出合い、バサック川が始まります。",
+      "ワット・プノンという丘の寺院が、街の歴史につながります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Phnom_Penh"
+    ]
+  },
+  "cap-ki-south-tarawa": {
+    "h": [
+      "太平洋の環礁にある、細長く低い陸地の都市です。",
+      "潟湖の南側に並ぶ小島を、道路の堤防でつないでいます。",
+      "土地の多くは海抜3メートル未満で、幅も狭いのが特徴です。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/South_Tarawa"
+    ]
+  },
+  "cap-km-moroni": {
+    "h": [
+      "インド洋のグランドコモロ島にある港町です。",
+      "活火山カルタラ山のふもとにあります。",
+      "港の近くには、バジャナニ・モスクがあります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Moroni,_Comoros"
+    ]
+  },
+  "cap-kn-basseterre": {
+    "h": [
+      "東カリブ海の、セントキッツ島にある港町です。",
+      "島の南西岸に位置します。",
+      "東カリブ中央銀行の本部が置かれています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Basseterre"
+    ]
+  },
+  "cap-kp-pyongyang": {
+    "h": [
+      "朝鮮半島の西側の平野にある都市です。",
+      "大同江が市街を流れ、黄海側の湾へ注ぎます。",
+      "川沿いに大きな競技場や、チュチェ思想塔があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Pyongyang"
+    ]
+  },
+  "cap-kr-sejong": {
+    "h": [
+      "国土の中央部に行政機能を分散するために建設された都市です。",
+      "大田の北側にあり、2012年から多くの省庁が移りました。",
+      "錦江の支流である美湖川が流れ、湖の公園も整備されています。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Sejong_City"
+    ]
+  },
+  "cap-kw-kuwait-city": {
+    "h": [
+      "ペルシャ湾の奥にある、入り江の南岸の都市です。",
+      "真珠採りや海上交易の中心地として栄えました。",
+      "18世紀には、インドやバグダードなどを結ぶ交易の拠点になりました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Kuwait_City",
+      "https://whc.unesco.org/document/169051",
+      "https://www.qdl.qa/en/historical-profile-kuwait"
+    ]
+  },
+  "cap-kz-astana": {
+    "h": [
+      "中央アジアの、広大な草原の中にある都市です。",
+      "イシム川の北側に古い地区、南側に新しい地区が広がります。",
+      "新しい都市計画には、日本の建築家・黒川紀章が関わりました。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Astana"
+    ]
+  },
+  "cap-la-vientiane": {
+    "h": [
+      "メコン川沿いにある内陸の都市です。",
+      "川の向こう側にはタイがあります。",
+      "仏教の象徴的な建物タート・ルアンや、パトゥーサイの門があります。"
+    ],
+    "u": [
+      "https://en.wikipedia.org/wiki/Vientiane"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+const assert=require('node:assert/strict'),{harness}=require('./scripts/hint-audit.cjs');
+(async()=>{const h=await harness(),{e,w}=h,$=s=>w.document.querySelector(s);
+ w.HTMLDialogElement.prototype.close=function(){this.open=false;this.dispatchEvent(new w.Event('close'))};
+ e('playerPicker();playerPicker()');assert.equal(w.document.querySelectorAll('#appUpdateEntry').length,1);assert(!$('#appUpdateFooter'));
+ e('showAppUpdates()');assert($('#appUpdateEntry').disabled);assert.equal($('#utilityBack').textContent,'プレイヤー選択へ戻る');$('#utilityBack').click();assert(!$('#modal').open);assert(!$('#appUpdateEntry').disabled);
+ await e('startGuest()');e('settings()');assert(!$('#modalBody [onclick="editPlayer()"]'));assert($('#modalBody').textContent.includes('ゲストの記録は、終了・再読み込み・ページを閉じると消えます'));assert(!$('#modalBody').textContent.includes('この端末のブラウザに保存しています'));
+ $('#settingsUpdateEntry').focus();e('showAppUpdates()');assert.equal($('#utilityBack').textContent,'設定へ戻る');$('#utilityBack').click();assert.equal($('#modalBody').dataset.utilityScreen,'settings');assert.equal(w.document.activeElement.id,'settingsUpdateEntry');
+ e("capitalStart({count:1,input:'text',practice:'practice'})");const run=e('session');$('#answer').value='入力中';e('showAppUpdates()');$('#utilityBack').click();assert.strictEqual(e('session'),run);assert.equal($('#answer').value,'入力中');
+ e(`window.statusOK={state:{},available:{core:false},files:[]};offlineMessage=async()=>{throw Error('通信エラー')}`);await e('refreshOfflineStatus()');assert(e('offlineError').includes('通信エラー'));
+ e("offlineFailures.download.photos='写真の容量不足';offlineMessage=async()=>window.statusOK");await e('refreshOfflineStatus()');assert(!e('offlineError').includes('通信エラー'));assert(e('offlineError').includes('写真の容量不足'));
+ e('window.requests=[];offlineMessage=()=>new Promise((resolve,reject)=>window.requests.push({resolve,reject}))');const first=e('refreshOfflineStatus()'),second=e('refreshOfflineStatus()');e('window.requests[1].resolve(window.statusOK)');await second;e("window.requests[0].reject(Error('古いエラー'))");await first;assert(!e('offlineError').includes('古いエラー'));
+ e("offlineBusy=true;showAppUpdates()");assert($('#utilityBack').disabled);assert($('#modalClose').disabled);const cancel=new w.Event('cancel',{cancelable:true});$('#modal').dispatchEvent(cancel);assert(cancel.defaultPrevented);e('offlineBusy=false;renderAppUpdates()');assert(!$('#utilityBack').disabled);
+ e("updateLatest={schema:1,version:'a'.repeat(20),materialVersion:'b'.repeat(20),label:'新版',notes:[]};updatePrepared={...updateLatest,epoch:playerEpoch};renderAppUpdates()");assert($('#commitAppUpdate'));assert(!$('#prepareAppUpdate'));
+ e('updatePrepared=null;home();settings();window.commands=[];offlineMessage=async(command)=>{window.commands.push(command);return window.statusOK}');await e('refreshOfflineStatus()');assert.deepEqual(JSON.parse(e('JSON.stringify(window.commands)')),['status']);
+ console.log('PASS utility UX: single picker entry, inert background, origin back/focus, guest descriptions/actions, learning input retained, resolved/stale error isolation, busy navigation lock, restart-only prepared state, status check never downloads. DOM simulation, not device proof.');h.close();
+})().catch(err=>{console.error(err);process.exit(1)});
