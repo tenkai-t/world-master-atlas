@@ -1,4 +1,5 @@
 import { VERSION, DEPARTMENTS, makeQuestions, legacyRankingRequest } from './ranking-legacy.mjs';
+import { survivalRequest } from './survival-ranking.mjs';
 const json=(x,status=200)=>new Response(JSON.stringify(x),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});
 const fail=(message,status=400)=>json({error:message},status);
 const digest=async s=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s))),b=>b.toString(16).padStart(2,'0')).join('');
@@ -41,6 +42,7 @@ export async function rankingRequest(request,action,DB,bank,user){
    if(profile.mutation!==body.mutation)return json({error:'別の画面で名前が更新されました。再確認してください。',profile:publicProfile(profile)},409);
    return json({profile:publicProfile(profile)});
   }
+  if(action.startsWith('survival-'))return await survivalRequest(request,action,DB,bank,uid,profile,body);
   if(action==='leaderboard'&&request.method==='GET'){
    if(url.searchParams.has('version')&&url.searchParams.get('version')!==VERSION)return fail('旧記録は「旧ランキング」から確認してください。');
    const dept=url.searchParams.get('department')||'flags';if(!DEPARTMENTS[dept])return fail('部門がありません');

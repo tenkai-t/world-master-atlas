@@ -14,7 +14,8 @@
     "start": "node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js dev --config dist/server/wrangler.json --local --persist-to .wrangler/state --ip 127.0.0.1 --inspector-port 0",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate",
-    "test": "node tests-startup.cjs && node tests-security.cjs && node tests-player-pin-policy.cjs && node tests-common-controls.cjs && node tests-updates.cjs && node tests-utility-ui.cjs && node tests-update-migration.cjs && node tests-guest-modes.cjs && node tests-offline.cjs && node tests-offline-recovery.cjs && node tests-repair-ui.cjs && node tests-hintbook.cjs && node tests-editorial.cjs && node tests-curriculum.cjs && node tests-learning.cjs && node tests-kanji.cjs && node tests-players.cjs && node tests-expansion.cjs && node tests-ranking.mjs && node tests-online.cjs"
+    "test": "node tests-startup.cjs && node tests-security.cjs && node tests-player-pin-policy.cjs && node tests-common-controls.cjs && node tests-updates.cjs && node tests-utility-ui.cjs && node tests-update-migration.cjs && node tests-guest-modes.cjs && node tests-offline.cjs && node tests-offline-recovery.cjs && node tests-repair-ui.cjs && node tests-hintbook.cjs && node tests-editorial.cjs && node tests-curriculum.cjs && node tests-learning.cjs && node tests-kanji.cjs && node tests-players.cjs && node tests-expansion.cjs && node tests-ranking.mjs && node tests-online.cjs && node tests-cloudflare-ranking.mjs && node tests-survival.mjs",
+    "test:survival": "node tests-survival.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "1c9dadfc98404d4d1d1c",
+  "version": "5af2fafb167978577a60",
   "packs": {
     "core": [
       {
@@ -10,8 +10,8 @@
       },
       {
         "url": "/app-version.js",
-        "bytes": 506,
-        "sha256": "9d6fbc42e84a2521a23f76e4eb1605cae512192263edca8a08ba8f7a8a60afb0"
+        "bytes": 504,
+        "sha256": "5392dfd586ec1a2cf0c2302125376e949a6c9fded1a010a449a7a91dc710954e"
       },
       {
         "url": "/app.js",
@@ -1205,18 +1205,18 @@
       },
       {
         "url": "/play.html",
-        "bytes": 2099,
-        "sha256": "6b2a6027fd5095eb7a22e4a55b38d64fa9d149080706519db18f77faa1932326"
+        "bytes": 2175,
+        "sha256": "fc1b72ff55c849a8aea080f38b6e9a096483f3b563ea1daa546fc65389926ae6"
       },
       {
         "url": "/player-security.js",
-        "bytes": 33486,
-        "sha256": "8009209b4035c3db1346e44d3658275ae1418f179491dfd693c2900718ea2ed9"
+        "bytes": 33505,
+        "sha256": "5dd1a326dfcedebe4671f02629402649e982e0f583d34f3a2be4547a0a144a9b"
       },
       {
         "url": "/players.js",
-        "bytes": 25524,
-        "sha256": "ed861b2d70289a1ab4779de9ec8658e14d8b9d0995414bf60cb8531637d51cb4"
+        "bytes": 25543,
+        "sha256": "370b8e639e5ae9e116f39c773850121dfd052e1346b81acf370bffa07deec170"
       },
       {
         "url": "/rankings.js",
@@ -1227,6 +1227,16 @@
         "url": "/style.css",
         "bytes": 27354,
         "sha256": "73422eb056e74d1c360e568543a696cf6f669d53ea833319c544d6e22586c266"
+      },
+      {
+        "url": "/survival-rules.js",
+        "bytes": 4296,
+        "sha256": "34cbd5dffb787d294a6a65623d3321727e3ceccc73743421207f63a30f0cb902"
+      },
+      {
+        "url": "/survival.js",
+        "bytes": 28920,
+        "sha256": "e11ed67d298b9895bcf916062c225ab720c4651590229339a64b9543aa28eaa5"
       }
     ],
     "photos": [

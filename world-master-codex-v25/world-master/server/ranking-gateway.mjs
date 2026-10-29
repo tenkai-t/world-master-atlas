@@ -29,7 +29,7 @@ export async function rankingGateway(request, action, env, bank) {
   }
   const id = request.headers.get('X-WM-Player');
   const key = request.headers.get('X-WM-Key');
-  const readOnly = request.method === 'GET' && ['leaderboard', 'legacy'].includes(action);
+  const readOnly = request.method === 'GET' && ['leaderboard', 'legacy', 'survival-catalog', 'survival-leaderboard'].includes(action);
   if (!id && !key && readOnly) {
     return rankingRequest(request, action, env.DB, bank, 'standalone-public-reader');
   }

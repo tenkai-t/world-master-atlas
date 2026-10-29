@@ -78,3 +78,8 @@ npx --yes pnpm@11.25.0 exec wrangler d1 execute site-creator-d1 --local --config
 ## 公開について
 
 GitHub登録・Codexでのコード修正・ローカルビルドは公開ではありません。GitHub PagesではWorker API・D1・Sitesの認証は動かないため、そのままフル機能を公開できません。公開先・ドメイン・認証・DBの引き継ぎは別途設計してから行います。元サイトへのpush/deploy、DB取得、設定変更は移行準備の範囲に含めません。
+
+
+## 間違えるまでチャレンジの追加
+
+専用モード・専用ランキング・再開/保存方針・検証については[SURVIVAL.md](SURVIVAL.md)を参照してください。既存6部門と別条件で保存し、追加のDBマイグレーションはありません。
