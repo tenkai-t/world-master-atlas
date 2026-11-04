@@ -68,7 +68,7 @@ let disconnect=false;
 const transport=async(path,opts)=>{if(path.startsWith('/api/')){const request=new Request(origin+path,opts);if(request.method==='POST')request.headers.set('Origin',origin);const response=await rankingGateway(request,path.split('/').pop().split('?')[0],runtime,bank);if(disconnect&&path==='/api/rank/survival-answer'){disconnect=false;throw Error('response lost after server commit');}return response;}return{ok:true,json:async()=>JSON.parse(fs.readFileSync('public/'+path))};};
 const x=await launch(store,{fetch:transport});
 try{
- await login(x,localId);assert(x.$('button[onclick="survivalSetup()"]'));x.e('mixedSetup()');assert(!x.$('#practice option[value=survival]'));x.e("setup('flag',true)");assert(!x.$('#practice option[value=survival]'));x.e("setup('flag')");assert(x.$('#practice option[value=survival]'));x.e('home()');
+ await login(x,localId);assert(x.$('button[onclick="survivalSetup()"]'));x.e('mixedSetup()');assert(!x.$('#practice option[value=survival]'));x.e("setup('flag',true)");assert(!x.$('#practice option[value=survival]'));x.e("setup('flag')");assert(!x.$('#practice option[value=survival]'));assert(!x.$('#practice option[value=streak]'));x.e('home()');
  assert.equal(x.e('testTotals().n'),0);assert(x.e('survivalStart('+JSON.stringify(c)+')'));assert.equal(x.e('session.queue.length'),15);assert.equal(x.e('session.cfg.challenge'),'survival');
  assert(!x.$('button[onclick="hint()"]'));x.e('hint()');assert.equal(x.e('session.hint'),0);
  x.e('submitAnswer(true)');assert(x.$('#feedback').textContent.includes('ここで覚えよう'));assert(x.$('#svProgress').textContent.includes('連続正解 0'));
