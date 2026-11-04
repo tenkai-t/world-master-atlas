@@ -53,6 +53,28 @@ export async function survivalRequest(request,action,DB,bank,uid,profile,body){
    if(!saved)return fail('この条件のランキングは見つかりません。',404);
    const snapshot=JSON.parse(saved.questions);c={...c,key:boardKey,condition:snapshot.condition,total:snapshot.queue.length};
   }
+  // Merge boards from other releases (records played on other devices or
+  // older app versions) when only the material differs: same config + targets.
+  let deps=[c.key];
+  if(!boardKey){
+   const deptRows=await DB.prepare('SELECT DISTINCT department FROM player_ranking_runs WHERE version=?').bind(version).all();
+   const sameConfig=(a,b)=>['content','mode','level','region','input','scope','category','kind','countryLevel'].every(k=>(a?.[k]??null)===(b?.[k]??null));
+   for(const d of deptRows.results.map(r=>r.department)){
+    if(d===c.key||!d.startsWith('survival:'))continue;
+    const saved=await DB.prepare('SELECT questions FROM player_ranking_runs WHERE department=? AND version=? LIMIT 1').bind(d,version).first();
+    if(!saved)continue;const cond=JSON.parse(saved.questions).condition;
+    if(cond&&sameConfig(cond.config,c.condition.config)&&JSON.stringify(cond.targets)===JSON.stringify(c.condition.targets))deps.push(d);
+   }
+  }
+  if(deps.length>1){
+   const all=await DB.prepare(`SELECT s.*,p.name,p.icon FROM player_ranking_scores s JOIN ranking_players p ON p.id=s.player_id WHERE s.department IN (${deps.map(()=>'?').join(',')}) AND s.version=?`).bind(...deps,version).all();
+   const best=new Map();for(const r of all.results){const cur=best.get(r.player_id);if(!cur||r.right_count>cur.right_count||r.right_count===cur.right_count&&r.at<cur.at)best.set(r.player_id,r);}
+   const merged=[...best.values()].sort((a,b)=>b.right_count-a.right_count||a.at-b.at||(a.player_id<b.player_id?-1:a.player_id>b.player_id?1:0));
+   const mineRow=profile?best.get(profile.id):null;
+   const own=mineRow?{rank:1+merged.filter(r=>r.right_count>mineRow.right_count).length,right:mineRow.right_count,total:mineRow.question_count,at:mineRow.at,complete:mineRow.right_count===mineRow.question_count}:null;
+   let previous=null,rank=0;const rows=merged.slice(0,20).map((r,i)=>{if(r.right_count!==previous)rank=i+1;previous=r.right_count;return {rank,name:r.name,icon:r.icon,right:r.right_count,total:r.question_count,at:r.at,complete:r.right_count===r.question_count,mine:r.player_id===profile?.id};});
+   return json({key:c.key,total:c.total,condition:c.condition,own,rows,mergedFrom:deps.length});
+  }
   const rows=await DB.prepare('SELECT s.*,p.name,p.icon FROM player_ranking_scores s JOIN ranking_players p ON p.id=s.player_id WHERE s.department=? AND s.version=? ORDER BY s.right_count DESC,s.at ASC,s.player_id ASC LIMIT 20').bind(c.key,version).all();
   const mine=profile?await DB.prepare('SELECT * FROM player_ranking_scores WHERE player_id=? AND department=? AND version=?').bind(profile.id,c.key,version).first():null;
   let own=null;if(mine){const n=await DB.prepare('SELECT COUNT(*) AS n FROM player_ranking_scores WHERE department=? AND version=? AND right_count>?').bind(c.key,version,mine.right_count).first();own={rank:n.n+1,right:mine.right_count,total:mine.question_count,at:mine.at,complete:mine.right_count===mine.question_count};}
