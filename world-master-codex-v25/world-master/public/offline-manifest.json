@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "ded3af1f10ed9bf88e0f",
+  "version": "f4fb69adf3b2727a7856",
   "packs": {
     "core": [
       {
@@ -10,8 +10,8 @@
       },
       {
         "url": "/app-version.js",
-        "bytes": 462,
-        "sha256": "e842d5b1c4f944f488ecea41d49a014d95d471d805631541c7b70981edf127b7"
+        "bytes": 542,
+        "sha256": "1ca28709c9ea9612a7eba13f6e98ae61e73f0630607e2fa04926fbff6da096e5"
       },
       {
         "url": "/app.js",
@@ -1105,48 +1105,48 @@
       },
       {
         "url": "/icons/atlas-v1/apple-touch-icon.png",
-        "bytes": 19192,
-        "sha256": "962a9ef8c80cfa33a19e23583559aea55677ff2e55d867e83892a9641d942bdb"
+        "bytes": 21802,
+        "sha256": "72da303f09b8b7bbb07dcce56d5d550fb559dff227df100e6975d8723c02849f"
       },
       {
         "url": "/icons/atlas-v1/favicon-16.png",
-        "bytes": 546,
-        "sha256": "13e57ce25f0fa7d0f23589441a149cdbab773c5fbfed31fb336613839e62f964"
+        "bytes": 787,
+        "sha256": "e9c393935a5059830876fe2026b69aa13187d4871b7cfb14bf7048709ac55eb7"
       },
       {
         "url": "/icons/atlas-v1/favicon-32.png",
-        "bytes": 1239,
-        "sha256": "2bf1e62c5cca4fdb64948f4ea6750663a9537240721d827d14c096172b7b8f40"
+        "bytes": 2236,
+        "sha256": "6b17dfc2aa3d95d5183c422c6d29bbeae9b4b01b6fdfdd9d9ed2c8a1670cc45d"
       },
       {
         "url": "/icons/atlas-v1/favicon.ico",
-        "bytes": 7421,
-        "sha256": "08dd6ead0279ab077f304a803f990399ee486d5eb80c95f05e34b0de4414b94d"
+        "bytes": 6427,
+        "sha256": "d3d6999ba4c44dbd178a70d830113c0cdd9d665c63f827efe61954fb70042687"
       },
       {
         "url": "/icons/atlas-v1/icon-192.png",
-        "bytes": 20683,
-        "sha256": "1244a9c5fb2fd7b3e1a6ad9748e4ed1995c03facea2fbf32907c8feb07b150d6"
+        "bytes": 23625,
+        "sha256": "3356a1b0956227dd4f7d326f901f1102fc067929fea5ef3aad6faadfcd0497a5"
       },
       {
         "url": "/icons/atlas-v1/icon-512.png",
-        "bytes": 72376,
-        "sha256": "d8ff623552230fe40b858d10f5b1230b3cfaa6bf2c7f34f1c1f62dbec8913be5"
+        "bytes": 74259,
+        "sha256": "d76a112a2a9aee042a9b8c930b2c858360953addcf804411d558a88e7a324595"
       },
       {
         "url": "/icons/atlas-v1/maskable-192.png",
-        "bytes": 14451,
-        "sha256": "ef3e75ce4e1d28f5e9a2b2d0fe2a690ea70ba5920b010e5970b264c1465cf290"
+        "bytes": 19042,
+        "sha256": "1ad46669937bb2bfa28e57f62e4cac634e0575d4471397ea9799cd2f1e394f16"
       },
       {
         "url": "/icons/atlas-v1/maskable-512.png",
-        "bytes": 52153,
-        "sha256": "27948f115ed41fb6ce6c1cc0baa6672a9855a67afc25c4fa28203f40f7f3fe65"
+        "bytes": 61293,
+        "sha256": "f2e516d7a8d08588f61cbf09ed7ca7fcd407323c3e061bec5991889c577a35fa"
       },
       {
         "url": "/icons/atlas-v1/provenance.json",
-        "bytes": 583,
-        "sha256": "68fe015e596efb252a628613a0a61da828b81d81cc24ed3955c0e3cc1da5ed16"
+        "bytes": 797,
+        "sha256": "087a205c751d7885e7283bc05912409b655f5587dd8142af8ec411a32ba0fa29"
       },
       {
         "url": "/kanji-engine.js",
@@ -1235,8 +1235,8 @@
       },
       {
         "url": "/survival.js",
-        "bytes": 28920,
-        "sha256": "e11ed67d298b9895bcf916062c225ab720c4651590229339a64b9543aa28eaa5"
+        "bytes": 30716,
+        "sha256": "06d283a1ab6c62edf808a6dbcbc74b24a22eebf6c7052c2628b66ba4294fa169"
       }
     ],
     "photos": [

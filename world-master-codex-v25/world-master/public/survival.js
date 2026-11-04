@@ -8,7 +8,32 @@ const survivalLabel={country:'国・国旗',capital:'首都',terrain:'地形',he
 function survivalDescription(c){return [survivalLabel[c.content],allLabels()[c.mode]||'分野ごとの名前問題',LEVELS[c.level]||c.level,c.content==='mixed'?COUNTRY_LEVELS[c.countryLevel]:'',c.region,inputLabel(c.mode,c.input),c.category!=='all'?terrainCategoryLabel(c.category):'',c.kind!=='all'?heritageKinds[c.kind]:''].filter(Boolean).join(' / ');}
 function survivalEntries(c){return WMSurvivalRules.pool(c,survivalBank(),learningSchema).filter(e=>e.mode!=='heritagePhoto'||offlineHasPhoto(e.item));}
 function survivalData(){if(!db.survival)db.survival={version:1,bests:{},history:[]};return db.survival;}
+function survivalSameConfig(a,b){if(!a||!b||typeof a!=='object'||typeof b!=='object')return false;return ['content','mode','level','region','input','scope','category','kind','countryLevel'].every(k=>(a[k]??null)===(b[k]??null));}
+function survivalCarriedBests(s){
+ const out=[];if(!s||typeof s!=='object'||!s.bests||typeof s.bests!=='object')return out;
+ for(const h of Object.values(s.bests)){
+  if(!h||h.source!=='local'||!h.condition||typeof h.condition!=='object'||h.condition.material===WM_RELEASE.version||!Array.isArray(h.condition.targets))continue;
+  let cfg;try{cfg=WMSurvivalRules.normalize(h.condition.config);}catch(e){continue;}
+  if(!survivalSameConfig(cfg,h.condition.config))continue;
+  let targets;try{targets=survivalEntries(cfg).map(e=>e.identity).sort();}catch(e){continue;}
+  if(JSON.stringify(targets)!==JSON.stringify([...h.condition.targets].sort()))continue;
+  const condition={rule:WMSurvivalRules.rule,dataVersion:DATA_VERSION,material:WM_RELEASE.version,config:cfg,targets};
+  out.push({...h,key:JSON.stringify({source:'local',...condition}),condition});
+ }
+ return out;
+}
+function survivalApplyCarryOver(){
+ const d=survivalData();let changed=false;
+ for(const c of survivalCarriedBests(d)){const old=d.bests[c.key];if(!old||c.right>old.right){d.bests[c.key]=c;changed=true;}}
+ return changed;
+}
+function survivalMergedBests(s){
+ const merged={...(s&&s.bests&&typeof s.bests==='object'?s.bests:{})};
+ for(const c of survivalCarriedBests(s||{})){const old=merged[c.key];if(!old||c.right>old.right)merged[c.key]=c;}
+ return Object.values(merged);
+}
 function survivalRecord(h){
+ survivalApplyCarryOver();
  const d=survivalData();if(d.history.some(x=>x.id===h.id)||Object.values(d.bests).some(x=>x.id===h.id))return;
  d.history.unshift(h);d.history=d.history.slice(0,300);
  if(h.reason!=='aborted'){const old=d.bests[h.key];if(!old||h.right>old.right)d.bests[h.key]={...h};}
@@ -24,6 +49,7 @@ function survivalWriteRef(id,value){const refs=survivalRefs();if(value)refs[id]=
 function survivalNotice(error){showModal('<h2>挑戦を開始できませんでした</h2><p>'+esc(error.message||String(error))+'</p>');}
 function survivalSetup(initial=survivalLastConfig||{content:'country',mode:'flag',level:'c1',region:'世界全体',input:'choice'}){
  if(!activePlayer||!playerAccess())return;
+ if(survivalApplyCarryOver())void save();
  view='survival-setup';survivalVisit++;const visit=survivalVisit;
  app.innerHTML=`<div class="setup"><button class="back" onclick="home()">← ホーム</button><span class="eyebrow">UNTIL THE FIRST MISTAKE</span><h1>間違えるまでチャレンジ</h1><p class="notice">正解する限り続きます。不正解・「わからない」で終了。全問正解なら全問制覇！時間制限・ヒントなし。同じ問題は一度だけ。途中終了はランキング対象外です。</p><form id="survivalSetup" class="card"><div class="fields"><div><label for="svContent">分野</label><select id="svContent">${WMSurvivalRules.contents.map(k=>`<option value="${k}">${survivalLabel[k]}</option>`).join('')}</select></div><div><label for="svOnline">遊ぶ場所</label><select id="svOnline"><option value="local">この端末（オフライン可）</option><option value="online" ${isGuest()?'disabled':''}>オンライン・サーバー採点</option></select></div><div><label for="svMode">学び方</label><select id="svMode"></select></div><div><label for="svLevel">難易度</label><select id="svLevel"></select></div><div><label for="svCountryLevel">総合の国・国旗レベル</label><select id="svCountryLevel">${Object.entries(COUNTRY_LEVELS).map(([k,v])=>`<option value="${k}">${v}</option>`).join('')}</select></div><div><label for="svRegion">地域</label><select id="svRegion">${WMSurvivalRules.regions.map(k=>`<option>${k}</option>`).join('')}</select></div><div><label for="svInput">回答方法</label><select id="svInput"><option value="choice">4択</option><option value="text">キーボード入力</option><option value="ink">手書き</option></select></div><div><label for="svCategory">地形の種類</label><select id="svCategory"><option value="all">すべて</option>${Object.entries(terrainCategories).map(([k,v])=>`<option value="${k}">${v}</option>`).join('')}</select></div><div><label for="svKind">遺産の種類</label><select id="svKind"><option value="all">すべて</option>${Object.entries(heritageKinds).map(([k,v])=>`<option value="${k}">${v}</option>`).join('')}</select></div></div><p id="svPoolInfo" role="status"></p><p class="note">オンライン対応：国旗4択・国の位置・首都4択・地形4択・世界遺産地図4択、およびこれらの名前問題を組み合わせた総合。オンラインは通信が必要です。</p><button id="svBegin" class="primary">チャレンジを開始</button><button type="button" id="svRankings">専用ランキング</button><p id="svMessage" role="status"></p></form><div id="svResumeArea"></div></div>`;
  $('#svContent').value=initial.content;$('#svOnline').value='local';$('#svRegion').value=initial.region||'世界全体';$('#svInput').value=initial.input||'choice';$('#svCountryLevel').value=initial.countryLevel||'c3';$('#svCategory').value=initial.category||'all';$('#svKind').value=initial.kind||'all';
@@ -126,16 +152,16 @@ async function survivalFinishOnline(){const r=survivalOnline;if(!r||!r.done||act
  const h={id:r.run,key:JSON.stringify({source:'online',...r.condition}),condition:r.condition,serverKey:r.key,source:'online',right:r.right,total:r.total,reason:r.reason,at:r.at||Date.now()};survivalRecord(h);
  const epoch=playerEpoch;if(!await save())return;if(playerEpoch!==epoch||activePlayer?.id!==r.localId||!playerAccess())return;survivalWriteRef(r.localId,null);survivalResult(h);
 }
-function survivalRankTable(rows){if(!rows.length)return '<p>まだ記録がありません。</p>';return `<div class="tableScroll"><table class="rankingTable"><thead><tr><th>順位</th><th>プレイヤー</th><th>連続正解</th><th>達成日</th></tr></thead><tbody>${rows.map((r,i)=>`<tr class="${r.mine?'mine':''}"><td>${r.rank||1+rows.filter(x=>x.right>r.right).length}</td><td>${esc(r.icon||'🌱')} ${esc(r.name)}${r.mine?'（自分）':''}</td><td>${r.right} / ${r.total}${r.reason==='complete'||r.complete?' ★全問制覇':''}</td><td>${new Date(r.at).toLocaleDateString('ja-JP')}</td></tr>`).join('')}</tbody></table></div>`;}
+function survivalRankTable(rows){if(!rows.length)return '<p>まだ記録がありません。</p>';const top=rows.filter(r=>(r.rank||1+rows.filter(x=>x.right>r.right).length)<=10);return `<div class="tableScroll"><table class="rankingTable"><thead><tr><th>順位</th><th>プレイヤー</th><th>連続正解</th><th>達成日</th></tr></thead><tbody>${top.map((r,i)=>`<tr class="${r.mine?'mine':''}"><td>${r.rank||1+rows.filter(x=>x.right>r.right).length}</td><td>${esc(r.icon||'🌱')} ${esc(r.name)}${r.mine?'（自分）':''}</td><td>${r.right} / ${r.total}${r.reason==='complete'||r.complete?' ★全問制覇':''}</td><td>${new Date(r.at).toLocaleDateString('ja-JP')}</td></tr>`).join('')}</tbody></table></div>`;}
 function survivalRankings(tab='device',cfg=survivalLastConfig||{content:'country',mode:'flag',level:'c1',region:'世界全体',input:'choice'},boardKey=null){
- if(!activePlayer||!playerAccess())return;survivalLastConfig=WMSurvivalRules.normalize(cfg);session=null;survivalOnline=null;view='survival-rankings';const visit=++survivalVisit,id=activePlayer.id;
- app.innerHTML=`<div class="setup"><button class="back" onclick="home()">← ホーム</button><h1>間違えるまで・専用ランキング</h1><div class="rankingTabs">${[['device','この端末のみんな'],['online','オンライン'],['personal','自分の記録']].map(([key,label])=>`<button data-sv-tab="${key}" aria-pressed="${key===tab}">${label}</button>`).join('')}</div><p>同じ条件の連続正解数で比較。同点は同順位です。時間は順位に使いません。</p><button id="svChangeConditions">条件を選ぶ・挑戦する</button><section class="card section" id="svRankPanel"></section></div>`;
+ if(!activePlayer||!playerAccess())return;if(survivalApplyCarryOver())void save();survivalLastConfig=WMSurvivalRules.normalize(cfg);session=null;survivalOnline=null;view='survival-rankings';const visit=++survivalVisit,id=activePlayer.id;
+ app.innerHTML=`<div class="setup"><button class="back" onclick="home()">← ホーム</button><h1>間違えるまで・専用ランキング</h1><div class="rankingTabs">${[['device','この端末のみんな'],['online','オンライン'],['personal','自分の記録']].map(([key,label])=>`<button data-sv-tab="${key}" aria-pressed="${key===tab}">${label}</button>`).join('')}</div><p>同じ条件の連続正解数で比較。同点は同順位です。時間は順位に使いません。表示は上位10位までです。</p><button id="svChangeConditions">条件を選ぶ・挑戦する</button><section class="card section" id="svRankPanel"></section></div>`;
  app.querySelectorAll('[data-sv-tab]').forEach(b=>b.onclick=()=>survivalRankings(b.dataset.svTab,survivalLastConfig));$('#svChangeConditions').onclick=()=>survivalSetup(survivalLastConfig);
  if(tab==='online'){
   $('#svRankPanel').innerHTML='<p id="svBoardMessage" role="status">順位を取得中…</p><button id="svBoardRetry">再取得</button><div id="svBoard"></div>';
   const load=async()=>{try{const c=WMSurvivalRules.normalize(survivalLastConfig,true);if(!isGuest())await rankPrepare(id);const b=await survivalAPI('survival-leaderboard?config='+encodeURIComponent(JSON.stringify(c))+(boardKey?'&boardKey='+encodeURIComponent(boardKey):''),null,!isGuest());if(visit!==survivalVisit||view!=='survival-rankings')return;$('#svBoardMessage').textContent=survivalDescription(b.condition.config)+' ／ 対象 '+b.total+'問 ／ '+(b.own?`自分：${b.own.rank}位・${b.own.right}問連続正解`:'自分：未挑戦');$('#svBoard').innerHTML=survivalRankTable(b.rows);}catch(e){if(visit===survivalVisit&&$('#svBoardMessage'))$('#svBoardMessage').textContent=e.message;}};$('#svBoardRetry').onclick=()=>void load();void load();return;
  }
- let rows=[],history=[];try{const players=tab==='personal'?[activePlayer]:readPlayerIndex().players;for(const p of players){const d=p.id===activePlayer.id?db:readPlayerData(p.id).data;for(const h of Object.values(d.survival?.bests||{}))rows.push({...h,playerId:p.id,name:p.name,icon:p.icon,mine:p.id===id});if(p.id===id)history=d.survival?.history||[];}}catch(e){$('#svRankPanel').textContent='一部の記録を読み取れませんでした。先生に確認してください。';return;}
+ let rows=[],history=[];try{const players=tab==='personal'?[activePlayer]:readPlayerIndex().players;for(const p of players){const d=p.id===activePlayer.id?db:readPlayerData(p.id).data;for(const h of survivalMergedBests(d.survival))rows.push({...h,playerId:p.id,name:p.name,icon:p.icon,mine:p.id===id});if(p.id===id)history=d.survival?.history||[];}}catch(e){$('#svRankPanel').textContent='一部の記録を読み取れませんでした。先生に確認してください。';return;}
  const groups=[...new Map(rows.map(h=>[h.key,h])).values()];$('#svRankPanel').innerHTML='<label for="svConditionGroup">出題条件・教材版</label><select id="svConditionGroup">'+groups.map((h,i)=>`<option value="${i}">${esc(survivalDescription(h.condition.config))} ／ ${h.source==='online'?'オンライン':'端末'} ／ ${h.total}問 ／ 教材${esc(h.condition.material.slice(0,8))}</option>`).join('')+'</select><p id="svOwnRank"></p><div id="svLocalBoard"></div><button id="svOldOnline" hidden>この条件のオンライン順位</button>'+(tab==='personal'?'<details><summary>このモードの履歴（中断を含む）</summary>'+history.map(h=>`<p>${new Date(h.at).toLocaleDateString('ja-JP')}：${h.right}/${h.total}・${({wrong:'不正解終了',complete:'全問制覇',aborted:'中断'})[h.reason]}</p>`).join('')+'</details>':'');
  const draw=()=>{const key=groups[+$('#svConditionGroup').value]?.key,list=rows.filter(h=>h.key===key).sort((a,b)=>b.right-a.right||a.at-b.at||a.playerId.localeCompare(b.playerId));$('#svLocalBoard').innerHTML=survivalRankTable(list);const selected=groups[+$('#svConditionGroup').value];$('#svOldOnline').hidden=!selected?.serverKey;$('#svOldOnline').onclick=()=>survivalRankings('online',selected.condition.config,selected.serverKey);const own=list.find(h=>h.mine);$('#svOwnRank').textContent=own?`自分：${1+list.filter(h=>h.right>own.right).length}位`:'自分：未挑戦';};$('#svConditionGroup').onchange=draw;draw();
 }
