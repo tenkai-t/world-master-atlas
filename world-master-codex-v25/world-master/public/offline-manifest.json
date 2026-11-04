@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "87ea05c40144376d4632",
+  "version": "6ff6d068b40d376fc679",
   "packs": {
     "core": [
       {
@@ -10,8 +10,8 @@
       },
       {
         "url": "/app-version.js",
-        "bytes": 585,
-        "sha256": "40a446c20d81814b2e0ef17c651d03b0506b6896b565ac70d377144fa2d51484"
+        "bytes": 681,
+        "sha256": "887caa3a8e2d4a6e3866701aa89b522981a310bf327a4c4d7b8d169738d4f398"
       },
       {
         "url": "/app.js",
@@ -1095,8 +1095,8 @@
       },
       {
         "url": "/expansion.js",
-        "bytes": 47674,
-        "sha256": "fef0332a1ea072be30fe32514a8cb6be3eaf4a9e162aaba3f7ad777d5b3d62e5"
+        "bytes": 47615,
+        "sha256": "1a5bb3ff085f3d3344cb0b66f97fcf125471791198e1db4faf2fcddc697e423a"
       },
       {
         "url": "/handwriting.js",
@@ -1235,8 +1235,8 @@
       },
       {
         "url": "/survival.js",
-        "bytes": 32956,
-        "sha256": "c4663faba5e4a41cd463e8de5fc40dcce1535eb9908af6ea0ffbc619220956d2"
+        "bytes": 32265,
+        "sha256": "8afbbc163b832cf9851043bcbf819f3221e028f30d31b2b412ce2ee4aa21e594"
       }
     ],
     "photos": [
