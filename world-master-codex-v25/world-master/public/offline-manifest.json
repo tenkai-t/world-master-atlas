@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "6ff6d068b40d376fc679",
+  "version": "4f006082d1126f24e4e2",
   "packs": {
     "core": [
       {
@@ -10,8 +10,8 @@
       },
       {
         "url": "/app-version.js",
-        "bytes": 681,
-        "sha256": "887caa3a8e2d4a6e3866701aa89b522981a310bf327a4c4d7b8d169738d4f398"
+        "bytes": 620,
+        "sha256": "a32866d7d8f2c009cd6ed348d22f923b0cd5a18a2743f846f6279cfa8738a2fc"
       },
       {
         "url": "/app.js",
@@ -1095,8 +1095,8 @@
       },
       {
         "url": "/expansion.js",
-        "bytes": 47615,
-        "sha256": "1a5bb3ff085f3d3344cb0b66f97fcf125471791198e1db4faf2fcddc697e423a"
+        "bytes": 47271,
+        "sha256": "477a951f75df8f47f259d517fb9d2a4e09c3dea64703d7cf5664e78da6594227"
       },
       {
         "url": "/handwriting.js",
@@ -1155,8 +1155,8 @@
       },
       {
         "url": "/learning.js",
-        "bytes": 30517,
-        "sha256": "51f036a2201ff00f6f353d5fd07db6edf738a1ea917f8d193a0963fd8e8e4854"
+        "bytes": 30505,
+        "sha256": "d06f489fa85b22841025507b59f85395ab6f043abd6c87c7542a65bc1f8f2a1c"
       },
       {
         "url": "/licenses/KanjiCanvas-LICENSE.txt",
