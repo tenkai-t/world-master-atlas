@@ -11,6 +11,32 @@ function survivalData(){if(!db.survival)db.survival={version:1,bests:{},history:
 function survivalSameConfig(a,b){if(!a||!b||typeof a!=='object'||typeof b!=='object')return false;return ['content','mode','level','region','input','scope','category','kind','countryLevel'].every(k=>(a[k]??null)===(b[k]??null));}
 function survivalFixedConfig(raw){const c={...(raw||{})};c.region='世界全体';c.level=c.content==='country'?'countryMaster':'advanced';if(c.content==='mixed')c.countryLevel='countryMaster';return c;}
 function survivalIsFixed(c){return !!c&&c.region==='世界全体'&&(c.content==='country'?c.level==='countryMaster':c.level==='advanced')&&(c.content!=='mixed'||c.countryLevel==='countryMaster');}
+// Cleanup (user-approved), run when the rankings page opens: records under
+// conditions that can no longer be selected are deleted. Learning: ranking-type
+// history entries (test form, not review) whose region is not the whole world,
+// whose count is not 10, or that are streak challenges; ranking bests are
+// rebuilt from what remains. Survival: bests and history outside the fixed
+// conditions. The active checkpoint is never touched. Idempotent; writes only
+// when something was actually removed.
+function purgeUnselectableRecords(){
+ if(!activePlayer||isGuest())return;
+ let changed=false;
+ if(Array.isArray(db.history)){
+  const keep=db.history.filter(h=>{
+   if(!h||h.practice!=='test'||h.review||typeof h.rankKey!=='string')return true;
+   let c;try{c=JSON.parse(h.rankKey)}catch{return true}
+   const region=c.region||h.region||'世界全体',count=c.count??h.n;
+   return region==='世界全体'&&count===10&&c.challenge!=='streak';
+  });
+  if(keep.length!==db.history.length){db.history=keep;db.rankingBests=collectRankingBests({...db,rankingBests:{}});changed=true;}
+ }
+ const s=db.survival;
+ if(s&&s.version===1){
+  if(s.bests&&typeof s.bests==='object'&&!Array.isArray(s.bests))for(const k of Object.keys(s.bests)){if(!survivalIsFixed(s.bests[k]?.condition?.config)){delete s.bests[k];changed=true;}}
+  if(Array.isArray(s.history)){const keep=s.history.filter(h=>survivalIsFixed(h?.condition?.config));if(keep.length!==s.history.length){s.history=keep;changed=true;}}
+ }
+ if(changed)void save();
+}
 function survivalGroupKey(h){return JSON.stringify({config:h.condition.config,targets:h.condition.targets});}
 function survivalCarriedBests(s){
  const out=[];if(!s||typeof s!=='object'||!s.bests||typeof s.bests!=='object')return out;
@@ -169,4 +195,4 @@ function survivalRankPanel(){
  rows=rows.filter(h=>survivalIsFixed(h.condition.config));const groupMap=new Map();for(const h of rows){const g=survivalGroupKey(h);if(!groupMap.has(g))groupMap.set(g,[]);groupMap.get(g).push(h);}const groups=[...groupMap.entries()].map(([gkey,list])=>{const mats=[...new Set(list.map(h=>h.condition.material))],cur=list.find(h=>h.condition.material===WM_RELEASE.version);return {gkey,config:(cur||list[0]).condition.config,sources:[...new Set(list.map(h=>h.source))],total:list[0].total,materials:mats,serverKey:(list.find(h=>h.condition.material===WM_RELEASE.version&&h.serverKey)||list.find(h=>h.serverKey))?.serverKey};});$('#svRankPanel').innerHTML='<label for="svConditionGroup">出題条件・教材版</label><select id="svConditionGroup">'+groups.map((g,i)=>`<option value="${i}">${esc(survivalDescription(g.config))} ／ ${g.sources.length>1?'端末＋オンライン':g.sources[0]==='online'?'オンライン':'端末'} ／ ${g.total}問${g.materials.length===1?` ／ 教材${esc(g.materials[0].slice(0,8))}`:' ／ 教材は複数版を統合'}</option>`).join('')+'</select><p id="svOwnRank"></p><div id="svLocalBoard"></div><button id="svOldOnline" hidden>この条件のオンライン順位</button>'+(tab==='personal'?'<details><summary>このモードの履歴（中断を含む）</summary>'+history.map(h=>`<p>${new Date(h.at).toLocaleDateString('ja-JP')}：${h.right}/${h.total}・${({wrong:'不正解終了',complete:'全問制覇',aborted:'中断'})[h.reason]}</p>`).join('')+'</details>':'');
  const draw=()=>{const g=groups[+$('#svConditionGroup').value],byPlayer=new Map();if(g)for(const h of rows.filter(x=>survivalGroupKey(x)===g.gkey)){const cur=byPlayer.get(h.playerId);if(!cur||h.right>cur.right||h.right===cur.right&&h.at<cur.at)byPlayer.set(h.playerId,h);}const list=[...byPlayer.values()].sort((a,b)=>b.right-a.right||a.at-b.at||a.playerId.localeCompare(b.playerId));$('#svLocalBoard').innerHTML=survivalRankTable(list);$('#svOldOnline').hidden=!g?.serverKey;$('#svOldOnline').onclick=()=>survivalRankings('online',g.config,g.serverKey);const own=list.find(h=>h.mine);$('#svOwnRank').textContent=own?`自分：${1+list.filter(h=>h.right>own.right).length}位`:'自分：未挑戦';};$('#svConditionGroup').onchange=draw;draw();
 }
-const survivalOriginalRankings=rankings;rankings=(...args)=>{survivalOriginalRankings(...args);if(view==='rankings'&&activePlayer&&playerAccess()){app.insertAdjacentHTML('beforeend','<section id="svRankSection" class="card section"></section>');survivalRankPanel();}};
+const survivalOriginalRankings=rankings;rankings=(...args)=>{purgeUnselectableRecords();survivalOriginalRankings(...args);if(view==='rankings'&&activePlayer&&playerAccess()){app.insertAdjacentHTML('beforeend','<section id="svRankSection" class="card section"></section>');survivalRankPanel();}};
