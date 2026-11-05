@@ -1,6 +1,6 @@
 'use strict';
 // Online ranking displays player records; historical account records stay stored separately.
-let rankingTab='device',rankingVisit=0;
+let rankingTab='online',rankingVisit=0;
 const rankAreas={country:'国・国旗',capital:'首都',terrain:'地形',heritage:'世界遺産',mixed:'総合'};
 function rankingCondition(h){const c=JSON.parse(h.rankKey);return[allLabels()[h.mode]||h.mode,LEVELS[c.level]||c.level||'基本',c.countryLevel?COUNTRY_LEVELS[c.countryLevel]:'',c.region||'世界全体',scopeLabel[c.scope]||c.scope||'',c.category&&c.category!=='all'?terrainCategoryLabel(c.category):'',c.kind&&c.kind!=='all'?heritageKinds[c.kind]||c.kind:'',inputLabel(h.mode,c.input),h.n+'問',c.challenge?challengeLabel(c.challenge):'テスト',c.v===DATA_VERSION?'':'旧条件'].filter(Boolean).join(' / ')}
 function challengeLabel(c){return({time:'タイムアタック',streak:'連続正解'})[c]||c}
