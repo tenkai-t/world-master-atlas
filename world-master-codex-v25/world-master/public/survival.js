@@ -185,7 +185,7 @@ function survivalRankings(tab='device',cfg,boardKey){if(!activePlayer||!playerAc
 function survivalRankPanel(){
  const tab=survivalPanelTab,cfg=survivalPanelCfg||survivalLastConfig||{content:'country',mode:'flag',level:'countryMaster',region:'世界全体',input:'choice'},boardKey=survivalPanelKey,section=$('#svRankSection');
  if(!section||!activePlayer||!playerAccess())return;if(survivalApplyCarryOver())void save();survivalLastConfig=WMSurvivalRules.normalize(survivalFixedConfig(cfg));session=null;survivalOnline=null;const visit=++survivalVisit,id=activePlayer.id;
- section.innerHTML=`<h2>間違えるまでチャレンジのランキング</h2><div class="rankingTabs">${[['device','この端末のみんな'],['online','オンライン'],['personal','自分の記録']].map(([key,label])=>`<button data-sv-tab="${key}" aria-pressed="${key===tab}">${label}</button>`).join('')}</div><button id="svChangeConditions">条件を選ぶ・挑戦する</button><div id="svRankPanel"></div>`;
+ section.innerHTML=`<h2>間違えるまでチャレンジのランキング</h2><div class="rankingTabs">${[['online','オンライン'],['device','この端末のみんな'],['personal','自分の記録']].map(([key,label])=>`<button data-sv-tab="${key}" aria-pressed="${key===tab}">${label}</button>`).join('')}</div><button id="svChangeConditions">条件を選ぶ・挑戦する</button><div id="svRankPanel"></div>`;
  section.querySelectorAll('[data-sv-tab]').forEach(b=>b.onclick=()=>survivalRankings(b.dataset.svTab,survivalLastConfig));$('#svChangeConditions').onclick=()=>survivalSetup(survivalLastConfig);
  if(tab==='online'){
   $('#svRankPanel').innerHTML='<p id="svBoardMessage" role="status">順位を取得中…</p><button id="svBoardRetry">再取得</button><div id="svBoard"></div>';
