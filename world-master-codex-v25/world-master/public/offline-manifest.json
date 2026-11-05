@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "89c193215cbe336249f4",
+  "version": "3719b4e815772fda1cc4",
   "packs": {
     "core": [
       {
@@ -10,8 +10,8 @@
       },
       {
         "url": "/app-version.js",
-        "bytes": 650,
-        "sha256": "1783e0bcba58da3214a294e306796638b9f586e5ffbea0fbdc249e4ce5a37336"
+        "bytes": 633,
+        "sha256": "1df1895206b706da156707c53285e2e04627a61ac574f6de806f1d5591b6e0e3"
       },
       {
         "url": "/app.js",
@@ -1235,8 +1235,8 @@
       },
       {
         "url": "/survival.js",
-        "bytes": 31809,
-        "sha256": "df25970f64a1118fd4c48e0bb867247d0e8144fe5ba5d08b3258917122be1f2a"
+        "bytes": 33354,
+        "sha256": "dc4c21b29ba2293c859a03b79ed786bbe5353bf14c1f411ff0055e277e47068a"
       }
     ],
     "photos": [
