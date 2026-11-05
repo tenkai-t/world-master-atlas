@@ -30,7 +30,7 @@ board=(await api('leaderboard?department=flags')).j;assert.equal(board.rows[0].n
 assert.equal((await finish(a,'flags',0)).outcome,'unchanged');assert.deepEqual(sql.prepare('SELECT * FROM player_ranking_scores WHERE player_id=? AND department=?').get(a.id,'flags'),score);
 assert(!JSON.stringify(board).includes('secret'));assert(!JSON.stringify(board).includes('owner_id'));assert(!JSON.stringify(board).includes(a.id));
 // Own rank remains available beyond top 20, ties are rank 1/1/3, old scores untouched.
-for(let i=0;i<25;i++){const id=crypto.randomUUID();sql.prepare('INSERT INTO ranking_players VALUES(?,?,?,?,?,?,?)').run(id,'fixture','hash','旅人'+i,'🌱',1,mutation());sql.prepare('INSERT INTO player_ranking_scores VALUES(?,?,?,?,?,?,?,?,?)').run(id,'flags',VERSION,10,10,1000,i,mutation(),'first')}
+for(let i=0;i<25;i++){const id=crypto.randomUUID();sql.prepare('INSERT INTO ranking_players VALUES(?,?,?,?,?,?,?)').run(id,'fixture','hash','旅人'+i,'🌱',1,mutation());sql.prepare('INSERT INTO player_ranking_scores VALUES(?,?,?,?,?,?,?,?,?)').run(id,'flags',VERSION,DEPARTMENTS.flags.count,DEPARTMENTS.flags.count,1000,i,mutation(),'first')}
 const own=(await api('leaderboard?department=flags',null,b)).j;assert.equal(own.rows.length,20);assert.equal(own.own.rank,27);assert(own.rows.every(r=>r.rank===1));
 sql.prepare('INSERT INTO ranking_scores VALUES(?,?,?,?,?,?,?,?,?)').run('same-account','flags',VERSION,'旧成績',7,10,123,1,'old-run');const old=(await api('legacy?department=flags')).j;assert.equal(old.own.right_count,7);assert(!(await api('leaderboard?department=flags')).j.rows.some(r=>r.nickname==='旧成績'));
 assert.equal((await api('profile',p,a,'same-account',{Origin:'https://evil.local'})).status,403);
