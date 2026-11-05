@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "3719b4e815772fda1cc4",
+  "version": "032efa2f45259d59fc04",
   "packs": {
     "core": [
       {
@@ -10,8 +10,8 @@
       },
       {
         "url": "/app-version.js",
-        "bytes": 633,
-        "sha256": "1df1895206b706da156707c53285e2e04627a61ac574f6de806f1d5591b6e0e3"
+        "bytes": 595,
+        "sha256": "a2a56496b2c98e1aa80b1a1e6d71ad9ad681c034c6ad374b54160a8374cdbdc0"
       },
       {
         "url": "/app.js",
@@ -1095,8 +1095,8 @@
       },
       {
         "url": "/expansion.js",
-        "bytes": 48098,
-        "sha256": "335fab44a27c50cf3f948172ebef814d50549edb4489a12eea65bb1d8977185b"
+        "bytes": 48104,
+        "sha256": "7cb6766499a332ca5bf2a0cc319cf69edc2e8764117cf5bfdff71eb56760cd42"
       },
       {
         "url": "/handwriting.js",
