@@ -30,7 +30,7 @@ const oneBank={...bank,country:bank.country.filter(q=>q.id==='JP')};
 const oneConfig={...c,mode:'location'};
 const one=await start(oneConfig,a,oneBank);assert.equal(one.status,200);assert.equal(one.j.total,1);
 let oneDone=await api('survival-answer',{run:one.j.run,position:0,question:one.j.question.id,choice:'JP'},a,{},oneBank);assert.equal(oneDone.j.reason,'complete');assert.equal(oneDone.j.right,1);
-const first=await start();assert.equal(first.status,200);assert(!JSON.stringify(first.j).includes('"answer":'));assert(!first.j.queue);
+const first=await start();assert.equal(first.status,200);assert(!JSON.stringify(first.j).includes('"answer":'));assert(Array.isArray(first.j.queue));assert.equal(first.j.queue.length,5);assert.equal(first.j.queue[0].id,first.j.question.id);assert(first.j.queue.every(q=>!('answer' in q)));
 const body={run:first.j.run,position:0,question:first.j.question.id,choice:'skip',score:999999};
 assert.equal((await api('answer',body)).status,409,'Old official endpoint cannot grade a survival run');
 assert.equal((await api('survival-answer',body,b)).status,404);
