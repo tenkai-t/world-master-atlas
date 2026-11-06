@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "952c60cc2413f810a50e",
+  "version": "09adcd2692b03bbfb2ea",
   "packs": {
     "core": [
       {
@@ -10,8 +10,8 @@
       },
       {
         "url": "/app-version.js",
-        "bytes": 618,
-        "sha256": "7d4cd5e9d15ad5e25debcea1268de738e1db39053591817750c56de10e8ed0a1"
+        "bytes": 603,
+        "sha256": "7b6228c8bcd0d7b7464b2e8ca92a0ce9f6e7addc11112e2a8311dce88440a231"
       },
       {
         "url": "/app.js",
