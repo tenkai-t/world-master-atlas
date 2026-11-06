@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "5eac87d58e28c2444d71",
+  "version": "9281d5a48a0a73c8c654",
   "packs": {
     "core": [
       {
@@ -10,8 +10,8 @@
       },
       {
         "url": "/app-version.js",
-        "bytes": 603,
-        "sha256": "a94798da78410cd753877abbbcf0b512d39c4cf4fe755544709e9ac64f0bd05f"
+        "bytes": 666,
+        "sha256": "f6fb1639267d3bca748f3ab09e818763909e2703f73a6538ac241b66097d0677"
       },
       {
         "url": "/app.js",
@@ -1095,8 +1095,8 @@
       },
       {
         "url": "/expansion.js",
-        "bytes": 48104,
-        "sha256": "7cb6766499a332ca5bf2a0cc319cf69edc2e8764117cf5bfdff71eb56760cd42"
+        "bytes": 48182,
+        "sha256": "4acef1e53282b270615ae34411269343594b42a92b90397ff04f5bb7793180c3"
       },
       {
         "url": "/handwriting.js",
@@ -1220,8 +1220,8 @@
       },
       {
         "url": "/rankings.js",
-        "bytes": 11693,
-        "sha256": "4a48541f1419f93940678250cb61ede03f125c3aafbe973c4732313eff170689"
+        "bytes": 13626,
+        "sha256": "601527bc326836a4b90da00d97853111d92b777a00ae62ad623e6a824c865059"
       },
       {
         "url": "/style.css",
@@ -1235,8 +1235,8 @@
       },
       {
         "url": "/survival.js",
-        "bytes": 33803,
-        "sha256": "589712f3ebe52427e76a4bde7ea109820dcc7f75e6ecb70f39b5d23a2d0ab3ab"
+        "bytes": 32954,
+        "sha256": "81e641a1336e497fd7fee9945eebbf2eaf1263dea359c7a1da4a0cce9fa84f45"
       }
     ],
     "photos": [
