@@ -167,8 +167,14 @@ async function survivalResume(){
  }catch(e){survivalNotice(e);}
 }
 function survivalItem(q){return survivalBank()[q.content]?.find(x=>x.id===q.item);}
+const survivalPreloadedFlags=new Set();
+function survivalPreloadQueue(r){
+ if(!r||!Array.isArray(r.queue))return;
+ for(const q of r.queue){if(q?.mode==='flag'&&q.item&&!survivalPreloadedFlags.has(q.item)){survivalPreloadedFlags.add(q.item);const im=document.createElement('img');im.src=flagPath(q.item);}}
+}
 function survivalOnlineScreen(){
  const r=survivalOnline;if(!r||activePlayer?.id!==r.localId||!playerAccess())return;
+ survivalPreloadQueue(r);
  view='official';app.innerHTML=`<div class="setup"><button class="back" id="svBack">← 挑戦を保存して戻る</button><h1>間違えるまでチャレンジ</h1><p class="notice">連続正解 ${r.right}問 ／ 回答済み ${r.position} / 対象 ${r.total}問</p><p>${esc(survivalDescription(r.condition.config))}</p>${r.condition.material!==WM_RELEASE.version?'<p class="notice">開始時の教材版の条件で再開します。成績はその版のランキングに保存します。</p>':''}<section class="card"><div id="svVisual"></div><h2 id="svPrompt"></h2><div id="svChoices" class="choices"></div><div id="svFeedback"></div><p id="svOnlineMessage" role="status"></p><button id="svAbortOnline">この挑戦を中断・終了する（投稿しない）</button></section></div>`;
  $('#svBack').onclick=()=>{survivalOnline=null;survivalSetup(r.condition.config);};$('#svAbortOnline').onclick=()=>{showModal('<h2>この挑戦を終了しますか？</h2><p>中断した成績はランキングに登録しません。再開する場合はキャンセルし、「保存して戻る」を使ってください。</p><button id="svConfirmAbort">中断・終了を確定</button>');$('#svConfirmAbort').onclick=()=>{$('#modal').close();void survivalAbortOnline();};};
  if(r.feedback&&!r.pending){const f=r.feedback,item=survivalItem(f.question);$('#svPrompt').textContent=f.ok?'正解！':'ここで覚えよう';$('#svFeedback').innerHTML=`<h3>${esc(item?.name||f.correct)}</h3><p>${esc(item?.description||item?.note||'')}</p><button class="primary" id="svOnlineNext">${r.done?'結果を見る':'次の問題へ'}</button>`;$('#svOnlineNext').onclick=()=>{if(r.done)void survivalFinishOnline();else{r.feedback=null;survivalOnlineScreen();}};return;}
