@@ -28,8 +28,12 @@ function state(row,snapshot){
  const answers=JSON.parse(row.answers),last=answers.at(-1),ended=!!row.finished;
  const reason=ended?(last?.aborted?'aborted':last?.ok===false?'wrong':'complete'):null;
  const lastQuestion=last&&!last.aborted?snapshot.queue[answers.length-1]:null;
+ // Send a small batch of upcoming questions (public data only, never answers)
+ // so the client can preload assets such as flag images ahead of time.
+ // Grading, order and score recording stay per-answer on the server.
+ const upcoming=ended?[]:snapshot.queue.slice(row.position,row.position+5).map((q,i)=>{const p=pub(q);if(i>0)delete p.allowed;return p;});
  return {run:row.id,condition:snapshot.condition,key:row.department,total:snapshot.queue.length,position:row.position,right:row.right_count,done:ended,reason,at:row.finished||null,
-  question:ended?null:pub(snapshot.queue[row.position]),feedback:lastQuestion?{ok:last.ok,correct:lastQuestion.answer,question:pub(lastQuestion)}:null};
+  question:ended?null:pub(snapshot.queue[row.position]),queue:upcoming,feedback:lastQuestion?{ok:last.ok,correct:lastQuestion.answer,question:pub(lastQuestion)}:null};
 }
 async function finishScore(DB,row,snapshot){
  if(!row.finished||JSON.parse(row.answers).at(-1)?.aborted)return null;
@@ -94,7 +98,8 @@ export async function survivalRequest(request,action,DB,bank,uid,profile,body){
   if(body.key!==c.key)return fail('教材または出題条件が変わりました。開始画面を開き直してください。',409);
   if(!c.total)return fail('この条件には出題可能な問題がありません。');
   const count=await DB.prepare('SELECT COUNT(*) AS n FROM player_ranking_runs WHERE owner_id=? AND started>?').bind(uid,Date.now()-3600000).first();if(count.n>=30)return fail('開始回数の上限です。少し待って再挑戦してください。',429);
-  // Snapshot all questions on the server; send only the current question.
+  // Snapshot all questions on the server; send the current question plus a
+  // small batch of upcoming public questions (see state()).
   const snapshot={condition:c.condition,queue:questions(c,bank)},id=body.requestId||crypto.randomUUID(),now=Date.now();
   await DB.prepare('INSERT INTO player_ranking_runs(id,owner_id,player_id,department,version,questions,answers,position,right_count,started) VALUES(?,?,?,?,?,?,?,0,0,?) ON CONFLICT(id) DO NOTHING').bind(id,uid,profile.id,c.key,version,JSON.stringify(snapshot),'[]',now).run();
   const stored=await DB.prepare('SELECT * FROM player_ranking_runs WHERE id=?').bind(id).first();
