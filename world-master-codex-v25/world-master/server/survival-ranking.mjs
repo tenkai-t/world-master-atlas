@@ -12,7 +12,10 @@ const pub=q=>q?{id:q.id,item:q.item,content:q.content,mode:q.mode,options:q.opti
 
 export async function survivalCatalog(raw,bank){
  const config=rules.normalize(raw,true),entries=rules.pool(config,bank,schema),condition=rules.condition(config,entries,VERSION,release.version);
- const key='survival:'+await digest(JSON.stringify(condition));
+ // Board identity excludes the app release (material): a ranking board stays
+ // the same across app updates while config + target pool are unchanged.
+ // The full condition (with material) is still kept in run snapshots.
+ const key='survival:'+await digest(JSON.stringify({rule:condition.rule,dataVersion:condition.dataVersion,config:condition.config,targets:condition.targets}));
  return {config,entries,condition,key,total:entries.length,version};
 }
 function questions(catalog,bank){
@@ -48,8 +51,9 @@ export async function survivalRequest(request,action,DB,bank,uid,profile,body){
   let raw;try{const text=url.searchParams.get('config')||'{}';if(text.length>2048)throw Error();raw=JSON.parse(text);}catch{return fail('出題条件を読み取れません。');}
   let c;try{c=await survivalCatalog(raw,bank);}catch(e){return fail(e.message);}
   if(action==='survival-catalog')return json({config:c.config,condition:c.condition,key:c.key,total:c.total,version:c.version});
-  // A resumed old-material challenge keeps its own board, never merges into a
-  // newer target pool. Resolve the public condition from a server snapshot.
+  // A boardKey issued by an older release resolves its public condition from
+  // a server snapshot. Grouping below still merges only boards whose config
+  // and target pool are identical, never a different pool.
   const boardKey=url.searchParams.get('boardKey');
   if(boardKey&&boardKey!==c.key){
    if(!/^survival:[a-f0-9]{64}$/.test(boardKey))return fail('ランキング条件が不正です。');
@@ -59,8 +63,9 @@ export async function survivalRequest(request,action,DB,bank,uid,profile,body){
   }
   // Merge boards from other releases (records played on other devices or
   // older app versions) when only the material differs: same config + targets.
+  // Applies with and without boardKey so every entry path shows one board.
   let deps=[c.key];
-  if(!boardKey){
+  {
    const deptRows=await DB.prepare('SELECT DISTINCT department FROM player_ranking_runs WHERE version=?').bind(version).all();
    const sameConfig=(a,b)=>['content','mode','level','region','input','scope','category','kind','countryLevel'].every(k=>(a?.[k]??null)===(b?.[k]??null));
    for(const d of deptRows.results.map(r=>r.department)){
