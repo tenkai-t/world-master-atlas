@@ -114,7 +114,7 @@ try {
   x.e('navigator.onLine=true');
   await x.e('rankPrepare()');
   const credential = JSON.parse(store.get('world-master:online-players:v1'))[localId];
-  x.e("rankingTab='online';rankings()");
+  x.e("rankKind='official';rankScope='online';rankings()");
   await new Promise(resolve => setTimeout(resolve, 50));
   assert(x.$('#rankingIdentityHelp').textContent.includes('ログインは不要'));
   assert(!x.$('#rankingIdentityHelp a'));
@@ -126,11 +126,11 @@ try {
   await login(x, localId);
   await x.e('rankPrepare()');
   assert.equal(JSON.parse(store.get('world-master:online-players:v1'))[localId].id, credential.id);
-  x.e("rankingTab='online';rankings()");
+  x.e("rankKind='official';rankScope='online';rankings()");
   assert(x.$('#resumeOfficial'));
   await x.e('finishPlayerSwitch()');
   await x.e('startGuest()');
-  x.e("rankingTab='online';rankings()");
+  x.e("rankKind='official';rankScope='online';rankings()");
   assert(x.$('#officialStart').disabled);
   assert.throws(() => x.e('rankHeaders()'));
 } finally { x.close(); sql.close(); }
