@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "70051a276a387b90d683",
+  "version": "6580ed15ad68e7749616",
   "packs": {
     "core": [
       {
@@ -10,8 +10,8 @@
       },
       {
         "url": "/app-version.js",
-        "bytes": 877,
-        "sha256": "fa26aa21401154d7b309cd7975cb90a77ce1656f517665c080727d6dc17553d9"
+        "bytes": 608,
+        "sha256": "9021bcda4e66f114abe8ef7bde7fde35e10bbf45dddbed729da76c3c3853146d"
       },
       {
         "url": "/app.js",
@@ -20,18 +20,18 @@
       },
       {
         "url": "/assets/capitals.json",
-        "bytes": 190091,
-        "sha256": "3eafce62c36ac5e83d18d3d4677716787300404deff59bc57e2e8e1b0555143e"
+        "bytes": 190122,
+        "sha256": "a05f3b43de525ef614443256908ee35b242b3ede6fab4cb25b26e856a54ef463"
       },
       {
         "url": "/assets/data.json",
-        "bytes": 115308,
-        "sha256": "5073ea3d232921a5856b0b08d4f9e3b20c18d3658d406d7f0d0b859695f39740"
+        "bytes": 116361,
+        "sha256": "ad440a64ffb19e0e106c1ac77e86186610f23471835107918df26f803fdaf63c"
       },
       {
         "url": "/assets/flag-ratios.json",
-        "bytes": 227656,
-        "sha256": "e871bc66fbd9e91e91d450cf02e783773fcbee6de1191316cde42f6636a58212"
+        "bytes": 228758,
+        "sha256": "02da471ecc4a022557b6f35296f408ec6265e930faa0081783655fc70178ce7d"
       },
       {
         "url": "/assets/flags-native/AC.svg",
@@ -160,8 +160,8 @@
       },
       {
         "url": "/assets/flags-native/BL.svg",
-        "bytes": 175,
-        "sha256": "7504bdf1bc9b381f89b44828e048e3d2aaa3c89e68aafbac13fe30998ad121f2"
+        "bytes": 29857,
+        "sha256": "5511234f42d49effb93577a15ff093855893616d43648461ad862fbfe61cfa1a"
       },
       {
         "url": "/assets/flags-native/BM.svg",
@@ -415,8 +415,8 @@
       },
       {
         "url": "/assets/flags-native/GF.svg",
-        "bytes": 175,
-        "sha256": "7504bdf1bc9b381f89b44828e048e3d2aaa3c89e68aafbac13fe30998ad121f2"
+        "bytes": 923,
+        "sha256": "5008d84816dd3b066cc183cc13bdda482d63335c3fe7676b7142faf296b32461"
       },
       {
         "url": "/assets/flags-native/GG.svg",
@@ -450,8 +450,8 @@
       },
       {
         "url": "/assets/flags-native/GP.svg",
-        "bytes": 175,
-        "sha256": "7504bdf1bc9b381f89b44828e048e3d2aaa3c89e68aafbac13fe30998ad121f2"
+        "bytes": 14351,
+        "sha256": "017832ce3f995dd90a6e88cc2d395ffba70cfdfd0e6f67a5fc33093bb34bd12e"
       },
       {
         "url": "/assets/flags-native/GQ.svg",
@@ -714,11 +714,6 @@
         "sha256": "699a6eeb24d29d413543c6f9d5b86d5858a43ba0202e9840ce73e2b5c810f864"
       },
       {
-        "url": "/assets/flags-native/MF.svg",
-        "bytes": 175,
-        "sha256": "7504bdf1bc9b381f89b44828e048e3d2aaa3c89e68aafbac13fe30998ad121f2"
-      },
-      {
         "url": "/assets/flags-native/MG.svg",
         "bytes": 175,
         "sha256": "4d1570ba389319522de30e333e94bd04609f10b7768fb132a98fe0ef1a39e96e"
@@ -760,8 +755,8 @@
       },
       {
         "url": "/assets/flags-native/MQ.svg",
-        "bytes": 175,
-        "sha256": "7504bdf1bc9b381f89b44828e048e3d2aaa3c89e68aafbac13fe30998ad121f2"
+        "bytes": 1381,
+        "sha256": "1576927cc498d85a7949b208985c8cd0e9d36ee5dc8cc97ff971ee7426e7cdb4"
       },
       {
         "url": "/assets/flags-native/MR.svg",
@@ -815,8 +810,8 @@
       },
       {
         "url": "/assets/flags-native/NC.svg",
-        "bytes": 175,
-        "sha256": "7504bdf1bc9b381f89b44828e048e3d2aaa3c89e68aafbac13fe30998ad121f2"
+        "bytes": 1730,
+        "sha256": "397c6115361a22cdc00b8841fb847c7731106e05ff699befa7c345d08315dc67"
       },
       {
         "url": "/assets/flags-native/NE.svg",
@@ -910,8 +905,8 @@
       },
       {
         "url": "/assets/flags-native/PM.svg",
-        "bytes": 175,
-        "sha256": "7504bdf1bc9b381f89b44828e048e3d2aaa3c89e68aafbac13fe30998ad121f2"
+        "bytes": 68836,
+        "sha256": "c12b533dc9a4d62e80dd1984edf3d97d00c66b116b488a27814436edf228300f"
       },
       {
         "url": "/assets/flags-native/PN.svg",
@@ -950,8 +945,8 @@
       },
       {
         "url": "/assets/flags-native/RE.svg",
-        "bytes": 175,
-        "sha256": "7504bdf1bc9b381f89b44828e048e3d2aaa3c89e68aafbac13fe30998ad121f2"
+        "bytes": 307,
+        "sha256": "ead8cd934535fbcc2255eadbeac6eecc1eb97ae9e801bdc373f7b8f80f6fd9d1"
       },
       {
         "url": "/assets/flags-native/RO.svg",
@@ -1005,8 +1000,8 @@
       },
       {
         "url": "/assets/flags-native/SH.svg",
-        "bytes": 527,
-        "sha256": "910e4fa63fb7a23d30d59dee2feb08da51a405eb06b38a7e12d18d9b504d13b5"
+        "bytes": 39372,
+        "sha256": "b61b56669815a968c0c4df1cc5dd742a72e0d9e2973aea708427374f7d5fba81"
       },
       {
         "url": "/assets/flags-native/SI.svg",
@@ -1234,6 +1229,11 @@
         "sha256": "9144345c73fe6494ffe2750c979f0b10aaf432fd4796f04f419c00e252b8fd9e"
       },
       {
+        "url": "/assets/flags-native/XAL.svg",
+        "bytes": 116620,
+        "sha256": "fe9d566a5375bf29035e86135f14b4db54845f96ede9c90edb8e3af25f973fba"
+      },
+      {
         "url": "/assets/flags-native/XAZ.svg",
         "bytes": 54285,
         "sha256": "948a2270a492694fdea64fe80e22d3a5c1746de8dbcd768df4ce663766a39886"
@@ -1247,6 +1247,11 @@
         "url": "/assets/flags-native/XEA.svg",
         "bytes": 8381,
         "sha256": "6b1d7872503e57f02c7eee16fbe50f8aefebcdd8151b94f287ce1f8b29908466"
+      },
+      {
+        "url": "/assets/flags-native/XHE.svg",
+        "bytes": 13980,
+        "sha256": "447dd77528444ec38719568d9e69903e1c2dc308cec1d1f9c03dee76e2cc324b"
       },
       {
         "url": "/assets/flags-native/XK.svg",
@@ -1269,6 +1274,11 @@
         "sha256": "6a418feb6836cda55d17becf102fdd79e4273dd7c2b50034d0387272926cd90c"
       },
       {
+        "url": "/assets/flags-native/XSK.svg",
+        "bytes": 20403,
+        "sha256": "205a5a15de89c6b1c5a51826e0175ce8ea9ea8968defa33329df8c7363bb76de"
+      },
+      {
         "url": "/assets/flags-native/XSM.svg",
         "bytes": 36748,
         "sha256": "8457c77f4b50ed3980ac47fb355034ef8814b347d8bba8051b08b0e40a76b5d9"
@@ -1285,8 +1295,8 @@
       },
       {
         "url": "/assets/flags-native/YT.svg",
-        "bytes": 175,
-        "sha256": "7504bdf1bc9b381f89b44828e048e3d2aaa3c89e68aafbac13fe30998ad121f2"
+        "bytes": 27858,
+        "sha256": "566d386db81cc5a084260e08c0ba6692ffaa5d32151a02059352eee245188506"
       },
       {
         "url": "/assets/flags-native/ZA.svg",
@@ -1320,13 +1330,13 @@
       },
       {
         "url": "/assets/hintbook.json",
-        "bytes": 1148308,
-        "sha256": "b99feebccd4a9f2b7ff92252e257eb2e577b14fc2b4116d5a467e3d36781af63"
+        "bytes": 1150419,
+        "sha256": "db4a03c7a18333cf1049de379460d4357a7d8cba65d45a796072b3de27fbbe97"
       },
       {
         "url": "/assets/learning-schema.json",
-        "bytes": 43493,
-        "sha256": "6ad9ff3e3ee2fb54e074c717635de4a75a7e794f214a77c3d1f0b61a5920cad4"
+        "bytes": 43685,
+        "sha256": "db7beb4341b034bb44eeda658a9570a03785a6620d89b8b76648d4043fa65f0e"
       },
       {
         "url": "/assets/map.json",
