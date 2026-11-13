@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked": "2026-10-23",
+  "checked": "2026-11-13",
   "policy": "対象別に確認した事実を、答える内容・問題文・写真に合わせて最大3段階で提示。読みは入力問題専用の別補助。ヒントの取得・検証失敗はゲームの起動から分離。",
   "capital": {
     "cap-au-canberra": {
@@ -6609,6 +6609,1238 @@
         "method": "個別ページの地理・沿革を読み、対象固有の事実を短く編集",
         "secondaryOnly": true
       }
+    },
+    "cap-vi-charlotte-amalie": {
+      "hints": [
+        {
+          "text": "カリブ海に面した港町で、天然の良港を持ちます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "デンマーク植民地時代の建物が残ります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/シャーロット・アマリー",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-as-pago-pago": {
+      "hints": [
+        {
+          "text": "火山島の深い湾の奥にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "入り江がクレーターのような形をしています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/パゴパゴ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-mp-saipan": {
+      "hints": [
+        {
+          "text": "島の西海岸にあり、行政機関が集まります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "第二次世界大戦の激戦地の一つです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/サイパン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-ai-the-valley": {
+      "hints": [
+        {
+          "text": "島の中央部にある、小さな行政の中心です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "人口数千人の静かな町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ザ・バレー",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-bm-hamilton": {
+      "hints": [
+        {
+          "text": "島の中央南岸にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "パステルカラーの建物が並びます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ハミルトン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-vg-road-town": {
+      "hints": [
+        {
+          "text": "トルトラ島の南岸の湾に面しています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ヨットの拠点としてにぎわいます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ロードタウン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-ky-george-town": {
+      "hints": [
+        {
+          "text": "グランドケイマン島の西岸にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "クルーズ船が寄港します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ジョージタウン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-fk-stanley": {
+      "hints": [
+        {
+          "text": "東フォークランド島の東端にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "南大西洋の小さな行政中心です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/スタンリー",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-gi-gibraltar": {
+      "hints": [
+        {
+          "text": "地中海の入口の岩山のふもとにあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "空港の滑走路が幹線道路と交差します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ジブラルタル",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-ms-plymouth": {
+      "hints": [
+        {
+          "text": "火山の噴火で放棄された町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "現代のポンペイとも呼ばれます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/プリマス",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-sh-jamestown": {
+      "hints": [
+        {
+          "text": "細い谷間に沿って築かれた港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "急な階段「ジャコブズ・ラダー」で知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ジェームズタウン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-tc-cockburn-town": {
+      "hints": [
+        {
+          "text": "グランドターク島にある小さな町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "塩の生産で栄えた歴史があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/コックバーンタウン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-gs-grytviken": {
+      "hints": [
+        {
+          "text": "亜南極の島にある小さな集落です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "探検家シャクルトンの墓があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/グリトビケン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-pn-adamstown": {
+      "hints": [
+        {
+          "text": "世界で最も小さな行政中心の一つです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "バウンティ号の反乱者の子孫が暮らす集落です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/アダムスタウン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-ac-georgetown": {
+      "hints": [
+        {
+          "text": "火山島にある唯一の集落です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "島の北東部に位置します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ジョージタウン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-ta-edinburgh-of-the-seven-seas": {
+      "hints": [
+        {
+          "text": "火山島の北西岸にある唯一の集落です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ロブスターの加工場があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/エディンバラ・オブ・ザ・セブン・シーズ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-im-douglas": {
+      "hints": [
+        {
+          "text": "島の東海岸にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "馬が引く路面電車が残ります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ダグラス",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-je-saint-helier": {
+      "hints": [
+        {
+          "text": "島の南岸にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "干潮時に歩いて渡れる城があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/セント・ヘリア",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-gg-saint-peter-port": {
+      "hints": [
+        {
+          "text": "島の東岸の斜面に広がる港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ユゴーが亡命中に暮らした家があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/セント・ピーター・ポート",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-aw-oranjestad": {
+      "hints": [
+        {
+          "text": "島の南西岸にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "オランダ風のカラフルな建物が並びます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/オラニエスタッド",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-cw-willemstad": {
+      "hints": [
+        {
+          "text": "天然の良港に面した港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "パステルカラーの商館が世界遺産になっています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ウィレムスタット",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-sx-philipsburg": {
+      "hints": [
+        {
+          "text": "細長い砂州の上にある町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "クルーズ船の寄港地です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/フィリップスブルフ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-fo-torshavn": {
+      "hints": [
+        {
+          "text": "ストレイモイ島の南端にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "草の屋根の旧市街が残ります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/トースハウン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-ax-mariehamn": {
+      "hints": [
+        {
+          "text": "諸島の主島の南にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "帆船の寄港地として栄えました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/マリエハムン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-pf-papeete": {
+      "hints": [
+        {
+          "text": "タヒチ島の北西岸にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市場や港でにぎわう中心都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/パペーテ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-nc-noumea": {
+      "hints": [
+        {
+          "text": "本島の南西岸、半島にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "広いラグーンに面した都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ヌメア",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-pm-saint-pierre": {
+      "hints": [
+        {
+          "text": "小さな島の港町で、漁業の中心です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "タラ漁の歴史があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/サンピエール",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-wf-mata-utu": {
+      "hints": [
+        {
+          "text": "ウベア島の東岸にある小さな町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "王宮や大聖堂があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/マタ・ウトゥ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-bl-gustavia": {
+      "hints": [
+        {
+          "text": "小さな島の港町で、スウェーデン植民地時代の名が残ります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "高級リゾートの玄関口です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/グスタビア",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-mf-marigot": {
+      "hints": [
+        {
+          "text": "島の西岸にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "市場が開かれる小さな中心地です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/マリゴ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-gf-cayenne": {
+      "hints": [
+        {
+          "text": "大西洋岸の河口にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "香辛料の唐辛子の名の由来とも言われます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/カイエンヌ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-mq-fort-de-france": {
+      "hints": [
+        {
+          "text": "島の西岸の大きな湾に面した港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "要塞と美しい図書館で知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/フォール・ド・フランス",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-gp-basse-terre": {
+      "hints": [
+        {
+          "text": "火山島の南西岸にある町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "スフリエール火山のふもとにあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/バステール",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-re-saint-denis": {
+      "hints": [
+        {
+          "text": "火山島の北岸にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "クレオール様式の建物が残ります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/サン・ドニ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-yt-mamoudzou": {
+      "hints": [
+        {
+          "text": "グランドテール島の東岸にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "広いラグーンに面しています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/マムズ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-xaz-ponta-delgada": {
+      "hints": [
+        {
+          "text": "サンミゲル島の南岸にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "玄武岩と白壁のコントラストで知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ポンタ・デルガダ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-xmd-funchal": {
+      "hints": [
+        {
+          "text": "主島の南岸の斜面に広がる港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ワインと花の町として知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/フンシャル",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-xca-santa-cruz-de-tenerife": {
+      "hints": [
+        {
+          "text": "テネリフェ島の北東岸にある港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "カーニバルで知られる都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/サンタ・クルス・デ・テネリフェ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-cx-flying-fish-cove": {
+      "hints": [
+        {
+          "text": "島で唯一の港がある集落です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "島民の多くが暮らします。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/フライング・フィッシュ・コーブ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-nf-burnt-pine": {
+      "hints": [
+        {
+          "text": "島の中央部にある商業の中心です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "空港の近くにあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/バーントパイン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-xea-hanga-roa": {
+      "hints": [
+        {
+          "text": "モアイ像のある島で唯一の集落です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "島の南西岸にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ハンガ・ロア",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-eh-laayoune": {
+      "hints": [
+        {
+          "text": "大西洋岸の砂漠の町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "この地域で最大の都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ラユーン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-xab-sukhumi": {
+      "hints": [
+        {
+          "text": "黒海に面した保養地の町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "亜熱帯の植物園で知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/スフミ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-xos-tskhinvali": {
+      "hints": [
+        {
+          "text": "コーカサスの山あいにある町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "リアフヴァ川の沿岸にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ツヒンヴァリ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-xsm-hargeisa": {
+      "hints": [
+        {
+          "text": "内陸の高原にある都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "標高約1300mで、夏も比較的涼しいです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ハルゲイサ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-xtr-tiraspol": {
+      "hints": [
+        {
+          "text": "ドニエストル川沿いの都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "ソ連時代の雰囲気が残ると言われます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ティラスポリ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-va-vatican-city": {
+      "hints": [
+        {
+          "text": "ローマ市内にある、都市国家全体が対象です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "大聖堂と大きな広場で知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/バチカン市",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-xk-pristina": {
+      "hints": [
+        {
+          "text": "コソボ平原にある内陸の都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "国立図書館の独特な建物で知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/プリシュティナ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-ck-avarua": {
+      "hints": [
+        {
+          "text": "ラロトンガ島の北岸にある小さな町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "島を一周する道路沿いにあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/アバルア",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-nu-alofi": {
+      "hints": [
+        {
+          "text": "隆起したサンゴの島の、西岸の集落です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "島で唯一の港があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/アロフィ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-tw-taipei": {
+      "hints": [
+        {
+          "text": "島の北部の盆地にある都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "高さ509mの超高層ビルがランドマークです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/台北",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-xnc-north-nicosia": {
+      "hints": [
+        {
+          "text": "分断された都市の北側です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "旧市街を囲む城壁が残ります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/北ニコシア",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-gl-nuuk": {
+      "hints": [
+        {
+          "text": "フィヨルドの奥にある、世界最小級の首都の一つです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "カラフルな家並みで知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ヌーク",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-pr-san-juan": {
+      "hints": [
+        {
+          "text": "大西洋岸の、旧市街と要塞で知られる港町です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "スペイン植民地時代の城塞が世界遺産です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/サンフアン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-gu-hagatna": {
+      "hints": [
+        {
+          "text": "島の西岸にある小さな行政中心です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "スペイン広場や大聖堂があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ハガニア",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-ps-ramallah": {
+      "hints": [
+        {
+          "text": "ヨルダン川西岸の丘陵地にある都市です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "自治政府の行政機関が置かれています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ラマッラー",
+          "checked": "2026-11-13"
+        }
+      ]
     }
   },
   "terrain": {
@@ -32121,6 +33353,1819 @@
         ],
         "method": "個別補足と、既存の都市・地形・UNESCO登録国・地図の共有境界の関係を照合。新しい地理対象は追加していません。"
       }
+    },
+    "VI": {
+      "hints": [
+        {
+          "text": "カリブ海の小アンティル諸島北部にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "かつてデンマーク領だった島々で、1917年にアメリカ合衆国が購入しました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "白地に、星条旗の盾を持つワシと青い文字が描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/アメリカ領ヴァージン諸島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "AS": {
+      "hints": [
+        {
+          "text": "南太平洋のサモア諸島の東部にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "ツツイラ島が中心で、深い湾は天然の良港として知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "紺地に赤い三角と白い星、ワシが描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/アメリカ領サモア",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "MP": {
+      "hints": [
+        {
+          "text": "西太平洋のマリアナ諸島の北部にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "サイパン島・テニアン島・ロタ島など、14の島々からなります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "水色の地に、白い星とラッテ・ストーン、リースが描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/北マリアナ諸島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "AI": {
+      "hints": [
+        {
+          "text": "カリブ海の小アンティル諸島北部にある、小さな平たい島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "周囲はサンゴ礁と白い砂浜に囲まれています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "水色・白・オレンジの地に、2頭のイルカが描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/アンギラ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "BM": {
+      "hints": [
+        {
+          "text": "北大西洋にあり、北アメリカ大陸から東へ約1000km離れています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "ピンク色の砂浜で知られる島々です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "赤い旗地にイギリス旗と、ライオンのいる紋章が描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/バミューダ諸島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "VG": {
+      "hints": [
+        {
+          "text": "カリブ海のヴァージン諸島の東部にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "トルトラ島が中心の島々です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青い旗地にイギリス旗と、ランプを持つ聖女の紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/イギリス領ヴァージン諸島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "KY": {
+      "hints": [
+        {
+          "text": "カリブ海の西部、ジャマイカの北西にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "グランドケイマンなど3つの島からなります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青い旗地にイギリス旗と、カメと星の紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ケイマン諸島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "FK": {
+      "hints": [
+        {
+          "text": "南大西洋、南アメリカ大陸の南東沖にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "東と西の2つの大きな島が中心です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青い旗地にイギリス旗と、羊と帆船の紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/フォークランド諸島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "GI": {
+      "hints": [
+        {
+          "text": "イベリア半島の南端、地中海への入口にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "石灰岩の大きな岩山「ザ・ロック」で知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "赤と黄色の地に、城と金色の鍵が描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ジブラルタル",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "MS": {
+      "hints": [
+        {
+          "text": "カリブ海の小アンティル諸島にある火山島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "火山の噴火で、南部の町が放棄されました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青い旗地にイギリス旗と、十字と聖人の紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/モントセラト",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "SH": {
+      "hints": [
+        {
+          "text": "南大西洋の孤島で、アフリカと南アメリカの間にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "ナポレオンが幽閉され、亡くなった島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青い旗地にイギリス旗と、チドリと亀の紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/セントヘレナ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "TC": {
+      "hints": [
+        {
+          "text": "カリブ海のバハマ諸島の南東端にある島々です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "タークス諸島とカイコス諸島からなります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青い旗地にイギリス旗と、ホラ貝とサボテンの紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/タークス・カイコス諸島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "GS": {
+      "hints": [
+        {
+          "text": "南大西洋の亜南極にある島々です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "かつて捕鯨基地があり、探検家シャクルトンでも知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青い旗地にイギリス旗と、トナカイやペンギンの紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/サウスジョージア・サウスサンドウィッチ諸島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "PN": {
+      "hints": [
+        {
+          "text": "南太平洋の孤島で、バウンティ号の反乱者の子孫が暮らします。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "イギリスの海外領土で、最も人口が少ない地域の一つです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "緑と黄色の地に、鳥と星が描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ピトケアン諸島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "AC": {
+      "hints": [
+        {
+          "text": "南大西洋、セントヘレナとアフリカの間にある火山島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "空港と気象観測で知られる小さな島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青い旗地にイギリス旗と、岩山と亀の紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/アセンション島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "TA": {
+      "hints": [
+        {
+          "text": "南大西洋の孤島で、世界で最も隔絶した有人島の一つです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "ロブスター漁が主な産業です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青い旗地にイギリス旗と、羊とペンギンの紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/トリスタン・ダ・クーニャ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "IO": {
+      "hints": [
+        {
+          "text": "インド洋のチャゴス諸島からなります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "最大の島ディエゴガルシアには軍事基地があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青と白の波の地に、ヤシの木と王冠が描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/イギリス領インド洋地域",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "IM": {
+      "hints": [
+        {
+          "text": "アイリッシュ海の中央にある島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "オートバイのTTレースで世界的に知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "赤地に、金と銀の三脚巴（トリスケリオン）が描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/マン島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "JE": {
+      "hints": [
+        {
+          "text": "チャンネル諸島で最大の島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "イギリス海峡の、フランス寄りにあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "白地に赤い斜め十字と、紋章が描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ジャージー",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "GG": {
+      "hints": [
+        {
+          "text": "チャンネル諸島の島の一つです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "作家ヴィクトル・ユゴーが亡命生活を送りました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "白地に赤い十字と、金のライオンの紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ガーンジー",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "AW": {
+      "hints": [
+        {
+          "text": "カリブ海の南部、ベネズエラ沖にある島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "オランダ王国を構成する国の一つです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "水色の地に黄色の帯、白い帯と赤い星です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/アルバ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "CW": {
+      "hints": [
+        {
+          "text": "カリブ海の南部にある島で、同名のリキュールでも知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "オランダ王国を構成する国の一つです。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青地に白い帯と、大小2つの黄色い星です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/キュラソー",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "SX": {
+      "hints": [
+        {
+          "text": "カリブ海のセントマーチン島の南半分です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "島の北半分はフランス領で、国境を自由に行き来できます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "赤・白・青の地に、太陽と紋章が描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/シント・マールテン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "FO": {
+      "hints": [
+        {
+          "text": "北大西洋、アイスランドとノルウェーの間にある諸島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "羊の数が人口より多いことで知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "白地に、赤と水色の北欧十字です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/フェロー諸島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "AX": {
+      "hints": [
+        {
+          "text": "バルト海のフィンランド湾の入口にある諸島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "スウェーデン語を話し、独自の自治を持ちます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青地に、黄色と赤の北欧十字です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/オーランド諸島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "PF": {
+      "hints": [
+        {
+          "text": "南太平洋に広がる、5つの諸島からなります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "タヒチ島が中心で、黒真珠の産地です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "赤と白の地に、太陽とカヌーの紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/フランス領ポリネシア",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "NC": {
+      "hints": [
+        {
+          "text": "南太平洋、オーストラリアの東にある大きな島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "世界有数のラグーン（礁湖）で知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青・赤・緑の横帯に、黄色い円と黒い飾り柱です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ニューカレドニア",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "PM": {
+      "hints": [
+        {
+          "text": "カナダのニューファンドランド島の南沖にある小さな島々です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "北アメリカに残るフランスの領土です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青と黄色の地に、帆船と3つの紋章が描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/サンピエール島・ミクロン島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "WF": {
+      "hints": [
+        {
+          "text": "南太平洋、サモアとフィジーの間にある島々です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "3つの伝統的な王国からなります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "赤地に白と黒の幾何学模様と、フランスの三色旗です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ウォリス・フツナ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "BL": {
+      "hints": [
+        {
+          "text": "カリブ海の小アンティル諸島にある小さな島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "高級リゾートの休暇地として知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "白地に、青い盾と金のユリの紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/サン・バルテルミー",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "MF": {
+      "hints": [
+        {
+          "text": "カリブ海のセントマーチン島の北半分です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "島の南半分はオランダ領です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青・白・赤の三色旗が使われます。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/サン・マルタン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "GF": {
+      "hints": [
+        {
+          "text": "南アメリカ大陸の北東岸にあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "クールーにはヨーロッパのロケット発射場があります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "緑と黄色の斜め帯です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/フランス領ギアナ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "MQ": {
+      "hints": [
+        {
+          "text": "カリブ海の小アンティル諸島にある火山島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "プレー山の噴火で知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青地に白い十字と、4匹の白いヘビが描かれた旗が長く使われてきました。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/マルティニーク",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "GP": {
+      "hints": [
+        {
+          "text": "カリブ海の小アンティル諸島にある、蝶の形の島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "グランドテール島とバステール島が中心です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "黒と緑の斜め帯に、金色の太陽とユリです。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/グアドループ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "RE": {
+      "hints": [
+        {
+          "text": "インド洋、マダガスカルの東にある火山島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "ピトン・ド・ラ・フルネーズは活火山です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青地に赤い三角と、黄色い太陽の光です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/レユニオン",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "YT": {
+      "hints": [
+        {
+          "text": "インド洋のモザンビーク海峡にある島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "コモロ諸島の一つですが、フランスに残る道を選びました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "白地に、紋章と赤い文字が描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/マヨット",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "TF": {
+      "hints": [
+        {
+          "text": "インド洋南部のケルゲレン諸島などが含まれます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "定住人口はなく、研究者が滞在します。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青地にフランスの三色旗と、白い星と文字です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/フランス領南方・南極地域",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "XAZ": {
+      "hints": [
+        {
+          "text": "北大西洋に広がる、9つの火山島からなります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "ポルトガルの自治地域です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青と白の縦帯に、オオタカと星、紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/アゾレス諸島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "XMD": {
+      "hints": [
+        {
+          "text": "北大西洋、アフリカ沖にある島々です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "同名のワインの産地として知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "青と黄色の縦帯に、赤と白の紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/マデイラ諸島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "XCA": {
+      "hints": [
+        {
+          "text": "大西洋、アフリカ北西沖にある火山諸島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "テイデ山はスペインの最高峰です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "白・水色・黄色の縦帯に、紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/カナリア諸島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "CX": {
+      "hints": [
+        {
+          "text": "インド洋、ジャワ島の南にある小さな島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "毎年、大量の赤いカニの移動が起こることで知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "緑の地に、金色の木と南十字星、歯車です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/クリスマス島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "NF": {
+      "hints": [
+        {
+          "text": "南太平洋、オーストラリアとニュージーランドの間にある島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "バウンティ号の反乱者の子孫が移住しました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "緑・白・オレンジの縦帯に、松の木です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ノーフォーク島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "TK": {
+      "hints": [
+        {
+          "text": "南太平洋にある、3つの環礁からなります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "海抜が低く、海面上昇の影響を受けやすい地域です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "黄色の地に赤い帯と、青い一角に白い星です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/トケラウ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "XEA": {
+      "hints": [
+        {
+          "text": "南太平洋の孤島で、モアイ像で知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "現地の言葉でラパ・ヌイと呼ばれます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "白地に、赤いレイロ（首飾り）とモアイの頭部です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/イースター島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "EH": {
+      "hints": [
+        {
+          "text": "アフリカ北西部の、大西洋に面した地域です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "領土の多くをモロッコが統治し、帰属が争われています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "黒・緑・白の横帯に、赤い三角と星・三日月です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/西サハラ",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "XAB": {
+      "hints": [
+        {
+          "text": "黒海の東岸、コーカサスの地域です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "ジョージアからの独立を宣言しました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "緑の地に、白い帯と7つの白い星です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/アブハジア",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "XOS": {
+      "hints": [
+        {
+          "text": "コーカサス山脈の南側にある地域です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "ジョージアからの独立を宣言しました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "白・赤・黄の横帯です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/南オセチア",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "XSM": {
+      "hints": [
+        {
+          "text": "アフリカの角、紅海に面した地域です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "1991年にソマリアからの独立を宣言しました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "緑・白・赤の横帯に、黒い星です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ソマリランド",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "XTR": {
+      "hints": [
+        {
+          "text": "ドニエストル川の東岸にある、細長い地域です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "モルドバからの独立を宣言しました。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "赤・緑・赤の横帯に、鎌と槌と星です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/沿ドニエストル",
+          "checked": "2026-11-13"
+        }
+      ]
     }
   }
 }
