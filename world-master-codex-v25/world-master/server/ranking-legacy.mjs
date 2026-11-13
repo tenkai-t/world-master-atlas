@@ -1,4 +1,6 @@
 import learningSchema from '../public/assets/learning-schema.json' with {type:'json'};
+import mapData from '../public/assets/map.json' with {type:'json'};
+const SHAPED=new Set(mapData.features.map(f=>f.properties.code));
 export const VERSION='world-2026-10-v7';
 export const DEPARTMENTS={flags:{name:'国旗100問・マスター・4択',content:'country',mode:'flag',level:'countryMaster',count:100},locations:{name:'国の位置100問・マスター',content:'country',mode:'location',level:'countryMaster',count:100},capitals:{name:'首都100問・発展・4択',content:'capital',mode:'capitalName',level:'advanced',count:100},terrain:{name:'地形100問・発展・4択',content:'terrain',mode:'terrainName',level:'advanced',count:100},heritage:{name:'世界遺産100問・発展・4択',content:'heritage',mode:'heritageMap',level:'advanced',count:100},mixed:{name:'総合100問・発展／国はマスター・4択',content:'mixed',mode:'mixed',level:'advanced',count:100}};
 const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const bytes=new Uint32Array(1);crypto.getRandomValues(bytes);const j=bytes[0]%(i+1);[a[i],a[j]]=[a[j],a[i]]}return a};
@@ -8,7 +10,7 @@ export function makeQuestions(dept,bank){
  const d=DEPARTMENTS[dept];if(!d)throw Error('部門がありません');
  const groups=d.content==='mixed'?['country','capital','terrain','heritage']:[d.content],pools={},banks={};
  for(const c of groups){const level=c==='country'?(d.content==='mixed'?'countryMaster':d.level):d.level;
- banks[c]=bank[c].filter(q=>c==='country'?countryAllowed(q,level):(c!=='capital'||q.quizEligible)&&({intro:1,all:2,advanced:3}[learningSchema.tiers[c][q.id]]<=({intro:1,all:2,advanced:3}[level]||3)));
+ banks[c]=bank[c].filter(q=>(c==='country'?countryAllowed(q,level):(c!=='capital'||q.quizEligible)&&({intro:1,all:2,advanced:3}[learningSchema.tiers[c][q.id]]<=({intro:1,all:2,advanced:3}[level]||3)))&&(d.mode!=='location'||c!=='country'||SHAPED.has(q.id)));
  const top=level==='countryMaster'?6:Number(level.slice(1));const upper=shuffle(banks[c].filter(q=>c==='country'?countryStage(q.id)===top:learningSchema.tiers[c][q.id]===level)),lower=shuffle(banks[c].filter(q=>c==='country'?countryStage(q.id)!==top:learningSchema.tiers[c][q.id]!==level));pools[c]=[];while(upper.length||lower.length){if(upper.length)pools[c].push(upper.pop());if(lower.length)pools[c].push(lower.pop())}}
  const questions=[];for(let i=0;i<d.count;i++){const c=groups[i%groups.length],q=pools[c].shift();if(!q)throw Error('問題数が不足しています');
  const mode=c==='country'?(d.mode==='location'?'location':'flag'):c==='capital'?'capitalName':c==='terrain'?'terrainName':'heritageMap';

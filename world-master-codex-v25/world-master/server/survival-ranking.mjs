@@ -1,7 +1,11 @@
 import '../public/survival-rules.js';
 import schema from '../public/assets/learning-schema.json' with {type:'json'};
+import mapData from '../public/assets/map.json' with {type:'json'};
 import release from '../public/release.json' with {type:'json'};
 import { VERSION } from './ranking-legacy.mjs';
+
+// Location questions can only target countries that have a map shape.
+const poolSchema={...schema,shapeCodes:mapData.features.map(f=>f.properties.code)};
 
 const rules=globalThis.WMSurvivalRules,version=VERSION+':'+rules.rule;
 const json=(body,status=200)=>Response.json(body,{status,headers:{'Cache-Control':'no-store'}});
@@ -11,7 +15,7 @@ const digest=async value=>Array.from(new Uint8Array(await crypto.subtle.digest('
 const pub=q=>q?{id:q.id,item:q.item,content:q.content,mode:q.mode,options:q.options,prompt:q.prompt,allowed:q.allowed}:null;
 
 export async function survivalCatalog(raw,bank){
- const config=rules.normalize(raw,true),entries=rules.pool(config,bank,schema),condition=rules.condition(config,entries,VERSION,release.version);
+ const config=rules.normalize(raw,true),entries=rules.pool(config,bank,poolSchema),condition=rules.condition(config,entries,VERSION,release.version);
  // Board identity excludes the app release (material): a ranking board stays
  // the same across app updates while config + target pool are unchanged.
  // The full condition (with material) is still kept in run snapshots.
