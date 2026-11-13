@@ -5446,16 +5446,16 @@
   {
     "id": "MQ",
     "path": "assets/flags-native/MQ.svg",
-    "width": 750.0,
-    "height": 500.0,
+    "width": 900.0,
+    "height": 600.0,
     "ratio": 1.5,
     "viewBox": [
       0.0,
       0.0,
-      750.0,
-      500.0
+      900.0,
+      600.0
     ],
-    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Snake%20Flag%20of%20Martinique.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag-of-Martinique.svg",
     "adoptedVariant": "Territorial/regional flag artwork; native proportions retained",
     "checked": "2026-11-13",
     "license": "Public domain (Wikimedia Commons)",
@@ -5463,7 +5463,7 @@
     "sourceRepository": "https://commons.wikimedia.org",
     "ratioConvention": "width / height",
     "ratioHW": "2:3",
-    "sha256": "1576927cc498d85a7949b208985c8cd0e9d36ee5dc8cc97ff971ee7426e7cdb4",
+    "sha256": "4e8aecee9b175427ff36bbc1cee226feaa91629165416f8cd5f23dd5a4dae85f",
     "verification": "SVG parsed; native viewBox/intrinsic dimensions checked, not independent legal certification"
   },
   {
