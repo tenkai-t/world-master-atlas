@@ -7248,28 +7248,6 @@
         }
       ]
     },
-    "cap-mf-marigot": {
-      "hints": [
-        {
-          "text": "島の西岸にある港町です。",
-          "stage": "特徴",
-          "inClue": false,
-          "appearance": false
-        },
-        {
-          "text": "市場が開かれる小さな中心地です。",
-          "stage": "特徴",
-          "inClue": false,
-          "appearance": false
-        }
-      ],
-      "sources": [
-        {
-          "url": "https://ja.wikipedia.org/wiki/マリゴ",
-          "checked": "2026-11-13"
-        }
-      ]
-    },
     "cap-gf-cayenne": {
       "hints": [
         {
@@ -7838,6 +7816,28 @@
       "sources": [
         {
           "url": "https://ja.wikipedia.org/wiki/ラマッラー",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "cap-xal-saint-anne": {
+      "hints": [
+        {
+          "text": "島の中心にある小さな町で、石畳の通りがあります。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        },
+        {
+          "text": "島で唯一の町で、行政の中心になっています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/オルダニー島",
           "checked": "2026-11-13"
         }
       ]
@@ -34464,43 +34464,6 @@
         }
       ]
     },
-    "MF": {
-      "hints": [
-        {
-          "text": "カリブ海のセントマーチン島の北半分です。",
-          "stage": "特徴",
-          "inClue": false,
-          "appearance": false,
-          "excludeModes": [
-            "chooseFlag"
-          ]
-        },
-        {
-          "text": "島の南半分はオランダ領です。",
-          "stage": "特徴",
-          "inClue": false,
-          "appearance": false,
-          "excludeModes": [
-            "chooseFlag"
-          ]
-        },
-        {
-          "text": "青・白・赤の三色旗が使われます。",
-          "stage": "手がかり",
-          "onlyModes": [
-            "chooseFlag"
-          ],
-          "inClue": false,
-          "appearance": false
-        }
-      ],
-      "sources": [
-        {
-          "url": "https://ja.wikipedia.org/wiki/サン・マルタン",
-          "checked": "2026-11-13"
-        }
-      ]
-    },
     "GF": {
       "hints": [
         {
@@ -35163,6 +35126,117 @@
       "sources": [
         {
           "url": "https://ja.wikipedia.org/wiki/沿ドニエストル",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "XAL": {
+      "hints": [
+        {
+          "text": "チャンネル諸島の北端にある小さな島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "ガーンジーの管区に属し、防波堤のある港で知られます。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "白地に赤い十字、中央に緑の円と金のライオンが描かれています。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/オルダニー島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "XSK": {
+      "hints": [
+        {
+          "text": "チャンネル諸島の小さな島で、自動車が禁止されています。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "移動は自転車や馬車、トラクターが中心です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "白地に赤い十字、左上に赤地の金のライオン2頭です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/サーク島",
+          "checked": "2026-11-13"
+        }
+      ]
+    },
+    "XHE": {
+      "hints": [
+        {
+          "text": "チャンネル諸島の小さな島で、ガーンジーから船で約20分です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "自動車も自転車もない、静かな島です。",
+          "stage": "特徴",
+          "inClue": false,
+          "appearance": false,
+          "excludeModes": [
+            "chooseFlag"
+          ]
+        },
+        {
+          "text": "白地に赤い十字、左上に青と金の紋章です。",
+          "stage": "手がかり",
+          "onlyModes": [
+            "chooseFlag"
+          ],
+          "inClue": false,
+          "appearance": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ハーム島",
           "checked": "2026-11-13"
         }
       ]

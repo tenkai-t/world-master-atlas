@@ -445,7 +445,6 @@
       "cap-pm-saint-pierre": "advanced",
       "cap-wf-mata-utu": "advanced",
       "cap-bl-gustavia": "advanced",
-      "cap-mf-marigot": "advanced",
       "cap-gf-cayenne": "advanced",
       "cap-mq-fort-de-france": "advanced",
       "cap-gp-basse-terre": "advanced",
@@ -473,7 +472,8 @@
       "cap-ps-ramallah": "advanced",
       "cap-fo-torshavn": "advanced",
       "cap-nc-noumea": "advanced",
-      "cap-gu-hagatna": "advanced"
+      "cap-gu-hagatna": "advanced",
+      "cap-xal-saint-anne": "advanced"
     },
     "terrain": {
       "terrain-mountain-01": "intro",
@@ -1844,11 +1844,6 @@
       "黄・金",
       "赤"
     ],
-    "MF": [
-      "赤",
-      "白",
-      "青"
-    ],
     "GF": [
       "緑",
       "黄・金"
@@ -1939,6 +1934,23 @@
     "XTR": [
       "赤",
       "緑",
+      "黄・金"
+    ],
+    "XAL": [
+      "白",
+      "赤",
+      "緑",
+      "黄・金"
+    ],
+    "XSK": [
+      "白",
+      "赤",
+      "黄・金"
+    ],
+    "XHE": [
+      "白",
+      "赤",
+      "青",
       "黄・金"
     ]
   },
@@ -2335,7 +2347,6 @@
       "JE",
       "KP",
       "KY",
-      "MF",
       "MO",
       "MP",
       "MQ",
@@ -2359,12 +2370,15 @@
       "VI",
       "WF",
       "XAB",
+      "XAL",
       "XAZ",
       "XCA",
       "XEA",
+      "XHE",
       "XMD",
       "XNC",
       "XOS",
+      "XSK",
       "XSM",
       "XTR",
       "YT"
