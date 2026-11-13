@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "6580ed15ad68e7749616",
+  "version": "83d049234a1cf15811e9",
   "packs": {
     "core": [
       {
@@ -10,8 +10,8 @@
       },
       {
         "url": "/app-version.js",
-        "bytes": 608,
-        "sha256": "9021bcda4e66f114abe8ef7bde7fde35e10bbf45dddbed729da76c3c3853146d"
+        "bytes": 486,
+        "sha256": "e1e6788db404afa412102e563656cd26b1769db99b9ea841f29553bf0a903fa9"
       },
       {
         "url": "/app.js",
@@ -25,13 +25,13 @@
       },
       {
         "url": "/assets/data.json",
-        "bytes": 116361,
-        "sha256": "ad440a64ffb19e0e106c1ac77e86186610f23471835107918df26f803fdaf63c"
+        "bytes": 116422,
+        "sha256": "37140f8ca9944ff865a8acb42a7e8a1b15b6ef1a1e9c7eab2d2f90165afa10c0"
       },
       {
         "url": "/assets/flag-ratios.json",
-        "bytes": 228758,
-        "sha256": "02da471ecc4a022557b6f35296f408ec6265e930faa0081783655fc70178ce7d"
+        "bytes": 228746,
+        "sha256": "9d1405a54594b2edaff6566f0a8fb2db94491d4fac84f025b23817ec8edce2f2"
       },
       {
         "url": "/assets/flags-native/AC.svg",
@@ -755,8 +755,8 @@
       },
       {
         "url": "/assets/flags-native/MQ.svg",
-        "bytes": 1381,
-        "sha256": "1576927cc498d85a7949b208985c8cd0e9d36ee5dc8cc97ff971ee7426e7cdb4"
+        "bytes": 272,
+        "sha256": "4e8aecee9b175427ff36bbc1cee226feaa91629165416f8cd5f23dd5a4dae85f"
       },
       {
         "url": "/assets/flags-native/MR.svg",
@@ -1330,13 +1330,13 @@
       },
       {
         "url": "/assets/hintbook.json",
-        "bytes": 1150419,
-        "sha256": "db4a03c7a18333cf1049de379460d4357a7d8cba65d45a796072b3de27fbbe97"
+        "bytes": 1150382,
+        "sha256": "da8e6aa87356928fa490364462c192b8212760fe80cf9fae106cff1c9c451ff7"
       },
       {
         "url": "/assets/learning-schema.json",
-        "bytes": 43685,
-        "sha256": "db7beb4341b034bb44eeda658a9570a03785a6620d89b8b76648d4043fa65f0e"
+        "bytes": 43698,
+        "sha256": "d217dc1036242285c19ad29cedcb69af85b38ed200ebc169ab78702145ae5b8e"
       },
       {
         "url": "/assets/map.json",
