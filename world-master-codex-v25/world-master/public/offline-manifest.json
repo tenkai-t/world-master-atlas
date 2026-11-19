@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "version": "bd06afd8887ce2cb1eff",
+  "version": "d1728f24f313ee4c1894",
   "packs": {
     "core": [
       {
         "url": "/app-update.js",
-        "bytes": 17948,
-        "sha256": "60262c5d2dd49f2f30329522ab05e2d8a6cac05217859f6eedba92d4182f3467"
+        "bytes": 21521,
+        "sha256": "672da222f192ba2d44e3b415306da81de1e86fb747537dd575982bf35ce30dbf"
       },
       {
         "url": "/app-version.js",
-        "bytes": 384,
-        "sha256": "95456e33b1acb727c3f90e3d94f1c6ffc520d938a16e3e2f77e6210d81cf35c8"
+        "bytes": 630,
+        "sha256": "27749c562d81bf79704cec42f373d77fab13dbdfa182deb0b506e729a995440c"
       },
       {
         "url": "/app.js",
@@ -1455,8 +1455,8 @@
       },
       {
         "url": "/offline.js",
-        "bytes": 14467,
-        "sha256": "822178f9bca961a7c95333e970f7e9015cdf271affbeff10dac1d2a2b2bc5672"
+        "bytes": 15667,
+        "sha256": "90a9f77afb2a65329750eeecd839412de39edb3d40949a77d7d926ab270dc7f1"
       },
       {
         "url": "/play.html",
