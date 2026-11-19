@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "7e2c70d1442d35ae0b63",
+  "version": "bd06afd8887ce2cb1eff",
   "packs": {
     "core": [
       {
@@ -10,8 +10,8 @@
       },
       {
         "url": "/app-version.js",
-        "bytes": 645,
-        "sha256": "9a076ae0009092e2a2e4a1a8e73932e793e32a9a864097e0199c504ade595f35"
+        "bytes": 384,
+        "sha256": "95456e33b1acb727c3f90e3d94f1c6ffc520d938a16e3e2f77e6210d81cf35c8"
       },
       {
         "url": "/app.js",
@@ -1466,7 +1466,7 @@
       {
         "url": "/player-security.js",
         "bytes": 39249,
-        "sha256": "3142be719f5f0cbd4d7b1d9154cc463ffe40ba5e3bfdb7c84fd29265ece4a218"
+        "sha256": "30d382556a1d57a77e5d98fe2ebce7ec6847df440197b85bfc342ac491cc5918"
       },
       {
         "url": "/players.js",
